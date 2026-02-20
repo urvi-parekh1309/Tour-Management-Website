@@ -2,166 +2,574 @@
   "state": "Delhi",
   "destinations": [
     {
-      "id": "DEL-31",
-      "name": "National Rail Museum",
-      "city": "Chanakyapuri",
-      "category": "Major Cities & Cultural Spots",
-      "coordinates": {
-        "latitude": "28.5855",
-        "longitude": "77.1897"
+      "id": "DEL-01",
+      "name": "Red Fort (Lal Qila)",
+      "city": "Old Delhi",
+      "category": "UNESCO Heritage Sites",
+      "coordinates": { "latitude": "28.6562", "longitude": "77.2410" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3500,
+        "base_travel_cost": 600,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.70
       },
+      "entry_fee": 35,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Imperial", "Mughal-Architecture", "Historic", "Massive", "Symbolic"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Extremely High",
+        "historical_significance_weight": 10,
+        "best_suited_for": ["History Buffs", "Families", "Foreign Tourists"],
+        "description_ai": "The seat of Mughal power for 200 years, this red sandstone fortress is a symbol of India's sovereignty and architectural brilliance."
+      }
+    },
+    {
+      "id": "DEL-02",
+      "name": "Qutub Minar",
+      "city": "South Delhi",
+      "category": "UNESCO Heritage Sites",
+      "coordinates": { "latitude": "28.5244", "longitude": "77.1855" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4500,
+        "base_travel_cost": 700,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.40
+      },
+      "entry_fee": 35,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Ancient", "Architectural-Marvel", "Towering", "Victory-Monument", "Victory"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 10,
+        "best_suited_for": ["Architecture Lovers", "Solo", "Families"],
+        "description_ai": "The tallest brick minaret in the world, surrounded by complex ruins including the 4th-century uncorroded Iron Pillar."
+      }
+    },
+    {
+      "id": "DEL-03",
+      "name": "Humayun's Tomb",
+      "city": "Nizamuddin",
+      "category": "UNESCO Heritage Sites",
+      "coordinates": { "latitude": "28.5933", "longitude": "77.2507" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4000,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.30
+      },
+      "entry_fee": 35,
+      "avg_duration_hrs": 2.5,
+      "ai_metadata": {
+        "vibe_tags": ["Garden-Tomb", "Symmetrical", "Precursor-to-Taj", "Serene", "Elegant"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "Medium",
+        "historical_significance_weight": 10,
+        "best_suited_for": ["Couples", "Photographers", "History Buffs"],
+        "description_ai": "The first garden-tomb on the Indian subcontinent, its Persian-style architecture served as the inspiration for the Taj Mahal."
+      }
+    },
+    {
+      "id": "DEL-04",
+      "name": "India Gate",
+      "city": "New Delhi",
+      "category": "Major Cities & Cultural Spots",
+      "coordinates": { "latitude": "28.6129", "longitude": "77.2295" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.80
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1.5,
+      "ai_metadata": {
+        "vibe_tags": ["Patriotic", "Lively", "Evening-Hangout", "War-Memorial", "Iconic"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "Extremely High",
+        "historical_significance_weight": 9,
+        "best_suited_for": ["Families", "Friends", "Night-Owls"],
+        "description_ai": "A 42-meter high war memorial archway honors Indian soldiers; the surrounding Kartavya Path is Delhi's premier public space."
+      }
+    },
+    {
+      "id": "DEL-05",
+      "name": "Lotus Temple",
+      "city": "Kalkaji",
+      "category": "Religious/Pilgrimage Sites",
+      "coordinates": { "latitude": "28.5535", "longitude": "77.2588" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.60
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1.5,
+      "ai_metadata": {
+        "vibe_tags": ["Silent", "Modern", "Bahai-Faith", "Meditative", "White-Marble"],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 6,
+        "best_suited_for": ["Solo", "Peace-seekers", "Families"],
+        "description_ai": "A Bahá'í House of Worship shaped like a floating lotus, open to people of all religions for silent meditation."
+      }
+    },
+    {
+      "id": "DEL-06",
+      "name": "Swaminarayan Akshardham",
+      "city": "East Delhi",
+      "category": "Spiritual & Iconic",
+      "coordinates": { "latitude": "28.6127", "longitude": "77.2773" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2500,
+        "base_travel_cost": 800,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.50
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 5,
+      "ai_metadata": {
+        "vibe_tags": ["Grand", "Ornate", "High-Tech", "Traditional", "Water-Show"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "Extremely High",
+        "best_suited_for": ["Families", "Devotees", "Architecture Lovers"],
+        "description_ai": "A massive spiritual complex showcasing millennia of traditional Indian and Hindu culture, spirituality, and architecture."
+      }
+    },
+    {
+      "id": "DEL-07",
+      "name": "Chandni Chowk",
+      "city": "Old Delhi",
+      "category": "Traditional Shopping",
+      "coordinates": { "latitude": "28.6606", "longitude": "77.2302" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2000,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.30,
+        "traffic_delay_weight": 2.00
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Chaotic", "Bustling", "Street-Food-Heaven", "Wholesale", "Heritage"],
+        "sentiment_score": 4.5,
+        "crowd_prediction_level": "Extreme",
+        "best_suited_for": ["Foodies", "Shoppers", "Photographers"],
+        "description_ai": "One of the oldest and busiest markets in India; a sensory explosion of spices, jewelry, and legendary Mughlai street food."
+      }
+    },
+    {
+      "id": "DEL-08",
+      "name": "Lodhi Garden",
+      "city": "Lodhi Estate",
+      "category": "Major Cities & Cultural Spots",
+      "coordinates": { "latitude": "28.5931", "longitude": "77.2197" },
       "budget_metrics": {
         "base_stay_cost_per_day": 6000,
         "base_travel_cost": 400,
         "seasonal_surge_factor": 1.10,
-        "traffic_delay_weight": 1.30
+        "traffic_delay_weight": 1.35
       },
-      "entry_fee": 100,
-      "avg_duration_hrs": 3,
+      "entry_fee": 0,
+      "avg_duration_hrs": 2,
       "ai_metadata": {
-        "vibe_tags": ["Vintage", "Locomotives", "Interactive", "Historical", "Family-Fun"],
-        "sentiment_score": 4.6,
-        "crowd_prediction_level": "Medium-High",
-        "historical_significance_weight": 9,
-        "best_suited_for": ["Families", "Kids", "History Enthusiasts"],
-        "description_ai": "A sprawling museum showcasing the exotic heritage of Indian Railways, featuring the Fairy Queen steam engine and royal saloons."
+        "vibe_tags": ["Lush", "Historical-Park", "Jogging", "Quiet", "Tombs"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["Couples", "Solo", "Nature Lovers"],
+        "description_ai": "A sprawling 90-acre park containing the tombs of the Sayyid and Lodhi rulers amidst manicured greenery."
       }
     },
     {
-      "id": "DEL-32",
-      "name": "Paharganj (Main Bazaar)",
-      "city": "Central Delhi",
-      "category": "Shopping & Lifestyle",
-      "coordinates": {
-        "latitude": "28.6412",
-        "longitude": "77.2145"
-      },
+      "id": "DEL-09",
+      "name": "Jama Masjid",
+      "city": "Old Delhi",
+      "category": "Religious/Pilgrimage Sites",
+      "coordinates": { "latitude": "28.6507", "longitude": "77.2334" },
       "budget_metrics": {
-        "base_stay_cost_per_day": 1200,
+        "base_stay_cost_per_day": 2000,
+        "base_travel_cost": 350,
+        "seasonal_surge_factor": 1.25,
+        "traffic_delay_weight": 1.95
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1.5,
+      "ai_metadata": {
+        "vibe_tags": ["Spiritual", "Mughal-Splendor", "Panoramic-Views", "Community", "Massive"],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 10,
+        "best_suited_for": ["Pilgrims", "History Buffs", "Photographers"],
+        "description_ai": "One of the largest mosques in India, built by Shah Jahan; its courtyard can hold 25,000 devotees."
+      }
+    },
+    {
+      "id": "DEL-10",
+      "name": "Dilli Haat",
+      "city": "INA",
+      "category": "Shopping & Lifestyle",
+      "coordinates": { "latitude": "28.5733", "longitude": "77.2081" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.50
+      },
+      "entry_fee": 30,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Crafts", "Ethnic", "Regional-Cuisine", "Open-Air", "Colorful"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Medium-High",
+        "best_suited_for": ["Families", "Shoppers", "Foodies"],
+        "description_ai": "A permanent open-air food and craft bazaar representing rural art and ethnic food from across India's states."
+      }
+    },
+    {
+      "id": "DEL-11",
+      "name": "Karim's",
+      "city": "Old Delhi",
+      "category": "Legendary Dining",
+      "coordinates": { "latitude": "28.6503", "longitude": "77.2336" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.90
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1,
+      "ai_metadata": {
+        "vibe_tags": ["Mughlai-Original", "Meaty", "Historic", "Crowded", "Authentic"],
+        "sentiment_score": 4.8,
+        "best_suited_for": ["Meat Lovers", "Culinary Explorers"],
+        "description_ai": "Established in 1913, this world-renowned restaurant is famous for its Mutton Korma and Burra Kebabs near Jama Masjid."
+      }
+    },
+    {
+      "id": "DEL-12",
+      "name": "Waste to Wonder Park",
+      "city": "Sarai Kale Khan",
+      "category": "Major Cities & Cultural Spots",
+      "coordinates": { "latitude": "28.5910", "longitude": "77.2550" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.45
+      },
+      "entry_fee": 50,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Creative", "Eco-friendly", "Replicas", "Illuminated", "Family-Park"],
+        "sentiment_score": 4.4,
+        "best_suited_for": ["Families", "Instagrammers", "Kids"],
+        "description_ai": "A unique theme park featuring replicas of the Seven Wonders of the World created entirely from industrial and scrap waste."
+      }
+    },
+    {
+      "id": "DEL-13",
+      "name": "Connaught Place (CP)",
+      "city": "New Delhi",
+      "category": "Major Cities & Cultural Spots",
+      "coordinates": { "latitude": "28.6315", "longitude": "77.2167" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 6000,
         "base_travel_cost": 300,
         "seasonal_surge_factor": 1.20,
         "traffic_delay_weight": 1.90
       },
       "entry_fee": 0,
-      "avg_duration_hrs": 3,
-      "ai_metadata": {
-        "vibe_tags": ["Hippie", "Backpacker-Hub", "Chaotic", "Global-Vibe", "Affordable"],
-        "sentiment_score": 4.2,
-        "crowd_prediction_level": "Extremely High",
-        "best_suited_for": ["Solo Travelers", "Backpackers", "Bargain Hunters"],
-        "description_ai": "A world-famous backpacker ghetto known for its cheap hotels, international cafes, and a market selling everything from incense to leather goods."
-      }
-    },
-    {
-      "id": "DEL-33",
-      "name": "National Science Centre",
-      "city": "Pragati Maidan",
-      "category": "Major Cities & Cultural Spots",
-      "coordinates": {
-        "latitude": "28.6131",
-        "longitude": "77.2454"
-      },
-      "budget_metrics": {
-        "base_stay_cost_per_day": 4000,
-        "base_travel_cost": 400,
-        "seasonal_surge_factor": 1.05,
-        "traffic_delay_weight": 1.50
-      },
-      "entry_fee": 60,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Interactive", "Science-Fun", "Educational", "Indoors", "Futuristic"],
-        "sentiment_score": 4.5,
-        "crowd_prediction_level": "High (School groups)",
-        "best_suited_for": ["Kids", "Students", "Families"],
-        "description_ai": "One of the largest science centers in Asia, featuring hands-on exhibits, a 3D theater, and galleries on nuclear power and pre-historic life."
+        "vibe_tags": ["Georgian-Architecture", "Heart-of-Delhi", "Upscale", "Nightlife", "Social-Hub"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Extremely High",
+        "best_suited_for": ["Friends", "Shoppers", "Youth"],
+        "description_ai": "A massive circular commercial center defined by white colonial pillars, high-end brands, and some of the city's best bars."
       }
     },
     {
-      "id": "DEL-34",
-      "name": "Janpath Market",
-      "city": "Connaught Place",
-      "category": "Traditional Shopping",
-      "coordinates": {
-        "latitude": "28.6256",
-        "longitude": "77.2217"
-      },
+      "id": "DEL-14",
+      "name": "Hauz Khas Village",
+      "city": "South Delhi",
+      "category": "Major Cities & Cultural Spots",
+      "coordinates": { "latitude": "28.5471", "longitude": "77.2040" },
       "budget_metrics": {
-        "base_stay_cost_per_day": 5000,
-        "base_travel_cost": 200,
+        "base_stay_cost_per_day": 3500,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.50
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 5,
+      "ai_metadata": {
+        "vibe_tags": ["Trendy", "Artistic", "Medieval-Ruins", "Nightlife", "Bohemian"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "High (Evenings)",
+        "historical_significance_weight": 8,
+        "best_suited_for": ["Youth", "Couples", "Art Lovers", "Friends"],
+        "description_ai": "A fusion of 14th-century Islamic architecture and modern urban culture, featuring upscale boutiques, lakeside cafes, and vibrant pubs."
+      }
+    },
+    {
+      "id": "DEL-15",
+      "name": "National Museum",
+      "city": "Janpath",
+      "category": "Major Cities & Cultural Spots",
+      "coordinates": { "latitude": "28.6118", "longitude": "77.2192" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4000,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.05,
+        "traffic_delay_weight": 1.60
+      },
+      "entry_fee": 20,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Educational", "Vast", "Ancient-Artifacts", "Quiet", "Scholarly"],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "Medium",
+        "historical_significance_weight": 10,
+        "best_suited_for": ["History Buffs", "Students", "Solo"],
+        "description_ai": "One of India's largest museums, housing over 200,000 artifacts spanning 5,000 years, including the Harappan gallery and Buddhist relics."
+      }
+    },
+    {
+      "id": "DEL-16",
+      "name": "Majnu ka Tilla (Little Tibet)",
+      "city": "North Delhi",
+      "category": "Major Cities & Cultural Spots",
+      "coordinates": { "latitude": "28.7014", "longitude": "77.2282" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 1500,
+        "base_travel_cost": 400,
         "seasonal_surge_factor": 1.15,
         "traffic_delay_weight": 1.80
       },
       "entry_fee": 0,
-      "avg_duration_hrs": 2,
+      "avg_duration_hrs": 3,
       "ai_metadata": {
-        "vibe_tags": ["Ethnic-Fashion", "Tibetan-Artifacts", "Bargaining", "Central", "Souvenirs"],
-        "sentiment_score": 4.6,
+        "vibe_tags": ["Tibetan-Culture", "Authentic", "Foodie-Hub", "Spiritual", "Narrow-Lanes"],
+        "sentiment_score": 4.7,
         "crowd_prediction_level": "High",
-        "best_suited_for": ["Fashionistas", "Foreign Tourists", "Students"],
-        "description_ai": "Famous for the Tibetan Market and street stalls selling silver jewelry, ethnic wear, and brass decorative items."
+        "best_suited_for": ["Foodies", "Students", "Budget Travelers"],
+        "description_ai": "A vibrant Tibetan colony famous for its monastery, authentic Himalayan cuisine (Mitho Mitho), and unique handicrafts shopping."
       }
     },
     {
-      "id": "DEL-35",
-      "name": "National War Memorial",
-      "city": "India Gate Circle",
-      "category": "Major Cities & Cultural Spots",
-      "coordinates": {
-        "latitude": "28.6120",
-        "longitude": "77.2290"
-      },
+      "id": "DEL-17",
+      "name": "Gurudwara Bangla Sahib",
+      "city": "Connaught Place",
+      "category": "Religious/Pilgrimage Sites",
+      "coordinates": { "latitude": "28.6265", "longitude": "77.2091" },
       "budget_metrics": {
         "base_stay_cost_per_day": 5000,
-        "base_travel_cost": 300,
-        "seasonal_surge_factor": 1.10,
-        "traffic_delay_weight": 1.75
+        "base_travel_cost": 200,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.90
       },
       "entry_fee": 0,
       "avg_duration_hrs": 1.5,
       "ai_metadata": {
-        "vibe_tags": ["Patriotic", "Somber", "Architectural", "Honorary", "Modern"],
-        "sentiment_score": 4.9,
-        "crowd_prediction_level": "High (Evenings)",
+        "vibe_tags": ["Serene", "Devotional", "Gold-Dome", "Healing-Water", "Peaceful"],
+        "sentiment_score": 5.0,
+        "crowd_prediction_level": "High",
         "historical_significance_weight": 10,
-        "best_suited_for": ["Nationalists", "Families", "History Seekers"],
-        "description_ai": "A monument dedicated to the Indian Armed Forces, featuring concentric circles and a central obelisk with an eternal flame."
+        "best_suited_for": ["Families", "Solo", "Pilgrims"],
+        "description_ai": "A major Sikh house of worship known for its holy pond (Sarovar) and massive community kitchen (Langar) that serves thousands daily."
       }
     },
     {
-      "id": "DEL-36",
-      "name": "Iskcon Temple Delhi",
-      "city": "East of Kailash",
-      "category": "Religious/Pilgrimage Sites",
-      "coordinates": {
-        "latitude": "28.5562",
-        "longitude": "77.2520"
+      "id": "DEL-18",
+      "name": "Agrasen ki Baoli",
+      "city": "Hailey Road",
+      "category": "Major Cities & Cultural Spots",
+      "coordinates": { "latitude": "28.6261", "longitude": "77.2250" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4000,
+        "base_travel_cost": 200,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.70
       },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1,
+      "ai_metadata": {
+        "vibe_tags": ["Mysterious", "Architectural", "Symmetrical", "Ancient-Stepwell", "Cinematic"],
+        "sentiment_score": 4.5,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 8,
+        "best_suited_for": ["Photographers", "Students", "History Enthusiasts"],
+        "description_ai": "A protected 60-meter long historical stepwell featuring 108 steps and unique niche architecture, popularized by Bollywood films."
+      }
+    },
+    {
+      "id": "DEL-19",
+      "name": "National Gallery of Modern Art",
+      "city": "Jaipur House",
+      "category": "Major Cities & Cultural Spots",
+      "coordinates": { "latitude": "28.6100", "longitude": "77.2340" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.05,
+        "traffic_delay_weight": 1.40
+      },
+      "entry_fee": 20,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Artistic", "Elegant", "Sophisticated", "Quiet", "Cultural-Heritage"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "Low",
+        "historical_significance_weight": 9,
+        "best_suited_for": ["Art Lovers", "Solo", "Couples"],
+        "description_ai": "Housed in the former palace of the Maharaja of Jaipur, it contains over 14,000 works of art including Raja Ravi Varma and Amrita Sher-Gil."
+      }
+    },
+    {
+      "id": "DEL-20",
+      "name": "Sarojini Nagar Market",
+      "city": "Sarojini Nagar",
+      "category": "Traditional Shopping",
+      "coordinates": { "latitude": "28.5772", "longitude": "77.1983" },
       "budget_metrics": {
         "base_stay_cost_per_day": 3000,
         "base_travel_cost": 400,
-        "seasonal_surge_factor": 1.30,
-        "traffic_delay_weight": 1.60
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.95
       },
       "entry_fee": 0,
-      "avg_duration_hrs": 2,
+      "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Devotional", "Vibrant", "Artistic", "Modern-Architecture", "Peaceful"],
-        "sentiment_score": 4.8,
-        "crowd_prediction_level": "High",
-        "best_suited_for": ["Devotees", "Architecture Lovers", "Families"],
-        "description_ai": "One of the largest temple complexes in India, featuring a 'Vedic Cultural Centre' and a magnificent robot-assisted show on the Gita."
+        "vibe_tags": ["Bargain-Paradise", "Trendy", "Chaotic", "Fashion-Forward", "Youthful"],
+        "sentiment_score": 4.4,
+        "crowd_prediction_level": "Extreme",
+        "best_suited_for": ["Fashionistas", "Students", "Bargain Hunters"],
+        "description_ai": "Delhi's most famous flea market known for export surplus clothes and trendy fashion at throwaway prices. Bargaining is mandatory here."
       }
     },
     {
-      "id": "DEL-37",
-      "name": "Chandni Chowk Food Crawl",
+  "state": "Delhi",
+  "destinations": [
+    {
+      "id": "DEL-21",
+      "name": "Nizamuddin Dargah",
+      "city": "Nizamuddin West",
+      "category": "Religious/Pilgrimage Sites",
+      "coordinates": { "latitude": "28.5912", "longitude": "77.2435" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2500,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.25,
+        "traffic_delay_weight": 1.85
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2.5,
+      "ai_metadata": {
+        "vibe_tags": ["Soulful", "Sufi-Music", "Spiritual", "Ancient", "Devotional"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "Extremely High (Thursdays)",
+        "historical_significance_weight": 10,
+        "best_suited_for": ["Music Lovers", "Spiritual Seekers", "History Buffs"],
+        "description_ai": "The mausoleum of Sufi saint Nizamuddin Auliya; famous for its soul-stirring evening Qawwali sessions and medieval atmosphere."
+      }
+    },
+    {
+      "id": "DEL-22",
+      "name": "Garden of Five Senses",
+      "city": "Said-ul-Ajaib",
+      "category": "Major Cities & Cultural Spots",
+      "coordinates": { "latitude": "28.5132", "longitude": "77.1978" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3500,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.40
+      },
+      "entry_fee": 35,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Aesthetic", "Romantic", "Lush", "Sculptural", "Leisurely"],
+        "sentiment_score": 4.3,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["Couples", "Solo", "Nature Lovers"],
+        "description_ai": "A 20-acre leisure space designed to stimulate the five senses through themed gardens, wind chimes, and stone murals."
+      }
+    },
+    {
+      "id": "DEL-23",
+      "name": "National Zoological Park",
+      "city": "Mathura Road",
+      "category": "Wildlife/National Parks",
+      "coordinates": { "latitude": "28.6045", "longitude": "77.2464" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.65
+      },
+      "entry_fee": 80,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Wild", "Educational", "Vast", "Eco-friendly", "Family-centric"],
+        "sentiment_score": 4.5,
+        "crowd_prediction_level": "High (Weekends)",
+        "best_suited_for": ["Families", "Kids", "Wildlife Enthusiasts"],
+        "description_ai": "A 176-acre zoo housing the famous White Tiger, Asiatic Lions, and diverse avian species near the Old Fort."
+      }
+    },
+    {
+      "id": "DEL-24",
+      "name": "Purana Qila (Old Fort)",
+      "city": "Indraprastha",
+      "category": "Historical Forts",
+      "coordinates": { "latitude": "28.6095", "longitude": "77.2437" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4000,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.55
+      },
+      "entry_fee": 30,
+      "avg_duration_hrs": 2.5,
+      "ai_metadata": {
+        "vibe_tags": ["Rugged", "Mughal-Afghan", "Lake-side", "Stately", "Panoramic"],
+        "sentiment_score": 4.6,
+        "historical_significance_weight": 10,
+        "best_suited_for": ["History Buffs", "Families", "Boating Lovers"],
+        "description_ai": "One of the oldest forts in Delhi, believed to be the site of the ancient city of Indraprastha from the Mahabharata."
+      }
+    },
+    {
+      "id": "DEL-25",
+      "name": "Khan Market",
+      "city": "Rabindra Nagar",
+      "category": "Shopping & Lifestyle",
+      "coordinates": { "latitude": "28.6002", "longitude": "77.2273" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 8000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.60
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Elite", "Cosmopolitan", "Gourmet", "Expensive", "Literary"],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Premium Shoppers", "Expats", "Book Lovers"],
+        "description_ai": "Ranked as India's most expensive retail street, famous for its high-end boutiques, bookstores, and chic cafes."
+      }
+    },
+    {
+      "id": "DEL-26",
+      "name": "Paranthe Wali Gali",
       "city": "Old Delhi",
       "category": "Legendary Dining",
-      "coordinates": {
-        "latitude": "28.6560",
-        "longitude": "77.2300"
-      },
+      "coordinates": { "latitude": "28.6565", "longitude": "77.2310" },
       "budget_metrics": {
         "base_stay_cost_per_day": 2000,
         "base_travel_cost": 300,
@@ -169,13 +577,281 @@
         "traffic_delay_weight": 2.00
       },
       "entry_fee": 0,
+      "avg_duration_hrs": 1,
+      "ai_metadata": {
+        "vibe_tags": ["Flavor-Burst", "Narrow-Lane", "Heritage-Eats", "Vegetarian", "Crowded"],
+        "sentiment_score": 4.4,
+        "best_suited_for": ["Foodies", "Budget Explorers"],
+        "description_ai": "A world-famous lane in Chandni Chowk serving deep-fried stuffed paranthas since the 1870s."
+      }
+    },
+    {
+      "id": "DEL-27",
+      "name": "Raj Ghat",
+      "city": "Mahatma Gandhi Marg",
+      "category": "Major Cities & Cultural Spots",
+      "coordinates": { "latitude": "28.6406", "longitude": "77.2495" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.05,
+        "traffic_delay_weight": 1.45
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1,
+      "ai_metadata": {
+        "vibe_tags": ["Somber", "Peaceful", "Respectful", "Minimalist", "Memorial"],
+        "sentiment_score": 4.8,
+        "historical_significance_weight": 10,
+        "best_suited_for": ["History Seekers", "Solo", "Families"],
+        "description_ai": "A simple black marble memorial marking the spot of Mahatma Gandhi's cremation, surrounded by lush lawns."
+      }
+    },
+    {
+      "id": "DEL-28",
+      "name": "National Crafts Museum",
+      "city": "Pragati Maidan",
+      "category": "Major Cities & Cultural Spots",
+      "coordinates": { "latitude": "28.6133", "longitude": "77.2428" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4500,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.50
+      },
+      "entry_fee": 20,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Rural-Village-Vibe", "Handicrafts", "Artistic", "Open-Air", "Authentic"],
+        "sentiment_score": 4.7,
+        "best_suited_for": ["Art Lovers", "Families", "Photographers"],
+        "description_ai": "An open-air museum designed as a village, showcasing diverse Indian textiles, terracotta, and folk art."
+      }
+    },
+    {
+      "id": "DEL-29",
+      "name": "Safdarjung Tomb",
+      "city": "Lodhi Road",
+      "category": "Mughal Heritage",
+      "coordinates": { "latitude": "28.5893", "longitude": "77.2106" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.40
+      },
+      "entry_fee": 25,
+      "avg_duration_hrs": 1.5,
+      "ai_metadata": {
+        "vibe_tags": ["Majestic", "Symmetrical", "Quiet", "Mughal-Art", "Gardens"],
+        "sentiment_score": 4.5,
+        "historical_significance_weight": 8,
+        "best_suited_for": ["Couples", "History Buffs", "Photographers"],
+        "description_ai": "The last monumental garden tomb of the Mughal era, often called the 'Last Flicker of Mughal Architecture'."
+      }
+    },
+    {
+      "id": "DEL-30",
+      "name": "Sunder Nursery",
+      "city": "Nizamuddin",
+      "category": "UNESCO Heritage Sites",
+      "coordinates": { "latitude": "28.5925", "longitude": "77.2486" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.35
+      },
+      "entry_fee": 50,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Gourmet-Street", "Jalebi", "Kachori", "Iconic-Eats", "Sensory-Overload"],
-        "sentiment_score": 4.8,
-        "best_suited_for": ["Food Bloggers", "Culinary Travelers", "Groups"],
-        "description_ai": "Includes stops like Old Famous Jalebi Wala and Natraj Dahi Bhalle. A journey through the culinary heart of Mughal India."
+        "vibe_tags": ["Elite-Park", "Heritage-Monuments", "Botany", "Picnic-Spot", "Lush"],
+        "sentiment_score": 5.0,
+        "crowd_prediction_level": "Medium-High",
+        "best_suited_for": ["Families", "Botanists", "Couples", "Solo"],
+        "description_ai": "A restored 16th-century heritage park containing 15 monuments and over 300 tree species; Delhi's answer to Central Park."
       }
-    }
+    },
+    {
+  "state": "Delhi",
+  "destinations": [
+    {
+      "id": "DEL-31",
+      "name": "National Rail Museum",
+      "city": "Chanakyapuri",
+      "category": "Major Cities & Cultural Spots",
+      "coordinates": {
+        "latitude": "28.5855",
+        "longitude": "77.1897"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 6000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.30
+      },
+      "entry_fee": 100,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Vintage", "Locomotives", "Interactive", "Historical", "Family-Fun"],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "Medium-High",
+        "historical_significance_weight": 9,
+        "best_suited_for": ["Families", "Kids", "History Enthusiasts"],
+        "description_ai": "A sprawling museum showcasing the exotic heritage of Indian Railways, featuring the Fairy Queen steam engine and royal saloons."
+      }
+    },
+    {
+      "id": "DEL-32",
+      "name": "Paharganj (Main Bazaar)",
+      "city": "Central Delhi",
+      "category": "Shopping & Lifestyle",
+      "coordinates": {
+        "latitude": "28.6412",
+        "longitude": "77.2145"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 1200,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.90
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Hippie", "Backpacker-Hub", "Chaotic", "Global-Vibe", "Affordable"],
+        "sentiment_score": 4.2,
+        "crowd_prediction_level": "Extremely High",
+        "best_suited_for": ["Solo Travelers", "Backpackers", "Bargain Hunters"],
+        "description_ai": "A world-famous backpacker ghetto known for its cheap hotels, international cafes, and a market selling everything from incense to leather goods."
+      }
+    },
+    {
+      "id": "DEL-33",
+      "name": "National Science Centre",
+      "city": "Pragati Maidan",
+      "category": "Major Cities & Cultural Spots",
+      "coordinates": {
+        "latitude": "28.6131",
+        "longitude": "77.2454"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.05,
+        "traffic_delay_weight": 1.50
+      },
+      "entry_fee": 60,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Interactive", "Science-Fun", "Educational", "Indoors", "Futuristic"],
+        "sentiment_score": 4.5,
+        "crowd_prediction_level": "High (School groups)",
+        "best_suited_for": ["Kids", "Students", "Families"],
+        "description_ai": "One of the largest science centers in Asia, featuring hands-on exhibits, a 3D theater, and galleries on nuclear power and pre-historic life."
+      }
+    },
+    {
+      "id": "DEL-34",
+      "name": "Janpath Market",
+      "city": "Connaught Place",
+      "category": "Traditional Shopping",
+      "coordinates": {
+        "latitude": "28.6256",
+        "longitude": "77.2217"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 200,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.80
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Ethnic-Fashion", "Tibetan-Artifacts", "Bargaining", "Central", "Souvenirs"],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Fashionistas", "Foreign Tourists", "Students"],
+        "description_ai": "Famous for the Tibetan Market and street stalls selling silver jewelry, ethnic wear, and brass decorative items."
+      }
+    },
+    {
+      "id": "DEL-35",
+      "name": "National War Memorial",
+      "city": "India Gate Circle",
+      "category": "Major Cities & Cultural Spots",
+      "coordinates": {
+        "latitude": "28.6120",
+        "longitude": "77.2290"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.75
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1.5,
+      "ai_metadata": {
+        "vibe_tags": ["Patriotic", "Somber", "Architectural", "Honorary", "Modern"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "High (Evenings)",
+        "historical_significance_weight": 10,
+        "best_suited_for": ["Nationalists", "Families", "History Seekers"],
+        "description_ai": "A monument dedicated to the Indian Armed Forces, featuring concentric circles and a central obelisk with an eternal flame."
+      }
+    },
+    {
+      "id": "DEL-36",
+      "name": "Iskcon Temple Delhi",
+      "city": "East of Kailash",
+      "category": "Religious/Pilgrimage Sites",
+      "coordinates": {
+        "latitude": "28.5562",
+        "longitude": "77.2520"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.30,
+        "traffic_delay_weight": 1.60
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Devotional", "Vibrant", "Artistic", "Modern-Architecture", "Peaceful"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Devotees", "Architecture Lovers", "Families"],
+        "description_ai": "One of the largest temple complexes in India, featuring a 'Vedic Cultural Centre' and a magnificent robot-assisted show on the Gita."
+      }
+    },
+    {
+      "id": "DEL-37",
+      "name": "Chandni Chowk Food Crawl",
+      "city": "Old Delhi",
+      "category": "Legendary Dining",
+      "coordinates": {
+        "latitude": "28.6560",
+        "longitude": "77.2300"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2000,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 2.00
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Gourmet-Street", "Jalebi", "Kachori", "Iconic-Eats", "Sensory-Overload"],
+        "sentiment_score": 4.8,
+        "best_suited_for": ["Food Bloggers", "Culinary Travelers", "Groups"],
+        "description_ai": "Includes stops like Old Famous Jalebi Wala and Natraj Dahi Bhalle. A journey through the culinary heart of Mughal India."
+      }
+    }
+  ]
+}                    
   ]
 }
