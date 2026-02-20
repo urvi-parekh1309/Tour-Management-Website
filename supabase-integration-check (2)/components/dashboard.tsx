@@ -5,7 +5,7 @@ import Image from "next/image"
 import dynamic from "next/dynamic"
 import { useAuth } from "@/lib/auth-context"
 import { AuthModal } from "@/components/auth-modal"
-import { allStates, buildRoute, getStateFood, getPredictiveBudget, getBudgetBreakdown, getTrafficFactorForInterests, getDestinationImageUrl, getCuratedImage, type Destination, type StateInfo, type FoodItem, type BudgetBreakdown } from "@/lib/data/states"
+import { allStates, buildRoute, getStateFood, getPredictiveBudget, getBudgetBreakdown, getTrafficFactorForInterests, type Destination, type StateInfo, type FoodItem, type BudgetBreakdown } from "@/lib/data/states"
 import {
   MapPinIcon,
   IndianRupee,
@@ -36,7 +36,6 @@ import {
   CookingPot,
   Ticket,
   BarChart3,
-  Gauge,
 } from "lucide-react"
 
 /* Lazy-load the Leaflet map so SSR doesn't break */
@@ -464,23 +463,21 @@ function StateDetailView({
         lat: parseFloat(d.coordinates.latitude),
         lng: parseFloat(d.coordinates.longitude),
         crowd: d.ai_metadata.crowd_prediction_level,
-        imageUrl: getDestinationImageUrl(d),
+        imageUrl: d.ai_metadata.image_url,
         entryFee: d.entry_fee || 0,
         budgetPerDay: getPredictiveBudget(d, trafficFactor),
         vibes: d.ai_metadata.vibe_tags,
         bestFor: d.ai_metadata.best_suited_for,
-        trafficWeight: d.budget_metrics.traffic_delay_weight,
       }))
     : fallbackPlaces.map((p) => ({
         ...p,
         durationHrs: parseFloat(p.duration) || 2,
         crowd: undefined as string | undefined,
-        imageUrl: getCuratedImage(p.name) || undefined,
+        imageUrl: undefined as string | undefined,
         entryFee: 0,
         budgetPerDay: 0,
         vibes: [] as string[],
         bestFor: [] as string[],
-        trafficWeight: 1.0,
       }))
 
   // Group places into days based on duration
@@ -639,34 +636,17 @@ function StateDetailView({
 
                       <div className="flex">
                         {/* Place Image */}
-                        <div className="relative w-48 min-h-[160px] flex-shrink-0 bg-[#F5E6D3]">
-                          {place.imageUrl ? (
+                        {place.imageUrl && (
+                          <div className="relative w-48 min-h-[160px] flex-shrink-0 bg-[#F5E6D3]">
                             <img
                               src={place.imageUrl}
                               alt={place.name}
                               className="w-full h-full object-cover"
-                              onError={(e) => {
-                                const target = e.target as HTMLImageElement
-                                target.style.display = 'none'
-                                if (target.parentElement) {
-                                  target.parentElement.style.background = 'linear-gradient(135deg, #F5E6D3 0%, #D4C0AA 100%)'
-                                }
-                              }}
+                              onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }}
                             />
-                          ) : (
-                            <div className="w-full h-full flex items-center justify-center" style={{ background: 'linear-gradient(135deg, #F5E6D3 0%, #D4C0AA 100%)' }}>
-                              <MapPinIcon className="w-8 h-8 text-[#8B6F5A]/40" />
-                            </div>
-                          )}
-                          <div className="absolute inset-0 bg-gradient-to-r from-transparent to-[#3B2314]/10" />
-                          {place.trafficWeight >= 1.4 && (
-                            <div className={`absolute bottom-2 left-2 px-2 py-0.5 rounded-full text-[9px] font-bold text-[#FFF8F0] ${
-                              place.trafficWeight >= 1.8 ? "bg-[#DC2626]" : "bg-[#D97706]"
-                            }`}>
-                              {place.trafficWeight >= 1.8 ? "High Traffic Zone" : "Busy Area"}
-                            </div>
-                          )}
-                        </div>
+                            <div className="absolute inset-0 bg-gradient-to-r from-transparent to-[#3B2314]/10" />
+                          </div>
+                        )}
 
                         {/* Place details */}
                         <div className="flex-1 p-4">
@@ -686,16 +666,6 @@ function StateDetailView({
                           <div className="flex flex-wrap items-center gap-2 mb-2">
                             <span className="px-2.5 py-1 rounded-full text-[10px] font-medium bg-[#FF9933]/10 text-[#FF9933]">{place.type}</span>
                             {place.crowd && <CrowdBadge level={place.crowd} />}
-                            {place.trafficWeight > 1.0 && (
-                              <span className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-[10px] font-semibold ${
-                                place.trafficWeight >= 1.8 ? "bg-[#DC2626]/10 text-[#DC2626]" :
-                                place.trafficWeight >= 1.4 ? "bg-[#D97706]/10 text-[#D97706]" :
-                                "bg-[#6B7280]/10 text-[#6B7280]"
-                              }`}>
-                                <Gauge className="w-3 h-3" />
-                                Traffic: {place.trafficWeight >= 1.8 ? "Severe" : place.trafficWeight >= 1.4 ? "Heavy" : place.trafficWeight >= 1.2 ? "Moderate" : "Light"}
-                              </span>
-                            )}
                             {place.entryFee > 0 && (
                               <span className="px-2.5 py-1 rounded-full text-[10px] font-medium bg-[#6B4423]/10 text-[#6B4423]">
                                 Entry: {"\u20B9"}{place.entryFee}
@@ -710,22 +680,10 @@ function StateDetailView({
 
                           {/* Vibe tags */}
                           {place.vibes.length > 0 && (
-                            <div className="flex flex-wrap gap-1.5 mb-2">
+                            <div className="flex flex-wrap gap-1.5">
                               {place.vibes.slice(0, 4).map((v) => (
                                 <span key={v} className="px-2 py-0.5 rounded text-[9px] font-medium bg-[#F5E6D3] text-[#8B6F5A]">
                                   {v.replace(/-/g, " ")}
-                                </span>
-                              ))}
-                            </div>
-                          )}
-
-                          {/* Best suited for */}
-                          {place.bestFor.length > 0 && (
-                            <div className="flex flex-wrap items-center gap-1.5">
-                              <span className="text-[9px] font-semibold text-[#8B6F5A] uppercase tracking-wider">Best for:</span>
-                              {place.bestFor.slice(0, 3).map((b) => (
-                                <span key={b} className="px-2 py-0.5 rounded text-[9px] font-medium bg-[#138808]/5 text-[#138808]">
-                                  {b}
                                 </span>
                               ))}
                             </div>
