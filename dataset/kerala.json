@@ -1,0 +1,165 @@
+{
+  "state": "Kerala",
+  "destinations": [
+    {
+      "id": "KER-01",
+      "name": "Munnar Tea Gardens",
+      "city": "Munnar",
+      "category": "Hill Stations",
+      "coordinates": { "latitude": "10.0889", "longitude": "77.0595" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 800,
+        "seasonal_surge_factor": 1.25,
+        "traffic_delay_weight": 1.20
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Lush", "Cool-Climate", "Green", "Scenic", "Plantations"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Couples", "Nature Lovers", "Photographers"],
+        "description_ai": "Rolling hills covered in endless tea plantations with misty viewpoints and colonial-era charm."
+      }
+    },
+    {
+      "id": "KER-02",
+      "name": "Alleppey Backwaters",
+      "city": "Alappuzha",
+      "category": "Backwaters",
+      "coordinates": { "latitude": "9.4981", "longitude": "76.3388" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4500,
+        "base_travel_cost": 700,
+        "seasonal_surge_factor": 1.30,
+        "traffic_delay_weight": 1.10
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 5,
+      "ai_metadata": {
+        "vibe_tags": ["Serene", "Houseboats", "Waterways", "Romantic", "Palm-lined"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Couples", "Families"],
+        "description_ai": "A labyrinth of canals and lagoons explored best by traditional houseboats and canoe rides."
+      }
+    },
+    {
+      "id": "KER-03",
+      "name": "Varkala Beach",
+      "city": "Varkala",
+      "category": "Beaches",
+      "coordinates": { "latitude": "8.7379", "longitude": "76.7163" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3500,
+        "base_travel_cost": 600,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.15
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Cliffside", "Sunset", "Yoga", "Relaxed", "Spiritual"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Medium-High",
+        "best_suited_for": ["Solo", "Backpackers", "Couples"],
+        "description_ai": "A unique cliff beach offering sweeping sea views, yoga retreats, and laid-back cafés."
+      }
+    },
+    {
+      "id": "KER-04",
+      "name": "Kovalam Beach",
+      "city": "Thiruvananthapuram",
+      "category": "Beaches",
+      "coordinates": { "latitude": "8.4000", "longitude": "76.9780" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4000,
+        "base_travel_cost": 600,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.30
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Touristy", "Surf", "Golden-Sand", "Resorts"],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Families", "Beach Lovers"],
+        "description_ai": "Kerala’s most famous beach resort destination with crescent-shaped shores."
+      }
+    },
+    {
+      "id": "KER-05",
+      "name": "Wayanad Wildlife Sanctuary",
+      "city": "Wayanad",
+      "category": "Wildlife/National Parks",
+      "coordinates": { "latitude": "11.6854", "longitude": "76.1320" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2500,
+        "base_travel_cost": 900,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.10
+      },
+      "entry_fee": 110,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Wild", "Forests", "Elephants", "Eco-tourism"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["Wildlife Lovers", "Nature Buffs"],
+        "description_ai": "A protected reserve known for elephants, birds, and dense tropical forests."
+      }
+    },
+
+    { "id": "KER-06", "name": "Athirappilly Waterfalls", "city": "Thrissur", "category": "Waterfalls", "coordinates": { "latitude": "10.2850", "longitude": "76.5690" }, "budget_metrics": { "base_stay_cost_per_day": 2500, "base_travel_cost": 700, "seasonal_surge_factor": 1.20, "traffic_delay_weight": 1.15 }, "entry_fee": 40, "avg_duration_hrs": 2, "ai_metadata": { "vibe_tags": ["Powerful", "Monsoon", "Jungle"], "sentiment_score": 4.8, "best_suited_for": ["Nature Lovers"], "description_ai": "Kerala’s largest waterfall surrounded by lush rainforests." } },
+
+    { "id": "KER-07", "name": "Periyar National Park", "city": "Thekkady", "category": "Wildlife/National Parks", "coordinates": { "latitude": "9.4670", "longitude": "77.2410" }, "budget_metrics": { "base_stay_cost_per_day": 3000, "base_travel_cost": 900, "seasonal_surge_factor": 1.20, "traffic_delay_weight": 1.10 }, "entry_fee": 45, "avg_duration_hrs": 4, "ai_metadata": { "vibe_tags": ["Boat-Safari", "Elephants", "Forest"], "sentiment_score": 4.8, "best_suited_for": ["Wildlife Lovers"], "description_ai": "A tiger reserve famous for boat safaris on Periyar Lake." } },
+
+    { "id": "KER-08", "name": "Kumarakom Backwaters", "city": "Kumarakom", "category": "Backwaters", "coordinates": { "latitude": "9.6175", "longitude": "76.4290" }, "budget_metrics": { "base_stay_cost_per_day": 5000, "base_travel_cost": 700, "seasonal_surge_factor": 1.25, "traffic_delay_weight": 1.10 }, "entry_fee": 0, "avg_duration_hrs": 4, "ai_metadata": { "vibe_tags": ["Luxury", "Birds", "Canals"], "sentiment_score": 4.9, "best_suited_for": ["Couples"], "description_ai": "Premium backwater destination with bird sanctuary and luxury resorts." } },
+
+    { "id": "KER-09", "name": "Bekal Fort", "city": "Kasaragod", "category": "Historical Forts", "coordinates": { "latitude": "12.4210", "longitude": "75.0260" }, "budget_metrics": { "base_stay_cost_per_day": 2500, "base_travel_cost": 800, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.15 }, "entry_fee": 25, "avg_duration_hrs": 2, "ai_metadata": { "vibe_tags": ["Sea-Fort", "Historic", "Panoramic"], "sentiment_score": 4.6, "best_suited_for": ["History Buffs"], "description_ai": "India’s largest fort built along the Arabian Sea coast." } },
+
+    { "id": "KER-10", "name": "Fort Kochi", "city": "Kochi", "category": "Major Cities & Cultural Spots", "coordinates": { "latitude": "9.9667", "longitude": "76.2425" }, "budget_metrics": { "base_stay_cost_per_day": 4000, "base_travel_cost": 500, "seasonal_surge_factor": 1.20, "traffic_delay_weight": 1.30 }, "entry_fee": 0, "avg_duration_hrs": 4, "ai_metadata": { "vibe_tags": ["Colonial", "Art", "Cafes"], "sentiment_score": 4.8, "best_suited_for": ["Culture Lovers"], "description_ai": "Colonial-era port town famous for Chinese fishing nets and art cafés." } },
+
+    { "id": "KER-11", "name": "Cherai Beach", "city": "Kochi", "category": "Beaches", "coordinates": { "latitude": "10.1410", "longitude": "76.1780" }, "budget_metrics": { "base_stay_cost_per_day": 3000, "base_travel_cost": 500, "seasonal_surge_factor": 1.15, "traffic_delay_weight": 1.10 }, "entry_fee": 0, "avg_duration_hrs": 3, "ai_metadata": { "vibe_tags": ["Clean", "Calm", "Backwater-Beach"], "sentiment_score": 4.7, "best_suited_for": ["Families"], "description_ai": "A peaceful beach where backwaters meet the sea." } },
+
+    { "id": "KER-12", "name": "Silent Valley National Park", "city": "Palakkad", "category": "Wildlife/National Parks", "coordinates": { "latitude": "11.0710", "longitude": "76.4450" }, "budget_metrics": { "base_stay_cost_per_day": 2800, "base_travel_cost": 900, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.10 }, "entry_fee": 100, "avg_duration_hrs": 4, "ai_metadata": { "vibe_tags": ["Rainforest", "Pristine", "Biodiversity"], "sentiment_score": 4.9, "best_suited_for": ["Eco-tourists"], "description_ai": "One of the last untouched rainforests in the Western Ghats." } },
+
+    { "id": "KER-13", "name": "Meesapulimala", "city": "Munnar", "category": "Trekking", "coordinates": { "latitude": "10.1140", "longitude": "77.1000" }, "budget_metrics": { "base_stay_cost_per_day": 2800, "base_travel_cost": 800, "seasonal_surge_factor": 1.20, "traffic_delay_weight": 1.10 }, "entry_fee": 0, "avg_duration_hrs": 5, "ai_metadata": { "vibe_tags": ["Peak", "Adventure", "Mist"], "sentiment_score": 4.8, "best_suited_for": ["Trekkers"], "description_ai": "Second highest peak in Kerala offering panoramic trekking trails." } },
+
+    { "id": "KER-14", "name": "Poovar Island", "city": "Poovar", "category": "Backwaters", "coordinates": { "latitude": "8.3190", "longitude": "77.0730" }, "budget_metrics": { "base_stay_cost_per_day": 3500, "base_travel_cost": 700, "seasonal_surge_factor": 1.15, "traffic_delay_weight": 1.10 }, "entry_fee": 0, "avg_duration_hrs": 3, "ai_metadata": { "vibe_tags": ["Island", "Mangroves"], "sentiment_score": 4.6, "best_suited_for": ["Couples"], "description_ai": "A tranquil island where rivers meet the sea." } },
+
+    { "id": "KER-15", "name": "Vagamon", "city": "Idukki", "category": "Hill Stations", "coordinates": { "latitude": "9.6850", "longitude": "76.9050" }, "budget_metrics": { "base_stay_cost_per_day": 2600, "base_travel_cost": 700, "seasonal_surge_factor": 1.15, "traffic_delay_weight": 1.10 }, "entry_fee": 0, "avg_duration_hrs": 4, "ai_metadata": { "vibe_tags": ["Meadows", "Foggy", "Quiet"], "sentiment_score": 4.7, "best_suited_for": ["Peace Seekers"], "description_ai": "Rolling grasslands and pine forests with a cool climate." } },
+
+    { "id": "KER-16", "name": "Ashtamudi Lake", "city": "Kollam", "category": "Backwaters", "coordinates": { "latitude": "8.8930", "longitude": "76.6000" }, "budget_metrics": { "base_stay_cost_per_day": 3500, "base_travel_cost": 600, "seasonal_surge_factor": 1.15, "traffic_delay_weight": 1.10 }, "entry_fee": 0, "avg_duration_hrs": 4, "ai_metadata": { "vibe_tags": ["Lake", "Houseboats"], "sentiment_score": 4.6, "best_suited_for": ["Families"], "description_ai": "Second largest lake in Kerala known for scenic boat rides." } },
+
+    { "id": "KER-17", "name": "Malampuzha Dam", "city": "Palakkad", "category": "Major Cities & Cultural Spots", "coordinates": { "latitude": "10.8450", "longitude": "76.6900" }, "budget_metrics": { "base_stay_cost_per_day": 2500, "base_travel_cost": 500, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.10 }, "entry_fee": 10, "avg_duration_hrs": 2, "ai_metadata": { "vibe_tags": ["Gardens", "Picnic"], "sentiment_score": 4.4, "best_suited_for": ["Families"], "description_ai": "A dam complex with landscaped gardens and ropeway." } },
+
+    { "id": "KER-18", "name": "Ponnani Beach", "city": "Ponnani", "category": "Beaches", "coordinates": { "latitude": "10.7660", "longitude": "75.9200" }, "budget_metrics": { "base_stay_cost_per_day": 2200, "base_travel_cost": 600, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.10 }, "entry_fee": 0, "avg_duration_hrs": 2, "ai_metadata": { "vibe_tags": ["Quiet", "Fishing"], "sentiment_score": 4.3, "best_suited_for": ["Solo"], "description_ai": "A lesser-known serene fishing beach." } },
+
+    { "id": "KER-19", "name": "Kuttanad", "city": "Alappuzha", "category": "Backwaters", "coordinates": { "latitude": "9.4000", "longitude": "76.4500" }, "budget_metrics": { "base_stay_cost_per_day": 3000, "base_travel_cost": 600, "seasonal_surge_factor": 1.20, "traffic_delay_weight": 1.10 }, "entry_fee": 0, "avg_duration_hrs": 4, "ai_metadata": { "vibe_tags": ["Paddy-Fields", "Below-Sea-Level"], "sentiment_score": 4.7, "best_suited_for": ["Culture Lovers"], "description_ai": "Known as the rice bowl of Kerala with scenic canals." } },
+
+    { "id": "KER-20", "name": "Thiruvananthapuram Zoo", "city": "Thiruvananthapuram", "category": "Wildlife/National Parks", "coordinates": { "latitude": "8.5241", "longitude": "76.9366" }, "budget_metrics": { "base_stay_cost_per_day": 3000, "base_travel_cost": 400, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.20 }, "entry_fee": 50, "avg_duration_hrs": 3, "ai_metadata": { "vibe_tags": ["Educational", "Urban-Zoo"], "sentiment_score": 4.4, "best_suited_for": ["Families"], "description_ai": "One of the oldest zoos in India with diverse species." } },
+
+    { "id": "KER-21", "name": "Padmanabhaswamy Temple", "city": "Thiruvananthapuram", "category": "Religious/Pilgrimage Sites", "coordinates": { "latitude": "8.4820", "longitude": "76.9430" }, "budget_metrics": { "base_stay_cost_per_day": 3500, "base_travel_cost": 400, "seasonal_surge_factor": 1.20, "traffic_delay_weight": 1.30 }, "entry_fee": 0, "avg_duration_hrs": 2, "ai_metadata": { "vibe_tags": ["Spiritual", "Wealthy-Temple"], "sentiment_score": 4.9, "best_suited_for": ["Pilgrims"], "description_ai": "One of the richest temples in the world with Dravidian architecture." } },
+
+    { "id": "KER-22", "name": "Kozhikode Beach", "city": "Kozhikode", "category": "Beaches", "coordinates": { "latitude": "11.2588", "longitude": "75.7804" }, "budget_metrics": { "base_stay_cost_per_day": 2800, "base_travel_cost": 500, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.15 }, "entry_fee": 0, "avg_duration_hrs": 2, "ai_metadata": { "vibe_tags": ["Historic-Port", "Sunset"], "sentiment_score": 4.5, "best_suited_for": ["Families"], "description_ai": "Historic beach where Vasco da Gama first landed." } },
+
+    { "id": "KER-23", "name": "Thalassery Fort", "city": "Thalassery", "category": "Historical Forts", "coordinates": { "latitude": "11.7480", "longitude": "75.4900" }, "budget_metrics": { "base_stay_cost_per_day": 2400, "base_travel_cost": 600, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.10 }, "entry_fee": 20, "avg_duration_hrs": 2, "ai_metadata": { "vibe_tags": ["Colonial", "Stone-Fort"], "sentiment_score": 4.4, "best_suited_for": ["History Buffs"], "description_ai": "A British-era fort with massive stone walls." } },
+
+    { "id": "KER-24", "name": "Marari Beach", "city": "Mararikulam", "category": "Beaches", "coordinates": { "latitude": "9.6100", "longitude": "76.3020" }, "budget_metrics": { "base_stay_cost_per_day": 3500, "base_travel_cost": 600, "seasonal_surge_factor": 1.20, "traffic_delay_weight": 1.10 }, "entry_fee": 0, "avg_duration_hrs": 3, "ai_metadata": { "vibe_tags": ["Luxury", "Quiet"], "sentiment_score": 4.7, "best_suited_for": ["Couples"], "description_ai": "A tranquil beach with luxury eco-resorts." } },
+
+    { "id": "KER-25", "name": "Idukki Dam", "city": "Idukki", "category": "Major Cities & Cultural Spots", "coordinates": { "latitude": "9.8430", "longitude": "76.9760" }, "budget_metrics": { "base_stay_cost_per_day": 2800, "base_travel_cost": 700, "seasonal_surge_factor": 1.15, "traffic_delay_weight": 1.10 }, "entry_fee": 25, "avg_duration_hrs": 2, "ai_metadata": { "vibe_tags": ["Engineering-Marvel", "Reservoir"], "sentiment_score": 4.5, "best_suited_for": ["Students"], "description_ai": "One of Asia’s highest arch dams." } },
+
+    { "id": "KER-26", "name": "Nelliyampathy Hills", "city": "Palakkad", "category": "Hill Stations", "coordinates": { "latitude": "10.5350", "longitude": "76.6930" }, "budget_metrics": { "base_stay_cost_per_day": 2600, "base_travel_cost": 700, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.10 }, "entry_fee": 0, "avg_duration_hrs": 4, "ai_metadata": { "vibe_tags": ["Coffee", "Forests"], "sentiment_score": 4.6, "best_suited_for": ["Nature Lovers"], "description_ai": "Hill retreat with coffee and tea plantations." } },
+
+    { "id": "KER-27", "name": "Kottayam Churches", "city": "Kottayam", "category": "Religious/Pilgrimage Sites", "coordinates": { "latitude": "9.5916", "longitude": "76.5222" }, "budget_metrics": { "base_stay_cost_per_day": 2600, "base_travel_cost": 500, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.10 }, "entry_fee": 0, "avg_duration_hrs": 2, "ai_metadata": { "vibe_tags": ["Heritage", "Christianity"], "sentiment_score": 4.4, "best_suited_for": ["Pilgrims"], "description_ai": "Historic Syrian Christian churches of Kerala." } },
+
+    { "id": "KER-28", "name": "Thrissur Vadakkunnathan Temple", "city": "Thrissur", "category": "Religious/Pilgrimage Sites", "coordinates": { "latitude": "10.5260", "longitude": "76.2130" }, "budget_metrics": { "base_stay_cost_per_day": 3000, "base_travel_cost": 500, "seasonal_surge_factor": 1.20, "traffic_delay_weight": 1.20 }, "entry_fee": 0, "avg_duration_hrs": 2, "ai_metadata": { "vibe_tags": ["Ancient", "Temple"], "sentiment_score": 4.8, "best_suited_for": ["Pilgrims"], "description_ai": "An ancient Shiva temple in the cultural capital of Kerala." } },
+
+    { "id": "KER-29", "name": "Parambikulam Tiger Reserve", "city": "Palakkad", "category": "Wildlife/National Parks", "coordinates": { "latitude": "10.4000", "longitude": "76.8000" }, "budget_metrics": { "base_stay_cost_per_day": 2800, "base_travel_cost": 900, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.10 }, "entry_fee": 150, "avg_duration_hrs": 4, "ai_metadata": { "vibe_tags": ["Tiger", "Dense-Forest"], "sentiment_score": 4.7, "best_suited_for": ["Wildlife Lovers"], "description_ai": "Protected tiger reserve with rich biodiversity." } },
+
+    { "id": "KER-30", "name": "Kalari Kovilakom", "city": "Palakkad", "category": "Wellness & Ayurveda", "coordinates": { "latitude": "10.7780", "longitude": "76.6530" }, "budget_metrics": { "base_stay_cost_per_day": 6000, "base_travel_cost": 800, "seasonal_surge_factor": 1.30, "traffic_delay_weight": 1.10 }, "entry_fee": 0, "avg_duration_hrs": 5, "ai_metadata": { "vibe_tags": ["Ayurveda", "Luxury", "Healing"], "sentiment_score": 4.9, "best_suited_for": ["Wellness Seekers"], "description_ai": "A heritage palace turned into an authentic Ayurveda retreat." } }
+  ]
+}
