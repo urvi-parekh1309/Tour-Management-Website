@@ -920,3 +920,92 @@
   { "id": "DEL-09", "name": "India Gate", "city": "Central Delhi" },
   { "id": "DEL-10", "name": "Dilli Haat", "city": "INA" }
 ]
+    "mughlai": [
+    { "restaurant": "Karim’s", "area": "Chandni Chowk Food Crawl" },
+    { "restaurant": "Al Jawahar", "area": "Chandni Chowk Food Crawl" },
+    { "restaurant": "Lazeez Affaire", "area": "National Rail Museum" },
+    { "restaurant": "Gulati", "area": "National War Memorial" }
+  ],
+
+  "south_indian": [
+    { "restaurant": "Saravana Bhavan", "area": "Janpath Market" },
+    { "restaurant": "Juggernaut", "area": "Iskcon Temple Delhi" },
+    { "restaurant": "Andhra Bhavan Canteen", "area": "National War Memorial" }
+  ],
+
+  "street_food": [
+    { "restaurant": "Natraj Dahi Bhalla", "area": "Chandni Chowk Food Crawl" },
+    { "restaurant": "Old Famous Jalebi Wala", "area": "Chandni Chowk Food Crawl" },
+    { "restaurant": "India Gate Ice Cream Stalls", "area": "National War Memorial" },
+    { "restaurant": "Sita Ram Diwan Chand", "area": "Paharganj" }
+  ]
+}
+
+"healthy": [
+  { "restaurant": "Sam's Cafe", "area": "Paharganj" },
+  { "restaurant": "Cafe Lota", "area": "National Science Centre" },
+  { "restaurant": "Lotus Pond Cafe", "area": "Iskcon Temple Delhi" }
+],
+
+"breakfast": [
+  { "restaurant": "Sita Ram Diwan Chand", "area": "Paharganj" },
+  { "restaurant": "Saravana Bhavan", "area": "Janpath Market" },
+  { "restaurant": "Govinda’s", "area": "Iskcon Temple Delhi" }
+],
+
+"snacks": [
+  { "restaurant": "Natraj Dahi Bhalla", "area": "Chandni Chowk Food Crawl" },
+  { "restaurant": "Bikanervala", "area": "National Science Centre" },
+  { "restaurant": "India Gate Ice Cream Stalls", "area": "National War Memorial" }
+],
+"group_dining": [
+  { "restaurant": "Karim’s", "area": "Chandni Chowk Food Crawl" },
+  { "restaurant": "Pandara Road Havemore", "area": "National War Memorial" },
+  { "restaurant": "United Coffee House", "area": "Janpath Market" }
+],
+
+"tourist_favorite": [
+  { "restaurant": "Karim’s", "area": "Chandni Chowk Food Crawl" },
+  { "restaurant": "Bukhara", "area": "National Rail Museum" },
+  { "restaurant": "Saravana Bhavan", "area": "Janpath Market" },
+  { "restaurant": "Old Famous Jalebi Wala", "area": "Chandni Chowk Food Crawl" }
+],
+
+"quick_bites": [
+  { "restaurant": "Natraj Dahi Bhalla", "area": "Chandni Chowk Food Crawl" },
+  { "restaurant": "Sita Ram Diwan Chand", "area": "Paharganj" },
+  { "restaurant": "India Gate Ice Cream Stalls", "area": "National War Memorial" }
+]
+"japanese": [
+  { "restaurant": "Fujiya", "area": "National Rail Museum" }
+],
+
+"tibetan": [
+  { "restaurant": "Everest Kitchen", "area": "Paharganj" }
+],
+
+"seafood": [
+  { "restaurant": "Fujiya", "area": "National Rail Museum" },
+  { "restaurant": "Bukhara", "area": "National Rail Museum" }
+],
+
+"biryani": [
+  { "restaurant": "Karim’s", "area": "Chandni Chowk Food Crawl" },
+  { "restaurant": "Al Jawahar", "area": "Chandni Chowk Food Crawl" }
+],
+"kebabs": [
+  { "restaurant": "Karim’s", "area": "Chandni Chowk Food Crawl" },
+  { "restaurant": "Bukhara", "area": "National Rail Museum" },
+  { "restaurant": "Gulati", "area": "National War Memorial" }
+],
+
+"sweets": [
+  { "restaurant": "Old Famous Jalebi Wala", "area": "Chandni Chowk Food Crawl" },
+  { "restaurant": "Bikanervala", "area": "National Science Centre" }
+],
+
+"kids_friendly": [
+  { "restaurant": "Diggin", "area": "National Rail Museum" },
+  { "restaurant": "Cafe Lota", "area": "National Science Centre" },
+  { "restaurant": "Govinda’s", "area": "Iskcon Temple Delhi" }
+],
