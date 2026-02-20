@@ -673,10 +673,10 @@
       }
     },
     {
-  "state": "Delhi",
+ "state": "Delhi",
   "destinations": [
-    {
-      "id": "DEL-31",
+      {
+ "id": "DEL-31",
       "name": "National Rail Museum",
       "city": "Chanakyapuri",
       "category": "Major Cities & Cultural Spots",
