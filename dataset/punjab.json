@@ -1,0 +1,705 @@
+{
+  "state": "Punjab",
+  "destinations": [
+    {
+      "id": "PUN-01",
+      "name": "Golden Temple (Harmandir Sahib)",
+      "city": "Amritsar",
+      "category": "Spiritual & Iconic",
+      "coordinates": { "latitude": "31.6200", "longitude": "74.8765" },
+      "budget_metrics": { "base_stay_cost_per_day": 3500, "base_travel_cost": 500, "seasonal_surge_factor": 1.50, "traffic_delay_weight": 1.75 },
+      "entry_fee": 0, "avg_duration_hrs": 4,
+      "ai_metadata": { "vibe_tags": ["Spiritual", "Serene", "Golden", "Historic"], "sentiment_score": 5.0, "historical_significance_weight": 10, "best_suited_for": ["Devotees", "Families"], "description_ai": "The holiest Gurdwara of Sikhism, famous for its golden architecture and world's largest community kitchen." }
+    },
+    {
+      "id": "PUN-02",
+      "name": "Wagah Border",
+      "city": "Amritsar",
+      "category": "National Heritage",
+      "coordinates": { "latitude": "31.6047", "longitude": "74.5732" },
+      "budget_metrics": { "base_stay_cost_per_day": 3000, "base_travel_cost": 1200, "seasonal_surge_factor": 1.20, "traffic_delay_weight": 1.50 },
+      "entry_fee": 0, "avg_duration_hrs": 3,
+      "ai_metadata": { "vibe_tags": ["Patriotic", "Electrifying", "Military", "Ceremonial"], "sentiment_score": 4.8, "best_suited_for": ["Nationalists", "Families"], "description_ai": "The international border known for the daily Beating Retreat ceremony involving synchronized military drills." }
+    },
+    {
+      "id": "PUN-03",
+      "name": "Rock Garden",
+      "city": "Chandigarh",
+      "category": "Art & Architecture",
+      "coordinates": { "latitude": "30.7525", "longitude": "76.8013" },
+      "budget_metrics": { "base_stay_cost_per_day": 4500, "base_travel_cost": 400, "seasonal_surge_factor": 1.15, "traffic_delay_weight": 1.30 },
+      "entry_fee": 30, "avg_duration_hrs": 3,
+      "ai_metadata": { "vibe_tags": ["Creative", "Eco-friendly", "Whimsical", "Recycled"], "sentiment_score": 4.6, "best_suited_for": ["Art Lovers", "Families"], "description_ai": "A massive open-air exhibition featuring sculptures made entirely from industrial and home waste." }
+    },
+    {
+      "id": "PUN-04",
+      "name": "Virasat-e-Khalsa",
+      "city": "Anandpur Sahib",
+      "category": "Museum & Cultural Heritage",
+      "coordinates": { "latitude": "31.2351", "longitude": "76.4998" },
+      "budget_metrics": { "base_stay_cost_per_day": 1800, "base_travel_cost": 2000, "seasonal_surge_factor": 1.40, "traffic_delay_weight": 1.10 },
+      "entry_fee": 0, "avg_duration_hrs": 4,
+      "ai_metadata": { "vibe_tags": ["Majestic", "Educational", "Architectural-Marvel"], "sentiment_score": 4.9, "historical_significance_weight": 10, "best_suited_for": ["History Buffs", "Students"], "description_ai": "A world-class museum celebrating 500 years of Sikh history and the birth of Khalsa." }
+    },
+    {
+      "id": "PUN-05",
+      "name": "Qila Mubarak",
+      "city": "Patiala",
+      "category": "Historical Forts",
+      "coordinates": { "latitude": "30.3276", "longitude": "76.3869" },
+      "budget_metrics": { "base_stay_cost_per_day": 2500, "base_travel_cost": 600, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.40 },
+      "entry_fee": 20, "avg_duration_hrs": 2.5,
+      "ai_metadata": { "vibe_tags": ["Royal", "Ancient", "Sikh-Architecture", "Regal"], "sentiment_score": 4.5, "historical_significance_weight": 9, "best_suited_for": ["History Enthusiasts"], "description_ai": "A rare example of Sikh palace architecture; it was the residence of the Patiala royals." }
+    },
+    {
+      "id": "PUN-06",
+      "name": "Kesar Da Dhaba",
+      "city": "Amritsar",
+      "category": "Legendary Dining",
+      "coordinates": { "latitude": "31.6256", "longitude": "74.8735" },
+      "budget_metrics": { "base_stay_cost_per_day": 3500, "base_travel_cost": 200, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.90 },
+      "entry_fee": 0, "avg_duration_hrs": 1.5,
+      "ai_metadata": { "vibe_tags": ["Authentic", "Desi-Ghee", "Heritage-Eatery"], "sentiment_score": 4.9, "best_suited_for": ["Foodies", "Families"], "description_ai": "Operating since 1916, legendary for its 100-year-old Dal Makhani and traditional thalis." }
+    },
+    {
+      "id": "PUN-07",
+      "name": "Hall Bazaar",
+      "city": "Amritsar",
+      "category": "Street Shopping",
+      "coordinates": { "latitude": "31.6315", "longitude": "74.8744" },
+      "budget_metrics": { "base_stay_cost_per_day": 3500, "base_travel_cost": 300, "seasonal_surge_factor": 1.30, "traffic_delay_weight": 1.95 },
+      "entry_fee": 0, "avg_duration_hrs": 3,
+      "ai_metadata": { "vibe_tags": ["Phulkari", "Juttis", "Vibrant", "Handicrafts"], "sentiment_score": 4.7, "best_suited_for": ["Shoppers", "Tourists"], "description_ai": "The oldest market in Amritsar, iconic for Phulkari embroidery and traditional Punjabi juttis." }
+    },
+    {
+      "id": "PUN-08",
+      "name": "Elante Mall",
+      "city": "Chandigarh",
+      "category": "Malls",
+      "coordinates": { "latitude": "30.7061", "longitude": "76.8013" },
+      "budget_metrics": { "base_stay_cost_per_day": 5000, "base_travel_cost": 400, "seasonal_surge_factor": 1.20, "traffic_delay_weight": 1.40 },
+      "entry_fee": 0, "avg_duration_hrs": 5,
+      "ai_metadata": { "vibe_tags": ["Elite", "Massive", "Retail-Therapy"], "sentiment_score": 4.8, "best_suited_for": ["Luxury Shoppers", "Families"], "description_ai": "The largest mall in Northern India (outside Delhi), featuring premium international brands." }
+    },
+    {
+      "id": "PUN-09",
+      "name": "Katra Jaimal Singh Market",
+      "city": "Amritsar",
+      "category": "Street Shopping",
+      "coordinates": { "latitude": "31.6260", "longitude": "74.8770" },
+      "budget_metrics": { "base_stay_cost_per_day": 3000, "base_travel_cost": 250, "seasonal_surge_factor": 1.25, "traffic_delay_weight": 1.95 },
+      "entry_fee": 0, "avg_duration_hrs": 3,
+      "ai_metadata": { "vibe_tags": ["Textiles", "Traditional", "Bargaining"], "sentiment_score": 4.7, "best_suited_for": ["Wedding Shoppers", "Tourists"], "description_ai": "The go-to street market for authentic Phulkari suits and high-quality Punjabi textiles." }
+    },
+    {
+      "id": "PUN-10",
+      "name": "Sector 17 Market",
+      "city": "Chandigarh",
+      "category": "Street Shopping",
+      "coordinates": { "latitude": "30.7398", "longitude": "76.7827" },
+      "budget_metrics": { "base_stay_cost_per_day": 5000, "base_travel_cost": 300, "seasonal_surge_factor": 1.15, "traffic_delay_weight": 1.20 },
+      "entry_fee": 0, "avg_duration_hrs": 4,
+      "ai_metadata": { "vibe_tags": ["Open-Air", "Piazza", "Sophisticated"], "sentiment_score": 4.8, "best_suited_for": ["Youth", "Families"], "description_ai": "The pedestrian-friendly 'City Centre' of Chandigarh, known for brand stores and musical fountains." }
+    },
+    {
+      "id": "PUN-11",
+      "name": "Chaura Bazar",
+      "city": "Ludhiana",
+      "category": "Street Shopping",
+      "coordinates": { "latitude": "30.9125", "longitude": "75.8560" },
+      "budget_metrics": { "base_stay_cost_per_day": 3000, "base_travel_cost": 400, "seasonal_surge_factor": 1.30, "traffic_delay_weight": 2.00 },
+      "entry_fee": 0, "avg_duration_hrs": 4,
+      "ai_metadata": { "vibe_tags": ["Wholesale", "Woolens", "Dense", "Hosiery-Hub"], "sentiment_score": 4.3, "best_suited_for": ["Budget Shoppers"], "description_ai": "The oldest market in Ludhiana, famous for wholesale woolens and hosiery." }
+    },
+    {
+      "id": "PUN-12",
+      "name": "Trilium Mall",
+      "city": "Amritsar",
+      "category": "Malls",
+      "coordinates": { "latitude": "31.6508", "longitude": "74.8961" },
+      "budget_metrics": { "base_stay_cost_per_day": 3500, "base_travel_cost": 400, "seasonal_surge_factor": 1.15, "traffic_delay_weight": 1.70 },
+      "entry_fee": 0, "avg_duration_hrs": 4,
+      "ai_metadata": { "vibe_tags": ["Modern", "Spacious", "Eco-friendly"], "sentiment_score": 4.6, "best_suited_for": ["Families", "Friends"], "description_ai": "A large eco-friendly mall featuring high-tech cinemas and over 250 brands." }
+    },
+    {
+      "id": "PUN-13",
+      "name": "Shastri Market",
+      "city": "Chandigarh",
+      "category": "Street Shopping",
+      "coordinates": { "latitude": "30.7314", "longitude": "76.7725" },
+      "budget_metrics": { "base_stay_cost_per_day": 5000, "base_travel_cost": 300, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.25 },
+      "entry_fee": 0, "avg_duration_hrs": 3,
+      "ai_metadata": { "vibe_tags": ["Budget-Friendly", "Fashion", "Young-Vibe"], "sentiment_score": 4.7, "best_suited_for": ["Students", "Bargain Hunters"], "description_ai": "A high-energy street market famous for trendy ethnic wear and local accessories." }
+    },
+    {
+      "id": "PUN-14",
+      "name": "MBD Neopolis",
+      "city": "Jalandhar",
+      "category": "Malls",
+      "coordinates": { "latitude": "31.3211", "longitude": "75.5891" },
+      "budget_metrics": { "base_stay_cost_per_day": 3200, "base_travel_cost": 350, "seasonal_surge_factor": 1.15, "traffic_delay_weight": 1.50 },
+      "entry_fee": 0, "avg_duration_hrs": 4,
+      "ai_metadata": { "vibe_tags": ["Luxury", "Premium", "Dining-Hub"], "sentiment_score": 4.5, "best_suited_for": ["Elite Shoppers", "Foodies"], "description_ai": "A luxury-focused destination bringing premium international labels to Jalandhar." }
+    },
+    {
+      "id": "PUN-15",
+      "name": "Rainak Bazar",
+      "city": "Jalandhar",
+      "category": "Street Shopping",
+      "coordinates": { "latitude": "31.3255", "longitude": "75.5792" },
+      "budget_metrics": { "base_stay_cost_per_day": 3000, "base_travel_cost": 400, "seasonal_surge_factor": 1.30, "traffic_delay_weight": 1.95 },
+      "entry_fee": 0, "avg_duration_hrs": 3.5,
+      "ai_metadata": { "vibe_tags": ["Chaotic", "Vibrant", "Local-Flavour"], "sentiment_score": 4.2, "best_suited_for": ["Budget Shoppers"], "description_ai": "Jalandhar's most vibrant market, known for affordable textiles and street snacks." }
+    },
+    {
+      "id": "PUN-16",
+      "name": "Wave Mall",
+      "city": "Ludhiana",
+      "category": "Malls",
+      "coordinates": { "latitude": "30.8812", "longitude": "75.7951" },
+      "budget_metrics": { "base_stay_cost_per_day": 4000, "base_travel_cost": 500, "seasonal_surge_factor": 1.20, "traffic_delay_weight": 1.75 },
+      "entry_fee": 0, "avg_duration_hrs": 4,
+      "ai_metadata": { "vibe_tags": ["Mainstream", "Family-Fun", "Cinemas"], "sentiment_score": 4.4, "best_suited_for": ["Families", "Movie Buffs"], "description_ai": "A central retail complex featuring a vast selection of global brands and a multiplex." }
+    },
+    {
+      "id": "PUN-17",
+      "name": "Jallianwala Bagh",
+      "city": "Amritsar",
+      "category": "Place Classic",
+      "coordinates": { "latitude": "31.6214", "longitude": "74.8806" },
+      "budget_metrics": { "base_stay_cost_per_day": 3500, "base_travel_cost": 200, "seasonal_surge_factor": 1.00, "traffic_delay_weight": 1.85 },
+      "entry_fee": 0, "avg_duration_hrs": 2,
+      "ai_metadata": { "vibe_tags": ["Solemn", "Historical", "Patriotic"], "sentiment_score": 4.9, "historical_significance_weight": 10, "best_suited_for": ["History Buffs", "Families"], "description_ai": "A historic memorial commemorates the 1919 massacre, a turning point in the independence struggle." }
+    },
+    {
+      "id": "PUN-18",
+      "name": "Bharawan Da Dhaba",
+      "city": "Amritsar",
+      "category": "Restaurants",
+      "coordinates": { "latitude": "31.6258", "longitude": "74.8775" },
+      "budget_metrics": { "base_stay_cost_per_day": 3500, "base_travel_cost": 150, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.90 },
+      "entry_fee": 0, "avg_duration_hrs": 1.5,
+      "ai_metadata": { "vibe_tags": ["Iconic", "Traditional", "Pure-Veg"], "sentiment_score": 4.8, "best_suited_for": ["Foodies", "Families"], "description_ai": "Authentic Punjabi eatery since 1912, famous for stuffed kulchas and dal makhani." }
+    },
+    {
+      "id": "PUN-19",
+      "name": "Haveli",
+      "city": "Jalandhar",
+      "category": "Restaurants",
+      "coordinates": { "latitude": "31.3260", "longitude": "75.5760" },
+      "budget_metrics": { "base_stay_cost_per_day": 3200, "base_travel_cost": 600, "seasonal_surge_factor": 1.20, "traffic_delay_weight": 1.40 },
+      "entry_fee": 0, "avg_duration_hrs": 2.5,
+      "ai_metadata": { "vibe_tags": ["Village-Themed", "Rustic", "Immersive"], "sentiment_score": 4.9, "best_suited_for": ["Families", "Tourists"], "description_ai": "A landmark themed restaurant offering a complete Punjabi village cultural experience." }
+    },
+    {
+      "id": "PUN-20",
+      "name": "Beera Chicken House",
+      "city": "Amritsar",
+      "category": "Restaurants",
+      "coordinates": { "latitude": "31.6360", "longitude": "74.8720" },
+      "budget_metrics": { "base_stay_cost_per_day": 3500, "base_travel_cost": 250, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.70 },
+      "entry_fee": 0, "avg_duration_hrs": 1,
+      "ai_metadata": { "vibe_tags": ["Tandoori-Chicken", "Non-Veg-Paradise", "Old-School"], "sentiment_score": 4.7, "best_suited_for": ["Meat Lovers"], "description_ai": "Legendary institution in Amritsar known specifically for its unique whole roasted chicken." }
+    },
+    {
+      "id": "PUN-21",
+      "name": "Pal Dhaba",
+      "city": "Chandigarh",
+      "category": "Restaurants",
+      "coordinates": { "latitude": "30.7280", "longitude": "76.7710" },
+      "budget_metrics": { "base_stay_cost_per_day": 5000, "base_travel_cost": 300, "seasonal_surge_factor": 1.15, "traffic_delay_weight": 1.20 },
+      "entry_fee": 0, "avg_duration_hrs": 1.5,
+      "ai_metadata": { "vibe_tags": ["Celebrity-Spot", "Mutton-Specialist", "No-Frills"], "sentiment_score": 4.6, "best_suited_for": ["Food Enthusiasts"], "description_ai": "Iconic dhaba in Sector 28, a celebrity favorite famous for mutton curry and brain masala." }
+    },
+    {
+      "id": "PUN-22",
+      "name": "Sukhdev Thapa",
+      "city": "Ludhiana",
+      "category": "Restaurants",
+      "coordinates": { "latitude": "30.9010", "longitude": "75.8570" },
+      "budget_metrics": { "base_stay_cost_per_day": 3000, "base_travel_cost": 400, "seasonal_surge_factor": 1.20, "traffic_delay_weight": 1.80 },
+      "entry_fee": 0, "avg_duration_hrs": 1.5,
+      "ai_metadata": { "vibe_tags": ["Highway-King", "Parathas", "Pure-Ghee"], "sentiment_score": 4.8, "best_suited_for": ["Road-trippers"], "description_ai": "A classic stop for travelers, renowned for giant tandoori parathas with white butter." }
+    },
+    {
+      "id": "PUN-23",
+      "name": "Gobindgarh Fort",
+      "city": "Amritsar",
+      "category": "Forts",
+      "coordinates": { "latitude": "31.6265", "longitude": "74.8640" },
+      "budget_metrics": { "base_stay_cost_per_day": 3500, "base_travel_cost": 300, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.65 },
+      "entry_fee": 150, "avg_duration_hrs": 3,
+      "ai_metadata": { "vibe_tags": ["Military-History", "Light-Show", "Museum"], "sentiment_score": 4.7, "historical_significance_weight": 9, "best_suited_for": ["Families", "History Buffs"], "description_ai": "A military stronghold turned into a repository of Punjabi history with 7D and laser shows." }
+    },
+    {
+      "id": "PUN-24",
+      "name": "Sheesh Mahal",
+      "city": "Patiala",
+      "category": "Place Classic",
+      "coordinates": { "latitude": "30.3160", "longitude": "76.3880" },
+      "budget_metrics": { "base_stay_cost_per_day": 2500, "base_travel_cost": 450, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.30 },
+      "entry_fee": 20, "avg_duration_hrs": 2.5,
+      "ai_metadata": { "vibe_tags": ["Royal", "Mirrors", "Palatial", "Quiet"], "sentiment_score": 4.5, "historical_significance_weight": 9, "best_suited_for": ["Art Lovers", "Photographers"], "description_ai": "The 'Palace of Mirrors' is famous for intricate glasswork and Kangra-style frescoes." }
+    },
+    {
+      "id": "PUN-25",
+      "name": "Ahuja Milk Bhandar",
+      "city": "Amritsar",
+      "category": "Restaurants",
+      "coordinates": { "latitude": "31.6320", "longitude": "74.8715" },
+      "budget_metrics": { "base_stay_cost_per_day": 3500, "base_travel_cost": 200, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.90 },
+      "entry_fee": 0, "avg_duration_hrs": 0.5,
+      "ai_metadata": { "vibe_tags": ["Lassi-King", "Legendary", "Creamy"], "sentiment_score": 4.9, "best_suited_for": ["Solo", "Friends"], "description_ai": "Synonymous with thick Amritsari Lassi served in heavy glass tumblers since 1955." }
+    },
+    {
+      "id": "PUN-26",
+      "name": "Morni Hills",
+      "city": "Panchkula",
+      "category": "Hill Station",
+      "coordinates": { "latitude": "30.6861", "longitude": "77.0864" },
+      "budget_metrics": { "base_stay_cost_per_day": 3500, "base_travel_cost": 800, "seasonal_surge_factor": 1.30, "traffic_delay_weight": 1.20 },
+      "entry_fee": 0, "avg_duration_hrs": 6,
+      "ai_metadata": { "vibe_tags": ["Serene", "Shivalik-Range", "Nature-Escape"], "sentiment_score": 4.6, "best_suited_for": ["Nature Lovers", "Friends"], "description_ai": "The only hill station in the region, featuring pristine lakes and lush Shivalik greenery." }
+    },
+    {
+      "id": "PUN-27",
+      "name": "Harike Wetland",
+      "city": "Tarn Taran",
+      "category": "Nature/Wildlife",
+      "coordinates": { "latitude": "31.1447", "longitude": "74.8878" },
+      "budget_metrics": { "base_stay_cost_per_day": 1500, "base_travel_cost": 1200, "seasonal_surge_factor": 1.15, "traffic_delay_weight": 1.10 },
+      "entry_fee": 0, "avg_duration_hrs": 5,
+      "ai_metadata": { "vibe_tags": ["Bird-Watching", "Ramsar-Site", "Migratory-Birds"], "sentiment_score": 4.9, "best_suited_for": ["Wildlife Photographers"], "description_ai": "Largest wetland in Northern India, a haven for Siberian birds and Indus River Dolphins." }
+    },
+    {
+      "id": "PUN-28",
+      "name": "Abohar Wildlife Sanctuary",
+      "city": "Abohar",
+      "category": "Nature/Wildlife",
+      "coordinates": { "latitude": "30.1245", "longitude": "74.1951" },
+      "budget_metrics": { "base_stay_cost_per_day": 1200, "base_travel_cost": 1500, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.05 },
+      "entry_fee": 0, "avg_duration_hrs": 4,
+      "ai_metadata": { "vibe_tags": ["Blackbuck", "Bishnoi-Community", "Sacred-Conservation"], "sentiment_score": 4.8, "best_suited_for": ["Nature Lovers"], "description_ai": "A unique community-protected sanctuary where the Bishnoi tribe guards the sacred blackbuck." }
+    },
+    {
+      "id": "PUN-29",
+      "name": "Sukhna Lake",
+      "city": "Chandigarh",
+      "category": "Nature/Wildlife",
+      "coordinates": { "latitude": "30.7422", "longitude": "76.8153" },
+      "budget_metrics": { "base_stay_cost_per_day": 5000, "base_travel_cost": 400, "seasonal_surge_factor": 1.25, "traffic_delay_weight": 1.35 },
+      "entry_fee": 0, "avg_duration_hrs": 3,
+      "ai_metadata": { "vibe_tags": ["Waterfront", "Sunset-Point", "Boating"], "sentiment_score": 4.7, "best_suited_for": ["Families", "Couples"], "description_ai": "Man-made reservoir offering a beach-like escape with sunset strolls and rowing." }
+    },
+    {
+      "id": "PUN-30",
+      "name": "Ropar Wetland",
+      "city": "Rupnagar",
+      "category": "Nature/Wildlife",
+      "coordinates": { "latitude": "30.9850", "longitude": "76.5160" },
+      "budget_metrics": { "base_stay_cost_per_day": 2000, "base_travel_cost": 600, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.15 },
+      "entry_fee": 0, "avg_duration_hrs": 3,
+      "ai_metadata": { "vibe_tags": ["Freshwater", "Ramsar-Site", "Otters"], "sentiment_score": 4.5, "best_suited_for": ["Nature Seekers"], "description_ai": "Vital ecological zone on the Sutlej river home to otters and diverse flora." }
+    },
+    {
+      "id": "PUN-31",
+      "name": "The Capitol Complex",
+      "city": "Chandigarh",
+      "category": "UNESCO World Heritage Site",
+      "coordinates": { "latitude": "30.7600", "longitude": "76.8000" },
+      "budget_metrics": { "base_stay_cost_per_day": 5000, "base_travel_cost": 400, "seasonal_surge_factor": 1.15, "traffic_delay_weight": 1.25 },
+      "entry_fee": 0, "avg_duration_hrs": 3,
+      "ai_metadata": { "vibe_tags": ["Modernist", "Architectural-Marvel", "Grand"], "sentiment_score": 4.8, "historical_significance_weight": 10, "best_suited_for": ["Photographers"], "description_ai": "Designed by Le Corbusier, featuring the Palace of Assembly, Secretariat, and High Court." }
+    },
+    {
+      "id": "PUN-32",
+      "name": "Anandpur Sahib Fort",
+      "city": "Anandpur Sahib",
+      "category": "Forts",
+      "coordinates": { "latitude": "31.2333", "longitude": "76.5000" },
+      "budget_metrics": { "base_stay_cost_per_day": 1800, "base_travel_cost": 1500, "seasonal_surge_factor": 2.20, "traffic_delay_weight": 1.30 },
+      "entry_fee": 0, "avg_duration_hrs": 2.5,
+      "ai_metadata": { "vibe_tags": ["Sacred", "Impregnable", "Khalsa-History"], "sentiment_score": 4.9, "historical_significance_weight": 10, "best_suited_for": ["Devotees"], "description_ai": "One of five forts built by Guru Gobind Singh Ji to protect the Sikh community." }
+    },
+    {
+      "id": "PUN-33",
+      "name": "Durgiana Temple",
+      "city": "Amritsar",
+      "category": "Spiritual",
+      "coordinates": { "latitude": "31.6310", "longitude": "74.8690" },
+      "budget_metrics": { "base_stay_cost_per_day": 3500, "base_travel_cost": 250, "seasonal_surge_factor": 1.20, "traffic_delay_weight": 1.85 },
+      "entry_fee": 0, "avg_duration_hrs": 1.5,
+      "ai_metadata": { "vibe_tags": ["Silver-Doors", "Lakeside", "Hindu-Heritage"], "sentiment_score": 4.7, "historical_significance_weight": 9, "best_suited_for": ["Devotees"], "description_ai": "Premier Hindu shrine with silver doors and architecture reflecting the Golden Temple." }
+    },
+    {
+      "id": "PUN-34",
+      "name": "Phillaur Fort",
+      "city": "Phillaur",
+      "category": "Forts",
+      "coordinates": { "latitude": "31.0200", "longitude": "75.7800" },
+      "budget_metrics": { "base_stay_cost_per_day": 3000, "base_travel_cost": 500, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.60 },
+      "entry_fee": 0, "avg_duration_hrs": 3,
+      "ai_metadata": { "vibe_tags": ["Strategic", "Military-Academy", "Riverside"], "sentiment_score": 4.5, "historical_significance_weight": 9, "best_suited_for": ["History Buffs"], "description_ai": "Designed by an Italian engineer for Maharaja Ranjit Singh, now a police academy." }
+    },
+    {
+      "id": "PUN-35",
+      "name": "Takht Sri Damdama Sahib",
+      "city": "Talwandi Sabo",
+      "category": "Spiritual",
+      "coordinates": { "latitude": "29.9800", "longitude": "75.0800" },
+      "budget_metrics": { "base_stay_cost_per_day": 1200, "base_travel_cost": 2000, "seasonal_surge_factor": 1.40, "traffic_delay_weight": 1.15 },
+      "entry_fee": 0, "avg_duration_hrs": 3,
+      "ai_metadata": { "vibe_tags": ["Peaceful", "Sacred", "Scriptural"], "sentiment_score": 4.8, "historical_significance_weight": 10, "best_suited_for": ["Pilgrims"], "description_ai": "One of five Sikh Takhts where the full version of Guru Granth Sahib was compiled." }
+    },
+    {
+      "id": "PUN-36",
+      "name": "Bahadurgarh Fort",
+      "city": "Patiala",
+      "category": "Forts",
+      "coordinates": { "latitude": "30.3600", "longitude": "76.5000" },
+      "budget_metrics": { "base_stay_cost_per_day": 2500, "base_travel_cost": 400, "seasonal_surge_factor": 1.15, "traffic_delay_weight": 1.35 },
+      "entry_fee": 0, "avg_duration_hrs": 2,
+      "ai_metadata": { "vibe_tags": ["Massive-Walls", "Commemorative", "Royal"], "sentiment_score": 4.4, "historical_significance_weight": 8, "best_suited_for": ["History Fans"], "description_ai": "Commemorates the ninth Sikh Guru, Tegh Bahadur Ji; features heavy walls and a moat." }
+    },
+    {
+      "id": "PUN-37",
+      "name": "Rauza Sharif",
+      "city": "Sirhind",
+      "category": "Spiritual",
+      "coordinates": { "latitude": "30.6400", "longitude": "76.3900" },
+      "budget_metrics": { "base_stay_cost_per_day": 1500, "base_travel_cost": 800, "seasonal_surge_factor": 1.25, "traffic_delay_weight": 1.20 },
+      "entry_fee": 0, "avg_duration_hrs": 2,
+      "ai_metadata": { "vibe_tags": ["Sufi-Heritage", "Islamic-Arch", "Solemn"], "sentiment_score": 4.6, "historical_significance_weight": 9, "best_suited_for": ["History Buffs"], "description_ai": "A 'Second Mecca' for some, the Dargah of Sufi saint Sheikh Ahmad Faruqi Sirhindi." }
+    },
+    {
+      "id": "PUN-38",
+      "name": "Hawaii Adda",
+      "city": "Ludhiana",
+      "category": "Restaurants",
+      "coordinates": { "latitude": "30.9010", "longitude": "75.8573" },
+      "budget_metrics": { "base_stay_cost_per_day": 4000, "base_travel_cost": 300, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.90 },
+      "entry_fee": 0, "avg_duration_hrs": 2,
+      "ai_metadata": { "vibe_tags": ["Airplane-Theme", "Unique", "Vegetarian"], "sentiment_score": 4.8, "best_suited_for": ["Families"], "description_ai": "Punjab's first airplane-themed restaurant inside a parked aircraft." }
+    },
+    {
+      "id": "PUN-39",
+      "name": "Bistro 226",
+      "city": "Ludhiana",
+      "category": "Restaurants",
+      "coordinates": { "latitude": "30.8980", "longitude": "75.8450" },
+      "budget_metrics": { "base_stay_cost_per_day": 4000, "base_travel_cost": 300, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.80 },
+      "entry_fee": 0, "avg_duration_hrs": 2,
+      "ai_metadata": { "vibe_tags": ["Contemporary", "Open-Air", "Multi-Cuisine"], "sentiment_score": 4.7, "best_suited_for": ["Friends", "Groups"], "description_ai": "Multi-cuisine contemporary restaurant with open-air seating and a tantalizing menu." }
+    },
+    {
+      "id": "PUN-40",
+      "name": "Sector 7 Market",
+      "city": "Mohali",
+      "category": "Street Shopping",
+      "coordinates": { "latitude": "30.7046", "longitude": "76.7179" },
+      "budget_metrics": { "base_stay_cost_per_day": 4500, "base_travel_cost": 300, "seasonal_surge_factor": 1.15, "traffic_delay_weight": 1.40 },
+      "entry_fee": 0, "avg_duration_hrs": 3,
+      "ai_metadata": { "vibe_tags": ["Upscale", "Local-Boutiques", "Bustling"], "sentiment_score": 4.6, "best_suited_for": ["Fashionistas"], "description_ai": "A popular market area in Mohali known for boutiques and local fashion hubs." }
+    },
+    {
+      "id": "PUN-41",
+      "name": "Pavilion Mall",
+      "city": "Ludhiana",
+      "category": "Malls",
+      "coordinates": { "latitude": "30.9123", "longitude": "75.8423" },
+      "budget_metrics": { "base_stay_cost_per_day": 4000, "base_travel_cost": 400, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.90 },
+      "entry_fee": 0, "avg_duration_hrs": 4,
+      "ai_metadata": { "vibe_tags": ["Premium", "Modern", "Dining"], "sentiment_score": 4.7, "best_suited_for": ["High-end Shoppers"], "description_ai": "Upscale mall with national retail chains and gourmet food courts." }
+    },
+    {
+      "id": "PUN-42",
+      "name": "N/A (Punjab has no beaches)",
+      "city": "Amritsar",
+      "category": "Beach",
+      "coordinates": { "latitude": "31.6225", "longitude": "74.8751" },
+      "budget_metrics": { "base_stay_cost_per_day": 3500, "base_travel_cost": 300, "seasonal_surge_factor": 1.0, "traffic_delay_weight": 1.0 },
+      "entry_fee": 0, "avg_duration_hrs": 0,
+      "ai_metadata": { "vibe_tags": ["N/A"], "sentiment_score": 0.0, "best_suited_for": ["N/A"], "description_ai": "Punjab is landlocked; rivers and wetlands serve as natural waterfronts." }
+    },
+    {
+      "id": "PUN-43",
+      "name": "Nangal Wildlife Sanctuary",
+      "city": "Nangal",
+      "category": "Nature/Wildlife",
+      "coordinates": { "latitude": "31.3700", "longitude": "76.3800" },
+      "budget_metrics": { "base_stay_cost_per_day": 2000, "base_travel_cost": 600, "seasonal_surge_factor": 1.15, "traffic_delay_weight": 1.15 },
+      "entry_fee": 0, "avg_duration_hrs": 4,
+      "ai_metadata": { "vibe_tags": ["Birdwatching", "Wetland", "Ramsar-Site"], "sentiment_score": 4.7, "best_suited_for": ["Nature Lovers"], "description_ai": "A crucial migratory stopover for waterfowl near the Nangal Dam." }
+    },
+    {
+      "id": "PUN-44",
+      "name": "Takhni-Rehmapur Sanctuary",
+      "city": "Hoshiarpur",
+      "category": "Nature/Wildlife",
+      "coordinates": { "latitude": "31.5300", "longitude": "75.9200" },
+      "budget_metrics": { "base_stay_cost_per_day": 1800, "base_travel_cost": 800, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.10 },
+      "entry_fee": 0, "avg_duration_hrs": 5,
+      "ai_metadata": { "vibe_tags": ["Leopard-Sightings", "Dense-Forest", "Adventure"], "sentiment_score": 4.6, "best_suited_for": ["Wildlife Enthusiasts"], "description_ai": "Renowned for dense forest and free-roaming Indian leopards." }
+    },
+    {
+      "id": "PUN-45",
+      "name": "Bir Moti Bagh Sanctuary",
+      "city": "Patiala",
+      "category": "Nature/Wildlife",
+      "coordinates": { "latitude": "30.3160", "longitude": "76.4000" },
+      "budget_metrics": { "base_stay_cost_per_day": 2500, "base_travel_cost": 300, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.20 },
+      "entry_fee": 0, "avg_duration_hrs": 3,
+      "ai_metadata": { "vibe_tags": ["Monkeys", "Nature-Trail", "Photography"], "sentiment_score": 4.4, "best_suited_for": ["Nature Lovers"], "description_ai": "Dense forest ideal for nature trails, featuring Rhesus monkeys and chital." }
+    },
+    {
+      "id": "PUN-46",
+      "name": "Jhajjar Bachauli Sanctuary",
+      "city": "Anandpur Sahib",
+      "category": "Nature/Wildlife",
+      "coordinates": { "latitude": "31.2300", "longitude": "76.5000" },
+      "budget_metrics": { "base_stay_cost_per_day": 1800, "base_travel_cost": 500, "seasonal_surge_factor": 1.15, "traffic_delay_weight": 1.20 },
+      "entry_fee": 0, "avg_duration_hrs": 3,
+      "ai_metadata": { "vibe_tags": ["Birding", "Quiet", "Small-Sanctuary"], "sentiment_score": 4.3, "best_suited_for": ["Solo Explorers"], "description_ai": "Small but significant sanctuary for birdwatching and barking deer." }
+    },
+    {
+      "id": "PUN-47",
+      "name": "Kathlaur Kushlian Sanctuary",
+      "city": "Pathankot",
+      "category": "Nature/Wildlife",
+      "coordinates": { "latitude": "32.2700", "longitude": "75.6500" },
+      "budget_metrics": { "base_stay_cost_per_day": 2200, "base_travel_cost": 900, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.05 },
+      "entry_fee": 0, "avg_duration_hrs": 4,
+      "ai_metadata": { "vibe_tags": ["Deer-Species", "Photography", "Vultures"], "sentiment_score": 4.5, "best_suited_for": ["Photographers"], "description_ai": "Famous for rare barking and hog deer plus unique bird species." }
+    },
+    {
+      "id": "PUN-48",
+      "name": "Bir Gurdialpura Sanctuary",
+      "city": "Patiala",
+      "category": "Nature/Wildlife",
+      "coordinates": { "latitude": "30.1500", "longitude": "76.1500" },
+      "budget_metrics": { "base_stay_cost_per_day": 2000, "base_travel_cost": 700, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.15 },
+      "entry_fee": 0, "avg_duration_hrs": 3,
+      "ai_metadata": { "vibe_tags": ["Eco-Restoration", "Blackbucks", "Porcupines"], "sentiment_score": 4.5, "best_suited_for": ["Nature Seekers"], "description_ai": "Transformed from degraded land into a thriving blackbuck habitat." }
+    },
+    {
+      "id": "PUN-49",
+      "name": "Jagjit Palace",
+      "city": "Kapurthala",
+      "category": "Tourist Attractions",
+      "coordinates": { "latitude": "31.3800", "longitude": "75.3800" },
+      "budget_metrics": { "base_stay_cost_per_day": 2200, "base_travel_cost": 500, "seasonal_surge_factor": 1.15, "traffic_delay_weight": 1.25 },
+      "entry_fee": 50, "avg_duration_hrs": 2.5,
+      "ai_metadata": { "vibe_tags": ["French-Arch", "Versailles-Inspired", "Ornate"], "sentiment_score": 4.7, "historical_significance_weight": 9, "best_suited_for": ["Architecture Buffs"], "description_ai": "Modeled after the Palace of Versailles, featuring stunning French architecture." }
+    },
+    {
+      "id": "PUN-50",
+      "name": "Moorish Mosque",
+      "city": "Kapurthala",
+      "category": "Tourist Attractions",
+      "coordinates": { "latitude": "31.3800", "longitude": "75.3800" },
+      "budget_metrics": { "base_stay_cost_per_day": 2200, "base_travel_cost": 400, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.30 },
+      "entry_fee": 0, "avg_duration_hrs": 1.5,
+      "ai_metadata": { "vibe_tags": ["Moroccan-Style", "Unique", "Islamic-Arch"], "sentiment_score": 4.6, "best_suited_for": ["History Fans"], "description_ai": "Patterned after the Grand Mosque of Marrakesh, a unique architectural feat." }
+    },
+    {
+      "id": "PUN-51",
+      "name": "Devi Talab Mandir",
+      "city": "Jalandhar",
+      "category": "Spiritual",
+      "coordinates": { "latitude": "31.3256", "longitude": "75.5792" },
+      "budget_metrics": { "base_stay_cost_per_day": 3000, "base_travel_cost": 300, "seasonal_surge_factor": 1.25, "traffic_delay_weight": 1.70 },
+      "entry_fee": 0, "avg_duration_hrs": 2,
+      "ai_metadata": { "vibe_tags": ["Shakti-Peeth", "Sacred-Tank", "Classical-Music"], "sentiment_score": 4.8, "best_suited_for": ["Devotees"], "description_ai": "One of 51 Shakti Peethas, center of the Harballah Sangeet Sammelan." }
+    },
+    {
+      "id": "PUN-52",
+      "name": "Jang-e-Azadi Memorial",
+      "city": "Kartarpur",
+      "category": "Tourist Attractions",
+      "coordinates": { "latitude": "31.4400", "longitude": "75.4700" },
+      "budget_metrics": { "base_stay_cost_per_day": 2000, "base_travel_cost": 500, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.25 },
+      "entry_fee": 50, "avg_duration_hrs": 4,
+      "ai_metadata": { "vibe_tags": ["Memorial", "Patriotic", "Museum"], "sentiment_score": 4.7, "best_suited_for": ["Families"], "description_ai": "State-of-the-art museum commemorating the contributions to Indian Independence." }
+    },
+    {
+      "id": "PUN-53",
+      "name": "Fateh Burj",
+      "city": "Chappar Chiri",
+      "category": "Tourist Attractions",
+      "coordinates": { "latitude": "30.6975", "longitude": "76.6711" },
+      "budget_metrics": { "base_stay_cost_per_day": 4500, "base_travel_cost": 600, "seasonal_surge_factor": 1.15, "traffic_delay_weight": 1.30 },
+      "entry_fee": 0, "avg_duration_hrs": 2,
+      "ai_metadata": { "vibe_tags": ["Victory-Tower", "Tallest", "Historic"], "sentiment_score": 4.7, "best_suited_for": ["History Buffs"], "description_ai": "India's tallest victory tower commemorating the victory over Mughal forces." }
+    },
+    {
+      "id": "PUN-54",
+      "name": "Burj Kotian Waterfall",
+      "city": "Panchkula",
+      "category": "Waterfalls",
+      "coordinates": { "latitude": "30.6942", "longitude": "76.9245" },
+      "budget_metrics": { "base_stay_cost_per_day": 3500, "base_travel_cost": 800, "seasonal_surge_factor": 1.30, "traffic_delay_weight": 1.15 },
+      "entry_fee": 0, "avg_duration_hrs": 4,
+      "ai_metadata": { "vibe_tags": ["Natural-Pool", "Day-Trip", "Scenic"], "sentiment_score": 4.4, "best_suited_for": ["Friends"], "description_ai": "Popular natural waterfall with a swimming pool area near the Shivalik foothills." }
+    },
+    {
+      "id": "PUN-55",
+      "name": "Mukteshwar Mahadev",
+      "city": "Doongh",
+      "category": "Spiritual",
+      "coordinates": { "latitude": "32.3500", "longitude": "75.7500" },
+      "budget_metrics": { "base_stay_cost_per_day": 1500, "base_travel_cost": 1000, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.10 },
+      "entry_fee": 0, "avg_duration_hrs": 3,
+      "ai_metadata": { "vibe_tags": ["Hilltop-Temple", "Cave-Shrine", "Mahabharata"], "sentiment_score": 4.7, "best_suited_for": ["Spiritual Seekers"], "description_ai": "Ancient cave temples dedicated to Lord Shiva near the banks of River Ravi." }
+    },
+    {
+      "id": "PUN-56",
+      "name": "Sector 34 Furniture Market",
+      "city": "Chandigarh",
+      "category": "Street Shopping",
+      "coordinates": { "latitude": "30.7225", "longitude": "76.7686" },
+      "budget_metrics": { "base_stay_cost_per_day": 5000, "base_travel_cost": 300, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.30 },
+      "entry_fee": 0, "avg_duration_hrs": 3,
+      "ai_metadata": { "vibe_tags": ["Furniture", "Design", "Home-Decor"], "sentiment_score": 4.5, "best_suited_for": ["Homeowners"], "description_ai": "Specialized market for both traditional and modern home furnishing items." }
+    },
+    {
+      "id": "PUN-57",
+      "name": "The BrewMaster",
+      "city": "Jalandhar",
+      "category": "Cafes",
+      "coordinates": { "latitude": "31.3250", "longitude": "75.5800" },
+      "budget_metrics": { "base_stay_cost_per_day": 3200, "base_travel_cost": 300, "seasonal_surge_factor": 1.20, "traffic_delay_weight": 1.40 },
+      "entry_fee": 0, "avg_duration_hrs": 3,
+      "ai_metadata": { "vibe_tags": ["Microbrewery", "Live-Music", "Global-Food"], "sentiment_score": 4.4, "best_suited_for": ["Nightlife Lovers"], "description_ai": "Modern brewery and cafe featuring live music and international cuisine." }
+    },
+    {
+      "id": "PUN-58",
+      "name": "Kanjli Wetland",
+      "city": "Kapurthala",
+      "category": "Nature/Wildlife",
+      "coordinates": { "latitude": "31.3850", "longitude": "75.3650" },
+      "budget_metrics": { "base_stay_cost_per_day": 1800, "base_travel_cost": 500, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.10 },
+      "entry_fee": 0, "avg_duration_hrs": 3,
+      "ai_metadata": { "vibe_tags": ["Scenic", "Bird-Watching", "Peaceful"], "sentiment_score": 4.3, "best_suited_for": ["Nature Lovers"], "description_ai": "Man-made wetland across the Bein River, popular for birding and photography." }
+    },
+    {
+      "id": "PUN-59",
+      "name": "Sanghol Museum",
+      "city": "Fatehgarh Sahib",
+      "category": "Tourist Attractions",
+      "coordinates": { "latitude": "30.7800", "longitude": "76.3800" },
+      "budget_metrics": { "base_stay_cost_per_day": 1500, "base_travel_cost": 800, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.15 },
+      "entry_fee": 10, "avg_duration_hrs": 3,
+      "ai_metadata": { "vibe_tags": ["Archaeology", "Ancient-Relics", "Historic"], "sentiment_score": 4.6, "best_suited_for": ["History Fans"], "description_ai": "Archaeological site and museum featuring Kushan empire relics." }
+    },
+    {
+      "id": "PUN-60",
+      "name": "Mittal City Mall",
+      "city": "Bathinda",
+      "category": "Malls",
+      "coordinates": { "latitude": "30.2100", "longitude": "74.9450" },
+      "budget_metrics": { "base_stay_cost_per_day": 2000, "base_travel_cost": 400, "seasonal_surge_factor": 1.15, "traffic_delay_weight": 1.30 },
+      "entry_fee": 0, "avg_duration_hrs": 4,
+      "ai_metadata": { "vibe_tags": ["Central-Mall", "Retail", "Urban"], "sentiment_score": 4.4, "best_suited_for": ["Families"], "description_ai": "Primary retail destination in Bathinda featuring national and local brands." }
+    },
+    {
+      "id": "PUN-61",
+      "name": "Willow Cafe",
+      "city": "Chandigarh",
+      "category": "Cafes",
+      "coordinates": { "latitude": "30.7350", "longitude": "76.7750" },
+      "budget_metrics": { "base_stay_cost_per_day": 5000, "base_travel_cost": 300, "seasonal_surge_factor": 1.15, "traffic_delay_weight": 1.20 },
+      "entry_fee": 0, "avg_duration_hrs": 2,
+      "ai_metadata": { "vibe_tags": ["English-Style", "Breakfast", "Outdoor"], "sentiment_score": 4.5, "best_suited_for": ["Couples"], "description_ai": "British-style cafe with a continental menu and cozy outdoor seating." }
+    },
+    {
+      "id": "PUN-62",
+      "name": "Kila Raipur Olympics",
+      "city": "Ludhiana",
+      "category": "Tourist Attractions",
+      "coordinates": { "latitude": "30.7600", "longitude": "75.8200" },
+      "budget_metrics": { "base_stay_cost_per_day": 3000, "base_travel_cost": 600, "seasonal_surge_factor": 2.50, "traffic_delay_weight": 1.80 },
+      "entry_fee": 0, "avg_duration_hrs": 6,
+      "ai_metadata": { "vibe_tags": ["Rural-Sports", "Cultural", "Action"], "sentiment_score": 4.8, "best_suited_for": ["Culture Seekers"], "description_ai": "Annual sports festival showcasing traditional and extreme rural Punjabi sports." }
+    },
+    {
+      "id": "PUN-63",
+      "name": "Rose Garden",
+      "city": "Bathinda",
+      "category": "Nature/Wildlife",
+      "coordinates": { "latitude": "30.2200", "longitude": "74.9400" },
+      "budget_metrics": { "base_stay_cost_per_day": 2000, "base_travel_cost": 300, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.20 },
+      "entry_fee": 0, "avg_duration_hrs": 2,
+      "ai_metadata": { "vibe_tags": ["Floral", "Leisure", "Park"], "sentiment_score": 4.3, "best_suited_for": ["Families"], "description_ai": "Vast garden featuring numerous rose varieties and a musical fountain." }
+    },
+    {
+      "id": "PUN-64",
+      "name": "Tibetan Market",
+      "city": "Ludhiana",
+      "category": "Street Shopping",
+      "coordinates": { "latitude": "30.9100", "longitude": "75.8500" },
+      "budget_metrics": { "base_stay_cost_per_day": 3000, "base_travel_cost": 300, "seasonal_surge_factor": 1.30, "traffic_delay_weight": 1.80 },
+      "entry_fee": 0, "avg_duration_hrs": 3,
+      "ai_metadata": { "vibe_tags": ["Winter-Wear", "Export", "Budget"], "sentiment_score": 4.4, "best_suited_for": ["Bargain Hunters"], "description_ai": "Seasonal market famous for high-quality jackets and winter clothing." }
+    },
+    {
+      "id": "PUN-65",
+      "name": "Rakh Bagh",
+      "city": "Ludhiana",
+      "category": "Nature/Wildlife",
+      "coordinates": { "latitude": "30.9050", "longitude": "75.8400" },
+      "budget_metrics": { "base_stay_cost_per_day": 3500, "base_travel_cost": 300, "seasonal_surge_factor": 1.20, "traffic_delay_weight": 1.60 },
+      "entry_fee": 0, "avg_duration_hrs": 3,
+      "ai_metadata": { "vibe_tags": ["Leisure", "Kids-Play", "Greenery"], "sentiment_score": 4.5, "best_suited_for": ["Families"], "description_ai": "Large park with a toy train and recreational spaces for children." }
+    },
+    {
+      "id": "PUN-66",
+      "name": "Lodhi Fort",
+      "city": "Ludhiana",
+      "category": "Forts",
+      "coordinates": { "latitude": "30.9250", "longitude": "75.8580" },
+      "budget_metrics": { "base_stay_cost_per_day": 3000, "base_travel_cost": 400, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.70 },
+      "entry_fee": 0, "avg_duration_hrs": 2,
+      "ai_metadata": { "vibe_tags": ["Ancient-Ruins", "Lodi-Dynasty", "Historic"], "sentiment_score": 3.9, "historical_significance_weight": 8, "best_suited_for": ["History Buffs"], "description_ai": "500-year-old fort remains on the Sutlej riverbanks, built during the Lodi dynasty." }
+    },
+    {
+      "id": "PUN-67",
+      "name": "Bhardwaj Fish",
+      "city": "Ludhiana",
+      "category": "Restaurants",
+      "coordinates": { "latitude": "30.9000", "longitude": "75.8500" },
+      "budget_metrics": { "base_stay_cost_per_day": 3000, "base_travel_cost": 300, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.70 },
+      "entry_fee": 0, "avg_duration_hrs": 1,
+      "ai_metadata": { "vibe_tags": ["Street-Food", "Amritsari-Fish", "Fried"], "sentiment_score": 4.6, "best_suited_for": ["Meat Lovers"], "description_ai": "Famous local spot specializing in fried Amritsari fish and tandoori snacks." }
+    },
+    {
+      "id": "PUN-68",
+      "name": "Sector 22 Market",
+      "city": "Chandigarh",
+      "category": "Street Shopping",
+      "coordinates": { "latitude": "30.7300", "longitude": "76.7700" },
+      "budget_metrics": { "base_stay_cost_per_day": 5000, "base_travel_cost": 300, "seasonal_surge_factor": 1.20, "traffic_delay_weight": 1.40 },
+      "entry_fee": 0, "avg_duration_hrs": 4,
+      "ai_metadata": { "vibe_tags": ["Bustling", "Electronics", "Ethnic"], "sentiment_score": 4.4, "best_suited_for": ["Budget Shoppers"], "description_ai": "One of the oldest shopping hubs for clothing, electronics, and daily essentials." }
+    },
+    {
+      "id": "PUN-69",
+      "name": "Kishkot Hill",
+      "city": "Pathankot",
+      "category": "Hill Station",
+      "coordinates": { "latitude": "32.2700", "longitude": "75.6500" },
+      "budget_metrics": { "base_stay_cost_per_day": 2000, "base_travel_cost": 1500, "seasonal_surge_factor": 1.20, "traffic_delay_weight": 1.10 },
+      "entry_fee": 0, "avg_duration_hrs": 3,
+      "ai_metadata": { "vibe_tags": ["Elevated", "Breezy", "Scenic"], "sentiment_score": 4.0, "best_suited_for": ["Nature Lovers"], "description_ai": "Scenic elevated area offering panoramic views of the plains and hills." }
+    },
+    {
+      "id": "PUN-70",
+      "name": "Baba Murad Shah Dargah",
+      "city": "Nakodar",
+      "category": "Spiritual",
+      "coordinates": { "latitude": "31.1300", "longitude": "75.4800" },
+      "budget_metrics": { "base_stay_cost_per_day": 1500, "base_travel_cost": 800, "seasonal_surge_factor": 1.50, "traffic_delay_weight": 1.20 },
+      "entry_fee": 0, "avg_duration_hrs": 2.5,
+      "ai_metadata": { "vibe_tags": ["Sufi", "Peaceful", "Dargah"], "sentiment_score": 4.7, "best_suited_for": ["Spiritual Seekers"], "description_ai": "Famous Sufi shrine attracting millions for its soulful and mystical atmosphere." }
+    }
+  ]
+}
