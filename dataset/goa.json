@@ -1,0 +1,1615 @@
+{
+  "state": "Goa",
+  "destinations": [
+    {
+      "id": "GOA-01",
+      "name": "Basilica of Bom Jesus",
+      "city": "Old Goa",
+      "category": "UNESCO Heritage Sites",
+      "coordinates": { "latitude": "15.5009", "longitude": "73.9115" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3500,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 1.50,
+        "traffic_delay_weight": 1.75
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Spiritual", "Baroque", "UNESCO", "Historic", "Sacred"],
+        "sentiment_score": 5.0,
+        "crowd_prediction_level": "Extremely High",
+        "historical_significance_weight": 10,
+        "best_suited_for": ["Devotees", "Families", "History Buffs"],
+        "description_ai": "A UNESCO World Heritage site holding the mortal remains of St. Francis Xavier, known for its stunning Baroque architecture."
+      }
+    },
+    {
+      "id": "GOA-02",
+      "name": "Fort Aguada",
+      "city": "Candolim",
+      "category": "National Heritage",
+      "coordinates": { "latitude": "15.4920", "longitude": "73.7731" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 600,
+        "seasonal_surge_factor": 1.40,
+        "traffic_delay_weight": 1.50
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Colonial", "Strategic", "Ocean-View", "Lighthouse", "Historic"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 9,
+        "best_suited_for": ["History Enthusiasts", "Families", "Photographers"],
+        "description_ai": "A well-preserved 17th-century Portuguese fort and lighthouse standing on the Sinquerim Beach, overlooking the Arabian Sea."
+      }
+    },
+    {
+      "id": "GOA-03",
+      "name": "Fontainhas (Latin Quarter)",
+      "city": "Panjim",
+      "category": "Art & Architecture",
+      "coordinates": { "latitude": "15.4900", "longitude": "73.8400" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4500,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.25,
+        "traffic_delay_weight": 1.60
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Colorful", "Portuguese-Vibe", "Artistic", "Heritage", "Bohemian"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "Medium",
+        "historical_significance_weight": 8,
+        "best_suited_for": ["Art Lovers", "Couples", "Solo"],
+        "description_ai": "The oldest Latin Quarter in Goa, famous for its narrow winding streets and brightly colored Portuguese-style houses."
+      }
+    },
+    {
+      "id": "GOA-04",
+      "name": "Goa Chitra Museum",
+      "city": "Benaulim",
+      "category": "Museum & Cultural Heritage",
+      "coordinates": { "latitude": "15.2500", "longitude": "73.9300" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.20
+      },
+      "entry_fee": 100,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Agrarian", "Ethnographic", "Informative", "Rustic", "Indigenous"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Low",
+        "historical_significance_weight": 8,
+        "best_suited_for": ["History Buffs", "Students"],
+        "description_ai": "An ethnographic museum showcasing over 4,000 artifacts highlighting Goa's traditional agrarian technology and lifestyle."
+      }
+    },
+    {
+      "id": "GOA-05",
+      "name": "Chapora Fort",
+      "city": "Vagator",
+      "category": "Historical Forts",
+      "coordinates": { "latitude": "15.6060", "longitude": "73.7350" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.30,
+        "traffic_delay_weight": 1.40
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1.5,
+      "ai_metadata": {
+        "vibe_tags": ["Cinematic", "Sunset-Point", "Ruins", "Scenic", "Youthful"],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 7,
+        "best_suited_for": ["Friends", "Couples", "Solo"],
+        "description_ai": "Famous as the 'Dil Chahta Hai' fort, it offers panoramic views of the Vagator beach and the sea."
+      }
+    },
+    {
+      "id": "GOA-06",
+      "name": "Mum's Kitchen",
+      "city": "Panjim",
+      "category": "Legendary Dining",
+      "coordinates": { "latitude": "15.4910", "longitude": "73.8210" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.50
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Authentic", "Goan-Catholic", "Heritage-Food", "Cozy", "Gourmet"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "Medium",
+        "historical_significance_weight": 5,
+        "best_suited_for": ["Foodies", "Families"],
+        "description_ai": "A celebrated restaurant dedicated to preserving traditional Goan recipes passed down by mothers from across the state."
+      }
+    },
+    {
+      "id": "GOA-07",
+      "name": "Anjuna Flea Market",
+      "city": "Anjuna",
+      "category": "Street Shopping",
+      "coordinates": { "latitude": "15.5720", "longitude": "73.7430" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.40,
+        "traffic_delay_weight": 1.80
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Hippie", "Bohemian", "Bustling", "Trinkets", "Eclectic"],
+        "sentiment_score": 4.5,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 6,
+        "best_suited_for": ["Shoppers", "Backpackers"],
+        "description_ai": "A world-famous weekly market offering everything from silver jewelry and textiles to eccentric handcrafted items."
+      }
+    },
+    {
+      "id": "GOA-08",
+      "name": "Mall de Goa",
+      "city": "Porvorim",
+      "category": "Malls",
+      "coordinates": { "latitude": "15.5260", "longitude": "73.8270" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4000,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.50
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Retail", "Entertainment", "Urban", "Cinema", "Modern"],
+        "sentiment_score": 4.4,
+        "crowd_prediction_level": "Medium",
+        "historical_significance_weight": 1,
+        "best_suited_for": ["Families", "Local Shoppers"],
+        "description_ai": "Goa's largest shopping mall featuring premium brands, a large food court, and multiplex screens."
+      }
+    },
+    {
+      "id": "GOA-09",
+      "name": "Tibetan Market",
+      "city": "Baga",
+      "category": "Street Shopping",
+      "coordinates": { "latitude": "15.5550", "longitude": "73.7530" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 250,
+        "seasonal_surge_factor": 1.35,
+        "traffic_delay_weight": 1.95
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Silver-Jewelry", "Artifacts", "Bustling", "Cultural", "Handicrafts"],
+        "sentiment_score": 4.4,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 3,
+        "best_suited_for": ["Accessory Lovers", "Tourists"],
+        "description_ai": "A vibrant market known for silver accessories, precious stones, and Himalayan handicrafts."
+      }
+    },
+    {
+      "id": "GOA-10",
+      "name": "Panjim Market",
+      "city": "Panjim",
+      "category": "Street Shopping",
+      "coordinates": { "latitude": "15.4960", "longitude": "73.8410" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4500,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.70
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Cashews", "Feni", "Spices", "Local", "Fresh"],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 4,
+        "best_suited_for": ["Foodies", "Local Culture Seekers"],
+        "description_ai": "A bustling hub for authentic Goan cashews, port wine, spices, and fresh local produce."
+      }
+    },
+    {
+      "id": "GOA-11",
+      "name": "Mapusa Friday Market",
+      "city": "Mapusa",
+      "category": "Street Shopping",
+      "coordinates": { "latitude": "15.5900", "longitude": "73.8100" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.80
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Authentic", "Wholesale", "Goan-Chourico", "Lively", "Traditional"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Extremely High",
+        "historical_significance_weight": 5,
+        "best_suited_for": ["Bargain Hunters", "Foodies"],
+        "description_ai": "A weekly traditional market where local artisans and farmers sell authentic Goan sausages, pottery, and textiles."
+      }
+    },
+    {
+      "id": "GOA-12",
+      "name": "Caculo Mall",
+      "city": "Panjim",
+      "category": "Malls",
+      "coordinates": { "latitude": "15.4880", "longitude": "73.8250" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 250,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.40
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Upscale", "Boutique", "Dining", "Gaming", "Urban"],
+        "sentiment_score": 4.3,
+        "crowd_prediction_level": "Medium",
+        "historical_significance_weight": 1,
+        "best_suited_for": ["Families", "Urban Shoppers"],
+        "description_ai": "A modern boutique mall offering a mix of fashion brands, gaming zones, and popular eateries."
+      }
+    },
+    {
+      "id": "GOA-13",
+      "name": "Saturday Night Market",
+      "city": "Arpora",
+      "category": "Street Shopping",
+      "coordinates": { "latitude": "15.5800", "longitude": "73.7600" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 1.50,
+        "traffic_delay_weight": 2.00
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Vibrant", "Party-Vibe", "Live-Music", "Global-Food", "Nightlife"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "Extremely High",
+        "historical_significance_weight": 2,
+        "best_suited_for": ["Friends", "Couples", "Night Owls"],
+        "description_ai": "An expansive open-air market with a festival atmosphere, featuring live bands, international food stalls, and unique boutique shopping."
+      }
+    },
+    {
+      "id": "GOA-14",
+      "name": "18th June Road",
+      "city": "Panjim",
+      "category": "Street Shopping",
+      "coordinates": { "latitude": "15.4950", "longitude": "73.8350" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.80
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Main-Street", "Apparel", "Souvenirs", "Urban", "Commercial"],
+        "sentiment_score": 4.5,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 3,
+        "best_suited_for": ["General Shoppers", "Tourists"],
+        "description_ai": "The busiest commercial street in Panjim, lined with shops selling clothes, electronics, and local souvenirs."
+      }
+    },
+    {
+      "id": "GOA-15",
+      "name": "Margao Market",
+      "city": "Margao",
+      "category": "Street Shopping",
+      "coordinates": { "latitude": "15.2750", "longitude": "73.9600" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.85
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Traditional", "Spices", "Dry-Fish", "Bustling", "Authentic"],
+        "sentiment_score": 4.4,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 4,
+        "best_suited_for": ["Locals", "Foodies"],
+        "description_ai": "South Goa's commercial heart, famous for authentic spices, traditional Goan vinegar, and local textiles."
+      }
+    },
+    {
+      "id": "GOA-16",
+      "name": "Calangute Beach Market",
+      "city": "Calangute",
+      "category": "Street Shopping",
+      "coordinates": { "latitude": "15.5440", "longitude": "73.7550" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4500,
+        "base_travel_cost": 350,
+        "seasonal_surge_factor": 1.40,
+        "traffic_delay_weight": 1.95
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Beachwear", "Trinkets", "Commercial", "Crowded", "Budget"],
+        "sentiment_score": 4.1,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 2,
+        "best_suited_for": ["Budget Shoppers", "Tourists"],
+        "description_ai": "A popular market for affordable beachwear, shell jewelry, and typical Goan keepsakes."
+      }
+    },
+    {
+      "id": "GOA-17",
+      "name": "Our Lady of the Immaculate Conception Church",
+      "city": "Panjim",
+      "category": "Historical & Place Classic",
+      "coordinates": { "latitude": "15.4980", "longitude": "73.8440" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 200,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.50
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1,
+      "ai_metadata": {
+        "vibe_tags": ["Iconic", "White-Facade", "Religious", "Historic", "Monumental"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 9,
+        "best_suited_for": ["Photographers", "Families"],
+        "description_ai": "An iconic colonial-era church with a grand zig-zag staircase, located in the heart of Panjim."
+      }
+    },
+    {
+      "id": "GOA-18",
+      "name": "Martin's Corner",
+      "city": "Betalbatim",
+      "category": "Legendary Dining",
+      "coordinates": { "latitude": "15.2950", "longitude": "73.9160" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3500,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 1.30,
+        "traffic_delay_weight": 1.20
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Seafood-King", "Lively", "Celebrity-Spot", "Authentic", "Popular"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 3,
+        "best_suited_for": ["Foodies", "Groups", "Families"],
+        "description_ai": "A legendary South Goa restaurant famous for its seafood and vibrant atmosphere, frequented by celebrities."
+      }
+    },
+    {
+      "id": "GOA-19",
+      "name": "Fisherman's Wharf",
+      "city": "Mobor",
+      "category": "Legendary Dining",
+      "coordinates": { "latitude": "15.1550", "longitude": "73.9450" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 6000,
+        "base_travel_cost": 800,
+        "seasonal_surge_factor": 1.35,
+        "traffic_delay_weight": 1.10
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2.5,
+      "ai_metadata": {
+        "vibe_tags": ["Riverside", "Sophisticated", "Live-Music", "Seafood", "Scenic"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "Medium",
+        "historical_significance_weight": 2,
+        "best_suited_for": ["Couples", "Families", "Upscale Travelers"],
+        "description_ai": "An elegant riverside restaurant serving global and local cuisine with a distinct shipyard theme."
+      }
+    },
+    {
+      "id": "GOA-20",
+      "name": "Britto's",
+      "city": "Baga",
+      "category": "Legendary Dining",
+      "coordinates": { "latitude": "15.5560", "longitude": "73.7520" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.45,
+        "traffic_delay_weight": 1.95
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Beachfront", "Iconic", "Desserts", "Bustling", "Seafood"],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 4,
+        "best_suited_for": ["Friends", "Foodies"],
+        "description_ai": "A North Goa landmark at the end of Baga beach, famous for its seafood platters and baked desserts."
+      }
+    },
+    {
+      "id": "GOA-21",
+      "name": "Infantaria",
+      "city": "Calangute",
+      "category": "Legendary Dining",
+      "coordinates": { "latitude": "15.5450", "longitude": "73.7580" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4500,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.25,
+        "traffic_delay_weight": 1.85
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1.5,
+      "ai_metadata": {
+        "vibe_tags": ["Breakfast-Icon", "Bakery", "Historic", "Lively", "Pastries"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 4,
+        "best_suited_for": ["Early Birds", "Families"],
+        "description_ai": "A legendary breakfast and bakery spot serving mouth-watering beef patties, croissants, and Goan breakfast."
+      }
+    },
+    {
+      "id": "GOA-22",
+      "name": "Vinayak Family Restaurant",
+      "city": "Assagao",
+      "category": "Legendary Dining",
+      "coordinates": { "latitude": "15.5950", "longitude": "73.7750" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4500,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.40
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1.5,
+      "ai_metadata": {
+        "vibe_tags": ["Fish-Thali", "Local-Secret", "Unpretentious", "Hearty", "Authentic"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 2,
+        "best_suited_for": ["Seafood Lovers", "Locals"],
+        "description_ai": "Regarded as one of the best places for an authentic Goan fish thali at an affordable price."
+      }
+    },
+    {
+      "id": "GOA-23",
+      "name": "Fort Tiracol",
+      "city": "Tiracol",
+      "category": "Historical & Place Classic",
+      "coordinates": { "latitude": "15.7190", "longitude": "73.6870" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 7000,
+        "base_travel_cost": 1500,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.10
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Isolated", "Stunning-Views", "Heritage", "Quiet", "Secluded"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Low",
+        "historical_significance_weight": 8,
+        "best_suited_for": ["Couples", "Peace Seekers"],
+        "description_ai": "A 17th-century fort located on the northernmost tip of Goa, now partially converted into a heritage hotel."
+      }
+    },
+    {
+      "id": "GOA-24",
+      "name": "Cabo de Rama Fort",
+      "city": "Canacona",
+      "category": "Historical & Place Classic",
+      "coordinates": { "latitude": "15.0880", "longitude": "73.9180" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3500,
+        "base_travel_cost": 1200,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.15
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2.5,
+      "ai_metadata": {
+        "vibe_tags": ["Mythological", "Vast", "Cliffside", "Wild", "Atmospheric"],
+        "sentiment_score": 4.5,
+        "crowd_prediction_level": "Medium",
+        "historical_significance_weight": 9,
+        "best_suited_for": ["Explorers", "History Enthusiasts"],
+        "description_ai": "A large fort with mythological ties to Lord Rama, offering some of the most dramatic cliff views in Goa."
+      }
+    },
+    {
+      "id": "GOA-25",
+      "name": "Anand Seafood Restaurant",
+      "city": "Anjuna",
+      "category": "Legendary Dining",
+      "coordinates": { "latitude": "15.5850", "longitude": "73.7450" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4000,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.60
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1,
+      "ai_metadata": {
+        "vibe_tags": ["Authentic", "No-Frills", "Fish-Specialist", "Lively", "Local-Favorite"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 2,
+        "best_suited_for": ["Budget Foodies", "Backpackers"],
+        "description_ai": "A favorite local spot in North Goa known for its consistency and incredible fried fish masala."
+      }
+    },
+    {
+      "id": "GOA-26",
+      "name": "Chorla Ghat",
+      "city": "Goa Border",
+      "category": "Hill Station",
+      "coordinates": { "latitude": "15.6300", "longitude": "74.1200" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 6000,
+        "base_travel_cost": 1500,
+        "seasonal_surge_factor": 1.30,
+        "traffic_delay_weight": 1.10
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 6,
+      "ai_metadata": {
+        "vibe_tags": ["Mist", "Western-Ghats", "Lush", "Nature-Escape", "Scenic"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "Low",
+        "historical_significance_weight": 3,
+        "best_suited_for": ["Nature Lovers", "Road Trippers"],
+        "description_ai": "A misty hill destination located at the intersection of Goa, Karnataka, and Maharashtra, offering lush tropical forests."
+      }
+    },
+    {
+      "id": "GOA-27",
+      "name": "Bhagwan Mahavir Sanctuary",
+      "city": "Mollem",
+      "category": "Nature & Wildlife",
+      "coordinates": { "latitude": "15.3700", "longitude": "74.1700" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2000,
+        "base_travel_cost": 1200,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.10
+      },
+      "entry_fee": 20,
+      "avg_duration_hrs": 5,
+      "ai_metadata": {
+        "vibe_tags": ["Biodiversity", "Safari", "Tropical", "Western-Ghats", "Wild"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Medium",
+        "historical_significance_weight": 6,
+        "best_suited_for": ["Wildlife Photographers", "Families"],
+        "description_ai": "The largest wildlife sanctuary in Goa, home to leopards, deer, and over 120 species of birds."
+      }
+    },
+    {
+      "id": "GOA-28",
+      "name": "Salim Ali Bird Sanctuary",
+      "city": "Chorao Island",
+      "category": "Nature & Wildlife",
+      "coordinates": { "latitude": "15.5100", "longitude": "73.8600" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4000,
+        "base_travel_cost": 600,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.10
+      },
+      "entry_fee": 10,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Mangroves", "Canoe-Trip", "Quiet", "Ornithology", "Estuarine"],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "Low",
+        "historical_significance_weight": 7,
+        "best_suited_for": ["Bird Watchers", "Solo Travelers"],
+        "description_ai": "An estuarine mangrove habitat named after India's famous ornithologist, accessible by ferry across the Mandovi."
+      }
+    },
+    {
+      "id": "GOA-29",
+      "name": "Palolem Beach",
+      "city": "Canacona",
+      "category": "Beach-side Vibe",
+      "coordinates": { "latitude": "15.0100", "longitude": "74.0200" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4000,
+        "base_travel_cost": 1000,
+        "seasonal_surge_factor": 1.40,
+        "traffic_delay_weight": 1.20
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 6,
+      "ai_metadata": {
+        "vibe_tags": ["Crescent-Bay", "Kayaking", "Serene", "Backpacker-Haven", "Picturesque"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "Medium",
+        "historical_significance_weight": 3,
+        "best_suited_for": ["Couples", "Backpackers", "Families"],
+        "description_ai": "A stunning crescent-shaped beach in South Goa known for its calm waters, kayaking, and relaxed shack life."
+      }
+    },
+    {
+      "id": "GOA-30",
+      "name": "Bondla Wildlife Sanctuary",
+      "city": "Ponda",
+      "category": "Nature & Wildlife",
+      "coordinates": { "latitude": "15.4400", "longitude": "74.1000" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2500,
+        "base_travel_cost": 800,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.25
+      },
+      "entry_fee": 5,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Zoo", "Botanical-Garden", "Kids-Friendly", "Picnic", "Educational"],
+        "sentiment_score": 4.4,
+        "crowd_prediction_level": "Medium",
+        "historical_significance_weight": 4,
+        "best_suited_for": ["Families with Kids", "Students"],
+        "description_ai": "A popular destination for locals and schools, featuring a small zoo, deer park, and formal gardens."
+      }
+    },
+    {
+      "id": "GOA-31",
+      "name": "Bom Jesus Basilica Complex",
+      "city": "Old Goa",
+      "category": "UNESCO Heritage Sites",
+      "coordinates": { "latitude": "15.5009", "longitude": "73.9115" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3500,
+        "base_travel_cost": 600,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.40
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Baroque", "Renaissance", "Architectural-Marvel", "Historic", "Monumental"],
+        "sentiment_score": 5.0,
+        "crowd_prediction_level": "Extremely High",
+        "historical_significance_weight": 10,
+        "best_suited_for": ["History Buffs", "Religious Travelers", "Architects"],
+        "description_ai": "A collection of religious monuments that illustrate the evangelization of Asia; a pinnacle of colonial architecture."
+      }
+    },
+    {
+      "id": "GOA-32",
+      "name": "Reis Magos Fort",
+      "city": "Verem",
+      "category": "Historical Forts",
+      "coordinates": { "latitude": "15.4970", "longitude": "73.8100" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.30
+      },
+      "entry_fee": 50,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Restored", "Art-Gallery", "Cultural", "Riverside", "Sophisticated"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Medium",
+        "historical_significance_weight": 8,
+        "best_suited_for": ["Art Lovers", "Families", "History Buffs"],
+        "description_ai": "A fully restored fort overlooking the Mandovi River, now serving as a cultural center and museum."
+      }
+    },
+    {
+      "id": "GOA-33",
+      "name": "Shanta Durga Temple",
+      "city": "Kavalem",
+      "category": "Spiritual Places",
+      "coordinates": { "latitude": "15.3900", "longitude": "73.9800" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 600,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.35
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1.5,
+      "ai_metadata": {
+        "vibe_tags": ["Indo-Portuguese-Style", "Peaceful", "Iconic", "Lush", "Saraswat"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 9,
+        "best_suited_for": ["Devotees", "Families"],
+        "description_ai": "One of the most important Hindu temples in Goa, unique for its fusion of Indo-Portuguese architectural elements."
+      }
+    },
+    {
+      "id": "GOA-34",
+      "name": "Corjuem Fort",
+      "city": "Aldona",
+      "category": "Historical Forts",
+      "coordinates": { "latitude": "15.5900", "longitude": "73.8900" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4000,
+        "base_travel_cost": 600,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.20
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1,
+      "ai_metadata": {
+        "vibe_tags": ["Inland-Fort", "Quiet", "Island-Vibe", "Small", "Scenic"],
+        "sentiment_score": 4.4,
+        "crowd_prediction_level": "Low",
+        "historical_significance_weight": 7,
+        "best_suited_for": ["Solo Explorers", "History Enthusiasts"],
+        "description_ai": "A small but militarily significant inland fort located on the island of Corjuem, offering a glimpse into defense tactics."
+      }
+    },
+    {
+      "id": "GOA-35",
+      "name": "Mangueshi Temple",
+      "city": "Priol",
+      "category": "Spiritual Places",
+      "coordinates": { "latitude": "15.4400", "longitude": "73.9600" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 600,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.40
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1.5,
+      "ai_metadata": {
+        "vibe_tags": ["Deep-Stambha", "Elegant", "Traditional", "Music-Legacy", "Sacred"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 9,
+        "best_suited_for": ["Devotees", "Culture Seekers"],
+        "description_ai": "A 450-year-old temple dedicated to Lord Shiva, famous for its grand seven-story Deep Stambha (lamp tower)."
+      }
+    },
+    {
+      "id": "GOA-36",
+      "name": "Mormugao Fort",
+      "city": "Vasco",
+      "category": "Historical Forts",
+      "coordinates": { "latitude": "15.4100", "longitude": "73.8000" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3500,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.50
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1,
+      "ai_metadata": {
+        "vibe_tags": ["Port-View", "Ruins", "Maritime-History", "Vast", "Industrial"],
+        "sentiment_score": 4.1,
+        "crowd_prediction_level": "Low",
+        "historical_significance_weight": 8,
+        "best_suited_for": ["History Fans", "Maritime Enthusiasts"],
+        "description_ai": "Once a key maritime defense point for the Portuguese, now offering views over the Mormugao Port."
+      }
+    },
+    {
+      "id": "GOA-37",
+      "name": "Safa Shahouri Masjid",
+      "city": "Ponda",
+      "category": "Spiritual Places",
+      "coordinates": { "latitude": "15.4000", "longitude": "74.0100" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2500,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.20
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1,
+      "ai_metadata": {
+        "vibe_tags": ["Adil-Shahi", "Ancient", "Gardens", "Islamic-Heritage", "Minimalist"],
+        "sentiment_score": 4.5,
+        "crowd_prediction_level": "Low",
+        "historical_significance_weight": 9,
+        "best_suited_for": ["History Buffs", "Religious Travelers"],
+        "description_ai": "A 16th-century mosque built by Ibrahim Adil Shah, one of the oldest and most important Islamic monuments in Goa."
+      }
+    },
+    {
+      "id": "GOA-38",
+      "name": "Gunpowder",
+      "city": "Assagao",
+      "category": "Legendary Dining",
+      "coordinates": { "latitude": "15.5940", "longitude": "73.7780" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.40
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["South-Indian", "Spicy", "Heritage-Bungalow", "Chic", "Gourmet"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 2,
+        "best_suited_for": ["Foodies", "Couples", "Friends"],
+        "description_ai": "Set in a restored Portuguese bungalow, this restaurant is famous for its spicy and authentic South Indian coastal flavors."
+      }
+    },
+    {
+      "id": "GOA-39",
+      "name": "Thalassa",
+      "city": "Siolim",
+      "category": "Legendary Dining",
+      "coordinates": { "latitude": "15.6200", "longitude": "73.7650" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 6000,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 1.50,
+        "traffic_delay_weight": 1.60
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Greek-Food", "Sunset-View", "Lively", "Celebrity-Hub", "Atmospheric"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Extremely High",
+        "historical_significance_weight": 1,
+        "best_suited_for": ["Party Lovers", "Groups", "Couples"],
+        "description_ai": "A high-energy Greek restaurant and lounge offering spectacular river views and world-class entertainment."
+      }
+    },
+    {
+      "id": "GOA-40",
+      "name": "Candolim Street Market",
+      "city": "Candolim",
+      "category": "Street Shopping",
+      "coordinates": { "latitude": "15.5150", "longitude": "73.7650" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 6000,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.35,
+        "traffic_delay_weight": 1.80
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Upscale-Street", "Boutiques", "Designer", "Urban", "Trendy"],
+        "sentiment_score": 4.5,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 2,
+        "best_suited_for": ["Fashionistas", "Tourists"],
+        "description_ai": "A popular stretch in North Goa featuring high-end boutiques, leather shops, and designer home decor."
+      }
+    },
+    {
+      "id": "GOA-41",
+      "name": "Big G Mall",
+      "city": "Margao",
+      "category": "Malls",
+      "coordinates": { "latitude": "15.2780", "longitude": "73.9580" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.70
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2.5,
+      "ai_metadata": {
+        "vibe_tags": ["Local-Hub", "Multi-brand", "Convenient", "Departmental", "Central"],
+        "sentiment_score": 4.2,
+        "crowd_prediction_level": "Medium",
+        "historical_significance_weight": 1,
+        "best_suited_for": ["Families", "Local Shoppers"],
+        "description_ai": "A central shopping destination in South Goa housing multi-brand clothing stores and grocery essentials."
+      }
+    },
+    {
+      "id": "GOA-42",
+      "name": "Baga Beach",
+      "city": "Baga",
+      "category": "Beach-side Vibe",
+      "coordinates": { "latitude": "15.5550", "longitude": "73.7500" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 1.50,
+        "traffic_delay_weight": 2.00
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 6,
+      "ai_metadata": {
+        "vibe_tags": ["Nightlife", "Water-Sports", "Vibrant", "Crowded", "Energetic"],
+        "sentiment_score": 4.4,
+        "crowd_prediction_level": "Extremely High",
+        "historical_significance_weight": 2,
+        "best_suited_for": ["Friends", "Party Seekers"],
+        "description_ai": "Goa's most famous and lively beach, known for its endless shacks, nightlife, and water sports."
+      }
+    },
+    {
+      "id": "GOA-43",
+      "name": "Dr. Salim Ali Bird Sanctuary",
+      "city": "Chorao",
+      "category": "Nature & Wildlife",
+      "coordinates": { "latitude": "15.5122", "longitude": "73.8633" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4000,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.20
+      },
+      "entry_fee": 10,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Ornithology", "Mangroves", "Wetland", "Eco-system", "Pristine"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "Low",
+        "historical_significance_weight": 7,
+        "best_suited_for": ["Nature Lovers", "Photographers"],
+        "description_ai": "A vital ecosystem for migratory birds located in the backwaters of the Mandovi River."
+      }
+    },
+    {
+      "id": "GOA-44",
+      "name": "Netravali Sanctuary",
+      "city": "Sanguem",
+      "category": "Nature & Wildlife",
+      "coordinates": { "latitude": "15.1200", "longitude": "74.1500" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2500,
+        "base_travel_cost": 1500,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.10
+      },
+      "entry_fee": 20,
+      "avg_duration_hrs": 6,
+      "ai_metadata": {
+        "vibe_tags": ["Waterfalls", "Dense-Forest", "Black-Panther", "Pristine", "Remote"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "Low",
+        "historical_significance_weight": 6,
+        "best_suited_for": ["Adventure Seekers", "Wildlife Enthusiasts"],
+        "description_ai": "A remote and pristine sanctuary in South Goa, home to rare species and the stunning Savari waterfalls."
+      }
+    },
+    {
+      "id": "GOA-45",
+      "name": "Cotigao Sanctuary",
+      "city": "Canacona",
+      "category": "Nature & Wildlife",
+      "coordinates": { "latitude": "14.9800", "longitude": "74.1000" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 1000,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.15
+      },
+      "entry_fee": 20,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Tall-Trees", "Tribal-Heritage", "Hiking", "Peaceful", "Canopy"],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "Low",
+        "historical_significance_weight": 5,
+        "best_suited_for": ["Nature Lovers", "Hikers"],
+        "description_ai": "Goa's second-largest sanctuary, famous for its multi-storied forest canopy and ancient trees."
+      }
+    },
+    {
+      "id": "GOA-46",
+      "name": "Morjim Turtle Nesting Site",
+      "city": "Morjim",
+      "category": "Nature & Wildlife",
+      "coordinates": { "latitude": "15.6200", "longitude": "73.7300" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 600,
+        "seasonal_surge_factor": 1.30,
+        "traffic_delay_weight": 1.40
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Olive-Ridley", "Conservation", "Eco-Awareness", "Quiet", "Natural"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Medium",
+        "historical_significance_weight": 5,
+        "best_suited_for": ["Conservationists", "Nature Lovers"],
+        "description_ai": "A protected beach area dedicated to the nesting and conservation of endangered Olive Ridley turtles."
+      }
+    },
+    {
+      "id": "GOA-47",
+      "name": "Mhadei Sanctuary",
+      "city": "Valpoi",
+      "category": "Nature & Wildlife",
+      "coordinates": { "latitude": "15.5400", "longitude": "74.1500" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2000,
+        "base_travel_cost": 1500,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.10
+      },
+      "entry_fee": 20,
+      "avg_duration_hrs": 5,
+      "ai_metadata": {
+        "vibe_tags": ["Tiger-Corridor", "Bio-hotspot", "Vultures", "Wilderness", "Rugged"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Low",
+        "historical_significance_weight": 7,
+        "best_suited_for": ["Wilderness Explorers", "Photographers"],
+        "description_ai": "A high-biodiversity zone known as a tiger corridor and home to the rare long-billed vulture."
+      }
+    },
+    {
+      "id": "GOA-48",
+      "name": "Butterfly Conservatory",
+      "city": "Ponda",
+      "category": "Nature & Wildlife",
+      "coordinates": { "latitude": "15.4000", "longitude": "74.0200" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.20
+      },
+      "entry_fee": 30,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Educational", "Macrophotography", "Eco-Restoration", "Floral", "Fragile"],
+        "sentiment_score": 4.5,
+        "crowd_prediction_level": "Low",
+        "historical_significance_weight": 2,
+        "best_suited_for": ["Families", "Nature Lovers"],
+        "description_ai": "A sanctuary designed for the breeding and conservation of over 25 native butterfly species."
+      }
+    },
+    {
+      "id": "GOA-49",
+      "name": "Palácio do Deão",
+      "city": "Quepem",
+      "category": "Tourist Attractions",
+      "coordinates": { "latitude": "15.2100", "longitude": "74.0600" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 1000,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.10
+      },
+      "entry_fee": 200,
+      "avg_duration_hrs": 2.5,
+      "ai_metadata": {
+        "vibe_tags": ["Palatial", "Gardens", "Indo-Portuguese", "Heritage", "Refined"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "Low",
+        "historical_significance_weight": 9,
+        "best_suited_for": ["Architecture Lovers", "History Buffs"],
+        "description_ai": "A 213-year-old mansion known for its unique blend of Hindu and Portuguese architecture and lush gardens."
+      }
+    },
+    {
+      "id": "GOA-50",
+      "name": "St. Augustine Tower Ruins",
+      "city": "Old Goa",
+      "category": "Tourist Attractions",
+      "coordinates": { "latitude": "15.5015", "longitude": "73.9100" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3500,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.30
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1,
+      "ai_metadata": {
+        "vibe_tags": ["Ruins", "Tall", "Historical", "Photogenic", "Haunting"],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "Medium",
+        "historical_significance_weight": 9,
+        "best_suited_for": ["History Fans", "Photographers"],
+        "description_ai": "The striking 46-meter-high ruins of a church tower built in 1602, once the largest in Goa."
+      }
+    },
+    {
+      "id": "GOA-51",
+      "name": "Mahalakshmi Temple",
+      "city": "Panjim",
+      "category": "Spiritual",
+      "coordinates": { "latitude": "15.4940", "longitude": "73.8420" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 200,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.50
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1,
+      "ai_metadata": {
+        "vibe_tags": ["Peaceful", "City-Temple", "Historic", "Ornate", "Central"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 8,
+        "best_suited_for": ["Devotees", "Families"],
+        "description_ai": "An elegant Hindu temple in the heart of the capital city, dedicated to the Goddess of Wealth."
+      }
+    },
+    {
+      "id": "GOA-52",
+      "name": "Dudhsagar Falls",
+      "city": "Mollem",
+      "category": "Waterfalls",
+      "coordinates": { "latitude": "15.3100", "longitude": "74.3100" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 2500,
+        "seasonal_surge_factor": 1.50,
+        "traffic_delay_weight": 1.20
+      },
+      "entry_fee": 400,
+      "avg_duration_hrs": 6,
+      "ai_metadata": {
+        "vibe_tags": ["Spectacular", "Milky", "Jeep-Safari", "Nature", "Powerful"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "Extremely High",
+        "historical_significance_weight": 5,
+        "best_suited_for": ["Adventure Lovers", "Families"],
+        "description_ai": "One of India's tallest and most majestic waterfalls, resembling a 'Sea of Milk' cascading through the Ghats."
+      }
+    },
+    {
+      "id": "GOA-53",
+      "name": "Arvalem Caves",
+      "city": "Sanquelim",
+      "category": "Tourist Attractions",
+      "coordinates": { "latitude": "15.5500", "longitude": "74.0000" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2000,
+        "base_travel_cost": 1000,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.15
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1.5,
+      "ai_metadata": {
+        "vibe_tags": ["Ancient", "Rock-Cut", "Mythology", "Historic", "Mysterious"],
+        "sentiment_score": 4.4,
+        "crowd_prediction_level": "Low",
+        "historical_significance_weight": 9,
+        "best_suited_for": ["History Enthusiasts", "Mythology Fans"],
+        "description_ai": "6th-century rock-cut caves associated with the Pandavas, showcasing ancient Hindu architecture."
+      }
+    },
+    {
+      "id": "GOA-54",
+      "name": "Hivre Waterfall",
+      "city": "Valpoi",
+      "category": "Waterfalls",
+      "coordinates": { "latitude": "15.5400", "longitude": "74.1500" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2000,
+        "base_travel_cost": 1200,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.10
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Trekking", "Hidden", "Offbeat", "Forest", "Refreshing"],
+        "sentiment_score": 4.5,
+        "crowd_prediction_level": "Low",
+        "historical_significance_weight": 2,
+        "best_suited_for": ["Adventure Seekers", "Trekkers"],
+        "description_ai": "A hidden gem in the Sahyadri mountains, accessible via a moderately challenging trek through dense forest."
+      }
+    },
+    {
+      "id": "GOA-55",
+      "name": "Tambdi Surla Mahadev Temple",
+      "city": "Mollem",
+      "category": "Spiritual",
+      "coordinates": { "latitude": "15.4300", "longitude": "74.2400" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 1500,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.10
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Kadamba-Arch", "Black-Basalt", "Ancient", "Quiet", "Intricate"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "Low",
+        "historical_significance_weight": 10,
+        "best_suited_for": ["History Buffs", "Spiritual Seekers"],
+        "description_ai": "Goa's oldest standing Hindu temple, an exquisite 12th-century basalt structure deep within the forest."
+      }
+    },
+    {
+      "id": "GOA-56",
+      "name": "Antique Furniture Market",
+      "city": "Siolim",
+      "category": "Street Shopping",
+      "coordinates": { "latitude": "15.5900", "longitude": "73.8500" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4000,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.30
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Teakwood", "Portuguese-Style", "Vintage", "Restored", "Craftsmanship"],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "Low",
+        "historical_significance_weight": 4,
+        "best_suited_for": ["Home Decor Enthusiasts", "Collectors"],
+        "description_ai": "A unique market for restored Portuguese-era teakwood furniture and vintage colonial artifacts."
+      }
+    },
+    {
+      "id": "GOA-57",
+      "name": "Baba Au Rhum",
+      "city": "Anjuna",
+      "category": "Cafes",
+      "coordinates": { "latitude": "15.5860", "longitude": "73.7480" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4000,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.25,
+        "traffic_delay_weight": 1.50
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Wood-fired", "French-Bakery", "Garden-Vibe", "Lively", "Chill"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 1,
+        "best_suited_for": ["Breakfast Lovers", "Digital Nomads"],
+        "description_ai": "A legendary garden cafe famous for its wood-fired pizzas, croissants, and bohemian ambiance."
+      }
+    },
+    {
+      "id": "GOA-58",
+      "name": "Carambolim Lake",
+      "city": "Old Goa",
+      "category": "Nature & Wildlife",
+      "coordinates": { "latitude": "15.4800", "longitude": "73.9300" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3500,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.20
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Lily-Pad", "Migratory-Birds", "Scenic", "Marshland", "Biodiversity"],
+        "sentiment_score": 4.5,
+        "crowd_prediction_level": "Low",
+        "historical_significance_weight": 5,
+        "best_suited_for": ["Bird Watchers", "Nature Lovers"],
+        "description_ai": "A rich man-made wetland hosting thousands of migratory birds and rare flora."
+      }
+    },
+    {
+      "id": "GOA-59",
+      "name": "Museum of Christian Art",
+      "city": "Old Goa",
+      "category": "Tourist Attractions",
+      "coordinates": { "latitude": "15.5020", "longitude": "73.9110" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3500,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.30
+      },
+      "entry_fee": 100,
+      "avg_duration_hrs": 2.5,
+      "ai_metadata": {
+        "vibe_tags": ["Indo-Portuguese", "Rare", "Golden", "Religious-Art", "Ecclesiastical"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Low",
+        "historical_significance_weight": 9,
+        "best_suited_for": ["History Fans", "Art Historians"],
+        "description_ai": "The only museum in Asia featuring Indo-Portuguese Christian art from the 16th to 20th centuries."
+      }
+    },
+    {
+      "id": "GOA-60",
+      "name": "Mall de Goa (Retail Center)",
+      "city": "Porvorim",
+      "category": "Malls",
+      "coordinates": { "latitude": "15.5265", "longitude": "73.8275" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4000,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.45
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Central-Mall", "Shopping", "Multiplex", "Lifestyle", "Modern"],
+        "sentiment_score": 4.4,
+        "crowd_prediction_level": "Medium",
+        "historical_significance_weight": 1,
+        "best_suited_for": ["Families", "Urbanites"],
+        "description_ai": "A lifestyle hub featuring international retail brands, a large food court, and multiplex cinema."
+      }
+    },
+    {
+      "id": "GOA-61",
+      "name": "Eva Cafe",
+      "city": "Anjuna",
+      "category": "Cafes",
+      "coordinates": { "latitude": "15.5900", "longitude": "73.7400" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4500,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.30,
+        "traffic_delay_weight": 1.40
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Bohemian-White", "Sunset-View", "Minimalist", "Seafront", "Greek-Aesthetic"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 1,
+        "best_suited_for": ["Couples", "Solo"],
+        "description_ai": "A minimalist, Greek-inspired beachside cafe famous for its stunning sunset views and organic menu."
+      }
+    },
+    {
+      "id": "GOA-62",
+      "name": "Goa Carnival Route",
+      "city": "Statewide",
+      "category": "Tourist Attractions",
+      "coordinates": { "latitude": "15.4989", "longitude": "73.8278" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 10000,
+        "base_travel_cost": 800,
+        "seasonal_surge_factor": 3.00,
+        "traffic_delay_weight": 2.50
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 6,
+      "ai_metadata": {
+        "vibe_tags": ["Parade", "Colorful", "Portuguese-Heritage", "Massive", "Festive"],
+        "sentiment_score": 5.0,
+        "crowd_prediction_level": "Extremely High",
+        "historical_significance_weight": 8,
+        "best_suited_for": ["Party Seekers", "Families"],
+        "description_ai": "Goa's biggest annual street festival, featuring colorful floats, music, and dance parades."
+      }
+    },
+    {
+      "id": "GOA-63",
+      "name": "Braganza Mansion Gardens",
+      "city": "Chandor",
+      "category": "Nature & Wildlife",
+      "coordinates": { "latitude": "15.2600", "longitude": "74.0400" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 800,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.10
+      },
+      "entry_fee": 150,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Mansion", "Antique", "Floral", "Colonial", "Regal"],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "Low",
+        "historical_significance_weight": 9,
+        "best_suited_for": ["History Fans", "Families"],
+        "description_ai": "Lush manicured gardens surrounding a grand 450-year-old mansion filled with antiques."
+      }
+    },
+    {
+      "id": "GOA-64",
+      "name": "Arpora Night Market",
+      "city": "Arpora",
+      "category": "Street Shopping",
+      "coordinates": { "latitude": "15.5820", "longitude": "73.7650" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 1.60,
+        "traffic_delay_weight": 2.20
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Nightlife", "Jewelry", "Textiles", "Festive", "Bustling"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "Extremely High",
+        "historical_significance_weight": 2,
+        "best_suited_for": ["Friends", "Couples"],
+        "description_ai": "A massive open-air night market featuring global handicrafts, clothing, and live music."
+      }
+    },
+    {
+      "id": "GOA-65",
+      "name": "Campal Promenade",
+      "city": "Panjim",
+      "category": "Nature & Wildlife",
+      "coordinates": { "latitude": "15.4920", "longitude": "73.8250" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 200,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.40
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Riverside-Park", "Families", "Nature-Walk", "Calm", "Scenic"],
+        "sentiment_score": 4.5,
+        "crowd_prediction_level": "Medium",
+        "historical_significance_weight": 5,
+        "best_suited_for": ["Families", "Elderly"],
+        "description_ai": "A peaceful riverside park overlooking the Mandovi River, popular for evening walks."
+      }
+    },
+    {
+      "id": "GOA-66",
+      "name": "Fort Corjuem",
+      "city": "Aldona",
+      "category": "Historical Forts",
+      "coordinates": { "latitude": "15.5920", "longitude": "73.8880" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3500,
+        "base_travel_cost": 600,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.20
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1.5,
+      "ai_metadata": {
+        "vibe_tags": ["Inland-Defense", "Island", "Restored", "Panoramic", "Strategic"],
+        "sentiment_score": 4.2,
+        "crowd_prediction_level": "Low",
+        "historical_significance_weight": 8,
+        "best_suited_for": ["Explorers"],
+        "description_ai": "A unique inland fort providing panoramic views of the surrounding backwaters and villages."
+      }
+    },
+    {
+      "id": "GOA-67",
+      "name": "Star Fish Shack",
+      "city": "Palolem",
+      "category": "Legendary Dining",
+      "coordinates": { "latitude": "15.0080", "longitude": "74.0220" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4000,
+        "base_travel_cost": 200,
+        "seasonal_surge_factor": 1.40,
+        "traffic_delay_weight": 1.10
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1.5,
+      "ai_metadata": {
+        "vibe_tags": ["Beach-Shack", "Tandoori-Fish", "Chilled", "Sea-View", "Relaxed"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Medium",
+        "historical_significance_weight": 1,
+        "best_suited_for": ["Couples", "Backpackers"],
+        "description_ai": "A highly rated beach shack known for its fresh tandoori catch and laid-back South Goa vibe."
+      }
+    },
+    {
+      "id": "GOA-68",
+      "name": "Calangute Tibetan Market",
+      "city": "Calangute",
+      "category": "Street Shopping",
+      "coordinates": { "latitude": "15.5450", "longitude": "73.7550" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.30,
+        "traffic_delay_weight": 1.80
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Curios", "Stones", "Silver", "Cultural", "Handicrafts"],
+        "sentiment_score": 4.4,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 2,
+        "best_suited_for": ["Bargain Hunters"],
+        "description_ai": "A hub for Tibetan silver jewelry, prayer wheels, and semi-precious stone artifacts."
+      }
+    },
+    {
+      "id": "GOA-69",
+      "name": "Vagheri Peak",
+      "city": "Sattari",
+      "category": "Hill Station",
+      "coordinates": { "latitude": "15.5400", "longitude": "74.1200" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2500,
+        "base_travel_cost": 1500,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.10
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["High-Point", "Mist", "Western-Ghats", "Wild", "Atmospheric"],
+        "sentiment_score": 4.3,
+        "crowd_prediction_level": "Low",
+        "historical_significance_weight": 3,
+        "best_suited_for": ["Nature Lovers", "Hikers"],
+        "description_ai": "One of the highest peaks in Goa, offering breathtaking views of the Mahadayi valley."
+      }
+    },
+    {
+      "id": "GOA-70",
+      "name": "Hazrat Sayed Shah Baba Dargah",
+      "city": "Panjim",
+      "category": "Spiritual",
+      "coordinates": { "latitude": "15.4950", "longitude": "73.8300" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.40
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1.5,
+      "ai_metadata": {
+        "vibe_tags": ["Sufi", "Dargah", "Lively", "Religious-Unity", "Sacred"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Medium",
+        "historical_significance_weight": 7,
+        "best_suited_for": ["Spiritual Seekers"],
+        "description_ai": "A venerated Sufi shrine in Panjim known for its peaceful aura and inclusivity."
+      }
+    }
+  ]
+}
