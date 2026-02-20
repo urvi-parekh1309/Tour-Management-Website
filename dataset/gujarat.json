@@ -1,0 +1,256 @@
+{
+  "state": "Gujarat",
+  "destinations": [
+    {
+      "id": "GJ-01",
+      "name": "Statue of Unity",
+      "city": "Kevadia",
+      "category": "Major Cities & Cultural Spots",
+      "coordinates": { "latitude": "21.8380", "longitude": "73.7191" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4500,
+        "base_travel_cost": 800,
+        "seasonal_surge_factor": 1.30,
+        "traffic_delay_weight": 1.40
+      },
+      "entry_fee": 150,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Patriotic", "Colossal", "Modern", "Riverfront", "Iconic"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "Extremely High",
+        "historical_significance_weight": 9,
+        "best_suited_for": ["Families", "Tourists", "History Buffs"],
+        "description_ai": "World’s tallest statue dedicated to Sardar Vallabhbhai Patel, surrounded by dams, museums, and eco-parks."
+      }
+    },
+    {
+      "id": "GJ-02",
+      "name": "Gir National Park",
+      "city": "Junagadh",
+      "category": "Wildlife/National Parks",
+      "coordinates": { "latitude": "21.1240", "longitude": "70.8245" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4000,
+        "base_travel_cost": 900,
+        "seasonal_surge_factor": 1.25,
+        "traffic_delay_weight": 1.30
+      },
+      "entry_fee": 1000,
+      "avg_duration_hrs": 5,
+      "ai_metadata": {
+        "vibe_tags": ["Wild", "Safari", "Forests", "Asiatic-Lions", "Adventure"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 8,
+        "best_suited_for": ["Wildlife Lovers", "Families", "Photographers"],
+        "description_ai": "The only natural habitat of Asiatic Lions offering thrilling jeep safaris and forest stays."
+      }
+    },
+    {
+      "id": "GJ-03",
+      "name": "Rann of Kutch",
+      "city": "Bhuj",
+      "category": "Natural Wonders",
+      "coordinates": { "latitude": "23.7337", "longitude": "69.8597" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3500,
+        "base_travel_cost": 1000,
+        "seasonal_surge_factor": 1.40,
+        "traffic_delay_weight": 1.20
+      },
+      "entry_fee": 100,
+      "avg_duration_hrs": 6,
+      "ai_metadata": {
+        "vibe_tags": ["White-Desert", "Cultural-Festival", "Open-Sky", "Remote", "Surreal"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "High (Winter)",
+        "historical_significance_weight": 8,
+        "best_suited_for": ["Couples", "Photographers", "Cultural Tourists"],
+        "description_ai": "A vast salt desert famous for Rann Utsav, handicrafts, folk dances, and moonlit landscapes."
+      }
+    },
+    {
+      "id": "GJ-04",
+      "name": "Somnath Temple",
+      "city": "Somnath",
+      "category": "Religious/Pilgrimage Sites",
+      "coordinates": { "latitude": "20.8880", "longitude": "70.4015" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2500,
+        "base_travel_cost": 700,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.40
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Sacred", "Ancient", "Seaside", "Jyotirlinga", "Devotional"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 10,
+        "best_suited_for": ["Pilgrims", "Families", "Spiritual Seekers"],
+        "description_ai": "One of the twelve Jyotirlingas of Lord Shiva, located dramatically on the Arabian Sea coast."
+      }
+    },
+    {
+      "id": "GJ-05",
+      "name": "Dwarkadhish Temple",
+      "city": "Dwarka",
+      "category": "Religious/Pilgrimage Sites",
+      "coordinates": { "latitude": "22.2442", "longitude": "68.9685" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2500,
+        "base_travel_cost": 750,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.30
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Krishna", "Ancient-City", "Holy", "Riverside", "Devotional"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 10,
+        "best_suited_for": ["Pilgrims", "Families", "Cultural Tourists"],
+        "description_ai": "An ancient temple dedicated to Lord Krishna, believed to be part of the legendary city of Dwarka."
+      }
+    },
+    {
+      "id": "GJ-06",
+      "name": "Sabarmati Ashram",
+      "city": "Ahmedabad",
+      "category": "Major Cities & Cultural Spots",
+      "coordinates": { "latitude": "23.0606", "longitude": "72.5800" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4000,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.40
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Peaceful", "Historic", "Freedom-Movement", "Simple", "Inspirational"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Medium",
+        "historical_significance_weight": 10,
+        "best_suited_for": ["Students", "History Buffs", "Solo"],
+        "description_ai": "Former residence of Mahatma Gandhi and a major center of India’s freedom struggle."
+      }
+    },
+    {
+      "id": "GJ-09",
+      "name": "Modhera Sun Temple",
+      "city": "Mehsana",
+      "category": "Historical Monuments",
+      "coordinates": { "latitude": "23.5870", "longitude": "72.1290" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2800,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.20
+      },
+      "entry_fee": 40,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Ancient", "Astronomy", "Temple-Art", "Symmetry"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "Medium",
+        "historical_significance_weight": 9,
+        "best_suited_for": ["History Buffs", "Photographers", "Students"],
+        "description_ai": "11th-century Sun Temple aligned with solar movements, famous for carvings and step tank."
+      }
+    },
+    {
+      "id": "GJ-10",
+      "name": "Saputara",
+      "city": "Dang",
+      "category": "Hill Station",
+      "coordinates": { "latitude": "20.5760", "longitude": "73.7490" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3200,
+        "base_travel_cost": 600,
+        "seasonal_surge_factor": 1.25,
+        "traffic_delay_weight": 1.20
+      },
+      "entry_fee": 50,
+      "avg_duration_hrs": 5,
+      "ai_metadata": {
+        "vibe_tags": ["Cool-Weather", "Lakes", "Forests", "Relaxing"],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "Medium",
+        "historical_significance_weight": 6,
+        "best_suited_for": ["Couples", "Families", "Nature Lovers"],
+        "description_ai": "Gujarat’s only hill station known for lakes, gardens, and misty viewpoints."
+      }
+    },
+    {
+      "id": "GJ-11",
+      "name": "Champaner-Pavagadh",
+      "city": "Panchmahal",
+      "category": "UNESCO Heritage Site",
+      "coordinates": { "latitude": "22.4870", "longitude": "73.5370" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 550,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.25
+      },
+      "entry_fee": 40,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Fortified-City", "Ancient", "Hilltop", "Archaeological"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Low",
+        "historical_significance_weight": 9,
+        "best_suited_for": ["Explorers", "History Buffs", "Photographers"],
+        "description_ai": "A medieval Islamic city with forts, mosques, and temples at Pavagadh hill."
+      }
+    },
+    {
+      "id": "GJ-12",
+      "name": "Lothal",
+      "city": "Ahmedabad District",
+      "category": "Archaeological Site",
+      "coordinates": { "latitude": "22.5210", "longitude": "72.2480" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2500,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.15
+      },
+      "entry_fee": 25,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Indus-Valley", "Ancient-Port", "Excavations"],
+        "sentiment_score": 4.5,
+        "crowd_prediction_level": "Low",
+        "historical_significance_weight": 10,
+        "best_suited_for": ["Students", "Researchers", "History Buffs"],
+        "description_ai": "One of the southernmost cities of the Indus Valley Civilization with dockyard remains."
+      }
+    }
+  ],
+
+  "search_indexes": {
+    "romantic": [
+      { "id": "GJ-03", "name": "Rann of Kutch", "city": "Bhuj" },
+      { "id": "GJ-10", "name": "Saputara", "city": "Dang" }
+    ],
+    "family_friendly": [
+      { "id": "GJ-02", "name": "Gir National Park", "city": "Junagadh" },
+      { "id": "GJ-01", "name": "Statue of Unity", "city": "Kevadia" }
+    ],
+    "cheap": [
+      { "id": "GJ-06", "name": "Sabarmati Ashram", "city": "Ahmedabad" },
+      { "id": "GJ-12", "name": "Lothal", "city": "Ahmedabad District" }
+    ],
+    "tourist_favorite": [
+      { "id": "GJ-01", "name": "Statue of Unity", "city": "Kevadia" },
+      { "id": "GJ-03", "name": "Rann of Kutch", "city": "Bhuj" },
+      { "id": "GJ-04", "name": "Somnath Temple", "city": "Somnath" },
+      { "id": "GJ-05", "name": "Dwarkadhish Temple", "city": "Dwarka" }
+    ]
+  }
+}
