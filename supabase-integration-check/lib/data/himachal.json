@@ -1,0 +1,124 @@
+{
+  "state": "Himachal Pradesh",
+  "destinations": [
+    {
+      "id": "HP-01",
+      "name": "Shimla Ridge & Mall Road",
+      "city": "Shimla",
+      "category": "Hill Stations",
+      "coordinates": { "latitude": "31.1048", "longitude": "77.1734" },
+      "budget_metrics": { "base_stay_cost_per_day": 3000, "base_travel_cost": 500, "seasonal_surge_factor": 1.30, "traffic_delay_weight": 1.20 },
+      "entry_fee": 0, "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Colonial", "Bustling", "Scenic", "Heritage", "Pedestrian"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Extremely High",
+        "best_suited_for": ["Families", "Couples", "Solo"],
+        "description_ai": "The iconic pedestrian-only Ridge offers panoramic views, while the historic Mall Road is lined with colonial-era buildings, cafes, and shops.",
+        "image_url": "https://images.unsplash.com/photo-1597074866923-dc0589150458?w=800&q=80"
+      }
+    },
+    {
+      "id": "HP-02",
+      "name": "Manali - Solang Valley",
+      "city": "Manali",
+      "category": "Adventure & Sports",
+      "coordinates": { "latitude": "32.3167", "longitude": "77.1500" },
+      "budget_metrics": { "base_stay_cost_per_day": 3500, "base_travel_cost": 800, "seasonal_surge_factor": 1.40, "traffic_delay_weight": 1.30 },
+      "entry_fee": 0, "avg_duration_hrs": 5,
+      "ai_metadata": {
+        "vibe_tags": ["Paragliding", "Skiing", "Snow", "Adventure", "Valley"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "Extremely High",
+        "best_suited_for": ["Adventure Seekers", "Friends", "Families"],
+        "description_ai": "Adventure hub with paragliding, skiing, and zorbing set against stunning Himalayan peaks.",
+        "image_url": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800&q=80"
+      }
+    },
+    {
+      "id": "HP-03",
+      "name": "Rohtang Pass",
+      "city": "Manali",
+      "category": "Adventure & High Passes",
+      "coordinates": { "latitude": "32.3722", "longitude": "77.2478" },
+      "budget_metrics": { "base_stay_cost_per_day": 3500, "base_travel_cost": 2000, "seasonal_surge_factor": 1.50, "traffic_delay_weight": 1.50 },
+      "entry_fee": 500, "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["High-Altitude", "Snow", "Gateway-to-Lahaul", "Breathtaking"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Adventure Seekers", "Photographers"],
+        "description_ai": "High mountain pass at 3,978m offering stunning views and snow activities. Gateway to Lahaul-Spiti.",
+        "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&q=80"
+      }
+    },
+    {
+      "id": "HP-04",
+      "name": "Dharamshala & McLeod Ganj",
+      "city": "Dharamshala",
+      "category": "Spiritual & Cultural",
+      "coordinates": { "latitude": "32.2190", "longitude": "76.3234" },
+      "budget_metrics": { "base_stay_cost_per_day": 2500, "base_travel_cost": 600, "seasonal_surge_factor": 1.25, "traffic_delay_weight": 1.20 },
+      "entry_fee": 0, "avg_duration_hrs": 5,
+      "ai_metadata": {
+        "vibe_tags": ["Dalai-Lama", "Tibetan-Culture", "Monasteries", "Trekking"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Solo", "Spiritual Seekers", "Backpackers"],
+        "description_ai": "Home of the Dalai Lama with Tibetan monasteries, momos, and stunning Dhauladhar range views.",
+        "image_url": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=800&q=80"
+      }
+    },
+    {
+      "id": "HP-05",
+      "name": "Kasol",
+      "city": "Kullu",
+      "category": "Trekking & Backpacking",
+      "coordinates": { "latitude": "32.0103", "longitude": "77.3143" },
+      "budget_metrics": { "base_stay_cost_per_day": 1500, "base_travel_cost": 500, "seasonal_surge_factor": 1.20, "traffic_delay_weight": 1.10 },
+      "entry_fee": 0, "avg_duration_hrs": 6,
+      "ai_metadata": {
+        "vibe_tags": ["Parvati-Valley", "Backpacker", "Trekking", "Hippie-Trail"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["Backpackers", "Friends", "Solo"],
+        "description_ai": "Trekkers' paradise in the Parvati Valley with Israeli cafes, river camps, and trails to Kheerganga.",
+        "image_url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80"
+      }
+    },
+    {
+      "id": "HP-06",
+      "name": "Spiti Valley",
+      "city": "Spiti",
+      "category": "Remote & Adventure",
+      "coordinates": { "latitude": "32.2460", "longitude": "78.0190" },
+      "budget_metrics": { "base_stay_cost_per_day": 2000, "base_travel_cost": 3000, "seasonal_surge_factor": 1.60, "traffic_delay_weight": 1.10 },
+      "entry_fee": 0, "avg_duration_hrs": 8,
+      "ai_metadata": {
+        "vibe_tags": ["Moonscape", "Remote", "Monasteries", "Cold-Desert"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "Low",
+        "best_suited_for": ["Adventure Seekers", "Photographers", "Solo"],
+        "description_ai": "A cold desert moonscape with 1000-year-old monasteries, Key Gompa, and the highest villages in Asia.",
+        "image_url": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800&q=80"
+      }
+    },
+    {
+      "id": "HP-07",
+      "name": "Dalhousie",
+      "city": "Dalhousie",
+      "category": "Hill Stations",
+      "coordinates": { "latitude": "32.5387", "longitude": "75.9707" },
+      "budget_metrics": { "base_stay_cost_per_day": 2500, "base_travel_cost": 700, "seasonal_surge_factor": 1.20, "traffic_delay_weight": 1.15 },
+      "entry_fee": 0, "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Colonial", "Pine-Forests", "Quiet", "Scenic"],
+        "sentiment_score": 4.5,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["Couples", "Families"],
+        "description_ai": "A charming hill station with colonial architecture, pine-covered slopes, and views of the Chamba Valley.",
+        "image_url": "https://images.unsplash.com/photo-1597074866923-dc0589150458?w=800&q=80"
+      }
+    }
+  ]
+}

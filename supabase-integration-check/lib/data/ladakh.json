@@ -1,0 +1,107 @@
+{
+  "state": "Ladakh",
+  "destinations": [
+    {
+      "id": "LDK-01",
+      "name": "Pangong Tso",
+      "city": "Leh District",
+      "category": "High-Altitude Lake",
+      "coordinates": { "latitude": "33.7595", "longitude": "78.6674" },
+      "budget_metrics": { "base_stay_cost_per_day": 2500, "base_travel_cost": 4500, "seasonal_surge_factor": 2.10, "traffic_delay_weight": 1.80 },
+      "entry_fee": 0, "avg_duration_hrs": 5,
+      "ai_metadata": {
+        "vibe_tags": ["Crystal-Blue", "Border-Vibes", "Camping", "Photography"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Nature Lovers", "Photographers", "Adventure Seekers"],
+        "description_ai": "A breathtaking endorheic lake that changes colors from azure to turquoise. Famous for its appearance in '3 Idiots'.",
+        "image_url": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800&q=80"
+      }
+    },
+    {
+      "id": "LDK-02",
+      "name": "Nubra Valley",
+      "city": "Diskit",
+      "category": "Adventure/Eco-Tourism",
+      "coordinates": { "latitude": "34.5724", "longitude": "77.5583" },
+      "budget_metrics": { "base_stay_cost_per_day": 1800, "base_travel_cost": 3500, "seasonal_surge_factor": 1.70, "traffic_delay_weight": 1.50 },
+      "entry_fee": 0, "avg_duration_hrs": 6,
+      "ai_metadata": {
+        "vibe_tags": ["Sand-Dunes", "Double-Humped-Camels", "Oasis", "Remote"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["Adventure Junkies", "Families", "Bikers"],
+        "description_ai": "A high-altitude cold desert known for the white sand dunes of Hunder and the giant Maitreya Buddha statue.",
+        "image_url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80"
+      }
+    },
+    {
+      "id": "LDK-03",
+      "name": "Thiksey Monastery",
+      "city": "Thiksey",
+      "category": "Spiritual/Cultural",
+      "coordinates": { "latitude": "34.0560", "longitude": "77.6667" },
+      "budget_metrics": { "base_stay_cost_per_day": 1500, "base_travel_cost": 800, "seasonal_surge_factor": 1.20, "traffic_delay_weight": 1.10 },
+      "entry_fee": 50, "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Mini-Potala", "Buddhist", "Hilltop", "Panoramic"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["Spiritual Seekers", "Photographers", "Culture Seekers"],
+        "description_ai": "A 12-story hilltop monastery resembling the Potala Palace, with stunning views over the Indus Valley.",
+        "image_url": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=800&q=80"
+      }
+    },
+    {
+      "id": "LDK-04",
+      "name": "Khardung La Pass",
+      "city": "Leh",
+      "category": "Adventure & High Passes",
+      "coordinates": { "latitude": "34.2816", "longitude": "77.6025" },
+      "budget_metrics": { "base_stay_cost_per_day": 2000, "base_travel_cost": 2500, "seasonal_surge_factor": 1.50, "traffic_delay_weight": 1.40 },
+      "entry_fee": 0, "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Highest-Pass", "Biking", "Snow", "Extreme"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Bikers", "Adventure Seekers"],
+        "description_ai": "One of the world's highest motorable passes at 5,359m. A bucket-list destination for bikers.",
+        "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&q=80"
+      }
+    },
+    {
+      "id": "LDK-05",
+      "name": "Magnetic Hill",
+      "city": "Leh",
+      "category": "Adventure & Curiosity",
+      "coordinates": { "latitude": "34.1701", "longitude": "77.5369" },
+      "budget_metrics": { "base_stay_cost_per_day": 2000, "base_travel_cost": 500, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.10 },
+      "entry_fee": 0, "avg_duration_hrs": 1,
+      "ai_metadata": {
+        "vibe_tags": ["Gravity-Defying", "Mysterious", "Quirky"],
+        "sentiment_score": 4.3,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["Curious Travelers", "Families"],
+        "description_ai": "A mysterious gravity-defying hill where vehicles appear to roll uphill on their own.",
+        "image_url": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800&q=80"
+      }
+    },
+    {
+      "id": "LDK-06",
+      "name": "Leh Palace",
+      "city": "Leh",
+      "category": "Heritage & Cultural",
+      "coordinates": { "latitude": "34.1640", "longitude": "77.5855" },
+      "budget_metrics": { "base_stay_cost_per_day": 2000, "base_travel_cost": 300, "seasonal_surge_factor": 1.15, "traffic_delay_weight": 1.15 },
+      "entry_fee": 25, "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Royal-Residence", "Panoramic", "Heritage", "Namgyal-Dynasty"],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["History Buffs", "Photographers"],
+        "description_ai": "A 17th-century former royal palace offering panoramic views of Leh town and surrounding mountains.",
+        "image_url": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=800&q=80"
+      }
+    }
+  ]
+}

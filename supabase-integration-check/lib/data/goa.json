@@ -1,0 +1,126 @@
+{
+  "state": "Goa",
+  "destinations": [
+    {
+      "id": "GOA-01",
+      "name": "Basilica of Bom Jesus",
+      "city": "Old Goa",
+      "category": "UNESCO Heritage Sites",
+      "coordinates": { "latitude": "15.5009", "longitude": "73.9115" },
+      "budget_metrics": { "base_stay_cost_per_day": 3500, "base_travel_cost": 500, "seasonal_surge_factor": 1.50, "traffic_delay_weight": 1.75 },
+      "entry_fee": 0, "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Spiritual", "Baroque", "UNESCO", "Historic", "Sacred"],
+        "sentiment_score": 5.0,
+        "crowd_prediction_level": "Extremely High",
+        "historical_significance_weight": 10,
+        "best_suited_for": ["Devotees", "Families", "History Buffs"],
+        "description_ai": "A UNESCO World Heritage site holding the mortal remains of St. Francis Xavier, known for stunning Baroque architecture.",
+        "image_url": "https://images.unsplash.com/photo-1587922546307-776227941871?w=800&q=80"
+      }
+    },
+    {
+      "id": "GOA-02",
+      "name": "Fort Aguada",
+      "city": "Candolim",
+      "category": "National Heritage",
+      "coordinates": { "latitude": "15.4920", "longitude": "73.7731" },
+      "budget_metrics": { "base_stay_cost_per_day": 5000, "base_travel_cost": 600, "seasonal_surge_factor": 1.40, "traffic_delay_weight": 1.50 },
+      "entry_fee": 0, "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Colonial", "Strategic", "Ocean-View", "Lighthouse", "Historic"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 9,
+        "best_suited_for": ["History Enthusiasts", "Families", "Photographers"],
+        "description_ai": "A well-preserved 17th-century Portuguese fort and lighthouse on Sinquerim Beach, overlooking the Arabian Sea.",
+        "image_url": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&q=80"
+      }
+    },
+    {
+      "id": "GOA-03",
+      "name": "Dudhsagar Falls",
+      "city": "Sanguem",
+      "category": "Waterfalls & Nature",
+      "coordinates": { "latitude": "15.3144", "longitude": "74.3143" },
+      "budget_metrics": { "base_stay_cost_per_day": 2000, "base_travel_cost": 2500, "seasonal_surge_factor": 1.60, "traffic_delay_weight": 1.20 },
+      "entry_fee": 50, "avg_duration_hrs": 5,
+      "ai_metadata": {
+        "vibe_tags": ["Majestic", "Four-Tiered", "Train-Track", "Monsoon-Special"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Adventure Seekers", "Photographers"],
+        "description_ai": "Spectacular four-tiered waterfall cascading from 310m, one of India's tallest, best visited during monsoon.",
+        "image_url": "https://images.unsplash.com/photo-1467890947394-8171244e5410?w=800&q=80"
+      }
+    },
+    {
+      "id": "GOA-04",
+      "name": "Palolem Beach",
+      "city": "Canacona",
+      "category": "Beaches & Coastal",
+      "coordinates": { "latitude": "15.0100", "longitude": "74.0232" },
+      "budget_metrics": { "base_stay_cost_per_day": 3500, "base_travel_cost": 800, "seasonal_surge_factor": 1.50, "traffic_delay_weight": 1.30 },
+      "entry_fee": 0, "avg_duration_hrs": 5,
+      "ai_metadata": {
+        "vibe_tags": ["Crescent-Shaped", "Kayaking", "Paradise", "Nightlife"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Beach Lovers", "Backpackers", "Couples"],
+        "description_ai": "Crescent-shaped paradise beach perfect for kayaking, dolphin spotting, and silent discos.",
+        "image_url": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&q=80"
+      }
+    },
+    {
+      "id": "GOA-05",
+      "name": "Anjuna Flea Market",
+      "city": "Anjuna",
+      "category": "Shopping & Markets",
+      "coordinates": { "latitude": "15.5735", "longitude": "73.7413" },
+      "budget_metrics": { "base_stay_cost_per_day": 4000, "base_travel_cost": 400, "seasonal_surge_factor": 1.40, "traffic_delay_weight": 1.60 },
+      "entry_fee": 0, "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Hippie", "Vibrant", "Handicrafts", "Spices", "Bohemian"],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Shoppers", "Tourists", "Backpackers"],
+        "description_ai": "Vibrant market offering spices, handicrafts, bohemian clothes, and live music every Wednesday.",
+        "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&q=80"
+      }
+    },
+    {
+      "id": "GOA-06",
+      "name": "Calangute Beach",
+      "city": "Calangute",
+      "category": "Beaches & Coastal",
+      "coordinates": { "latitude": "15.5449", "longitude": "73.7553" },
+      "budget_metrics": { "base_stay_cost_per_day": 4500, "base_travel_cost": 400, "seasonal_surge_factor": 1.50, "traffic_delay_weight": 1.70 },
+      "entry_fee": 0, "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Queen-of-Beaches", "Watersports", "Bustling", "Iconic"],
+        "sentiment_score": 4.5,
+        "crowd_prediction_level": "Extremely High",
+        "best_suited_for": ["Families", "Friends", "Tourists"],
+        "description_ai": "The Queen of Beaches in Goa, offering watersports, shacks, and vibrant nightlife.",
+        "image_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80"
+      }
+    },
+    {
+      "id": "GOA-07",
+      "name": "Spice Plantations",
+      "city": "Ponda",
+      "category": "Nature & Eco-Tourism",
+      "coordinates": { "latitude": "15.4000", "longitude": "74.0200" },
+      "budget_metrics": { "base_stay_cost_per_day": 2500, "base_travel_cost": 600, "seasonal_surge_factor": 1.20, "traffic_delay_weight": 1.20 },
+      "entry_fee": 400, "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Spice-Tour", "Eco-Friendly", "Organic", "Aromatic"],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["Nature Lovers", "Families"],
+        "description_ai": "Walk through aromatic plantations of cardamom, pepper, vanilla, and nutmeg with guided tours and traditional lunch.",
+        "image_url": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800&q=80"
+      }
+    }
+  ]
+}

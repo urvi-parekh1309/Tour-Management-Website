@@ -1,0 +1,141 @@
+{
+  "state": "Kerala",
+  "destinations": [
+    {
+      "id": "KER-01",
+      "name": "Munnar Tea Gardens",
+      "city": "Munnar",
+      "category": "Hill Stations",
+      "coordinates": { "latitude": "10.0889", "longitude": "77.0595" },
+      "budget_metrics": { "base_stay_cost_per_day": 3000, "base_travel_cost": 800, "seasonal_surge_factor": 1.25, "traffic_delay_weight": 1.20 },
+      "entry_fee": 0, "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Lush", "Cool-Climate", "Green", "Scenic", "Plantations"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Couples", "Nature Lovers", "Photographers"],
+        "description_ai": "Rolling hills covered in endless tea plantations with misty viewpoints and colonial-era charm.",
+        "image_url": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=800&q=80"
+      }
+    },
+    {
+      "id": "KER-02",
+      "name": "Alleppey Backwaters",
+      "city": "Alappuzha",
+      "category": "Backwaters & Cruises",
+      "coordinates": { "latitude": "9.4981", "longitude": "76.3388" },
+      "budget_metrics": { "base_stay_cost_per_day": 4500, "base_travel_cost": 1200, "seasonal_surge_factor": 1.40, "traffic_delay_weight": 1.10 },
+      "entry_fee": 0, "avg_duration_hrs": 6,
+      "ai_metadata": {
+        "vibe_tags": ["Houseboat", "Serene", "Palm-Fringed", "Canals", "Scenic"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Couples", "Families", "Photographers"],
+        "description_ai": "Cruise through serene palm-fringed canals on traditional houseboats. The Venice of the East.",
+        "image_url": "https://images.unsplash.com/photo-1593693397690-362cb9666fc2?w=800&q=80"
+      }
+    },
+    {
+      "id": "KER-03",
+      "name": "Fort Kochi",
+      "city": "Kochi",
+      "category": "Heritage & Colonial",
+      "coordinates": { "latitude": "9.9658", "longitude": "76.2421" },
+      "budget_metrics": { "base_stay_cost_per_day": 3500, "base_travel_cost": 500, "seasonal_surge_factor": 1.15, "traffic_delay_weight": 1.40 },
+      "entry_fee": 0, "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Colonial", "Chinese-Fishing-Nets", "Spice-Markets", "Artistic"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["Culture Seekers", "Photographers", "Solo"],
+        "description_ai": "Charming colonial quarter with Chinese fishing nets, spice markets, and art galleries.",
+        "image_url": "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=800&q=80"
+      }
+    },
+    {
+      "id": "KER-04",
+      "name": "Periyar Wildlife Sanctuary",
+      "city": "Thekkady",
+      "category": "Wildlife & Nature",
+      "coordinates": { "latitude": "9.4637", "longitude": "77.1650" },
+      "budget_metrics": { "base_stay_cost_per_day": 2500, "base_travel_cost": 1000, "seasonal_surge_factor": 1.20, "traffic_delay_weight": 1.10 },
+      "entry_fee": 50, "avg_duration_hrs": 5,
+      "ai_metadata": {
+        "vibe_tags": ["Elephants", "Jungle-Lake", "Safari", "Spice-Garden"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["Nature Lovers", "Families", "Adventure Seekers"],
+        "description_ai": "Boat through a jungle lake spotting wild elephants and explore spice plantations.",
+        "image_url": "https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=800&q=80"
+      }
+    },
+    {
+      "id": "KER-05",
+      "name": "Kovalam Beach",
+      "city": "Thiruvananthapuram",
+      "category": "Beaches & Coastal",
+      "coordinates": { "latitude": "8.4004", "longitude": "76.9783" },
+      "budget_metrics": { "base_stay_cost_per_day": 3000, "base_travel_cost": 600, "seasonal_surge_factor": 1.30, "traffic_delay_weight": 1.25 },
+      "entry_fee": 0, "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Crescent-Beach", "Lighthouse", "Surfing", "Sunset"],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Beach Lovers", "Couples", "Solo"],
+        "description_ai": "Crescent-shaped beach flanked by a lighthouse, famous for Ayurvedic treatments and surfing.",
+        "image_url": "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&q=80"
+      }
+    },
+    {
+      "id": "KER-06",
+      "name": "Wayanad",
+      "city": "Wayanad",
+      "category": "Hill Stations & Nature",
+      "coordinates": { "latitude": "11.6854", "longitude": "76.1320" },
+      "budget_metrics": { "base_stay_cost_per_day": 2500, "base_travel_cost": 900, "seasonal_surge_factor": 1.20, "traffic_delay_weight": 1.15 },
+      "entry_fee": 0, "avg_duration_hrs": 6,
+      "ai_metadata": {
+        "vibe_tags": ["Tribal", "Waterfalls", "Caves", "Green", "Offbeat"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["Adventure Seekers", "Nature Lovers"],
+        "description_ai": "Pristine hill district with ancient caves, waterfalls, and tribal heritage in lush Western Ghats.",
+        "image_url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80"
+      }
+    },
+    {
+      "id": "KER-07",
+      "name": "Athirapally Waterfalls",
+      "city": "Thrissur",
+      "category": "Waterfalls & Nature",
+      "coordinates": { "latitude": "10.2855", "longitude": "76.5697" },
+      "budget_metrics": { "base_stay_cost_per_day": 2000, "base_travel_cost": 700, "seasonal_surge_factor": 1.30, "traffic_delay_weight": 1.20 },
+      "entry_fee": 25, "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Niagara-of-India", "Majestic", "Monsoon", "Forest"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Nature Lovers", "Photographers"],
+        "description_ai": "The largest waterfall in Kerala, often called the Niagara of India, cascading through tropical forest.",
+        "image_url": "https://images.unsplash.com/photo-1467890947394-8171244e5410?w=800&q=80"
+      }
+    },
+    {
+      "id": "KER-08",
+      "name": "Kumarakom Bird Sanctuary",
+      "city": "Kottayam",
+      "category": "Wildlife & Nature",
+      "coordinates": { "latitude": "9.5916", "longitude": "76.4314" },
+      "budget_metrics": { "base_stay_cost_per_day": 3500, "base_travel_cost": 600, "seasonal_surge_factor": 1.15, "traffic_delay_weight": 1.10 },
+      "entry_fee": 50, "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Bird-Watching", "Vembanad-Lake", "Eco-Tourism"],
+        "sentiment_score": 4.5,
+        "crowd_prediction_level": "Low",
+        "best_suited_for": ["Nature Lovers", "Photographers"],
+        "description_ai": "Spread across Vembanad Lake, hosting migratory birds from Siberia and the Himalayas.",
+        "image_url": "https://images.unsplash.com/photo-1552083375-1447ce886485?w=800&q=80"
+      }
+    }
+  ]
+}

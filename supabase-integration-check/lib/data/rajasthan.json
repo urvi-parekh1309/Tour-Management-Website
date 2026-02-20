@@ -1,0 +1,665 @@
+{
+  "state": "Rajasthan",
+  "destinations": [
+    {
+      "id": "RAJ-01",
+      "name": "Amber Palace (Amer Fort)",
+      "city": "Jaipur",
+      "category": "UNESCO Heritage Sites",
+      "coordinates": { "latitude": "26.9855", "longitude": "75.8513" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 800,
+        "seasonal_surge_factor": 1.40,
+        "traffic_delay_weight": 1.35
+      },
+      "entry_fee": 100,
+      "avg_duration_hrs": 3.5,
+      "ai_metadata": {
+        "vibe_tags": ["Regal", "Architectural", "Hilltop", "Historic", "Majestic"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "Extremely High",
+        "historical_significance_weight": 10,
+        "best_suited_for": ["Family", "History Buffs", "Photographers"],
+        "description_ai": "A stunning 16th-century fortress known for its artistic Hindu style elements and breathtaking Sheesh Mahal (Mirror Palace)."
+      }
+    },
+    {
+      "id": "RAJ-02",
+      "name": "City Palace",
+      "city": "Udaipur",
+      "category": "Palaces & Royal Heritage",
+      "coordinates": { "latitude": "24.5764", "longitude": "73.6835" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4500,
+        "base_travel_cost": 1000,
+        "seasonal_surge_factor": 1.50,
+        "traffic_delay_weight": 1.25
+      },
+      "entry_fee": 300,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Lakeside", "Elegant", "Opulent", "Artistic", "Grand"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 10,
+        "best_suited_for": ["Couples", "Families", "Art Lovers"],
+        "description_ai": "A flamboyant palace complex on the banks of Lake Pichola, showcasing a blend of Rajasthani and Mughal architecture."
+      }
+    },
+    {
+      "id": "RAJ-03",
+      "name": "Mehrangarh Fort",
+      "city": "Jodhpur",
+      "category": "Historical Forts",
+      "coordinates": { "latitude": "26.2978", "longitude": "73.0185" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2500,
+        "base_travel_cost": 700,
+        "seasonal_surge_factor": 1.30,
+        "traffic_delay_weight": 1.40
+      },
+      "entry_fee": 100,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Rugged", "Imposing", "Blue-City-View", "Valorous", "Museum"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "Medium-High",
+        "historical_significance_weight": 10,
+        "best_suited_for": ["History Buffs", "Solo", "Friends"],
+        "description_ai": "One of the largest forts in India, rising 400 feet above the skyline of the Blue City with formidable thick walls."
+      }
+    },
+    {
+      "id": "RAJ-04",
+      "name": "Jaisalmer Fort",
+      "city": "Jaisalmer",
+      "category": "UNESCO Heritage Sites",
+      "coordinates": { "latitude": "26.9124", "longitude": "70.9126" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2200,
+        "base_travel_cost": 1500,
+        "seasonal_surge_factor": 1.60,
+        "traffic_delay_weight": 1.10
+      },
+      "entry_fee": 50,
+      "avg_duration_hrs": 5,
+      "ai_metadata": {
+        "vibe_tags": ["Living-Fort", "Golden-Sandstone", "Desert-Vibe", "Ancient", "Bazaars"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "Medium",
+        "historical_significance_weight": 10,
+        "best_suited_for": ["Backpackers", "Couples", "Cultural Explorers"],
+        "description_ai": "The 'Sonar Quila' or Golden Fort, uniquely known as a living fort where a quarter of the old city's population still resides."
+      }
+    },
+    {
+      "id": "RAJ-05",
+      "name": "Pushkar Lake & Brahma Temple",
+      "city": "Pushkar",
+      "category": "Religious/Pilgrimage Sites",
+      "coordinates": { "latitude": "26.4891", "longitude": "74.5511" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 1500,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 2.00,
+        "traffic_delay_weight": 1.50
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Spiritual", "Hippie-Chic", "Sacred", "Sunset", "Tranquil"],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "Medium-High",
+        "best_suited_for": ["Solo", "Pilgrims", "Foreign Tourists"],
+        "description_ai": "A sacred lake surrounded by 52 bathing ghats and the world's only prominent Brahma Temple."
+      }
+    },
+    {
+      "id": "RAJ-06",
+      "name": "Ranthambore National Park",
+      "city": "Sawai Madhopur",
+      "category": "Wildlife/National Parks",
+      "coordinates": { "latitude": "25.9928", "longitude": "76.3571" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4000,
+        "base_travel_cost": 2000,
+        "seasonal_surge_factor": 1.70,
+        "traffic_delay_weight": 1.15
+      },
+      "entry_fee": 1200,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Wild", "Tiger-Sighting", "Safari-Life", "Thrilling", "Heritage"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "High (Seasonal)",
+        "best_suited_for": ["Wildlife Photographers", "Nature Lovers", "Adventure Seekers"],
+        "description_ai": "One of Northern India's largest national parks, famous for its royal Bengal tigers and ancient ruins within the forest."
+      }
+    },
+    {
+      "id": "RAJ-07",
+      "name": "Dilwara Temples",
+      "city": "Mount Abu",
+      "category": "Religious/Pilgrimage Sites",
+      "coordinates": { "latitude": "24.6121", "longitude": "72.7214" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3200,
+        "base_travel_cost": 900,
+        "seasonal_surge_factor": 1.45,
+        "traffic_delay_weight": 1.60
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2.5,
+      "ai_metadata": {
+        "vibe_tags": ["Marble-Marvel", "Intricate", "Peaceful", "Spiritual", "Detailed"],
+        "sentiment_score": 4.9,
+        "historical_significance_weight": 9,
+        "best_suited_for": ["Art Lovers", "Families", "Spiritual Seekers"],
+        "description_ai": "A group of Jain temples world-renowned for their extraordinary marble stone carvings and architectural finesse."
+      }
+    },
+    {
+      "id": "RAJ-08",
+      "name": "Chittorgarh Fort",
+      "city": "Chittorgarh",
+      "category": "UNESCO Heritage Sites",
+      "coordinates": { "latitude": "24.8879", "longitude": "74.6451" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 1800,
+        "base_travel_cost": 1200,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.10
+      },
+      "entry_fee": 50,
+      "avg_duration_hrs": 6,
+      "ai_metadata": {
+        "vibe_tags": ["Heroic", "Sprawling", "Tragic", "Valorous", "Legendary"],
+        "sentiment_score": 4.9,
+        "historical_significance_weight": 10,
+        "best_suited_for": ["History Buffs", "Students", "Photographers"],
+        "description_ai": "The largest fort in India and a symbol of Rajput chivalry, resistance, and sacrifice."
+      }
+    },
+    {
+      "id": "RAJ-09",
+      "name": "Hawa Mahal",
+      "city": "Jaipur",
+      "category": "Historical Forts",
+      "coordinates": { "latitude": "26.9239", "longitude": "75.8267" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 1.40,
+        "traffic_delay_weight": 1.80
+      },
+      "entry_fee": 50,
+      "avg_duration_hrs": 1.5,
+      "ai_metadata": {
+        "vibe_tags": ["Iconic", "Pink-City", "Intricate", "Symmetrical", "Bustling"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Extremely High",
+        "historical_significance_weight": 9,
+        "best_suited_for": ["Couples", "Solo", "Architecture Lovers"],
+        "description_ai": "The 'Palace of Winds,' featuring 953 small windows designed for royal ladies to observe street life."
+      }
+    },
+    {
+      "id": "RAJ-10",
+      "name": "Kumbhalgarh Fort",
+      "city": "Rajsamand",
+      "category": "Historical Forts",
+      "coordinates": { "latitude": "25.1481", "longitude": "73.5873" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3500,
+        "base_travel_cost": 1800,
+        "seasonal_surge_factor": 1.30,
+        "traffic_delay_weight": 1.20
+      },
+      "entry_fee": 40,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Great-Wall-of-India", "Massive", "Unconquered", "Panoramic", "Cloud-Fort"],
+        "sentiment_score": 4.8,
+        "historical_significance_weight": 10,
+        "best_suited_for": ["Trekkers", "History Buffs", "Friends"],
+        "description_ai": "Boasts the second-longest continuous wall in the world and is the birthplace of Maharana Pratap."
+      }
+    },
+    {
+      "id": "RAJ-11",
+      "name": "Chand Baori",
+      "city": "Abhaneri",
+      "category": "Architectural & Water-Heritage",
+      "coordinates": { "latitude": "27.0072", "longitude": "76.6064" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2000,
+        "base_travel_cost": 2500,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.05
+      },
+      "entry_fee": 40,
+      "avg_duration_hrs": 1.5,
+      "ai_metadata": {
+        "vibe_tags": ["Geometrical", "Subterranean", "Aesthetic", "Ancient", "Symmetrical"],
+        "sentiment_score": 4.7,
+        "historical_significance_weight": 8,
+        "best_suited_for": ["Photographers", "Architects", "Solo"],
+        "description_ai": "One of the deepest and largest stepwells in India, featuring 3,500 narrow steps in perfect symmetry."
+      }
+    },
+    {
+      "id": "RAJ-12",
+      "name": "Sam Sand Dunes",
+      "city": "Jaisalmer",
+      "category": "Adventure & Nature",
+      "coordinates": { "latitude": "26.8322", "longitude": "70.5050" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 1000,
+        "seasonal_surge_factor": 1.80,
+        "traffic_delay_weight": 1.00
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 12,
+      "ai_metadata": {
+        "vibe_tags": ["Desert-Safari", "Starlit", "Folk-Dance", "Golden", "Romantic"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "High (Evening)",
+        "best_suited_for": ["Couples", "Friends", "Adventure Seekers"],
+        "description_ai": "The best place to experience the Thar Desert through camel safaris and luxury desert camping."
+      }
+    },
+    {
+      "id": "RAJ-13",
+      "name": "Lake Pichola",
+      "city": "Udaipur",
+      "category": "Major Cities & Cultural Spots",
+      "coordinates": { "latitude": "24.5714", "longitude": "73.6732" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4500,
+        "base_travel_cost": 600,
+        "seasonal_surge_factor": 1.50,
+        "traffic_delay_weight": 1.30
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Romantic", "Serene", "Boating", "Palace-View", "Picturesque"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "High (Sunset)",
+        "best_suited_for": ["Couples", "Solo", "Photography"],
+        "description_ai": "An artificial fresh water lake, created in the year 1362 AD, named after the nearby Picholi village."
+      }
+    },
+    {
+      "id": "RAJ-14",
+      "name": "Karni Mata Temple",
+      "city": "Deshnoke",
+      "category": "Religious/Pilgrimage Sites",
+      "coordinates": { "latitude": "27.7915", "longitude": "73.3411" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2000,
+        "base_travel_cost": 1200,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.10
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1.5,
+      "ai_metadata": {
+        "vibe_tags": ["Unusual", "Mystical", "Sacred-Rats", "Faith", "Devotional"],
+        "sentiment_score": 4.4,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["Solo", "Curiosity Seekers", "Pilgrims"],
+        "description_ai": "Known as the 'Temple of Rats,' where 25,000 black rats are worshipped and protected."
+      }
+    },
+    {
+      "id": "RAJ-15",
+      "name": "Keoladeo National Park",
+      "city": "Bharatpur",
+      "category": "UNESCO Heritage Sites",
+      "coordinates": { "latitude": "27.1592", "longitude": "77.5230" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2500,
+        "base_travel_cost": 800,
+        "seasonal_surge_factor": 1.40,
+        "traffic_delay_weight": 1.20
+      },
+      "entry_fee": 75,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Bird-Watching", "Peaceful", "Natural", "Cycle-Safari", "Wetlands"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["Nature Lovers", "Senior Citizens", "Families"],
+        "description_ai": "A world-renowned avifauna sanctuary that hosts thousands of birds, especially during the winter season."
+      }
+    },
+    {
+      "id": "RAJ-16",
+      "name": "Junagarh Fort",
+      "city": "Bikaner",
+      "category": "Historical Forts",
+      "coordinates": { "latitude": "28.0225", "longitude": "73.3119" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2200,
+        "base_travel_cost": 600,
+        "seasonal_surge_factor": 1.25,
+        "traffic_delay_weight": 1.30
+      },
+      "entry_fee": 50,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Indo-Islamic", "Unconquered", "Artistic", "Elegant", "Royal"],
+        "sentiment_score": 4.8,
+        "historical_significance_weight": 9,
+        "best_suited_for": ["History Buffs", "Families"],
+        "description_ai": "A rare fort that is not built on a hilltop; it features some of the most intricate interiors in Rajasthan."
+      }
+    },
+    {
+      "id": "RAJ-17",
+      "name": "Bada Bagh",
+      "city": "Jaisalmer",
+      "category": "Historical Monument",
+      "coordinates": { "latitude": "26.9535", "longitude": "70.8872" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2200,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.50,
+        "traffic_delay_weight": 1.05
+      },
+      "entry_fee": 100,
+      "avg_duration_hrs": 1.5,
+      "ai_metadata": {
+        "vibe_tags": ["Sunset-View", "Cenotaphs", "Melancholic", "Serene", "Golden"],
+        "sentiment_score": 4.6,
+        "best_suited_for": ["Photographers", "Couples"],
+        "description_ai": "A garden complex containing a set of royal cenotaphs (chhatris) for all the Maharajas of Jaisalmer."
+      }
+    },
+    {
+      "id": "RAJ-18",
+      "name": "Nahargarh Fort",
+      "city": "Jaipur",
+      "category": "Hill Station & Fort",
+      "coordinates": { "latitude": "26.9371", "longitude": "75.8236" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 700,
+        "seasonal_surge_factor": 1.40,
+        "traffic_delay_weight": 1.50
+      },
+      "entry_fee": 50,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Skyline-View", "Youth-Hub", "Historical", "Sunset-Point", "Breezy"],
+        "sentiment_score": 4.7,
+        "best_suited_for": ["Friends", "Couples", "Solo"],
+        "description_ai": "Stands on the edge of the Aravalli Hills, providing incredible views over the city of Jaipur."
+      }
+    },
+    {
+      "id": "RAJ-19",
+      "name": "Saheliyon Ki Bari",
+      "city": "Udaipur",
+      "category": "Gardens & Cultural",
+      "coordinates": { "latitude": "24.6009", "longitude": "73.6917" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4500,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 1.50,
+        "traffic_delay_weight": 1.40
+      },
+      "entry_fee": 10,
+      "avg_duration_hrs": 1,
+      "ai_metadata": {
+        "vibe_tags": ["Fountains", "Lush", "Leisure", "Royal-Gardens", "Photography"],
+        "sentiment_score": 4.5,
+        "best_suited_for": ["Families", "Couples"],
+        "description_ai": "The 'Garden of the Maidens' featuring marble elephants, fountains, and a lotus pool."
+      }
+    },
+    {
+      "id": "RAJ-20",
+      "name": "Brahma Temple",
+      "city": "Pushkar",
+      "category": "Religious/Pilgrimage Sites",
+      "coordinates": { "latitude": "26.4880", "longitude": "74.5559" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 1500,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 2.00,
+        "traffic_delay_weight": 1.30
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1,
+      "ai_metadata": {
+        "vibe_tags": ["Rare", "Holy", "Ancient", "Vibrant", "Devotional"],
+        "sentiment_score": 4.8,
+        "historical_significance_weight": 10,
+        "best_suited_for": ["Pilgrims", "Culture Seekers"],
+        "description_ai": "One of the very few existing temples dedicated to the Hindu creator-god Brahma."
+      }
+    },
+    {
+      "id": "RAJ-21",
+      "name": "Bundi (The City of Stepwells)",
+      "city": "Bundi",
+      "category": "Historical Forts & Water-Heritage",
+      "coordinates": { "latitude": "25.4415", "longitude": "75.6450" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 1800,
+        "base_travel_cost": 800,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.10
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 24,
+      "ai_metadata": {
+        "vibe_tags": ["Old-World-Charm", "Stepwells", "Blue-Houses", "Artistic", "Quiet"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Low",
+        "best_suited_for": ["Solo", "Photographers", "Art Lovers"],
+        "description_ai": "A hidden gem known for its ornate stepwells like Raniji ki Baori and the stunning murals of Bundi Palace."
+      }
+    },
+    {
+      "id": "RAJ-22",
+      "name": "Sariska Tiger Reserve",
+      "city": "Alwar",
+      "category": "Wildlife/National Parks",
+      "coordinates": { "latitude": "27.3298", "longitude": "76.4332" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3500,
+        "base_travel_cost": 1500,
+        "seasonal_surge_factor": 1.40,
+        "traffic_delay_weight": 1.25
+      },
+      "entry_fee": 500,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Wild", "Safari", "Aravalli-Hills", "Historical-Ruins", "Lush"],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["Wildlife Lovers", "Friends", "Weekend Travelers"],
+        "description_ai": "A critical tiger habitat in the Aravallis, home to leopards, hyenas, and the historic Kankanwadi Fort."
+      }
+    },
+    {
+      "id": "RAJ-23",
+      "name": "Ranakpur Jain Temple",
+      "city": "Ranakpur",
+      "category": "Religious/Pilgrimage Sites",
+      "coordinates": { "latitude": "25.1157", "longitude": "73.4735" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2500,
+        "base_travel_cost": 1200,
+        "seasonal_surge_factor": 1.25,
+        "traffic_delay_weight": 1.15
+      },
+      "entry_fee": 200,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Intricate-Marble", "Spiritual", "Quiet", "Architectural", "Serene"],
+        "sentiment_score": 4.9,
+        "historical_significance_weight": 10,
+        "best_suited_for": ["Families", "Art Lovers", "Spiritual Seekers"],
+        "description_ai": "A 15th-century masterpiece featuring 1,444 uniquely carved marble pillars in a tranquil valley."
+      }
+    },
+    {
+      "id": "RAJ-24",
+      "name": "Mandawa (The Open Air Art Gallery)",
+      "city": "Mandawa",
+      "category": "Cultural & Heritage",
+      "coordinates": { "latitude": "28.0558", "longitude": "75.1415" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2800,
+        "base_travel_cost": 1000,
+        "seasonal_surge_factor": 1.30,
+        "traffic_delay_weight": 1.10
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 6,
+      "ai_metadata": {
+        "vibe_tags": ["Frescoed-Havelis", "Rustic", "Art-History", "Desert-Village", "Vintage"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Low-Medium",
+        "best_suited_for": ["Art Enthusiasts", "Solo", "History Buffs"],
+        "description_ai": "Famous for its beautifully painted havelis and frescoes, offering a look at 18th-century merchant life."
+      }
+    },
+    {
+      "id": "RAJ-25",
+      "name": "Jawai (Leopard Hills)",
+      "city": "Sumerpur",
+      "category": "Adventure & Wildlife",
+      "coordinates": { "latitude": "25.1132", "longitude": "73.1611" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 8000,
+        "base_travel_cost": 2000,
+        "seasonal_surge_factor": 1.60,
+        "traffic_delay_weight": 1.05
+      },
+      "entry_fee": 1500,
+      "avg_duration_hrs": 5,
+      "ai_metadata": {
+        "vibe_tags": ["Leopard-Spotting", "Granite-Hills", "Luxury-Safari", "Raw-Nature", "Authentic"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "Low",
+        "best_suited_for": ["Wildlife Photographers", "Couples", "Luxury Travelers"],
+        "description_ai": "A unique ecosystem where leopards live harmoniously with Rabari tribesmen among ancient granite boulders."
+      }
+    },
+    {
+      "id": "RAJ-26",
+      "name": "Sambhar Salt Lake",
+      "city": "Sambhar Lake Town",
+      "category": "Nature & Geo-Heritage",
+      "coordinates": { "latitude": "26.9115", "longitude": "75.1610" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 1200,
+        "base_travel_cost": 600,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.20
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Salt-Flats", "Flamingos", "White-Desert", "Photogenic", "Industrial-Heritage"],
+        "sentiment_score": 4.5,
+        "crowd_prediction_level": "Low",
+        "best_suited_for": ["Photographers", "Bird Watchers", "Offbeat Travelers"],
+        "description_ai": "India's largest inland salt lake, creating a surreal white landscape that is a paradise for flamingo sightings."
+      }
+    },
+    {
+      "id": "RAJ-27",
+      "name": "Bhangarh Fort (Most Haunted Site)",
+      "city": "Gola ka Baas",
+      "category": "Historical Forts & Mystery",
+      "coordinates": { "latitude": "27.0913", "longitude": "76.2861" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2000,
+        "base_travel_cost": 1200,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.30
+      },
+      "entry_fee": 40,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Eerie", "Ruined-City", "Cursed", "Thrilling", "Scenic"],
+        "sentiment_score": 4.4,
+        "crowd_prediction_level": "High (Daytime)",
+        "best_suited_for": ["Adventure Seekers", "History Buffs", "Friends"],
+        "description_ai": "Infamous as India's most haunted fort; a 17th-century township of ruins with legends of a dark curse."
+      }
+    },
+    {
+      "id": "RAJ-28",
+      "name": "Kuldhara (Abandoned Village)",
+      "city": "Jaisalmer",
+      "category": "Historical & Ghost Towns",
+      "coordinates": { "latitude": "26.8732", "longitude": "70.7871" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2200,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 1.40,
+        "traffic_delay_weight": 1.10
+      },
+      "entry_fee": 50,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Deserted", "Spooky-Legends", "Stone-Ruins", "Mystery", "Silence"],
+        "sentiment_score": 4.6,
+        "best_suited_for": ["Solo Travelers", "History Lovers", "Photographers"],
+        "description_ai": "A village of Paliwal Brahmins abandoned overnight 200 years ago, leaving behind a hauntingly beautiful stone skeleton."
+      }
+    },
+    {
+      "id": "RAJ-29",
+      "name": "Tal Chhapar Sanctuary",
+      "city": "Churu",
+      "category": "Wildlife & Nature",
+      "coordinates": { "latitude": "27.7961", "longitude": "74.4362" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 1500,
+        "base_travel_cost": 800,
+        "seasonal_surge_factor": 1.25,
+        "traffic_delay_weight": 1.10
+      },
+      "entry_fee": 50,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Blackbucks", "Grasslands", "Nature-Photography", "Peaceful", "Raptor-Paradise"],
+        "sentiment_score": 4.8,
+        "best_suited_for": ["Wildlife Photographers", "Solo", "Nature Lovers"],
+        "description_ai": "A unique flat grassland ecosystem famous for massive blackbuck populations and migratory birds of prey."
+      }
+    },
+    {
+      "id": "RAJ-30",
+      "name": "Jaigarh Fort",
+      "city": "Jaipur",
+      "category": "Military Heritage",
+      "coordinates": { "latitude": "26.9850", "longitude": "75.8456" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 600,
+        "seasonal_surge_factor": 1.40,
+        "traffic_delay_weight": 1.50
+      },
+      "entry_fee": 150,
+      "avg_duration_hrs": 2.5,
+      "ai_metadata": {
+        "vibe_tags": ["Military-Might", "Massive-Cannon", "Strategic", "Panoramic", "Rugged"],
+        "sentiment_score": 4.7,
+        "historical_significance_weight": 10,
+        "best_suited_for": ["History Enthusiasts", "Families", "Students"],
+        "description_ai": "Home to the Jaivana, the world's largest cannon on wheels, and a network of secret tunnels connecting to Amer Fort."
+      }
+    }
+  ]
+}

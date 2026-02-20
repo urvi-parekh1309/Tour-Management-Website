@@ -1,0 +1,179 @@
+{
+  "state": "Punjab",
+  "destinations": [
+    {
+      "id": "PUN-01",
+      "name": "Golden Temple (Harmandir Sahib)",
+      "city": "Amritsar",
+      "category": "Spiritual & Iconic",
+      "coordinates": { "latitude": "31.6200", "longitude": "74.8765" },
+      "budget_metrics": { "base_stay_cost_per_day": 3500, "base_travel_cost": 500, "seasonal_surge_factor": 1.50, "traffic_delay_weight": 1.75 },
+      "entry_fee": 0, "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Spiritual", "Serene", "Golden", "Historic"],
+        "sentiment_score": 5.0,
+        "crowd_prediction_level": "Extremely High",
+        "historical_significance_weight": 10,
+        "best_suited_for": ["Devotees", "Families"],
+        "description_ai": "The holiest Gurdwara of Sikhism, famous for its golden architecture and world's largest community kitchen.",
+        "image_url": "https://images.unsplash.com/photo-1514222134-b57cbb8ce073?w=800&q=80"
+      }
+    },
+    {
+      "id": "PUN-02",
+      "name": "Wagah Border",
+      "city": "Amritsar",
+      "category": "National Heritage",
+      "coordinates": { "latitude": "31.6047", "longitude": "74.5732" },
+      "budget_metrics": { "base_stay_cost_per_day": 3000, "base_travel_cost": 1200, "seasonal_surge_factor": 1.20, "traffic_delay_weight": 1.50 },
+      "entry_fee": 0, "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Patriotic", "Electrifying", "Military", "Ceremonial"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "Extremely High",
+        "best_suited_for": ["Nationalists", "Families"],
+        "description_ai": "The international border known for the daily Beating Retreat ceremony involving synchronized military drills.",
+        "image_url": "https://images.unsplash.com/photo-1623070795498-de4dbb5f5781?w=800&q=80"
+      }
+    },
+    {
+      "id": "PUN-17",
+      "name": "Jallianwala Bagh",
+      "city": "Amritsar",
+      "category": "Historical Heritage",
+      "coordinates": { "latitude": "31.6214", "longitude": "74.8806" },
+      "budget_metrics": { "base_stay_cost_per_day": 3500, "base_travel_cost": 200, "seasonal_surge_factor": 1.00, "traffic_delay_weight": 1.85 },
+      "entry_fee": 0, "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Solemn", "Historical", "Patriotic"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 10,
+        "best_suited_for": ["History Buffs", "Families"],
+        "description_ai": "A historic memorial commemorating the 1919 massacre, a turning point in the independence struggle.",
+        "image_url": "https://images.unsplash.com/photo-1609947017136-9daf32a15c73?w=800&q=80"
+      }
+    },
+    {
+      "id": "PUN-04",
+      "name": "Virasat-e-Khalsa",
+      "city": "Anandpur Sahib",
+      "category": "Museum & Cultural Heritage",
+      "coordinates": { "latitude": "31.2351", "longitude": "76.4998" },
+      "budget_metrics": { "base_stay_cost_per_day": 1800, "base_travel_cost": 2000, "seasonal_surge_factor": 1.40, "traffic_delay_weight": 1.10 },
+      "entry_fee": 0, "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Majestic", "Educational", "Architectural-Marvel"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "Medium",
+        "historical_significance_weight": 10,
+        "best_suited_for": ["History Buffs", "Students"],
+        "description_ai": "A world-class museum celebrating 500 years of Sikh history and the birth of Khalsa.",
+        "image_url": "https://images.unsplash.com/photo-1623070795498-de4dbb5f5781?w=800&q=80"
+      }
+    },
+    {
+      "id": "PUN-23",
+      "name": "Gobindgarh Fort",
+      "city": "Amritsar",
+      "category": "Historical Forts",
+      "coordinates": { "latitude": "31.6265", "longitude": "74.8640" },
+      "budget_metrics": { "base_stay_cost_per_day": 3500, "base_travel_cost": 300, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.65 },
+      "entry_fee": 150, "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Military-History", "Light-Show", "Museum"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Medium",
+        "historical_significance_weight": 9,
+        "best_suited_for": ["Families", "History Buffs"],
+        "description_ai": "A military stronghold turned into a repository of Punjabi history with 7D and laser shows.",
+        "image_url": "https://images.unsplash.com/photo-1558431382-2b87aecdf8a6?w=800&q=80"
+      }
+    },
+    {
+      "id": "PUN-03",
+      "name": "Rock Garden",
+      "city": "Chandigarh",
+      "category": "Art & Architecture",
+      "coordinates": { "latitude": "30.7525", "longitude": "76.8013" },
+      "budget_metrics": { "base_stay_cost_per_day": 4500, "base_travel_cost": 400, "seasonal_surge_factor": 1.15, "traffic_delay_weight": 1.30 },
+      "entry_fee": 30, "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Creative", "Eco-friendly", "Whimsical", "Recycled"],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Art Lovers", "Families"],
+        "description_ai": "A massive open-air exhibition featuring sculptures made entirely from industrial and home waste.",
+        "image_url": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=800&q=80"
+      }
+    },
+    {
+      "id": "PUN-29",
+      "name": "Sukhna Lake",
+      "city": "Chandigarh",
+      "category": "Nature/Wildlife",
+      "coordinates": { "latitude": "30.7422", "longitude": "76.8153" },
+      "budget_metrics": { "base_stay_cost_per_day": 5000, "base_travel_cost": 400, "seasonal_surge_factor": 1.25, "traffic_delay_weight": 1.35 },
+      "entry_fee": 0, "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Waterfront", "Sunset-Point", "Boating"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["Families", "Couples"],
+        "description_ai": "Man-made reservoir offering a beach-like escape with sunset strolls and rowing.",
+        "image_url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80"
+      }
+    },
+    {
+      "id": "PUN-26",
+      "name": "Morni Hills",
+      "city": "Panchkula",
+      "category": "Hill Station",
+      "coordinates": { "latitude": "30.6861", "longitude": "77.0864" },
+      "budget_metrics": { "base_stay_cost_per_day": 3500, "base_travel_cost": 800, "seasonal_surge_factor": 1.30, "traffic_delay_weight": 1.20 },
+      "entry_fee": 0, "avg_duration_hrs": 6,
+      "ai_metadata": {
+        "vibe_tags": ["Serene", "Shivalik-Range", "Nature-Escape"],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "Low",
+        "best_suited_for": ["Nature Lovers", "Friends"],
+        "description_ai": "The only hill station in the region, featuring pristine lakes and lush Shivalik greenery.",
+        "image_url": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&q=80"
+      }
+    },
+    {
+      "id": "PUN-06",
+      "name": "Kesar Da Dhaba",
+      "city": "Amritsar",
+      "category": "Legendary Dining",
+      "coordinates": { "latitude": "31.6256", "longitude": "74.8735" },
+      "budget_metrics": { "base_stay_cost_per_day": 3500, "base_travel_cost": 200, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.90 },
+      "entry_fee": 0, "avg_duration_hrs": 1.5,
+      "ai_metadata": {
+        "vibe_tags": ["Authentic", "Desi-Ghee", "Heritage-Eatery"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Foodies", "Families"],
+        "description_ai": "Operating since 1916, legendary for its 100-year-old Dal Makhani and traditional thalis.",
+        "image_url": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=800&q=80"
+      }
+    },
+    {
+      "id": "PUN-27",
+      "name": "Harike Wetland",
+      "city": "Tarn Taran",
+      "category": "Nature/Wildlife",
+      "coordinates": { "latitude": "31.1447", "longitude": "74.8878" },
+      "budget_metrics": { "base_stay_cost_per_day": 1500, "base_travel_cost": 1200, "seasonal_surge_factor": 1.15, "traffic_delay_weight": 1.10 },
+      "entry_fee": 0, "avg_duration_hrs": 5,
+      "ai_metadata": {
+        "vibe_tags": ["Bird-Watching", "Ramsar-Site", "Migratory-Birds"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "Low",
+        "best_suited_for": ["Wildlife Photographers"],
+        "description_ai": "Largest wetland in Northern India, a haven for Siberian birds and Indus River Dolphins.",
+        "image_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80"
+      }
+    }
+  ]
+}

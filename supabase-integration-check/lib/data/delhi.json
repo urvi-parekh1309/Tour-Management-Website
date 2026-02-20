@@ -1,0 +1,741 @@
+{
+  "state": "Delhi",
+  "destinations": [
+    {
+      "id": "DEL-01",
+      "name": "Red Fort (Lal Qila)",
+      "city": "Old Delhi",
+      "category": "UNESCO Heritage Sites",
+      "coordinates": { "latitude": "28.6562", "longitude": "77.2410" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3500,
+        "base_travel_cost": 600,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.70
+      },
+      "entry_fee": 35,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Imperial", "Mughal-Architecture", "Historic", "Massive", "Symbolic"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Extremely High",
+        "historical_significance_weight": 10,
+        "best_suited_for": ["History Buffs", "Families", "Foreign Tourists"],
+        "description_ai": "The seat of Mughal power for 200 years, this red sandstone fortress is a symbol of India's sovereignty and architectural brilliance.",
+        "image_url": "https://images.unsplash.com/photo-1585135497273-1a86b09fe70e?w=800&q=80"
+      }
+    },
+    {
+      "id": "DEL-02",
+      "name": "Qutub Minar",
+      "city": "South Delhi",
+      "category": "UNESCO Heritage Sites",
+      "coordinates": { "latitude": "28.5244", "longitude": "77.1855" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4500,
+        "base_travel_cost": 700,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.40
+      },
+      "entry_fee": 35,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Ancient", "Architectural-Marvel", "Towering", "Victory-Monument"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 10,
+        "best_suited_for": ["Architecture Lovers", "Solo", "Families"],
+        "description_ai": "The tallest brick minaret in the world, surrounded by complex ruins including the 4th-century uncorroded Iron Pillar.",
+        "image_url": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=800&q=80"
+      }
+    },
+    {
+      "id": "DEL-03",
+      "name": "Humayun's Tomb",
+      "city": "Nizamuddin",
+      "category": "UNESCO Heritage Sites",
+      "coordinates": { "latitude": "28.5933", "longitude": "77.2507" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4000,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.30
+      },
+      "entry_fee": 35,
+      "avg_duration_hrs": 2.5,
+      "ai_metadata": {
+        "vibe_tags": ["Garden-Tomb", "Symmetrical", "Precursor-to-Taj", "Serene", "Elegant"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "Medium",
+        "historical_significance_weight": 10,
+        "best_suited_for": ["Couples", "Photographers", "History Buffs"],
+        "description_ai": "The first garden-tomb on the Indian subcontinent, its Persian-style architecture served as the inspiration for the Taj Mahal.",
+        "image_url": "https://images.unsplash.com/photo-1623689048105-a17b1e1936b8?w=800&q=80"
+      }
+    },
+    {
+      "id": "DEL-04",
+      "name": "India Gate",
+      "city": "New Delhi",
+      "category": "Major Cities & Cultural Spots",
+      "coordinates": { "latitude": "28.6129", "longitude": "77.2295" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.80
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1.5,
+      "ai_metadata": {
+        "vibe_tags": ["Patriotic", "Lively", "Evening-Hangout", "War-Memorial", "Iconic"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "Extremely High",
+        "historical_significance_weight": 9,
+        "best_suited_for": ["Families", "Friends", "Night-Owls"],
+        "description_ai": "A 42-meter high war memorial archway honors Indian soldiers; the surrounding Kartavya Path is Delhi's premier public space.",
+        "image_url": "https://images.unsplash.com/photo-1597040663342-45b6ba68fa21?w=800&q=80"
+      }
+    },
+    {
+      "id": "DEL-05",
+      "name": "Lotus Temple",
+      "city": "Kalkaji",
+      "category": "Religious/Pilgrimage Sites",
+      "coordinates": { "latitude": "28.5535", "longitude": "77.2588" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.60
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1.5,
+      "ai_metadata": {
+        "vibe_tags": ["Silent", "Modern", "Bahai-Faith", "Meditative", "White-Marble"],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 6,
+        "best_suited_for": ["Solo", "Peace-seekers", "Families"],
+        "description_ai": "A Bahai House of Worship shaped like a floating lotus, open to people of all religions for silent meditation.",
+        "image_url": "https://images.unsplash.com/photo-1622310890638-b3e31ce0f22b?w=800&q=80"
+      }
+    },
+    {
+      "id": "DEL-06",
+      "name": "Swaminarayan Akshardham",
+      "city": "East Delhi",
+      "category": "Spiritual & Iconic",
+      "coordinates": { "latitude": "28.6127", "longitude": "77.2773" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2500,
+        "base_travel_cost": 800,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.50
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 5,
+      "ai_metadata": {
+        "vibe_tags": ["Grand", "Ornate", "High-Tech", "Traditional", "Water-Show"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "Extremely High",
+        "best_suited_for": ["Families", "Devotees", "Architecture Lovers"],
+        "description_ai": "A massive spiritual complex showcasing millennia of traditional Indian and Hindu culture, spirituality, and architecture.",
+        "image_url": "https://images.unsplash.com/photo-1609947017136-9daf32fc7779?w=800&q=80"
+      }
+    },
+    {
+      "id": "DEL-07",
+      "name": "Chandni Chowk",
+      "city": "Old Delhi",
+      "category": "Traditional Shopping",
+      "coordinates": { "latitude": "28.6606", "longitude": "77.2302" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2000,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.30,
+        "traffic_delay_weight": 2.00
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Chaotic", "Bustling", "Street-Food-Heaven", "Wholesale", "Heritage"],
+        "sentiment_score": 4.5,
+        "crowd_prediction_level": "Extreme",
+        "best_suited_for": ["Foodies", "Shoppers", "Photographers"],
+        "description_ai": "One of the oldest and busiest markets in India; a sensory explosion of spices, jewelry, and legendary Mughlai street food.",
+        "image_url": "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?w=800&q=80"
+      }
+    },
+    {
+      "id": "DEL-08",
+      "name": "Lodhi Garden",
+      "city": "Lodhi Estate",
+      "category": "Major Cities & Cultural Spots",
+      "coordinates": { "latitude": "28.5931", "longitude": "77.2197" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 6000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.35
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Lush", "Historical-Park", "Jogging", "Quiet", "Tombs"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["Couples", "Solo", "Nature Lovers"],
+        "description_ai": "A sprawling 90-acre park containing the tombs of the Sayyid and Lodhi rulers amidst manicured greenery.",
+        "image_url": "https://images.unsplash.com/photo-1602508453427-2af8e14d08dc?w=800&q=80"
+      }
+    },
+    {
+      "id": "DEL-09",
+      "name": "Jama Masjid",
+      "city": "Old Delhi",
+      "category": "Religious/Pilgrimage Sites",
+      "coordinates": { "latitude": "28.6507", "longitude": "77.2334" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2000,
+        "base_travel_cost": 350,
+        "seasonal_surge_factor": 1.25,
+        "traffic_delay_weight": 1.95
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1.5,
+      "ai_metadata": {
+        "vibe_tags": ["Spiritual", "Mughal-Splendor", "Panoramic-Views", "Community", "Massive"],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 10,
+        "best_suited_for": ["Pilgrims", "History Buffs", "Photographers"],
+        "description_ai": "One of the largest mosques in India, built by Shah Jahan; its courtyard can hold 25,000 devotees.",
+        "image_url": "https://images.unsplash.com/photo-1564577160324-112d603f750f?w=800&q=80"
+      }
+    },
+    {
+      "id": "DEL-10",
+      "name": "Dilli Haat",
+      "city": "INA",
+      "category": "Shopping & Lifestyle",
+      "coordinates": { "latitude": "28.5733", "longitude": "77.2081" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.50
+      },
+      "entry_fee": 30,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Crafts", "Ethnic", "Regional-Cuisine", "Open-Air", "Colorful"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Medium-High",
+        "best_suited_for": ["Families", "Shoppers", "Foodies"],
+        "description_ai": "A permanent open-air food and craft bazaar representing rural art and ethnic food from across India's states.",
+        "image_url": "https://images.unsplash.com/photo-1606820854416-439b3305ff39?w=800&q=80"
+      }
+    },
+    {
+      "id": "DEL-11",
+      "name": "Karim's",
+      "city": "Old Delhi",
+      "category": "Legendary Dining",
+      "coordinates": { "latitude": "28.6503", "longitude": "77.2336" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.90
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1,
+      "ai_metadata": {
+        "vibe_tags": ["Mughlai-Original", "Meaty", "Historic", "Crowded", "Authentic"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Meat Lovers", "Culinary Explorers"],
+        "description_ai": "Established in 1913, this world-renowned restaurant is famous for its Mutton Korma and Burra Kebabs near Jama Masjid.",
+        "image_url": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=800&q=80"
+      }
+    },
+    {
+      "id": "DEL-12",
+      "name": "Waste to Wonder Park",
+      "city": "Sarai Kale Khan",
+      "category": "Major Cities & Cultural Spots",
+      "coordinates": { "latitude": "28.5910", "longitude": "77.2550" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.45
+      },
+      "entry_fee": 50,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Creative", "Eco-friendly", "Replicas", "Illuminated", "Family-Park"],
+        "sentiment_score": 4.4,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["Families", "Instagrammers", "Kids"],
+        "description_ai": "A unique theme park featuring replicas of the Seven Wonders of the World created entirely from industrial and scrap waste.",
+        "image_url": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&q=80"
+      }
+    },
+    {
+      "id": "DEL-13",
+      "name": "Connaught Place (CP)",
+      "city": "New Delhi",
+      "category": "Major Cities & Cultural Spots",
+      "coordinates": { "latitude": "28.6315", "longitude": "77.2167" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 6000,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.90
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Georgian-Architecture", "Heart-of-Delhi", "Upscale", "Nightlife", "Social-Hub"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Extremely High",
+        "best_suited_for": ["Friends", "Shoppers", "Youth"],
+        "description_ai": "A massive circular commercial center defined by white colonial pillars, high-end brands, and some of the city's best bars.",
+        "image_url": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=800&q=80"
+      }
+    },
+    {
+      "id": "DEL-14",
+      "name": "Hauz Khas Village",
+      "city": "South Delhi",
+      "category": "Major Cities & Cultural Spots",
+      "coordinates": { "latitude": "28.5471", "longitude": "77.2040" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3500,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.50
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 5,
+      "ai_metadata": {
+        "vibe_tags": ["Trendy", "Artistic", "Medieval-Ruins", "Nightlife", "Bohemian"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "High (Evenings)",
+        "historical_significance_weight": 8,
+        "best_suited_for": ["Youth", "Couples", "Art Lovers", "Friends"],
+        "description_ai": "A fusion of 14th-century Islamic architecture and modern urban culture, featuring upscale boutiques, lakeside cafes, and vibrant pubs.",
+        "image_url": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&q=80"
+      }
+    },
+    {
+      "id": "DEL-15",
+      "name": "National Museum",
+      "city": "Janpath",
+      "category": "Major Cities & Cultural Spots",
+      "coordinates": { "latitude": "28.6118", "longitude": "77.2192" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4000,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.05,
+        "traffic_delay_weight": 1.60
+      },
+      "entry_fee": 20,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Educational", "Vast", "Ancient-Artifacts", "Quiet", "Scholarly"],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "Medium",
+        "historical_significance_weight": 10,
+        "best_suited_for": ["History Buffs", "Students", "Solo"],
+        "description_ai": "One of India's largest museums, housing over 200,000 artifacts spanning 5,000 years.",
+        "image_url": "https://images.unsplash.com/photo-1564577160324-112d603f750f?w=800&q=80"
+      }
+    },
+    {
+      "id": "DEL-16",
+      "name": "Majnu ka Tilla",
+      "city": "North Delhi",
+      "category": "Major Cities & Cultural Spots",
+      "coordinates": { "latitude": "28.7014", "longitude": "77.2282" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 1500,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.80
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Tibetan-Culture", "Authentic", "Foodie-Hub", "Spiritual", "Narrow-Lanes"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Foodies", "Students", "Budget Travelers"],
+        "description_ai": "A vibrant Tibetan colony famous for its monastery, authentic Himalayan cuisine, and unique handicrafts shopping.",
+        "image_url": "https://images.unsplash.com/photo-1585135497273-1a86b09fe70e?w=800&q=80"
+      }
+    },
+    {
+      "id": "DEL-17",
+      "name": "Gurudwara Bangla Sahib",
+      "city": "Connaught Place",
+      "category": "Religious/Pilgrimage Sites",
+      "coordinates": { "latitude": "28.6265", "longitude": "77.2091" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 200,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.90
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1.5,
+      "ai_metadata": {
+        "vibe_tags": ["Serene", "Devotional", "Gold-Dome", "Healing-Water", "Peaceful"],
+        "sentiment_score": 5.0,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 10,
+        "best_suited_for": ["Families", "Solo", "Pilgrims"],
+        "description_ai": "A major Sikh house of worship known for its holy pond and massive community kitchen that serves thousands daily.",
+        "image_url": "https://images.unsplash.com/photo-1609947017136-9daf32fc7779?w=800&q=80"
+      }
+    },
+    {
+      "id": "DEL-18",
+      "name": "Agrasen ki Baoli",
+      "city": "Hailey Road",
+      "category": "Major Cities & Cultural Spots",
+      "coordinates": { "latitude": "28.6261", "longitude": "77.2250" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4000,
+        "base_travel_cost": 200,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.70
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1,
+      "ai_metadata": {
+        "vibe_tags": ["Mysterious", "Architectural", "Symmetrical", "Ancient-Stepwell", "Cinematic"],
+        "sentiment_score": 4.5,
+        "crowd_prediction_level": "High",
+        "historical_significance_weight": 8,
+        "best_suited_for": ["Photographers", "Students", "History Enthusiasts"],
+        "description_ai": "A protected 60-meter long historical stepwell featuring 108 steps and unique niche architecture.",
+        "image_url": "https://images.unsplash.com/photo-1602508453427-2af8e14d08dc?w=800&q=80"
+      }
+    },
+    {
+      "id": "DEL-26",
+      "name": "Paranthe Wali Gali",
+      "city": "Old Delhi",
+      "category": "Legendary Dining",
+      "coordinates": { "latitude": "28.6565", "longitude": "77.2310" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2000,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 2.00
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1,
+      "ai_metadata": {
+        "vibe_tags": ["Flavor-Burst", "Narrow-Lane", "Heritage-Eats", "Vegetarian", "Crowded"],
+        "sentiment_score": 4.4,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Foodies", "Budget Explorers"],
+        "description_ai": "A world-famous lane in Chandni Chowk serving deep-fried stuffed paranthas since the 1870s.",
+        "image_url": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=800&q=80"
+      }
+    },
+    {
+      "id": "DEL-27",
+      "name": "Raj Ghat",
+      "city": "Mahatma Gandhi Marg",
+      "category": "Major Cities & Cultural Spots",
+      "coordinates": { "latitude": "28.6406", "longitude": "77.2495" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.05,
+        "traffic_delay_weight": 1.45
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1,
+      "ai_metadata": {
+        "vibe_tags": ["Somber", "Peaceful", "Respectful", "Minimalist", "Memorial"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "Medium",
+        "historical_significance_weight": 10,
+        "best_suited_for": ["History Seekers", "Solo", "Families"],
+        "description_ai": "A simple black marble memorial marking the spot of Mahatma Gandhi's cremation, surrounded by lush lawns.",
+        "image_url": "https://images.unsplash.com/photo-1597040663342-45b6ba68fa21?w=800&q=80"
+      }
+    },
+    {
+      "id": "DEL-37",
+      "name": "Chandni Chowk Food Crawl",
+      "city": "Old Delhi",
+      "category": "Legendary Dining",
+      "coordinates": { "latitude": "28.6560", "longitude": "77.2300" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2000,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 2.00
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Gourmet-Street", "Jalebi", "Kachori", "Iconic-Eats", "Sensory-Overload"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "Extreme",
+        "best_suited_for": ["Food Bloggers", "Culinary Travelers", "Groups"],
+        "description_ai": "Includes stops like Old Famous Jalebi Wala and Natraj Dahi Bhalle. A journey through the culinary heart of Mughal India.",
+        "image_url": "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?w=800&q=80"
+      }
+    }
+  ],
+  "food": [
+    {
+      "id": "FOOD-DEL-01",
+      "name": "Paranthe Wali Gali Paranthas",
+      "location": "Chandni Chowk, Old Delhi",
+      "type": "veg",
+      "taste": "spicy",
+      "category": "famous",
+      "price_range": "50-150",
+      "description": "Deep-fried stuffed paranthas (potato, paneer, mixed veg) served with tangy chutneys since 1872.",
+      "is_jain": false,
+      "image_url": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=600&q=80"
+    },
+    {
+      "id": "FOOD-DEL-02",
+      "name": "Old Famous Jalebi Wala",
+      "location": "Dariba Kalan, Chandni Chowk",
+      "type": "veg",
+      "taste": "sweet",
+      "category": "famous",
+      "price_range": "30-100",
+      "description": "Crispy hot jalebis dripping with sugar syrup, a Delhi institution since 1884.",
+      "is_jain": true,
+      "image_url": "https://images.unsplash.com/photo-1666190053042-5de7804e3698?w=600&q=80"
+    },
+    {
+      "id": "FOOD-DEL-03",
+      "name": "Karim's Mutton Korma",
+      "location": "Near Jama Masjid, Old Delhi",
+      "type": "non-veg",
+      "taste": "spicy",
+      "category": "famous",
+      "price_range": "200-500",
+      "description": "Legendary Mughlai mutton korma slow-cooked with royal spices, served since 1913.",
+      "is_jain": false,
+      "image_url": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=600&q=80"
+    },
+    {
+      "id": "FOOD-DEL-04",
+      "name": "Natraj Dahi Bhalle",
+      "location": "Chandni Chowk, Old Delhi",
+      "type": "veg",
+      "taste": "sweet",
+      "category": "famous",
+      "price_range": "60-120",
+      "description": "Soft lentil dumplings in creamy yogurt topped with tamarind and mint chutney.",
+      "is_jain": false,
+      "image_url": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&q=80"
+    },
+    {
+      "id": "FOOD-DEL-05",
+      "name": "Chole Bhature at Sita Ram",
+      "location": "Paharganj, Central Delhi",
+      "type": "veg",
+      "taste": "spicy",
+      "category": "famous",
+      "price_range": "80-150",
+      "description": "Puffed deep-fried bread with spicy chickpea curry, a quintessential Delhi breakfast.",
+      "is_jain": false,
+      "image_url": "https://images.unsplash.com/photo-1626132647523-66f5bf380027?w=600&q=80"
+    },
+    {
+      "id": "FOOD-DEL-06",
+      "name": "Butter Chicken at Moti Mahal",
+      "location": "Daryaganj, Old Delhi",
+      "type": "non-veg",
+      "taste": "spicy",
+      "category": "famous",
+      "price_range": "300-600",
+      "description": "The birthplace of butter chicken - tender tandoori chicken in creamy tomato-butter gravy.",
+      "is_jain": false,
+      "image_url": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=600&q=80"
+    },
+    {
+      "id": "FOOD-DEL-07",
+      "name": "Chaat at Haldiram's",
+      "location": "Chandni Chowk, Old Delhi",
+      "type": "veg",
+      "taste": "spicy",
+      "category": "local",
+      "price_range": "50-200",
+      "description": "Gol gappe, aloo tikki, papdi chaat - a complete range of tangy Delhi street snacks.",
+      "is_jain": true,
+      "image_url": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&q=80"
+    },
+    {
+      "id": "FOOD-DEL-08",
+      "name": "Kebabs at Al Jawahar",
+      "location": "Near Jama Masjid, Old Delhi",
+      "type": "non-veg",
+      "taste": "spicy",
+      "category": "local",
+      "price_range": "150-400",
+      "description": "Succulent seekh kebabs and biryani in an old-world setting near the grand mosque.",
+      "is_jain": false,
+      "image_url": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=600&q=80"
+    },
+    {
+      "id": "FOOD-DEL-09",
+      "name": "Rabri Falooda at Giani's",
+      "location": "Chandni Chowk, Old Delhi",
+      "type": "veg",
+      "taste": "sweet",
+      "category": "famous",
+      "price_range": "80-200",
+      "description": "Thick rabri with vermicelli, rose syrup, and kulfi - a royal Mughal dessert experience.",
+      "is_jain": true,
+      "image_url": "https://images.unsplash.com/photo-1666190053042-5de7804e3698?w=600&q=80"
+    },
+    {
+      "id": "FOOD-DEL-10",
+      "name": "Thukpa & Momos at Majnu ka Tilla",
+      "location": "Majnu ka Tilla, North Delhi",
+      "type": "veg",
+      "taste": "spicy",
+      "category": "local",
+      "price_range": "80-200",
+      "description": "Authentic Tibetan noodle soup and steamed dumplings in Little Tibet colony.",
+      "is_jain": false,
+      "image_url": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=600&q=80"
+    },
+    {
+      "id": "FOOD-DEL-11",
+      "name": "Nihari at Haji Shabrati",
+      "location": "Near Jama Masjid, Old Delhi",
+      "type": "non-veg",
+      "taste": "spicy",
+      "category": "local",
+      "price_range": "200-400",
+      "description": "Slow-cooked overnight meat stew served early morning with naan - a Mughal breakfast.",
+      "is_jain": false,
+      "image_url": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=600&q=80"
+    },
+    {
+      "id": "FOOD-DEL-12",
+      "name": "Kachori at Jung Bahadur",
+      "location": "Chandni Chowk, Old Delhi",
+      "type": "veg",
+      "taste": "spicy",
+      "category": "local",
+      "price_range": "30-80",
+      "description": "Crispy deep-fried kachoris stuffed with spiced lentils, served with sabzi.",
+      "is_jain": false,
+      "image_url": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&q=80"
+    },
+    {
+      "id": "FOOD-DEL-13",
+      "name": "Paneer Tikka at Dilli Haat",
+      "location": "INA, South Delhi",
+      "type": "veg",
+      "taste": "spicy",
+      "category": "local",
+      "price_range": "150-300",
+      "description": "Marinated cottage cheese grilled in tandoor, available at regional food stalls.",
+      "is_jain": false,
+      "image_url": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=600&q=80"
+    },
+    {
+      "id": "FOOD-DEL-14",
+      "name": "Kulfi at Kuremal",
+      "location": "Chawri Bazaar, Old Delhi",
+      "type": "veg",
+      "taste": "sweet",
+      "category": "famous",
+      "price_range": "50-150",
+      "description": "Unique fruit-stuffed kulfi (mango, apple, kiwi) - a Delhi delicacy since the 1900s.",
+      "is_jain": true,
+      "image_url": "https://images.unsplash.com/photo-1666190053042-5de7804e3698?w=600&q=80"
+    },
+    {
+      "id": "FOOD-DEL-15",
+      "name": "Rajma Chawal",
+      "location": "Various stalls, Central Delhi",
+      "type": "veg",
+      "taste": "spicy",
+      "category": "local",
+      "price_range": "60-150",
+      "description": "Creamy kidney bean curry with steamed rice - Delhi's beloved comfort food.",
+      "is_jain": false,
+      "image_url": "https://images.unsplash.com/photo-1626132647523-66f5bf380027?w=600&q=80"
+    },
+    {
+      "id": "FOOD-DEL-16",
+      "name": "Gulab Jamun at Chaina Ram",
+      "location": "Fatehpuri, Chandni Chowk",
+      "type": "veg",
+      "taste": "sweet",
+      "category": "famous",
+      "price_range": "40-100",
+      "description": "Soft deep-fried milk dumplings soaked in cardamom-rose sugar syrup since 1901.",
+      "is_jain": true,
+      "image_url": "https://images.unsplash.com/photo-1666190053042-5de7804e3698?w=600&q=80"
+    },
+    {
+      "id": "FOOD-DEL-17",
+      "name": "Daulat Ki Chaat",
+      "location": "Chandni Chowk (winter only)",
+      "type": "veg",
+      "taste": "sweet",
+      "category": "local",
+      "price_range": "30-80",
+      "description": "A seasonal winter delicacy - cloud-like milk foam flavored with saffron and pistachios, available only at dawn.",
+      "is_jain": true,
+      "image_url": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&q=80"
+    },
+    {
+      "id": "FOOD-DEL-18",
+      "name": "Imarti at Pt. Kanhaiya Lal",
+      "location": "Dariba Kalan, Old Delhi",
+      "type": "veg",
+      "taste": "sweet",
+      "category": "local",
+      "price_range": "40-100",
+      "description": "Flower-shaped crispy fritters made from urad dal batter, soaked in fragrant sugar syrup.",
+      "is_jain": true,
+      "image_url": "https://images.unsplash.com/photo-1666190053042-5de7804e3698?w=600&q=80"
+    },
+    {
+      "id": "FOOD-DEL-19",
+      "name": "Lassi at Amritsari Lassi Wala",
+      "location": "Kucha Pati Ram, Chandni Chowk",
+      "type": "veg",
+      "taste": "sweet",
+      "category": "famous",
+      "price_range": "50-120",
+      "description": "Thick creamy yogurt lassi topped with malai - a perfect Old Delhi refresher.",
+      "is_jain": true,
+      "image_url": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&q=80"
+    },
+    {
+      "id": "FOOD-DEL-20",
+      "name": "Nagori Halwa Puri",
+      "location": "Sitaram Bazaar, Old Delhi",
+      "type": "veg",
+      "taste": "sweet",
+      "category": "local",
+      "price_range": "60-120",
+      "description": "Traditional morning breakfast - crispy puris served with sweet sooji halwa and spicy aloo sabzi.",
+      "is_jain": false,
+      "image_url": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=600&q=80"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "state": "Gujarat",
+  "destinations": [
+    {
+      "id": "GJ-01",
+      "name": "Statue of Unity",
+      "city": "Kevadia",
+      "category": "Monument & Heritage",
+      "coordinates": { "latitude": "21.8380", "longitude": "73.7191" },
+      "budget_metrics": { "base_stay_cost_per_day": 2000, "base_travel_cost": 1500, "seasonal_surge_factor": 1.30, "traffic_delay_weight": 1.40 },
+      "entry_fee": 350, "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Tallest-Statue", "Engineering-Marvel", "Iconic", "Modern"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "Extremely High",
+        "historical_significance_weight": 10,
+        "best_suited_for": ["Families", "History Buffs", "Tourists"],
+        "description_ai": "The world's tallest statue at 182m, dedicated to Sardar Vallabhbhai Patel, with a valley of flowers and museum.",
+        "image_url": "https://images.unsplash.com/photo-1609766857326-18a228561977?w=800&q=80"
+      }
+    },
+    {
+      "id": "GJ-02",
+      "name": "Rann of Kutch",
+      "city": "Kutch",
+      "category": "Nature & Desert",
+      "coordinates": { "latitude": "23.7337", "longitude": "69.8597" },
+      "budget_metrics": { "base_stay_cost_per_day": 3000, "base_travel_cost": 2500, "seasonal_surge_factor": 1.60, "traffic_delay_weight": 1.10 },
+      "entry_fee": 100, "avg_duration_hrs": 6,
+      "ai_metadata": {
+        "vibe_tags": ["White-Desert", "Full-Moon", "Cultural-Festival", "Vast"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Photographers", "Couples", "Adventure Seekers"],
+        "description_ai": "Vast white salt desert under the full moon. The Rann Utsav festival makes it a magical cultural experience.",
+        "image_url": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=800&q=80"
+      }
+    },
+    {
+      "id": "GJ-03",
+      "name": "Gir National Park",
+      "city": "Junagadh",
+      "category": "Wildlife & Nature",
+      "coordinates": { "latitude": "21.1243", "longitude": "70.7938" },
+      "budget_metrics": { "base_stay_cost_per_day": 2500, "base_travel_cost": 1800, "seasonal_surge_factor": 1.40, "traffic_delay_weight": 1.15 },
+      "entry_fee": 400, "avg_duration_hrs": 5,
+      "ai_metadata": {
+        "vibe_tags": ["Asiatic-Lions", "Safari", "Wildlife", "Conservation"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Wildlife Photographers", "Nature Lovers", "Families"],
+        "description_ai": "Last refuge of over 600 Asiatic lions. Jeep safaris through dry deciduous forests.",
+        "image_url": "https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=800&q=80"
+      }
+    },
+    {
+      "id": "GJ-04",
+      "name": "Somnath Temple",
+      "city": "Somnath",
+      "category": "Spiritual & Pilgrimage",
+      "coordinates": { "latitude": "20.8880", "longitude": "70.4014" },
+      "budget_metrics": { "base_stay_cost_per_day": 1500, "base_travel_cost": 1200, "seasonal_surge_factor": 1.20, "traffic_delay_weight": 1.20 },
+      "entry_fee": 0, "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Jyotirlinga", "Oceanfront", "Sacred", "Ancient"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Devotees", "History Buffs"],
+        "description_ai": "One of the twelve sacred Jyotirlinga shrines of Lord Shiva, standing majestically by the Arabian Sea.",
+        "image_url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&q=80"
+      }
+    },
+    {
+      "id": "GJ-05",
+      "name": "Dwarka",
+      "city": "Dwarka",
+      "category": "Spiritual & Pilgrimage",
+      "coordinates": { "latitude": "22.2394", "longitude": "68.9678" },
+      "budget_metrics": { "base_stay_cost_per_day": 1500, "base_travel_cost": 1500, "seasonal_surge_factor": 1.25, "traffic_delay_weight": 1.15 },
+      "entry_fee": 0, "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Krishna", "Ancient-City", "Char-Dham", "Sacred"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Devotees", "Families"],
+        "description_ai": "Ancient city believed to be Lord Krishna's kingdom and one of the four Char Dham pilgrimage sites.",
+        "image_url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&q=80"
+      }
+    },
+    {
+      "id": "GJ-06",
+      "name": "Ahmedabad Heritage Walk",
+      "city": "Ahmedabad",
+      "category": "Heritage City",
+      "coordinates": { "latitude": "23.0225", "longitude": "72.5714" },
+      "budget_metrics": { "base_stay_cost_per_day": 1500, "base_travel_cost": 300, "seasonal_surge_factor": 1.15, "traffic_delay_weight": 1.50 },
+      "entry_fee": 0, "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["UNESCO-Old-City", "Pols", "Heritage", "Walking-Tour"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["Culture Seekers", "Photographers", "History Buffs"],
+        "description_ai": "India's first UNESCO World Heritage City with centuries-old wooden havelis, pols, and stepwells.",
+        "image_url": "https://images.unsplash.com/photo-1585135497273-1a86b09fe70e?w=800&q=80"
+      }
+    }
+  ]
+}

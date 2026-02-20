@@ -7,7 +7,21 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "cors": "^2.8.5"
-  }
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.22.1",
+    "sqlite3": "^5.1.7"
+  },
+  "description": "git pl# Tour-Management-Website",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/urvi-parekh1309/Tour-Management-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/urvi-parekh1309/Tour-Management-Website/issues"
+  },
+  "homepage": "https://github.com/urvi-parekh1309/Tour-Management-Website#readme"
 }

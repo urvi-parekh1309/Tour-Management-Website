@@ -1,0 +1,107 @@
+{
+  "state": "West Bengal",
+  "destinations": [
+    {
+      "id": "WB-01",
+      "name": "Victoria Memorial",
+      "city": "Kolkata",
+      "category": "UNESCO Heritage Sites",
+      "coordinates": { "latitude": "22.5448", "longitude": "88.3425" },
+      "budget_metrics": { "base_stay_cost_per_day": 3500, "base_travel_cost": 400, "seasonal_surge_factor": 1.20, "traffic_delay_weight": 1.50 },
+      "entry_fee": 30, "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Colonial", "Majestic", "Marble", "Museum", "Historic"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "Extremely High",
+        "best_suited_for": ["History Buffs", "Families", "Photographers"],
+        "description_ai": "A magnificent marble building built in memory of Queen Victoria, now a museum showcasing India's colonial history.",
+        "image_url": "https://images.unsplash.com/photo-1558431382-2b87aecdf8a6?w=800&q=80"
+      }
+    },
+    {
+      "id": "WB-02",
+      "name": "Howrah Bridge",
+      "city": "Kolkata",
+      "category": "Iconic Landmarks",
+      "coordinates": { "latitude": "22.5851", "longitude": "88.3468" },
+      "budget_metrics": { "base_stay_cost_per_day": 3500, "base_travel_cost": 200, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.80 },
+      "entry_fee": 0, "avg_duration_hrs": 1,
+      "ai_metadata": {
+        "vibe_tags": ["Cantilever", "Engineering", "Iconic", "Hooghly-River"],
+        "sentiment_score": 4.5,
+        "crowd_prediction_level": "Extremely High",
+        "best_suited_for": ["Photographers", "Tourists"],
+        "description_ai": "Iconic cantilever bridge over the Hooghly River, one of the busiest bridges in the world.",
+        "image_url": "https://images.unsplash.com/photo-1558431382-2b87aecdf8a6?w=800&q=80"
+      }
+    },
+    {
+      "id": "WB-03",
+      "name": "Sundarbans Mangroves",
+      "city": "South 24 Parganas",
+      "category": "Wildlife & Nature",
+      "coordinates": { "latitude": "21.9497", "longitude": "88.8996" },
+      "budget_metrics": { "base_stay_cost_per_day": 2000, "base_travel_cost": 2500, "seasonal_surge_factor": 1.30, "traffic_delay_weight": 1.10 },
+      "entry_fee": 200, "avg_duration_hrs": 8,
+      "ai_metadata": {
+        "vibe_tags": ["Royal-Bengal-Tiger", "Mangrove", "UNESCO", "Boat-Safari"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["Wildlife Photographers", "Nature Lovers", "Adventure Seekers"],
+        "description_ai": "UNESCO mangrove forest with Royal Bengal Tigers. Boat safaris through the world's largest delta.",
+        "image_url": "https://images.unsplash.com/photo-1561731216-c3a4d99437d5?w=800&q=80"
+      }
+    },
+    {
+      "id": "WB-04",
+      "name": "Darjeeling Tea Gardens",
+      "city": "Darjeeling",
+      "category": "Hill Stations & Nature",
+      "coordinates": { "latitude": "27.0360", "longitude": "88.2627" },
+      "budget_metrics": { "base_stay_cost_per_day": 3000, "base_travel_cost": 1500, "seasonal_surge_factor": 1.30, "traffic_delay_weight": 1.20 },
+      "entry_fee": 0, "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Tea-Estates", "Kanchenjunga", "Toy-Train", "Colonial"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Couples", "Nature Lovers", "Photographers"],
+        "description_ai": "Himalayan estates producing world-famous Darjeeling tea with views of Kanchenjunga and the toy train.",
+        "image_url": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=800&q=80"
+      }
+    },
+    {
+      "id": "WB-05",
+      "name": "Dakshineswar Kali Temple",
+      "city": "Kolkata",
+      "category": "Spiritual & Pilgrimage",
+      "coordinates": { "latitude": "22.6548", "longitude": "88.3578" },
+      "budget_metrics": { "base_stay_cost_per_day": 3500, "base_travel_cost": 300, "seasonal_surge_factor": 1.10, "traffic_delay_weight": 1.60 },
+      "entry_fee": 0, "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Ramakrishna", "Sacred", "Riverfront", "Architectural"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Devotees", "Families"],
+        "description_ai": "19th-century temple associated with Ramakrishna Paramahamsa, overlooking the Hooghly River.",
+        "image_url": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&q=80"
+      }
+    },
+    {
+      "id": "WB-06",
+      "name": "Shantiniketan",
+      "city": "Birbhum",
+      "category": "Cultural & Educational",
+      "coordinates": { "latitude": "23.6783", "longitude": "87.6855" },
+      "budget_metrics": { "base_stay_cost_per_day": 1500, "base_travel_cost": 800, "seasonal_surge_factor": 1.15, "traffic_delay_weight": 1.10 },
+      "entry_fee": 10, "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Tagore", "Art", "Culture", "University", "Baul-Music"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["Culture Seekers", "Art Lovers", "Students"],
+        "description_ai": "Founded by Rabindranath Tagore, a cultural hub of art, literature, and Baul folk traditions.",
+        "image_url": "https://images.unsplash.com/photo-1585135497273-1a86b09fe70e?w=800&q=80"
+      }
+    }
+  ]
+}
