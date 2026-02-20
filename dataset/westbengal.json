@@ -1,0 +1,1179 @@
+{
+  "state": "West Bengal",
+  "destinations": [
+    {
+      "id": "WB-01",
+      "name": "Victoria Memorial",
+      "city": "Kolkata",
+      "category": "UNESCO Heritage Sites",
+      "coordinates": { "latitude": "22.5448", "longitude": "88.3425" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3500,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.50
+      },
+      "per_day_budget": {
+        "budget": 3000,
+        "mid_range": 5500,
+        "luxury": 9000
+      },
+      "entry_fee": 30,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Colonial", "Majestic", "Marble", "Museum", "Historic"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "Extremely High",
+        "best_suited_for": ["History Buffs", "Families", "Photographers"],
+        "description_ai": "A magnificent marble building built in memory of Queen Victoria, now a museum showcasing India's colonial history and artifacts."
+      },
+      "restaurants": [
+        {
+          "name": "6 Ballygunge Place",
+          "cuisine": "Bengali",
+          "price_range": "mid_range",
+          "avg_meal_cost": 600,
+          "rating": 4.5,
+          "must_try": ["Shorshe Ilish", "Kosha Mangsho", "Mishti Doi"]
+        },
+        {
+          "name": "Flurys",
+          "cuisine": "Bakery/Continental",
+          "price_range": "mid_range",
+          "avg_meal_cost": 500,
+          "rating": 4.6,
+          "must_try": ["Chocolate Mousse", "Breakfast Platter", "Chicken A La Kiev"]
+        }
+      ]
+    },
+    {
+      "id": "WB-02",
+      "name": "Dakshineswar Kali Temple",
+      "city": "Kolkata",
+      "category": "Religious/Pilgrimage Sites",
+      "coordinates": { "latitude": "22.6556", "longitude": "88.3578" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.25,
+        "traffic_delay_weight": 1.60
+      },
+      "per_day_budget": {
+        "budget": 2800,
+        "mid_range": 5000,
+        "luxury": 8500
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2.5,
+      "ai_metadata": {
+        "vibe_tags": ["Spiritual", "Sacred", "Riverfront", "Historic", "Devotional"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "Extremely High",
+        "best_suited_for": ["Pilgrims", "Devotees", "Spiritual Seekers"],
+        "description_ai": "A 19th-century temple dedicated to Goddess Kali, located on the Hooghly River, associated with the mystic Ramakrishna Paramahamsa."
+      },
+      "restaurants": [
+        {
+          "name": "Bhojohori Manna",
+          "cuisine": "Bengali",
+          "price_range": "mid_range",
+          "avg_meal_cost": 550,
+          "rating": 4.5,
+          "must_try": ["Ilish Paturi", "Chingri Malai Curry", "Mutton Dakbunglow"]
+        }
+      ]
+    },
+    {
+      "id": "WB-03",
+      "name": "Howrah Bridge",
+      "city": "Kolkata",
+      "category": "Major Cities & Cultural Spots",
+      "coordinates": { "latitude": "22.5851", "longitude": "88.3468" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.80
+      },
+      "per_day_budget": {
+        "budget": 2500,
+        "mid_range": 4500,
+        "luxury": 7500
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1,
+      "ai_metadata": {
+        "vibe_tags": ["Iconic", "Cantilever", "River", "Busy", "Engineering-Marvel"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Extreme",
+        "best_suited_for": ["Photographers", "Solo", "Families"],
+        "description_ai": "A massive cantilever bridge without nuts and bolts, spanning the Hooghly River and symbolizing Kolkata's industrial heritage."
+      },
+      "restaurants": [
+        {
+          "name": "Peter Cat",
+          "cuisine": "Indian/Continental",
+          "price_range": "mid_range",
+          "avg_meal_cost": 700,
+          "rating": 4.6,
+          "must_try": ["Chelo Kebab", "Sizzlers", "Irish Coffee"]
+        }
+      ]
+    },
+    {
+      "id": "WB-04",
+      "name": "Darjeeling Mall Road",
+      "city": "Darjeeling",
+      "category": "Hill Stations",
+      "coordinates": { "latitude": "27.0410", "longitude": "88.2630" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3500,
+        "base_travel_cost": 700,
+        "seasonal_surge_factor": 1.35,
+        "traffic_delay_weight": 1.20
+      },
+      "per_day_budget": {
+        "budget": 3200,
+        "mid_range": 5800,
+        "luxury": 9500
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Scenic", "Colonial", "Bustling", "Mountain-Views", "Shopping"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Couples", "Families", "Solo"],
+        "description_ai": "The vibrant heart of Darjeeling, a pedestrian stretch lined with colonial buildings, shops, cafes, and stunning Kanchenjunga views."
+      },
+      "restaurants": [
+        {
+          "name": "Glenary's Restaurant & Bakery",
+          "cuisine": "Continental/Bakery",
+          "price_range": "mid_range",
+          "avg_meal_cost": 500,
+          "rating": 4.6,
+          "must_try": ["Bakery Items", "Sizzlers", "Fish & Chips"]
+        },
+        {
+          "name": "Sonam's Kitchen",
+          "cuisine": "Continental/Japanese",
+          "price_range": "mid_range",
+          "avg_meal_cost": 450,
+          "rating": 4.8,
+          "must_try": ["Breakfast Platter", "Pancakes", "Mango Lassi"]
+        }
+      ]
+    },
+    {
+      "id": "WB-05",
+      "name": "Tiger Hill",
+      "city": "Darjeeling",
+      "category": "Hill Stations",
+      "coordinates": { "latitude": "27.0140", "longitude": "88.2510" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3500,
+        "base_travel_cost": 800,
+        "seasonal_surge_factor": 1.30,
+        "traffic_delay_weight": 1.25
+      },
+      "per_day_budget": {
+        "budget": 3500,
+        "mid_range": 6000,
+        "luxury": 10000
+      },
+      "entry_fee": 30,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Sunrise", "Panoramic", "Snow-Peaks", "Everest-View", "Breathtaking"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "Very High",
+        "best_suited_for": ["Photographers", "Nature Lovers", "Couples"],
+        "description_ai": "The highest point near Darjeeling, famous for spectacular sunrise views over Mount Kanchenjunga and even Mount Everest on clear days."
+      },
+      "restaurants": [
+        {
+          "name": "Keventer's",
+          "cuisine": "Breakfast/Deli",
+          "price_range": "mid_range",
+          "avg_meal_cost": 400,
+          "rating": 4.5,
+          "must_try": ["Milk Shakes", "Sandwiches", "Sausages"]
+        }
+      ]
+    },
+    {
+      "id": "WB-06",
+      "name": "Darjeeling Himalayan Railway (Toy Train)",
+      "city": "Darjeeling",
+      "category": "UNESCO Heritage Sites",
+      "coordinates": { "latitude": "27.0417", "longitude": "88.2667" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3500,
+        "base_travel_cost": 600,
+        "seasonal_surge_factor": 1.30,
+        "traffic_delay_weight": 1.15
+      },
+      "per_day_budget": {
+        "budget": 3800,
+        "mid_range": 6500,
+        "luxury": 10500
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 7,
+      "ai_metadata": {
+        "vibe_tags": ["Vintage", "UNESCO", "Scenic", "Nostalgic", "Steam-Engine"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Families", "Solo", "Photographers"],
+        "description_ai": "A UNESCO World Heritage narrow-gauge railway, winding through picturesque hills and tea gardens with a historic steam locomotive."
+      },
+      "restaurants": [
+        {
+          "name": "Kunga Restaurant",
+          "cuisine": "Tibetan/Chinese",
+          "price_range": "budget",
+          "avg_meal_cost": 300,
+          "rating": 4.5,
+          "must_try": ["Momos", "Thukpa", "Fried Rice"]
+        }
+      ]
+    },
+    {
+      "id": "WB-07",
+      "name": "Sundarbans National Park",
+      "city": "South 24 Parganas",
+      "category": "Wildlife/National Parks",
+      "coordinates": { "latitude": "21.9497", "longitude": "88.9361" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 1500,
+        "seasonal_surge_factor": 1.30,
+        "traffic_delay_weight": 1.10
+      },
+      "per_day_budget": {
+        "budget": 4500,
+        "mid_range": 7500,
+        "luxury": 12000
+      },
+      "entry_fee": 200,
+      "avg_duration_hrs": 8,
+      "ai_metadata": {
+        "vibe_tags": ["Mangroves", "Tiger-Reserve", "Biodiversity", "Boat-Safari", "UNESCO"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["Wildlife Lovers", "Nature Buffs", "Adventurers"],
+        "description_ai": "The world's largest mangrove forest and UNESCO site, home to the Royal Bengal Tiger, crocodiles, and diverse bird species."
+      },
+      "restaurants": [
+        {
+          "name": "Sundarbans Jungle Camp Restaurant",
+          "cuisine": "Bengali",
+          "price_range": "mid_range",
+          "avg_meal_cost": 500,
+          "rating": 4.4,
+          "must_try": ["Fish Curry", "Rice", "Local Preparations"]
+        }
+      ]
+    },
+    {
+      "id": "WB-08",
+      "name": "Sajnekhali Wildlife Sanctuary",
+      "city": "Sundarbans",
+      "category": "Wildlife/National Parks",
+      "coordinates": { "latitude": "21.9675", "longitude": "88.9120" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 1400,
+        "seasonal_surge_factor": 1.25,
+        "traffic_delay_weight": 1.10
+      },
+      "per_day_budget": {
+        "budget": 4200,
+        "mid_range": 7200,
+        "luxury": 11500
+      },
+      "entry_fee": 60,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Watchtower", "Tiger-Spotting", "Mangrove", "Museum", "Turtle-Farm"],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["Wildlife Lovers", "Families"],
+        "description_ai": "A prime entry point to the Sundarbans with a watchtower, museum, crocodile park, and mangrove interpretation center."
+      },
+      "restaurants": [
+        {
+          "name": "Sanjuge Restaurant",
+          "cuisine": "Bengali",
+          "price_range": "budget",
+          "avg_meal_cost": 300,
+          "rating": 4.2,
+          "must_try": ["Fresh River Fish", "Rice", "Dal"]
+        }
+      ]
+    },
+    {
+      "id": "WB-09",
+      "name": "Bishnupur Terracotta Temples",
+      "city": "Bishnupur",
+      "category": "UNESCO Heritage Sites",
+      "coordinates": { "latitude": "23.0745", "longitude": "87.3160" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2500,
+        "base_travel_cost": 800,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.20
+      },
+      "per_day_budget": {
+        "budget": 2800,
+        "mid_range": 4800,
+        "luxury": 8000
+      },
+      "entry_fee": 5,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Terracotta", "Ancient", "Architectural", "Malla-Dynasty", "Intricate"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["History Buffs", "Architecture Lovers", "Photographers"],
+        "description_ai": "Famous for unique terracotta temples with intricate carvings depicting scenes from Hindu mythology."
+      },
+      "restaurants": [
+        {
+          "name": "Megha Restaurant",
+          "cuisine": "Bengali/North Indian",
+          "price_range": "budget",
+          "avg_meal_cost": 250,
+          "rating": 4.2,
+          "must_try": ["Bengali Thali", "Fish Curry", "Rice"]
+        }
+      ]
+    },
+    {
+      "id": "WB-10",
+      "name": "Jor Bangla Temple",
+      "city": "Bishnupur",
+      "category": "Historical Temples",
+      "coordinates": { "latitude": "23.0765", "longitude": "87.3205" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2500,
+        "base_travel_cost": 800,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.20
+      },
+      "per_day_budget": {
+        "budget": 2600,
+        "mid_range": 4600,
+        "luxury": 7800
+      },
+      "entry_fee": 5,
+      "avg_duration_hrs": 1.5,
+      "ai_metadata": {
+        "vibe_tags": ["Twin-Temples", "Curved-Roof", "Terracotta-Carvings", "Ancient"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["History Buffs", "Photographers"],
+        "description_ai": "A twin temple with exquisite terracotta carvings, built in 1655 with a roof resembling a traditional Bengali hut."
+      },
+      "restaurants": [
+        {
+          "name": "Bishnupur Tourist Lodge Restaurant",
+          "cuisine": "Bengali",
+          "price_range": "mid_range",
+          "avg_meal_cost": 350,
+          "rating": 4.1,
+          "must_try": ["Local Cuisine", "Fish Preparations"]
+        }
+      ]
+    },
+    {
+      "id": "WB-11",
+      "name": "Shantiniketan",
+      "city": "Birbhum",
+      "category": "Cultural & Heritage",
+      "coordinates": { "latitude": "23.6800", "longitude": "87.6800" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2800,
+        "base_travel_cost": 700,
+        "seasonal_surge_factor": 1.25,
+        "traffic_delay_weight": 1.20
+      },
+      "per_day_budget": {
+        "budget": 3000,
+        "mid_range": 5200,
+        "luxury": 8500
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 5,
+      "ai_metadata": {
+        "vibe_tags": ["Tagore", "University", "Artistic", "Peaceful", "Cultural"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "Medium-High",
+        "best_suited_for": ["Culture Lovers", "Students", "Art Enthusiasts"],
+        "description_ai": "A town founded by Rabindranath Tagore, home to Visva-Bharati University, known for its artistic and literary heritage."
+      },
+      "restaurants": [
+        {
+          "name": "Mache Vate Bangali",
+          "cuisine": "Bengali",
+          "price_range": "mid_range",
+          "avg_meal_cost": 400,
+          "rating": 4.5,
+          "must_try": ["Vegetarian Thali", "Chicken Dakbunglow", "Fish Kalia"]
+        },
+        {
+          "name": "Ramshyam Cafe & Restaurant",
+          "cuisine": "Bengali",
+          "price_range": "budget",
+          "avg_meal_cost": 300,
+          "rating": 4.4,
+          "must_try": ["Traditional Thali", "Fish Preparations"]
+        }
+      ]
+    },
+    {
+      "id": "WB-12",
+      "name": "Kalimpong",
+      "city": "Kalimpong",
+      "category": "Hill Stations",
+      "coordinates": { "latitude": "27.0700", "longitude": "88.4700" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 800,
+        "seasonal_surge_factor": 1.25,
+        "traffic_delay_weight": 1.20
+      },
+      "per_day_budget": {
+        "budget": 3000,
+        "mid_range": 5500,
+        "luxury": 9000
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 5,
+      "ai_metadata": {
+        "vibe_tags": ["Monasteries", "Nurseries", "Scenic", "Peaceful", "Teesta-Views"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["Couples", "Nature Lovers", "Solo"],
+        "description_ai": "A quiet hill station known for its Buddhist monasteries, flower nurseries, and panoramic views of the Teesta River."
+      },
+      "restaurants": [
+        {
+          "name": "The Art Cafe",
+          "cuisine": "Continental/Chinese",
+          "price_range": "mid_range",
+          "avg_meal_cost": 450,
+          "rating": 4.4,
+          "must_try": ["Pasta", "Momos", "Coffee"]
+        }
+      ]
+    },
+    {
+      "id": "WB-13",
+      "name": "Durpin Monastery",
+      "city": "Kalimpong",
+      "category": "Religious/Pilgrimage Sites",
+      "coordinates": { "latitude": "27.0750", "longitude": "88.4780" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2800,
+        "base_travel_cost": 700,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.15
+      },
+      "per_day_budget": {
+        "budget": 2800,
+        "mid_range": 5000,
+        "luxury": 8500
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Buddhist", "Hilltop", "Sacred", "Murals", "Panoramic"],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["Spiritual Seekers", "Photographers"],
+        "description_ai": "A Buddhist monastery on Durpin Hill, consecrated by the Dalai Lama, offering breathtaking views of the Teesta River."
+      },
+      "restaurants": [
+        {
+          "name": "Gompa Cafe",
+          "cuisine": "Tibetan/Snacks",
+          "price_range": "budget",
+          "avg_meal_cost": 200,
+          "rating": 4.2,
+          "must_try": ["Butter Tea", "Momos", "Noodles"]
+        }
+      ]
+    },
+    {
+      "id": "WB-14",
+      "name": "Digha Beach",
+      "city": "Digha",
+      "category": "Beaches",
+      "coordinates": { "latitude": "21.6265", "longitude": "87.5075" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 600,
+        "seasonal_surge_factor": 1.30,
+        "traffic_delay_weight": 1.30
+      },
+      "per_day_budget": {
+        "budget": 3200,
+        "mid_range": 5500,
+        "luxury": 9000
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Sea", "Sandy", "Sunset", "Family-Friendly", "Water-Sports"],
+        "sentiment_score": 4.5,
+        "crowd_prediction_level": "Very High",
+        "best_suited_for": ["Families", "Friends"],
+        "description_ai": "The most popular beach in West Bengal, stretching 7 km along the Bay of Bengal with water sports and sunset views."
+      },
+      "restaurants": [
+        {
+          "name": "Digha Restaurant",
+          "cuisine": "Bengali/Seafood",
+          "price_range": "mid_range",
+          "avg_meal_cost": 500,
+          "rating": 4.3,
+          "must_try": ["Pomfret Fry", "Prawn Curry", "Rice"]
+        }
+      ]
+    },
+    {
+      "id": "WB-15",
+      "name": "New Digha Beach",
+      "city": "Digha",
+      "category": "Beaches",
+      "coordinates": { "latitude": "21.6315", "longitude": "87.5265" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3200,
+        "base_travel_cost": 600,
+        "seasonal_surge_factor": 1.30,
+        "traffic_delay_weight": 1.30
+      },
+      "per_day_budget": {
+        "budget": 3400,
+        "mid_range": 5800,
+        "luxury": 9500
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Clean", "Water-Sports", "Jet-Ski", "Less-Crowded", "Sunrise"],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Adventure Seekers", "Families"],
+        "description_ai": "An extension of Digha Beach with cleaner waters, wider sands, and various water sports activities like jet skiing and parasailing."
+      },
+      "restaurants": [
+        {
+          "name": "Sea Queen Restaurant",
+          "cuisine": "Seafood/Bengali",
+          "price_range": "mid_range",
+          "avg_meal_cost": 550,
+          "rating": 4.4,
+          "must_try": ["Grilled Lobster", "Fish Fry", "Crab Curry"]
+        }
+      ]
+    },
+    {
+      "id": "WB-16",
+      "name": "Mirik",
+      "city": "Darjeeling",
+      "category": "Hill Stations",
+      "coordinates": { "latitude": "26.8870", "longitude": "88.1870" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2800,
+        "base_travel_cost": 700,
+        "seasonal_surge_factor": 1.25,
+        "traffic_delay_weight": 1.20
+      },
+      "per_day_budget": {
+        "budget": 3000,
+        "mid_range": 5200,
+        "luxury": 8800
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": ["Lake", "Boating", "Peaceful", "Tea-Gardens", "Scenic"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["Couples", "Families"],
+        "description_ai": "A serene hill town centered around Sumendu Lake, offering boating, horse riding, and stunning mountain views."
+      },
+      "restaurants": [
+        {
+          "name": "Mirik Lake Restaurant",
+          "cuisine": "Multi-Cuisine",
+          "price_range": "mid_range",
+          "avg_meal_cost": 400,
+          "rating": 4.3,
+          "must_try": ["Momos", "Noodles", "Pakoras"]
+        }
+      ]
+    },
+    {
+      "id": "WB-17",
+      "name": "Hazarduari Palace",
+      "city": "Murshidabad",
+      "category": "Historical Forts & Palaces",
+      "coordinates": { "latitude": "24.1765", "longitude": "88.2685" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2500,
+        "base_travel_cost": 800,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.20
+      },
+      "per_day_budget": {
+        "budget": 2800,
+        "mid_range": 4800,
+        "luxury": 8000
+      },
+      "entry_fee": 150,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Palace", "Thousand-Doors", "Museum", "Nawabi", "Grand"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["History Buffs", "Architecture Lovers"],
+        "description_ai": "A grand palace with a thousand doors, built in the 19th century, now a museum showcasing Nawabi artifacts and weapons."
+      },
+      "restaurants": [
+        {
+          "name": "Murshidabad Tourist Lodge Restaurant",
+          "cuisine": "Bengali/Mughlai",
+          "price_range": "mid_range",
+          "avg_meal_cost": 350,
+          "rating": 4.2,
+          "must_try": ["Mutton Kasha", "Chicken Biryani", "Fish Curry"]
+        }
+      ]
+    },
+    {
+      "id": "WB-18",
+      "name": "Belur Math",
+      "city": "Howrah",
+      "category": "Religious/Pilgrimage Sites",
+      "coordinates": { "latitude": "22.6315", "longitude": "88.3535" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.40
+      },
+      "per_day_budget": {
+        "budget": 2800,
+        "mid_range": 5000,
+        "luxury": 8500
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Spiritual", "Ramakrishna", "Vivekananda", "Syncretic", "Peaceful"],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Pilgrims", "Spiritual Seekers"],
+        "description_ai": "The headquarters of the Ramakrishna Mission, founded by Swami Vivekananda, with architecture blending Hindu, Islamic, and Christian styles."
+      },
+      "restaurants": [
+        {
+          "name": "Math Bhandar Canteen",
+          "cuisine": "Vegetarian",
+          "price_range": "budget",
+          "avg_meal_cost": 150,
+          "rating": 4.3,
+          "must_try": ["Simple Thali", "Khichuri", "Labra"]
+        }
+      ]
+    },
+    {
+      "id": "WB-19",
+      "name": "Siliguri",
+      "city": "Siliguri",
+      "category": "Major Cities & Cultural Spots",
+      "coordinates": { "latitude": "26.7275", "longitude": "88.3955" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2800,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.30
+      },
+      "per_day_budget": {
+        "budget": 2800,
+        "mid_range": 4800,
+        "luxury": 8000
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Gateway", "Trade-Hub", "Tea-Gardens", "Cosmopolitan"],
+        "sentiment_score": 4.4,
+        "crowd_prediction_level": "High",
+        "best_suited_for": ["Transit Travelers", "Shoppers"],
+        "description_ai": "The gateway to Northeast India, a bustling city surrounded by tea gardens and offering access to hill stations."
+      },
+      "restaurants": [
+        {
+          "name": "Siliguri Food Court",
+          "cuisine": "Multi-Cuisine",
+          "price_range": "budget",
+          "avg_meal_cost": 300,
+          "rating": 4.3,
+          "must_try": ["North Indian Thali", "Chinese", "Fast Food"]
+        }
+      ]
+    },
+    {
+      "id": "WB-20",
+      "name": "ISKCON Temple Siliguri",
+      "city": "Siliguri",
+      "category": "Religious/Pilgrimage Sites",
+      "coordinates": { "latitude": "26.7345", "longitude": "88.4145" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2800,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.20
+      },
+      "per_day_budget": {
+        "budget": 2500,
+        "mid_range": 4500,
+        "luxury": 7500
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Spiritual", "Krishna", "Serene", "Architecture"],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["Devotees", "Families"],
+        "description_ai": "A beautiful ISKCON temple with stunning architecture, peaceful atmosphere, and a vegetarian restaurant."
+      },
+      "restaurants": [
+        {
+          "name": "ISKCON Vegetarian Restaurant",
+          "cuisine": "Vegetarian",
+          "price_range": "budget",
+          "avg_meal_cost": 200,
+          "rating": 4.5,
+          "must_try": ["Govinda's Thali", "Puri Sabzi", "Kheer"]
+        }
+      ]
+    },
+    {
+      "id": "WB-21",
+      "name": "Gorumara National Park",
+      "city": "Jalpaiguri",
+      "category": "Wildlife/National Parks",
+      "coordinates": { "latitude": "26.7850", "longitude": "88.8050" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2800,
+        "base_travel_cost": 900,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.15
+      },
+      "per_day_budget": {
+        "budget": 3800,
+        "mid_range": 6500,
+        "luxury": 10500
+      },
+      "entry_fee": 200,
+      "avg_duration_hrs": 5,
+      "ai_metadata": {
+        "vibe_tags": ["Rhinos", "Elephants", "Grasslands", "Safari", "Riverine"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["Wildlife Lovers", "Photographers"],
+        "description_ai": "A national park known for its Indian one-horned rhinoceros, elephants, and diverse birdlife in the Dooars region."
+      },
+      "restaurants": [
+        {
+          "name": "Forest Rest House Canteen",
+          "cuisine": "Simple Indian",
+          "price_range": "budget",
+          "avg_meal_cost": 250,
+          "rating": 4.0,
+          "must_try": ["Dal Rice", "Vegetable Curry"]
+        }
+      ]
+    },
+    {
+      "id": "WB-22",
+      "name": "Jaldapara National Park",
+      "city": "Alipurduar",
+      "category": "Wildlife/National Parks",
+      "coordinates": { "latitude": "26.6850", "longitude": "89.2850" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2800,
+        "base_travel_cost": 900,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.15
+      },
+      "per_day_budget": {
+        "budget": 3800,
+        "mid_range": 6500,
+        "luxury": 10500
+      },
+      "entry_fee": 200,
+      "avg_duration_hrs": 5,
+      "ai_metadata": {
+        "vibe_tags": ["Rhinos", "Elephants", "Grasslands", "Elephant-Safari"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["Wildlife Lovers"],
+        "description_ai": "A wildlife park famous for its one-horned rhinoceros population and elephant safari experiences."
+      },
+      "restaurants": [
+        {
+          "name": "Hollong Tourist Lodge Restaurant",
+          "cuisine": "Indian/Bengali",
+          "price_range": "mid_range",
+          "avg_meal_cost": 400,
+          "rating": 4.2,
+          "must_try": ["Local Preparations", "Rice", "Fish Curry"]
+        }
+      ]
+    },
+    {
+      "id": "WB-23",
+      "name": "St. Paul's Cathedral",
+      "city": "Kolkata",
+      "category": "Religious/Pilgrimage Sites",
+      "coordinates": { "latitude": "22.5485", "longitude": "88.3465" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.40
+      },
+      "per_day_budget": {
+        "budget": 2800,
+        "mid_range": 5000,
+        "luxury": 8500
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1.5,
+      "ai_metadata": {
+        "vibe_tags": ["Gothic", "Stained-Glass", "Peaceful", "Colonial"],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["Architecture Lovers", "Solo"],
+        "description_ai": "A Gothic-style Anglican cathedral from the 19th century, known for its beautiful stained-glass windows and serene atmosphere."
+      },
+      "restaurants": [
+        {
+          "name": "The Corner Courtyard",
+          "cuisine": "Continental/Cafe",
+          "price_range": "mid_range",
+          "avg_meal_cost": 600,
+          "rating": 4.5,
+          "must_try": ["Sandwiches", "Pasta", "Desserts"]
+        }
+      ]
+    },
+    {
+      "id": "WB-24",
+      "name": "Indian Museum",
+      "city": "Kolkata",
+      "category": "Museums",
+      "coordinates": { "latitude": "22.5575", "longitude": "88.3505" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.50
+      },
+      "per_day_budget": {
+        "budget": 2800,
+        "mid_range": 5000,
+        "luxury": 8500
+      },
+      "entry_fee": 75,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": ["Oldest", "Artifacts", "Fossils", "Educational", "Vast"],
+        "sentiment_score": 4.5,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["History Buffs", "Students", "Families"],
+        "description_ai": "The oldest and largest museum in India, housing collections of art, archaeology, anthropology, and natural history."
+      },
+      "restaurants": [
+        {
+          "name": "Bar-B-Q",
+          "cuisine": "Indian/Chinese",
+          "price_range": "mid_range",
+          "avg_meal_cost": 600,
+          "rating": 4.5,
+          "must_try": ["Reshmi Kebab", "Butter Chicken", "Biryani"]
+        }
+      ]
+    },
+    {
+      "id": "WB-25",
+      "name": "Marble Palace",
+      "city": "Kolkata",
+      "category": "Palaces",
+      "coordinates": { "latitude": "22.5825", "longitude": "88.3635" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.45
+      },
+      "per_day_budget": {
+        "budget": 2800,
+        "mid_range": 5000,
+        "luxury": 8500
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1.5,
+      "ai_metadata": {
+        "vibe_tags": ["Marble", "Mansion", "Art-Collection", "Antique", "Elegant"],
+        "sentiment_score": 4.5,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["Art Lovers", "History Buffs"],
+        "description_ai": "A 19th-century mansion with marble floors, sculptures, paintings, and antique furniture, still privately owned."
+      },
+      "restaurants": [
+        {
+          "name": "Mocambo",
+          "cuisine": "Indian/Continental",
+          "price_range": "mid_range",
+          "avg_meal_cost": 700,
+          "rating": 4.6,
+          "must_try": ["Devilled Crab", "Chicken a la Kiev", "Baked Alaska"]
+        }
+      ]
+    },
+    {
+      "id": "WB-26",
+      "name": "Jorasanko Thakur Bari",
+      "city": "Kolkata",
+      "category": "Museums",
+      "coordinates": { "latitude": "22.5815", "longitude": "88.3595" },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.40
+      },
+      "per_day_budget": {
+        "budget": 2800,
+        "mid_range": 5000,
+        "luxury": 8500
+      },
+      "entry_fee": 20,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": ["Tagore", "Ancestral-Home", "Museum", "Cultural", "Heritage"],
+        "sentiment_score": 4.7,
+        "crowd_prediction_level": "Medium",
+        "best_suited_for": ["Literature Lovers", "Culture Buffs"],
+        "description_ai": "The ancestral home of the Tagore family, now a museum dedicated to the life and works of Rabindranath Tagore."
+      },
+      "restaurants": [
+        {
+          "name": "Kewpies",
+          "cuisine": "Bengali",
+          "price_range": "mid_range",
+          "avg_meal_cost": 500,
+          "rating": 4.5,
+          "must_try": ["Kosha Mangsho", "Luchi-Cholar Dal", "Mishti Doi"]
+        }
+      ]
+    }
+  ],
+  "search_indexes": {
+    "bengali": [
+      { "restaurant": "6 Ballygunge Place", "area": "Victoria Memorial", "id": "WB-01" },
+      { "restaurant": "Bhojohori Manna", "area": "Dakshineswar Kali Temple", "id": "WB-02" },
+      { "restaurant": "Mache Vate Bangali", "area": "Shantiniketan", "id": "WB-11" },
+      { "restaurant": "Ramshyam Cafe & Restaurant", "area": "Shantiniketan", "id": "WB-11" },
+      { "restaurant": "Sundarbans Jungle Camp Restaurant", "area": "Sundarbans National Park", "id": "WB-07" },
+      { "restaurant": "Sanjuge Restaurant", "area": "Sajnekhali Wildlife Sanctuary", "id": "WB-08" },
+      { "restaurant": "Megha Restaurant", "area": "Bishnupur Terracotta Temples", "id": "WB-09" },
+      { "restaurant": "Bishnupur Tourist Lodge Restaurant", "area": "Jor Bangla Temple", "id": "WB-10" },
+      { "restaurant": "Digha Restaurant", "area": "Digha Beach", "id": "WB-14" },
+      { "restaurant": "Sea Queen Restaurant", "area": "New Digha Beach", "id": "WB-15" },
+      { "restaurant": "Kewpies", "area": "Jorasanko Thakur Bari", "id": "WB-26" }
+    ],
+    "tibetan": [
+      { "restaurant": "Kunga Restaurant", "area": "Darjeeling Himalayan Railway", "id": "WB-06" },
+      { "restaurant": "Gompa Cafe", "area": "Durpin Monastery", "id": "WB-13" }
+    ],
+    "seafood": [
+      { "restaurant": "6 Ballygunge Place", "area": "Victoria Memorial", "id": "WB-01" },
+      { "restaurant": "Bhojohori Manna", "area": "Dakshineswar Kali Temple", "id": "WB-02" },
+      { "restaurant": "Digha Restaurant", "area": "Digha Beach", "id": "WB-14" },
+      { "restaurant": "Sea Queen Restaurant", "area": "New Digha Beach", "id": "WB-15" },
+      { "restaurant": "Sundarbans Jungle Camp Restaurant", "area": "Sundarbans National Park", "id": "WB-07" },
+      { "restaurant": "Sanjuge Restaurant", "area": "Sajnekhali Wildlife Sanctuary", "id": "WB-08" },
+      { "restaurant": "Mache Vate Bangali", "area": "Shantiniketan", "id": "WB-11" }
+    ],
+    "momo": [
+      { "restaurant": "Kunga Restaurant", "area": "Darjeeling Himalayan Railway", "id": "WB-06" },
+      { "restaurant": "Gompa Cafe", "area": "Durpin Monastery", "id": "WB-13" },
+      { "restaurant": "Mirik Lake Restaurant", "area": "Mirik", "id": "WB-16" },
+      { "restaurant": "The Art Cafe", "area": "Kalimpong", "id": "WB-12" }
+    ],
+    "thukpa": [
+      { "restaurant": "Kunga Restaurant", "area": "Darjeeling Himalayan Railway", "id": "WB-06" }
+    ],
+    "biryani": [
+      { "restaurant": "Bar-B-Q", "area": "Indian Museum", "id": "WB-24" },
+      { "restaurant": "Murshidabad Tourist Lodge Restaurant", "area": "Hazarduari Palace", "id": "WB-17" },
+      { "restaurant": "Arsalan", "area": "Kolkata (Park Street)", "id": "WB-01" }
+    ],
+    "continental": [
+      { "restaurant": "Flurys", "area": "Victoria Memorial", "id": "WB-01" },
+      { "restaurant": "Peter Cat", "area": "Howrah Bridge", "id": "WB-03" },
+      { "restaurant": "Glenary's Restaurant & Bakery", "area": "Darjeeling Mall Road", "id": "WB-04" },
+      { "restaurant": "Sonam's Kitchen", "area": "Darjeeling Mall Road", "id": "WB-04" },
+      { "restaurant": "The Corner Courtyard", "area": "St. Paul's Cathedral", "id": "WB-23" },
+      { "restaurant": "Mocambo", "area": "Marble Palace", "id": "WB-25" }
+    ],
+    "bakery": [
+      { "restaurant": "Flurys", "area": "Victoria Memorial", "id": "WB-01" },
+      { "restaurant": "Glenary's Restaurant & Bakery", "area": "Darjeeling Mall Road", "id": "WB-04" },
+      { "restaurant": "Keventer's", "area": "Tiger Hill", "id": "WB-05" }
+    ],
+    "vegetarian": [
+      { "restaurant": "Math Bhandar Canteen", "area": "Belur Math", "id": "WB-18" },
+      { "restaurant": "ISKCON Vegetarian Restaurant", "area": "ISKCON Temple Siliguri", "id": "WB-20" },
+      { "restaurant": "Ramshyam Cafe & Restaurant", "area": "Shantiniketan", "id": "WB-11" }
+    ],
+    "cafe": [
+      { "restaurant": "Sonam's Kitchen", "area": "Darjeeling Mall Road", "id": "WB-04" },
+      { "restaurant": "The Art Cafe", "area": "Kalimpong", "id": "WB-12" },
+      { "restaurant": "The Corner Courtyard", "area": "St. Paul's Cathedral", "id": "WB-23" }
+    ],
+    "budget": [
+      { "restaurant": "Kunga Restaurant", "area": "Darjeeling Himalayan Railway", "id": "WB-06" },
+      { "restaurant": "Sanjuge Restaurant", "area": "Sajnekhali Wildlife Sanctuary", "id": "WB-08" },
+      { "restaurant": "Megha Restaurant", "area": "Bishnupur Terracotta Temples", "id": "WB-09" },
+      { "restaurant": "Ramshyam Cafe & Restaurant", "area": "Shantiniketan", "id": "WB-11" },
+      { "restaurant": "Gompa Cafe", "area": "Durpin Monastery", "id": "WB-13" },
+      { "restaurant": "Math Bhandar Canteen", "area": "Belur Math", "id": "WB-18" },
+      { "restaurant": "Siliguri Food Court", "area": "Siliguri", "id": "WB-19" },
+      { "restaurant": "ISKCON Vegetarian Restaurant", "area": "ISKCON Temple Siliguri", "id": "WB-20" },
+      { "restaurant": "Forest Rest House Canteen", "area": "Gorumara National Park", "id": "WB-21" }
+    ],
+    "mid_range": [
+      { "restaurant": "6 Ballygunge Place", "area": "Victoria Memorial", "id": "WB-01" },
+      { "restaurant": "Flurys", "area": "Victoria Memorial", "id": "WB-01" },
+      { "restaurant": "Bhojohori Manna", "area": "Dakshineswar Kali Temple", "id": "WB-02" },
+      { "restaurant": "Peter Cat", "area": "Howrah Bridge", "id": "WB-03" },
+      { "restaurant": "Glenary's Restaurant & Bakery", "area": "Darjeeling Mall Road", "id": "WB-04" },
+      { "restaurant": "Sonam's Kitchen", "area": "Darjeeling Mall Road", "id": "WB-04" },
+      { "restaurant": "Keventer's", "area": "Tiger Hill", "id": "WB-05" },
+      { "restaurant": "Mache Vate Bangali", "area": "Shantiniketan", "id": "WB-11" },
+      { "restaurant": "The Art Cafe", "area": "Kalimpong", "id": "WB-12" },
+      { "restaurant": "Digha Restaurant", "area": "Digha Beach", "id": "WB-14" },
+      { "restaurant": "Sea Queen Restaurant", "area": "New Digha Beach", "id": "WB-15" },
+      { "restaurant": "Mirik Lake Restaurant", "area": "Mirik", "id": "WB-16" },
+      { "restaurant": "Murshidabad Tourist Lodge Restaurant", "area": "Hazarduari Palace", "id": "WB-17" },
+      { "restaurant": "Hollong Tourist Lodge Restaurant", "area": "Jaldapara National Park", "id": "WB-22" },
+      { "restaurant": "The Corner Courtyard", "area": "St. Paul's Cathedral", "id": "WB-23" },
+      { "restaurant": "Bar-B-Q", "area": "Indian Museum", "id": "WB-24" },
+      { "restaurant": "Mocambo", "area": "Marble Palace", "id": "WB-25" },
+      { "restaurant": "Kewpies", "area": "Jorasanko Thakur Bari", "id": "WB-26" }
+    ],
+    "luxury": [
+      { "restaurant": "Peter Cat", "area": "Howrah Bridge", "id": "WB-03" },
+      { "restaurant": "Mocambo", "area": "Marble Palace", "id": "WB-25" }
+    ],
+    "heritage_sites": [
+      { "id": "WB-01", "name": "Victoria Memorial", "city": "Kolkata" },
+      { "id": "WB-06", "name": "Darjeeling Himalayan Railway", "city": "Darjeeling" },
+      { "id": "WB-07", "name": "Sundarbans National Park", "city": "South 24 Parganas" },
+      { "id": "WB-09", "name": "Bishnupur Terracotta Temples", "city": "Bishnupur" }
+    ],
+    "hill_stations": [
+      { "id": "WB-04", "name": "Darjeeling Mall Road", "city": "Darjeeling" },
+      { "id": "WB-05", "name": "Tiger Hill", "city": "Darjeeling" },
+      { "id": "WB-12", "name": "Kalimpong", "city": "Kalimpong" },
+      { "id": "WB-16", "name": "Mirik", "city": "Darjeeling" }
+    ],
+    "beaches": [
+      { "id": "WB-14", "name": "Digha Beach", "city": "Digha" },
+      { "id": "WB-15", "name": "New Digha Beach", "city": "Digha" }
+    ],
+    "wildlife": [
+      { "id": "WB-07", "name": "Sundarbans National Park", "city": "South 24 Parganas" },
+      { "id": "WB-08", "name": "Sajnekhali Wildlife Sanctuary", "city": "Sundarbans" },
+      { "id": "WB-21", "name": "Gorumara National Park", "city": "Jalpaiguri" },
+      { "id": "WB-22", "name": "Jaldapara National Park", "city": "Alipurduar" }
+    ],
+    "spiritual": [
+      { "id": "WB-02", "name": "Dakshineswar Kali Temple", "city": "Kolkata" },
+      { "id": "WB-18", "name": "Belur Math", "city": "Howrah" },
+      { "id": "WB-13", "name": "Durpin Monastery", "city": "Kalimpong" },
+      { "id": "WB-20", "name": "ISKCON Temple Siliguri", "city": "Siliguri" },
+      { "id": "WB-23", "name": "St. Paul's Cathedral", "city": "Kolkata" }
+    ],
+    "museums": [
+      { "id": "WB-01", "name": "Victoria Memorial", "city": "Kolkata" },
+      { "id": "WB-24", "name": "Indian Museum", "city": "Kolkata" },
+      { "id": "WB-26", "name": "Jorasanko Thakur Bari", "city": "Kolkata" }
+    ],
+    "palaces": [
+      { "id": "WB-17", "name": "Hazarduari Palace", "city": "Murshidabad" },
+      { "id": "WB-25", "name": "Marble Palace", "city": "Kolkata" }
+    ],
+    "family_friendly": [
+      { "id": "WB-01", "name": "Victoria Memorial", "city": "Kolkata" },
+      { "id": "WB-04", "name": "Darjeeling Mall Road", "city": "Darjeeling" },
+      { "id": "WB-06", "name": "Darjeeling Himalayan Railway", "city": "Darjeeling" },
+      { "id": "WB-09", "name": "Bishnupur Terracotta Temples", "city": "Bishnupur" },
+      { "id": "WB-11", "name": "Shantiniketan", "city": "Birbhum" },
+      { "id": "WB-14", "name": "Digha Beach", "city": "Digha" },
+      { "id": "WB-15", "name": "New Digha Beach", "city": "Digha" },
+      { "id": "WB-16", "name": "Mirik", "city": "Darjeeling" },
+      { "id": "WB-20", "name": "ISKCON Temple Siliguri", "city": "Siliguri" },
+      { "id": "WB-23", "name": "St. Paul's Cathedral", "city": "Kolkata" }
+    ],
+    "romantic": [
+      { "id": "WB-03", "name": "Howrah Bridge", "city": "Kolkata" },
+      { "id": "WB-04", "name": "Darjeeling Mall Road", "city": "Darjeeling" },
+      { "id": "WB-05", "name": "Tiger Hill", "city": "Darjeeling" },
+      { "id": "WB-12", "name": "Kalimpong", "city": "Kalimpong" },
+      { "id": "WB-16", "name": "Mirik", "city": "Darjeeling" }
+    ],
+    "photography": [
+      { "id": "WB-01", "name": "Victoria Memorial", "city": "Kolkata" },
+      { "id": "WB-03", "name": "Howrah Bridge", "city": "Kolkata" },
+      { "id": "WB-04", "name": "Darjeeling Mall Road", "city": "Darjeeling" },
+      { "id": "WB-05", "name": "Tiger Hill", "city": "Darjeeling" },
+      { "id": "WB-06", "name": "Darjeeling Himalayan Railway", "city": "Darjeeling" },
+      { "id": "WB-07", "name": "Sundarbans National Park", "city": "South 24 Parganas" },
+      { "id": "WB-09", "name": "Bishnupur Terracotta Temples", "city": "Bishnupur" },
+      { "id": "WB-13", "name": "Durpin Monastery", "city": "Kalimpong" },
+      { "id": "WB-14", "name": "Digha Beach", "city": "Digha" },
+      { "id": "WB-17", "name": "Hazarduari Palace", "city": "Murshidabad" },
+      { "id": "WB-25", "name": "Marble Palace", "city": "Kolkata" }
+    ],
+    "near_me": [
+      { "id": "WB-01", "name": "Victoria Memorial", "city": "Kolkata" },
+      { "id": "WB-02", "name": "Dakshineswar Kali Temple", "city": "Kolkata" },
+      { "id": "WB-03", "name": "Howrah Bridge", "city": "Kolkata" },
+      { "id": "WB-04", "name": "Darjeeling Mall Road", "city": "Darjeeling" },
+      { "id": "WB-19", "name": "Siliguri", "city": "Siliguri" }
+    ],
+    "tourist_favorite": [
+      { "id": "WB-01", "name": "Victoria Memorial", "city": "Kolkata" },
+      { "id": "WB-03", "name": "Howrah Bridge", "city": "Kolkata" },
+      { "id": "WB-04", "name": "Darjeeling Mall Road", "city": "Darjeeling" },
+      { "id": "WB-05", "name": "Tiger Hill", "city": "Darjeeling" },
+      { "id": "WB-06", "name": "Darjeeling Himalayan Railway", "city": "Darjeeling" },
+      { "id": "WB-07", "name": "Sundarbans National Park", "city": "South 24 Parganas" },
+      { "id": "WB-09", "name": "Bishnupur Terracotta Temples", "city": "Bishnupur" },
+      { "id": "WB-11", "name": "Shantiniketan", "city": "Birbhum" },
+      { "id": "WB-14", "name": "Digha Beach", "city": "Digha" }
+    ]
+  }
+}
