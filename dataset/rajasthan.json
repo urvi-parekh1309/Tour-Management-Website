@@ -660,6 +660,98 @@
         "best_suited_for": ["History Enthusiasts", "Families", "Students"],
         "description_ai": "Home to the Jaivana, the world's largest cannon on wheels, and a network of secret tunnels connecting to Amer Fort."
       }
+    },
+    {
+      "id": "RAJ-FOOD-01",
+      "name": "Chokhi Dhani",
+      "city": "Jaipur",
+      "category": "Ethnic Dining & Cultural Village",
+      "coordinates": { "latitude": "26.7670", "longitude": "75.8360" },
+      "budget_metrics": {
+        "base_meal_cost": 900,
+        "seasonal_surge_factor": 1.50,
+        "traffic_delay_weight": 1.40,
+        "weekend_markup": 1.30
+      },
+      "ai_metadata": {
+        "vibe_tags": ["Village-Experience", "Authentic", "Folk-Music", "Massive-Thali"],
+        "taste_profile": "Medium & Rich",
+        "best_suited_for": ["Families", "First-Timers", "Medium-Spice-Palates"],
+        "description_ai": "A mock Rajasthani village offering a cultural immersion with camel rides, puppet shows, and a legendary unlimited traditional feast."
+      }
+    },
+    {
+      "id": "RAJ-FOOD-02",
+      "name": "Lal Maans at Handi",
+      "city": "Jaipur (MI Road)",
+      "category": "Iconic Non-Veg Dining",
+      "coordinates": { "latitude": "26.9170", "longitude": "75.8080" },
+      "budget_metrics": {
+        "base_meal_cost": 600,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 1.90
+      },
+      "ai_metadata": {
+        "vibe_tags": ["Bustling", "Heritage-Recipe", "Meat-Lovers", "Classic"],
+        "taste_profile": "Extremely Spicy",
+        "best_suited_for": ["Adventure-Eaters", "Spicy-Lovers", "Meat-Enthusiasts"],
+        "description_ai": "World-famous for 'Lal Maans'—a fiery mutton curry prepared with Mathania chillies, a staple of Rajput warrior diets."
+      }
+    },
+    {
+      "id": "RAJ-FOOD-03",
+      "name": "Ambrai Restaurant",
+      "city": "Udaipur",
+      "category": "Fine Dining / Lakeside",
+      "coordinates": { "latitude": "24.5780", "longitude": "73.6800" },
+      "budget_metrics": {
+        "base_meal_cost": 1800,
+        "seasonal_surge_factor": 1.60,
+        "traffic_delay_weight": 1.20,
+        "view_premium_weight": 1.50
+      },
+      "ai_metadata": {
+        "vibe_tags": ["Romantic", "Waterfront", "Candlelight", "Royal-View"],
+        "taste_profile": "Medium",
+        "best_suited_for": ["Couples", "Luxury-Travelers", "Medium-Spice-Palates"],
+        "description_ai": "Set on the banks of Lake Pichola, offering a stunning view of City Palace and Jag Mandir with refined Mewari cuisine."
+      }
+    },
+    {
+      "id": "RAJ-FOOD-04",
+      "name": "Rawat Mishthan Bhandar",
+      "city": "Jaipur",
+      "category": "Local Legend / Breakfast",
+      "coordinates": { "latitude": "26.9200", "longitude": "75.8000" },
+      "budget_metrics": {
+        "base_meal_cost": 150,
+        "seasonal_surge_factor": 1.10,
+        "traffic_delay_weight": 2.10
+      },
+      "ai_metadata": {
+        "vibe_tags": ["Crowded", "Legendary-Snacks", "Quick-Bite", "Iconic"],
+        "taste_profile": "Spicy (Kachori) & Sweet (Ghevar)",
+        "best_suited_for": ["Solo-Travelers", "Students", "Spicy-Lovers"],
+        "description_ai": "The undisputed king of 'Pyaaz Kachori' and the best 'Ghevar' in Rajasthan. Be prepared for a massive crowd."
+      }
+    },
+    {
+      "id": "RAJ-FOOD-05",
+      "name": "Janta Sweet Home",
+      "city": "Jodhpur",
+      "category": "Sweets & Snacks",
+      "coordinates": { "latitude": "26.2900", "longitude": "73.0200" },
+      "budget_metrics": {
+        "base_meal_cost": 200,
+        "seasonal_surge_factor": 1.20,
+        "traffic_delay_weight": 1.60
+      },
+      "ai_metadata": {
+        "vibe_tags": ["Traditional", "Mouth-Watering", "Authentic", "Blue-City-Special"],
+        "taste_profile": "Sweet & Savory",
+        "best_suited_for": ["Families", "Sweet-Toothed", "Kids"],
+        "description_ai": "Famous for Jodhpur's specialty Mawa Kachori (sweet) and Mirchi Bada (spicy fried chili fritters)."
+      }
     }
   ]
 }
