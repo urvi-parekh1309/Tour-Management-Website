@@ -1406,5 +1406,304 @@
         }
       ]
     }
-  ]
+  ],
+  "search_indexes": {
+    "seafood": [
+      { "restaurant": "Harbour Restaurant", "area": "Alleppey Backwaters", "id": "KER-02" },
+      { "restaurant": "The Rice Boat", "area": "Alleppey Backwaters", "id": "KER-02" },
+      { "restaurant": "The Tides", "area": "Kovalam Beach", "id": "KER-04" },
+      { "restaurant": "Bait Restaurant", "area": "Kovalam Beach", "id": "KER-04" },
+      { "restaurant": "Ettukettu Restaurant", "area": "Kumarakom Backwaters", "id": "KER-08" },
+      { "restaurant": "Oceanos Restaurant", "area": "Fort Kochi", "id": "KER-10" },
+      { "restaurant": "Cherai Beach Restaurant", "area": "Cherai Beach", "id": "KER-11" },
+      { "restaurant": "Island Cafe", "area": "Poovar Island", "id": "KER-14" },
+      { "restaurant": "Poovar Boat Restaurant", "area": "Poovar Island", "id": "KER-14" },
+      { "restaurant": "Lake View Restaurant", "area": "Ashtamudi Lake", "id": "KER-16" },
+      { "restaurant": "Ashtamudi Residency", "area": "Ashtamudi Lake", "id": "KER-16" },
+      { "restaurant": "Ponnani Fish Market Eatery", "area": "Ponnani Beach", "id": "KER-18" },
+      { "restaurant": "Paragon Restaurant", "area": "Kozhikode Beach", "id": "KER-22" },
+      { "restaurant": "Beach Hotel", "area": "Kozhikode Beach", "id": "KER-22" },
+      { "restaurant": "Marari Beach Resort Restaurant", "area": "Marari Beach", "id": "KER-24" },
+      { "restaurant": "Beach Shacks", "area": "Marari Beach", "id": "KER-24" }
+    ],
+    "malabar": [
+      { "restaurant": "Bombay Hotel", "area": "Kozhikode Beach", "id": "KER-22" },
+      { "restaurant": "Paragon Restaurant", "area": "Kozhikode Beach", "id": "KER-22" },
+      { "restaurant": "Zain's Hotel", "area": "Kozhikode Beach", "id": "KER-22" },
+      { "restaurant": "Thalassery Fortune Restaurant", "area": "Thalassery Fort", "id": "KER-23" },
+      { "restaurant": "Paris Restaurant", "area": "Thalassery Fort", "id": "KER-23" },
+      { "restaurant": "Bekal Fort View Restaurant", "area": "Bekal Fort", "id": "KER-09" }
+    ],
+    "biriyani": [
+      { "restaurant": "Kayees Biriyani", "area": "Fort Kochi", "id": "KER-10" },
+      { "restaurant": "Bombay Hotel", "area": "Kozhikode Beach", "id": "KER-22" },
+      { "restaurant": "Paragon Restaurant", "area": "Kozhikode Beach", "id": "KER-22" },
+      { "restaurant": "Thalassery Fortune Restaurant", "area": "Thalassery Fort", "id": "KER-23" },
+      { "restaurant": "Jubilee Restaurant", "area": "Wayanad Wildlife Sanctuary", "id": "KER-05" },
+      { "restaurant": "Zam Zam Restaurant", "area": "Thiruvananthapuram Zoo", "id": "KER-20" },
+      { "restaurant": "Hotel Rahmaniya", "area": "Padmanabhaswamy Temple", "id": "KER-21" },
+      { "restaurant": "Pathans Restaurant", "area": "Thrissur Vadakkunnathan Temple", "id": "KER-28" },
+      { "restaurant": "Buhari Hotel", "area": "Thrissur Vadakkunnathan Temple", "id": "KER-28" }
+    ],
+    "south_indian": [
+      { "restaurant": "Saravana Bhavan", "area": "Munnar Tea Gardens", "id": "KER-01" },
+      { "restaurant": "Indian Coffee House", "area": "Alleppey Backwaters", "id": "KER-02" },
+      { "restaurant": "Udupi Krishna Restaurant", "area": "Wayanad Wildlife Sanctuary", "id": "KER-05" },
+      { "restaurant": "Ariya Nivas", "area": "Thiruvananthapuram Zoo", "id": "KER-20" },
+      { "restaurant": "Mothers Veg Plaza", "area": "Padmanabhaswamy Temple", "id": "KER-21" },
+      { "restaurant": "Indian Coffee House", "area": "Kottayam Churches", "id": "KER-27" },
+      { "restaurant": "Sree Krishna Inn", "area": "Thrissur Vadakkunnathan Temple", "id": "KER-28" },
+      { "restaurant": "Forest Department Canteen", "area": "Parambikulam Tiger Reserve", "id": "KER-29" }
+    ],
+    "vegetarian": [
+      { "restaurant": "Saravana Bhavan", "area": "Munnar Tea Gardens", "id": "KER-01" },
+      { "restaurant": "Udupi Krishna Restaurant", "area": "Wayanad Wildlife Sanctuary", "id": "KER-05" },
+      { "restaurant": "Ariya Nivas", "area": "Thiruvananthapuram Zoo", "id": "KER-20" },
+      { "restaurant": "Mothers Veg Plaza", "area": "Padmanabhaswamy Temple", "id": "KER-21" },
+      { "restaurant": "Sree Krishna Inn", "area": "Thrissur Vadakkunnathan Temple", "id": "KER-28" },
+      { "restaurant": "Kalari Kitchen", "area": "Kalari Kovilakom", "id": "KER-30" }
+    ],
+    "mughlai": [
+      { "restaurant": "Jubilee Restaurant", "area": "Wayanad Wildlife Sanctuary", "id": "KER-05" },
+      { "restaurant": "Kayees Biriyani", "area": "Fort Kochi", "id": "KER-10" },
+      { "restaurant": "Zam Zam Restaurant", "area": "Thiruvananthapuram Zoo", "id": "KER-20" },
+      { "restaurant": "Hotel Rahmaniya", "area": "Padmanabhaswamy Temple", "id": "KER-21" },
+      { "restaurant": "Pathans Restaurant", "area": "Thrissur Vadakkunnathan Temple", "id": "KER-28" },
+      { "restaurant": "Buhari Hotel", "area": "Thrissur Vadakkunnathan Temple", "id": "KER-28" }
+    ],
+    "continental": [
+      { "restaurant": "The Hill Spice", "area": "Munnar Tea Gardens", "id": "KER-01" },
+      { "restaurant": "Cliff Story Cafe", "area": "Varkala Beach", "id": "KER-03" },
+      { "restaurant": "Abba Restaurant", "area": "Varkala Beach", "id": "KER-03" },
+      { "restaurant": "The Tides", "area": "Kovalam Beach", "id": "KER-04" },
+      { "restaurant": "German Bakery", "area": "Kovalam Beach", "id": "KER-04" },
+      { "restaurant": "Kashi Art Cafe", "area": "Fort Kochi", "id": "KER-10" },
+      { "restaurant": "Oceanos Restaurant", "area": "Fort Kochi", "id": "KER-10" },
+      { "restaurant": "Teapot Cafe", "area": "Fort Kochi", "id": "KER-10" },
+      { "restaurant": "Poovar Boat Restaurant", "area": "Poovar Island", "id": "KER-14" }
+    ],
+    "budget": [
+      { "restaurant": "Saravana Bhavan", "area": "Munnar Tea Gardens", "id": "KER-01" },
+      { "restaurant": "Indian Coffee House", "area": "Alleppey Backwaters", "id": "KER-02" },
+      { "restaurant": "InDa Cafe", "area": "Varkala Beach", "id": "KER-03" },
+      { "restaurant": "German Bakery", "area": "Kovalam Beach", "id": "KER-04" },
+      { "restaurant": "Udupi Krishna Restaurant", "area": "Wayanad Wildlife Sanctuary", "id": "KER-05" },
+      { "restaurant": "Athirappilly Falls View Cafe", "area": "Athirappilly Waterfalls", "id": "KER-06" },
+      { "restaurant": "Coffee Garden", "area": "Periyar National Park", "id": "KER-07" },
+      { "restaurant": "Maharaja Multi-Cuisine", "area": "Bekal Fort", "id": "KER-09" },
+      { "restaurant": "Kayees Biriyani", "area": "Fort Kochi", "id": "KER-10" },
+      { "restaurant": "Beach Cafe", "area": "Cherai Beach", "id": "KER-11" },
+      { "restaurant": "Forest Cafe", "area": "Silent Valley National Park", "id": "KER-12" },
+      { "restaurant": "Base Camp Cafe", "area": "Meesapulimala", "id": "KER-13" },
+      { "restaurant": "Meadows Cafe", "area": "Vagamon", "id": "KER-15" },
+      { "restaurant": "Garden Cafe", "area": "Malampuzha Dam", "id": "KER-17" },
+      { "restaurant": "Malampuzha Food Court", "area": "Malampuzha Dam", "id": "KER-17" },
+      { "restaurant": "Ponnani Fish Market Eatery", "area": "Ponnani Beach", "id": "KER-18" },
+      { "restaurant": "Beachside Tea Stall", "area": "Ponnani Beach", "id": "KER-18" },
+      { "restaurant": "Paddy Field View Cafe", "area": "Kuttanad", "id": "KER-19" },
+      { "restaurant": "Zoo Cafe", "area": "Thiruvananthapuram Zoo", "id": "KER-20" },
+      { "restaurant": "Ariya Nivas", "area": "Thiruvananthapuram Zoo", "id": "KER-20" },
+      { "restaurant": "Mothers Veg Plaza", "area": "Padmanabhaswamy Temple", "id": "KER-21" },
+      { "restaurant": "Hotel Rahmaniya", "area": "Padmanabhaswamy Temple", "id": "KER-21" },
+      { "restaurant": "Zain's Hotel", "area": "Kozhikode Beach", "id": "KER-22" },
+      { "restaurant": "Beach Hotel", "area": "Kozhikode Beach", "id": "KER-22" },
+      { "restaurant": "Paris Restaurant", "area": "Thalassery Fort", "id": "KER-23" },
+      { "restaurant": "Idukki Tea Stall", "area": "Idukki Dam", "id": "KER-25" },
+      { "restaurant": "Coffee Plantation Cafe", "area": "Nelliyampathy Hills", "id": "KER-26" },
+      { "restaurant": "Indian Coffee House", "area": "Kottayam Churches", "id": "KER-27" },
+      { "restaurant": "Pathans Restaurant", "area": "Thrissur Vadakkunnathan Temple", "id": "KER-28" },
+      { "restaurant": "Buhari Hotel", "area": "Thrissur Vadakkunnathan Temple", "id": "KER-28" },
+      { "restaurant": "Sree Krishna Inn", "area": "Thrissur Vadakkunnathan Temple", "id": "KER-28" },
+      { "restaurant": "Forest Department Canteen", "area": "Parambikulam Tiger Reserve", "id": "KER-29" }
+    ],
+    "mid_range": [
+      { "restaurant": "Rapsy Restaurant", "area": "Munnar Tea Gardens", "id": "KER-01" },
+      { "restaurant": "Harbour Restaurant", "area": "Alleppey Backwaters", "id": "KER-02" },
+      { "restaurant": "Cliff Story Cafe", "area": "Varkala Beach", "id": "KER-03" },
+      { "restaurant": "Abba Restaurant", "area": "Varkala Beach", "id": "KER-03" },
+      { "restaurant": "Bait Restaurant", "area": "Kovalam Beach", "id": "KER-04" },
+      { "restaurant": "Jubilee Restaurant", "area": "Wayanad Wildlife Sanctuary", "id": "KER-05" },
+      { "restaurant": "Rainforest Restaurant", "area": "Athirappilly Waterfalls", "id": "KER-06" },
+      { "restaurant": "Spice Garden Restaurant", "area": "Periyar National Park", "id": "KER-07" },
+      { "restaurant": "Tharavadu Restaurant", "area": "Kumarakom Backwaters", "id": "KER-08" },
+      { "restaurant": "Bekal Fort View Restaurant", "area": "Bekal Fort", "id": "KER-09" },
+      { "restaurant": "Kashi Art Cafe", "area": "Fort Kochi", "id": "KER-10" },
+      { "restaurant": "Teapot Cafe", "area": "Fort Kochi", "id": "KER-10" },
+      { "restaurant": "Cherai Beach Restaurant", "area": "Cherai Beach", "id": "KER-11" },
+      { "restaurant": "Meesapulimala View Point Eatery", "area": "Meesapulimala", "id": "KER-13" },
+      { "restaurant": "Island Cafe", "area": "Poovar Island", "id": "KER-14" },
+      { "restaurant": "Vagamon Heights Restaurant", "area": "Vagamon", "id": "KER-15" },
+      { "restaurant": "Lake View Restaurant", "area": "Ashtamudi Lake", "id": "KER-16" },
+      { "restaurant": "Kuttanad Restaurant", "area": "Kuttanad", "id": "KER-19" },
+      { "restaurant": "Zam Zam Restaurant", "area": "Thiruvananthapuram Zoo", "id": "KER-20" },
+      { "restaurant": "The Crown Restaurant", "area": "Padmanabhaswamy Temple", "id": "KER-21" },
+      { "restaurant": "Bombay Hotel", "area": "Kozhikode Beach", "id": "KER-22" },
+      { "restaurant": "Paragon Restaurant", "area": "Kozhikode Beach", "id": "KER-22" },
+      { "restaurant": "Thalassery Fortune Restaurant", "area": "Thalassery Fort", "id": "KER-23" },
+      { "restaurant": "Beach Shacks", "area": "Marari Beach", "id": "KER-24" },
+      { "restaurant": "Dam View Restaurant", "area": "Idukki Dam", "id": "KER-25" },
+      { "restaurant": "Nelliyampathy Heights Restaurant", "area": "Nelliyampathy Hills", "id": "KER-26" },
+      { "restaurant": "Thali Restaurant", "area": "Kottayam Churches", "id": "KER-27" },
+      { "restaurant": "Parambikulam Eco Lodge Restaurant", "area": "Parambikulam Tiger Reserve", "id": "KER-29" }
+    ],
+    "luxury": [
+      { "restaurant": "The Hill Spice", "area": "Munnar Tea Gardens", "id": "KER-01" },
+      { "restaurant": "The Rice Boat", "area": "Alleppey Backwaters", "id": "KER-02" },
+      { "restaurant": "The Tides", "area": "Kovalam Beach", "id": "KER-04" },
+      { "restaurant": "The Bungalow Restaurant", "area": "Wayanad Wildlife Sanctuary", "id": "KER-05" },
+      { "restaurant": "Ettukettu Restaurant", "area": "Kumarakom Backwaters", "id": "KER-08" },
+      { "restaurant": "Oceanos Restaurant", "area": "Fort Kochi", "id": "KER-10" },
+      { "restaurant": "Poovar Boat Restaurant", "area": "Poovar Island", "id": "KER-14" },
+      { "restaurant": "Ashtamudi Residency", "area": "Ashtamudi Lake", "id": "KER-16" },
+      { "restaurant": "Marari Beach Resort Restaurant", "area": "Marari Beach", "id": "KER-24" },
+      { "restaurant": "Kalari Kitchen", "area": "Kalari Kovilakom", "id": "KER-30" }
+    ],
+    "breakfast": [
+      { "restaurant": "Saravana Bhavan", "area": "Munnar Tea Gardens", "id": "KER-01" },
+      { "restaurant": "German Bakery", "area": "Kovalam Beach", "id": "KER-04" },
+      { "restaurant": "Coffee Garden", "area": "Periyar National Park", "id": "KER-07" },
+      { "restaurant": "Kashi Art Cafe", "area": "Fort Kochi", "id": "KER-10" },
+      { "restaurant": "Teapot Cafe", "area": "Fort Kochi", "id": "KER-10" },
+      { "restaurant": "Meadows Cafe", "area": "Vagamon", "id": "KER-15" },
+      { "restaurant": "Ariya Nivas", "area": "Thiruvananthapuram Zoo", "id": "KER-20" },
+      { "restaurant": "Mothers Veg Plaza", "area": "Padmanabhaswamy Temple", "id": "KER-21" },
+      { "restaurant": "Indian Coffee House", "area": "Kottayam Churches", "id": "KER-27" },
+      { "restaurant": "Sree Krishna Inn", "area": "Thrissur Vadakkunnathan Temple", "id": "KER-28" }
+    ],
+    "snacks": [
+      { "restaurant": "Athirappilly Falls View Cafe", "area": "Athirappilly Waterfalls", "id": "KER-06" },
+      { "restaurant": "Coffee Garden", "area": "Periyar National Park", "id": "KER-07" },
+      { "restaurant": "Beach Cafe", "area": "Cherai Beach", "id": "KER-11" },
+      { "restaurant": "Base Camp Cafe", "area": "Meesapulimala", "id": "KER-13" },
+      { "restaurant": "Meadows Cafe", "area": "Vagamon", "id": "KER-15" },
+      { "restaurant": "Garden Cafe", "area": "Malampuzha Dam", "id": "KER-17" },
+      { "restaurant": "Malampuzha Food Court", "area": "Malampuzha Dam", "id": "KER-17" },
+      { "restaurant": "Beachside Tea Stall", "area": "Ponnani Beach", "id": "KER-18" },
+      { "restaurant": "Zoo Cafe", "area": "Thiruvananthapuram Zoo", "id": "KER-20" },
+      { "restaurant": "Idukki Tea Stall", "area": "Idukki Dam", "id": "KER-25" },
+      { "restaurant": "Coffee Plantation Cafe", "area": "Nelliyampathy Hills", "id": "KER-26" }
+    ],
+    "cafe": [
+      { "restaurant": "Cliff Story Cafe", "area": "Varkala Beach", "id": "KER-03" },
+      { "restaurant": "German Bakery", "area": "Kovalam Beach", "id": "KER-04" },
+      { "restaurant": "Coffee Garden", "area": "Periyar National Park", "id": "KER-07" },
+      { "restaurant": "Kashi Art Cafe", "area": "Fort Kochi", "id": "KER-10" },
+      { "restaurant": "Teapot Cafe", "area": "Fort Kochi", "id": "KER-10" },
+      { "restaurant": "Beach Cafe", "area": "Cherai Beach", "id": "KER-11" },
+      { "restaurant": "Base Camp Cafe", "area": "Meesapulimala", "id": "KER-13" },
+      { "restaurant": "Island Cafe", "area": "Poovar Island", "id": "KER-14" },
+      { "restaurant": "Meadows Cafe", "area": "Vagamon", "id": "KER-15" },
+      { "restaurant": "Paddy Field View Cafe", "area": "Kuttanad", "id": "KER-19" },
+      { "restaurant": "Zoo Cafe", "area": "Thiruvananthapuram Zoo", "id": "KER-20" },
+      { "restaurant": "Coffee Plantation Cafe", "area": "Nelliyampathy Hills", "id": "KER-26" }
+    ],
+    "family_friendly": [
+      { "id": "KER-01", "name": "Munnar Tea Gardens", "city": "Munnar" },
+      { "id": "KER-02", "name": "Alleppey Backwaters", "city": "Alappuzha" },
+      { "id": "KER-04", "name": "Kovalam Beach", "city": "Thiruvananthapuram" },
+      { "id": "KER-08", "name": "Kumarakom Backwaters", "city": "Kumarakom" },
+      { "id": "KER-11", "name": "Cherai Beach", "city": "Kochi" },
+      { "id": "KER-16", "name": "Ashtamudi Lake", "city": "Kollam" },
+      { "id": "KER-17", "name": "Malampuzha Dam", "city": "Palakkad" },
+      { "id": "KER-20", "name": "Thiruvananthapuram Zoo", "city": "Thiruvananthapuram" },
+      { "id": "KER-22", "name": "Kozhikode Beach", "city": "Kozhikode" },
+      { "id": "KER-24", "name": "Marari Beach", "city": "Mararikulam" }
+    ],
+    "romantic": [
+      { "id": "KER-01", "name": "Munnar Tea Gardens", "city": "Munnar" },
+      { "id": "KER-02", "name": "Alleppey Backwaters", "city": "Alappuzha" },
+      { "id": "KER-03", "name": "Varkala Beach", "city": "Varkala" },
+      { "id": "KER-08", "name": "Kumarakom Backwaters", "city": "Kumarakom" },
+      { "id": "KER-10", "name": "Fort Kochi", "city": "Kochi" },
+      { "id": "KER-14", "name": "Poovar Island", "city": "Poovar" },
+      { "id": "KER-15", "name": "Vagamon", "city": "Idukki" },
+      { "id": "KER-24", "name": "Marari Beach", "city": "Mararikulam" }
+    ],
+    "backwaters": [
+      { "id": "KER-02", "name": "Alleppey Backwaters", "city": "Alappuzha" },
+      { "id": "KER-08", "name": "Kumarakom Backwaters", "city": "Kumarakom" },
+      { "id": "KER-14", "name": "Poovar Island", "city": "Poovar" },
+      { "id": "KER-16", "name": "Ashtamudi Lake", "city": "Kollam" },
+      { "id": "KER-19", "name": "Kuttanad", "city": "Alappuzha" }
+    ],
+    "beaches": [
+      { "id": "KER-03", "name": "Varkala Beach", "city": "Varkala" },
+      { "id": "KER-04", "name": "Kovalam Beach", "city": "Thiruvananthapuram" },
+      { "id": "KER-11", "name": "Cherai Beach", "city": "Kochi" },
+      { "id": "KER-18", "name": "Ponnani Beach", "city": "Ponnani" },
+      { "id": "KER-22", "name": "Kozhikode Beach", "city": "Kozhikode" },
+      { "id": "KER-24", "name": "Marari Beach", "city": "Mararikulam" }
+    ],
+    "hill_stations": [
+      { "id": "KER-01", "name": "Munnar Tea Gardens", "city": "Munnar" },
+      { "id": "KER-13", "name": "Meesapulimala", "city": "Munnar" },
+      { "id": "KER-15", "name": "Vagamon", "city": "Idukki" },
+      { "id": "KER-26", "name": "Nelliyampathy Hills", "city": "Palakkad" }
+    ],
+    "wildlife": [
+      { "id": "KER-05", "name": "Wayanad Wildlife Sanctuary", "city": "Wayanad" },
+      { "id": "KER-07", "name": "Periyar National Park", "city": "Thekkady" },
+      { "id": "KER-12", "name": "Silent Valley National Park", "city": "Palakkad" },
+      { "id": "KER-20", "name": "Thiruvananthapuram Zoo", "city": "Thiruvananthapuram" },
+      { "id": "KER-29", "name": "Parambikulam Tiger Reserve", "city": "Palakkad" }
+    ],
+    "heritage": [
+      { "id": "KER-09", "name": "Bekal Fort", "city": "Kasaragod" },
+      { "id": "KER-10", "name": "Fort Kochi", "city": "Kochi" },
+      { "id": "KER-21", "name": "Padmanabhaswamy Temple", "city": "Thiruvananthapuram" },
+      { "id": "KER-23", "name": "Thalassery Fort", "city": "Thalassery" },
+      { "id": "KER-27", "name": "Kottayam Churches", "city": "Kottayam" },
+      { "id": "KER-28", "name": "Thrissur Vadakkunnathan Temple", "city": "Thrissur" },
+      { "id": "KER-30", "name": "Kalari Kovilakom", "city": "Palakkad" }
+    ],
+    "wellness": [
+      { "id": "KER-30", "name": "Kalari Kovilakom", "city": "Palakkad" },
+      { "restaurant": "Kalari Kitchen", "area": "Kalari Kovilakom", "id": "KER-30" }
+    ],
+    "ayurveda": [
+      { "id": "KER-30", "name": "Kalari Kovilakom", "city": "Palakkad" },
+      { "restaurant": "Kalari Kitchen", "area": "Kalari Kovilakom", "id": "KER-30" }
+    ],
+    "adventure": [
+      { "id": "KER-13", "name": "Meesapulimala", "city": "Munnar" },
+      { "id": "KER-05", "name": "Wayanad Wildlife Sanctuary", "city": "Wayanad" },
+      { "id": "KER-07", "name": "Periyar National Park", "city": "Thekkady" },
+      { "id": "KER-29", "name": "Parambikulam Tiger Reserve", "city": "Palakkad" }
+    ],
+    "peaceful": [
+      { "id": "KER-03", "name": "Varkala Beach", "city": "Varkala" },
+      { "id": "KER-08", "name": "Kumarakom Backwaters", "city": "Kumarakom" },
+      { "id": "KER-11", "name": "Cherai Beach", "city": "Kochi" },
+      { "id": "KER-12", "name": "Silent Valley National Park", "city": "Palakkad" },
+      { "id": "KER-14", "name": "Poovar Island", "city": "Poovar" },
+      { "id": "KER-15", "name": "Vagamon", "city": "Idukki" },
+      { "id": "KER-18", "name": "Ponnani Beach", "city": "Ponnani" }
+    ],
+    "photography": [
+      { "id": "KER-01", "name": "Munnar Tea Gardens", "city": "Munnar" },
+      { "id": "KER-02", "name": "Alleppey Backwaters", "city": "Alappuzha" },
+      { "id": "KER-03", "name": "Varkala Beach", "city": "Varkala" },
+      { "id": "KER-06", "name": "Athirappilly Waterfalls", "city": "Thrissur" },
+      { "id": "KER-09", "name": "Bekal Fort", "city": "Kasaragod" },
+      { "id": "KER-10", "name": "Fort Kochi", "city": "Kochi" },
+      { "id": "KER-13", "name": "Meesapulimala", "city": "Munnar" }
+    ],
+    "near_me": [
+      { "id": "KER-10", "name": "Fort Kochi", "city": "Kochi" },
+      { "id": "KER-11", "name": "Cherai Beach", "city": "Kochi" },
+      { "id": "KER-04", "name": "Kovalam Beach", "city": "Thiruvananthapuram" },
+      { "id": "KER-20", "name": "Thiruvananthapuram Zoo", "city": "Thiruvananthapuram" },
+      { "id": "KER-21", "name": "Padmanabhaswamy Temple", "city": "Thiruvananthapuram" },
+      { "id": "KER-22", "name": "Kozhikode Beach", "city": "Kozhikode" }
+    ],
+    "tourist_favorite": [
+      { "id": "KER-01", "name": "Munnar Tea Gardens", "city": "Munnar" },
+      { "id": "KER-02", "name": "Alleppey Backwaters", "city": "Alappuzha" },
+      { "id": "KER-03", "name": "Varkala Beach", "city": "Varkala" },
+      { "id": "KER-04", "name": "Kovalam Beach", "city": "Thiruvananthapuram" },
+      { "id": "KER-07", "name": "Periyar National Park", "city": "Thekkady" },
+      { "id": "KER-10", "name": "Fort Kochi", "city": "Kochi" },
+      { "id": "KER-22", "name": "Kozhikode Beach", "city": "Kozhikode" }
+    ]
+  }
 }
