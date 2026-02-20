@@ -855,3 +855,68 @@
 }                    
   ]
 }
+
+    ,
+"search_indexes": {
+  "spicy": [
+    { "id": "DEL-11", "name": "Karim's", "city": "Old Delhi" },
+    { "id": "DEL-26", "name": "Paranthe Wali Gali", "city": "Old Delhi" },
+    { "id": "DEL-37", "name": "Chandni Chowk Food Crawl", "city": "Old Delhi" },
+    { "id": "DEL-16", "name": "Majnu ka Tilla", "city": "North Delhi" }
+  ],
+
+  "sweet": [
+    { "id": "DEL-37", "name": "Chandni Chowk Food Crawl", "city": "Old Delhi" },
+    { "id": "DEL-10", "name": "Dilli Haat", "city": "INA" },
+    { "id": "DEL-13", "name": "Connaught Place", "city": "New Delhi" }
+  ],
+
+  "vegetarian": [
+    { "id": "DEL-05", "name": "Lotus Temple", "city": "Kalkaji" },
+    { "id": "DEL-26", "name": "Paranthe Wali Gali", "city": "Old Delhi" },
+    { "id": "DEL-16", "name": "Majnu ka Tilla", "city": "North Delhi" },
+    { "id": "DEL-10", "name": "Dilli Haat", "city": "INA" }
+  ],
+
+  "cheap": [
+    { "id": "DEL-16", "name": "Majnu ka Tilla", "city": "North Delhi" },
+    { "id": "DEL-26", "name": "Paranthe Wali Gali", "city": "Old Delhi" },
+    { "id": "DEL-32", "name": "Paharganj (Main Bazaar)", "city": "Central Delhi" },
+    { "id": "DEL-20", "name": "Sarojini Nagar Market", "city": "Sarojini Nagar" }
+  ],
+
+  "luxury": [
+    { "id": "DEL-25", "name": "Khan Market", "city": "Rabindra Nagar" },
+    { "id": "DEL-13", "name": "Connaught Place", "city": "New Delhi" },
+    { "id": "DEL-31", "name": "National Rail Museum", "city": "Chanakyapuri" },
+    { "id": "DEL-08", "name": "Lodhi Garden", "city": "Lodhi Estate" }
+  ]
+}
+    ,
+"near_me": [
+  { "id": "DEL-13", "name": "Connaught Place", "city": "New Delhi" },
+  { "id": "DEL-25", "name": "Khan Market", "city": "Rabindra Nagar" },
+  { "id": "DEL-20", "name": "Sarojini Nagar Market", "city": "Sarojini Nagar" },
+  { "id": "DEL-10", "name": "Dilli Haat", "city": "INA" }
+],
+
+"romantic": [
+  { "id": "DEL-08", "name": "Lodhi Garden", "city": "Lodhi Estate" },
+  { "id": "DEL-25", "name": "Khan Market", "city": "Rabindra Nagar" },
+  { "id": "DEL-05", "name": "Lotus Temple", "city": "Kalkaji" },
+  { "id": "DEL-31", "name": "National Rail Museum", "city": "Chanakyapuri" }
+],
+
+"nightlife": [
+  { "id": "DEL-13", "name": "Connaught Place", "city": "New Delhi" },
+  { "id": "DEL-25", "name": "Khan Market", "city": "Rabindra Nagar" },
+  { "id": "DEL-32", "name": "Paharganj (Main Bazaar)", "city": "Central Delhi" },
+  { "id": "DEL-16", "name": "Majnu ka Tilla", "city": "North Delhi" }
+],
+
+"family_friendly": [
+  { "id": "DEL-05", "name": "Lotus Temple", "city": "Kalkaji" },
+  { "id": "DEL-31", "name": "National Rail Museum", "city": "Chanakyapuri" },
+  { "id": "DEL-09", "name": "India Gate", "city": "Central Delhi" },
+  { "id": "DEL-10", "name": "Dilli Haat", "city": "INA" }
+]
