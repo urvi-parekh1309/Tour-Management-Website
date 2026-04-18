@@ -6,12 +6,15 @@
       "name": "Shimla Ridge & Mall Road",
       "city": "Shimla",
       "category": "Hill Stations",
-      "coordinates": { "latitude": "31.1048", "longitude": "77.1734" },
+      "coordinates": {
+        "latitude": "31.1048",
+        "longitude": "77.1734"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3000,
         "base_travel_cost": 500,
-        "seasonal_surge_factor": 1.30,
-        "traffic_delay_weight": 1.20
+        "seasonal_surge_factor": 1.3,
+        "traffic_delay_weight": 1.2
       },
       "per_day_budget": {
         "budget": 2500,
@@ -21,53 +24,46 @@
       "entry_fee": 0,
       "avg_duration_hrs": 3,
       "ai_metadata": {
-        "vibe_tags": ["Colonial", "Bustling", "Scenic", "Heritage", "Pedestrian"],
+        "vibe_tags": [
+          "Colonial",
+          "Bustling",
+          "Scenic",
+          "Heritage",
+          "Pedestrian"
+        ],
         "sentiment_score": 4.7,
         "crowd_prediction_level": "Extremely High",
-        "best_suited_for": ["Families", "Couples", "Solo"],
+        "best_suited_for": [
+          "Families",
+          "Couples",
+          "Solo"
+        ],
         "description_ai": "The iconic pedestrian-only Ridge offers panoramic views, while the historic Mall Road is lined with colonial-era buildings, cafes, and shops."
       },
       "restaurants": [
-        {
-          "name": "Himachali Rasoi",
-          "cuisine": "Himachali/North Indian",
-          "price_range": "mid_range",
-          "avg_meal_cost": 500,
-          "rating": 4.6,
-          "must_try": ["Himachali Dham Thali", "Sidu", "Madra", "Khatta"]
-        },
-        {
-          "name": "Ashiana Restaurant",
-          "cuisine": "Multi-Cuisine",
-          "price_range": "mid_range",
-          "avg_meal_cost": 600,
-          "rating": 4.5,
-          "must_try": ["Siddu", "Babru", "Pahadi Samosa", "Chicken Anardana"]
-        },
-        {
-          "name": "Amayaa Restaurant",
-          "cuisine": "Indian/Chinese/Continental",
-          "price_range": "luxury",
-          "avg_meal_cost": 1200,
-          "rating": 4.7,
-          "must_try": ["North Indian Thali", "Pasta", "Wood-fired Pizza"]
-        },
-        {
-          "name": "Hygienic Fast Food",
-          "cuisine": "Chinese/North Indian",
-          "price_range": "budget",
-          "avg_meal_cost": 250,
-          "rating": 4.3,
-          "must_try": ["Schezwan Noodles", "Garlic Noodles", "Mocktails"]
-        }
-      ]
+        "Cafe Simla Times",
+        "Wake & Bake",
+        "Baljees"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Shimla_from_Jakhoo.jpg/500px-Shimla_from_Jakhoo.jpg",
+      "food_details": {
+        "famous_food": [
+          "Siddu",
+          "Madra",
+          "Tudkiya Bhath"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/500px-Momo_nepal.jpg"
+      }
     },
     {
       "id": "HP-02",
       "name": "Kalka-Shimla Toy Train",
       "city": "Shimla",
       "category": "UNESCO Heritage Sites",
-      "coordinates": { "latitude": "31.1044", "longitude": "77.1667" },
+      "coordinates": {
+        "latitude": "31.1044",
+        "longitude": "77.1667"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3500,
         "base_travel_cost": 600,
@@ -82,29 +78,44 @@
       "entry_fee": 0,
       "avg_duration_hrs": 6,
       "ai_metadata": {
-        "vibe_tags": ["Vintage", "Scenic", "UNESCO", "Slow-Travel", "Nostalgic"],
+        "vibe_tags": [
+          "Vintage",
+          "Scenic",
+          "UNESCO",
+          "Slow-Travel",
+          "Nostalgic"
+        ],
         "sentiment_score": 4.9,
         "crowd_prediction_level": "High",
-        "best_suited_for": ["Families", "Solo", "Photographers"],
+        "best_suited_for": [
+          "Families",
+          "Solo",
+          "Photographers"
+        ],
         "description_ai": "A UNESCO World Heritage mountain railway winding through 102 tunnels and 800 bridges with breathtaking Himalayan views."
       },
       "restaurants": [
-        {
-          "name": "Diamond Best Bakery",
-          "cuisine": "Bakery/Sweets",
-          "price_range": "budget",
-          "avg_meal_cost": 200,
-          "rating": 4.4,
-          "must_try": ["Fresh Bread", "Pastries", "Indian Sweets"]
-        }
-      ]
+        "Baljees",
+        "Indian Coffee House Shimla"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Shimla_from_Jakhoo.jpg/500px-Shimla_from_Jakhoo.jpg",
+      "food_details": {
+        "famous_food": [
+          "Himachali Dham",
+          "Babru"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/500px-Momo_nepal.jpg"
+      }
     },
     {
       "id": "HP-03",
       "name": "Manali Old Village",
       "city": "Manali",
       "category": "Hill Stations",
-      "coordinates": { "latitude": "32.2396", "longitude": "77.1887" },
+      "coordinates": {
+        "latitude": "32.2396",
+        "longitude": "77.1887"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2800,
         "base_travel_cost": 600,
@@ -119,42 +130,51 @@
       "entry_fee": 0,
       "avg_duration_hrs": 3,
       "ai_metadata": {
-        "vibe_tags": ["Rustic", "Traditional", "Hippie", "Wooden-Houses", "Apple-Orchards"],
+        "vibe_tags": [
+          "Rustic",
+          "Traditional",
+          "Hippie",
+          "Wooden-Houses",
+          "Apple-Orchards"
+        ],
         "sentiment_score": 4.6,
         "crowd_prediction_level": "High",
-        "best_suited_for": ["Solo", "Couples", "Backpackers"],
+        "best_suited_for": [
+          "Solo",
+          "Couples",
+          "Backpackers"
+        ],
         "description_ai": "The original village with traditional pahadi architecture, temples, and a laid-back atmosphere away from the mall road crowd."
       },
       "restaurants": [
-        {
-          "name": "The Lazy Dog Lounge",
-          "cuisine": "Continental/Italian",
-          "price_range": "mid_range",
-          "avg_meal_cost": 550,
-          "rating": 4.5,
-          "must_try": ["Wood-fired Pizza", "Pasta", "Brownie with Ice Cream"]
-        },
-        {
-          "name": "Johnson's Cafe",
-          "cuisine": "Continental/European",
-          "price_range": "mid_range",
-          "avg_meal_cost": 600,
-          "rating": 4.6,
-          "must_try": ["Grilled Fish", "Apple Crumble", "Sizzler"]
-        }
-      ]
+        "Drifters Cafe",
+        "Lazy Dog Lounge",
+        "Johnson's Cafe"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Shimla_from_Jakhoo.jpg/500px-Shimla_from_Jakhoo.jpg",
+      "food_details": {
+        "famous_food": [
+          "Trout Fish",
+          "Momos",
+          "Thukpa"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/500px-Momo_nepal.jpg"
+      }
     },
     {
       "id": "HP-04",
       "name": "Solang Valley",
       "city": "Manali",
       "category": "Adventure Sports",
-      "coordinates": { "latitude": "32.3156", "longitude": "77.1540" },
+      "coordinates": {
+        "latitude": "32.3156",
+        "longitude": "77.1540"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3000,
         "base_travel_cost": 700,
-        "seasonal_surge_factor": 1.40,
-        "traffic_delay_weight": 1.30
+        "seasonal_surge_factor": 1.4,
+        "traffic_delay_weight": 1.3
       },
       "per_day_budget": {
         "budget": 3000,
@@ -164,34 +184,49 @@
       "entry_fee": 0,
       "avg_duration_hrs": 5,
       "ai_metadata": {
-        "vibe_tags": ["Snow", "Skiing", "Paragliding", "Adventure", "Thrilling"],
+        "vibe_tags": [
+          "Snow",
+          "Skiing",
+          "Paragliding",
+          "Adventure",
+          "Thrilling"
+        ],
         "sentiment_score": 4.8,
         "crowd_prediction_level": "Extremely High",
-        "best_suited_for": ["Adventure Seekers", "Families", "Friends"],
+        "best_suited_for": [
+          "Adventure Seekers",
+          "Families",
+          "Friends"
+        ],
         "description_ai": "A side valley famous for winter skiing, snow sports, and summer paragliding with stunning views of snow-capped peaks."
       },
       "restaurants": [
-        {
-          "name": "Solang Valley Cafeteria",
-          "cuisine": "North Indian/Fast Food",
-          "price_range": "budget",
-          "avg_meal_cost": 300,
-          "rating": 4.0,
-          "must_try": ["Maggi", "Momos", "Garlic Soup"]
-        }
-      ]
+        "Mountain Top Restaurant",
+        "Chopsticks Manali"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Solang_Valley_%2CManali%2C_Himachal_Pardes%2C_India.JPG/500px-Solang_Valley_%2CManali%2C_Himachal_Pardes%2C_India.JPG",
+      "food_details": {
+        "famous_food": [
+          "Maggi",
+          "Siddu"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/500px-Momo_nepal.jpg"
+      }
     },
     {
       "id": "HP-05",
       "name": "Rohtang Pass",
       "city": "Manali",
       "category": "Mountain Passes",
-      "coordinates": { "latitude": "32.3715", "longitude": "77.2464" },
+      "coordinates": {
+        "latitude": "32.3715",
+        "longitude": "77.2464"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3500,
         "base_travel_cost": 900,
-        "seasonal_surge_factor": 1.50,
-        "traffic_delay_weight": 1.40
+        "seasonal_surge_factor": 1.5,
+        "traffic_delay_weight": 1.4
       },
       "per_day_budget": {
         "budget": 3200,
@@ -201,29 +236,43 @@
       "entry_fee": 0,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Snowbound", "High-Altitude", "Breathtaking", "Gateway", "Frozen"],
+        "vibe_tags": [
+          "Snowbound",
+          "High-Altitude",
+          "Breathtaking",
+          "Gateway",
+          "Frozen"
+        ],
         "sentiment_score": 4.9,
         "crowd_prediction_level": "Extremely High",
-        "best_suited_for": ["Adventure Seekers", "Nature Lovers"],
+        "best_suited_for": [
+          "Adventure Seekers",
+          "Nature Lovers"
+        ],
         "description_ai": "A high mountain pass connecting Kullu Valley to Lahaul and Spiti, offering surreal snow landscapes and river views."
       },
       "restaurants": [
-        {
-          "name": "Highway Dhaba",
-          "cuisine": "North Indian",
-          "price_range": "budget",
-          "avg_meal_cost": 250,
-          "rating": 4.2,
-          "must_try": ["Hot Soup", "Paratha", "Tea"]
-        }
-      ]
+        "Dhaba at Marhi",
+        "Rohtang View Cafe"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Kullu_Valley_from_Rohtang_Pass%2C_India.jpg/500px-Kullu_Valley_from_Rohtang_Pass%2C_India.jpg",
+      "food_details": {
+        "famous_food": [
+          "Rajma Chawal",
+          "Hot Maggi"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/500px-Momo_nepal.jpg"
+      }
     },
     {
       "id": "HP-06",
       "name": "Dharamshala & McLeod Ganj",
       "city": "Dharamshala",
       "category": "Spiritual & Cultural",
-      "coordinates": { "latitude": "32.2190", "longitude": "76.3234" },
+      "coordinates": {
+        "latitude": "32.2190",
+        "longitude": "76.3234"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2600,
         "base_travel_cost": 500,
@@ -238,58 +287,51 @@
       "entry_fee": 0,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Tibetan", "Spiritual", "Monasteries", "Peaceful", "Buddhist"],
+        "vibe_tags": [
+          "Tibetan",
+          "Spiritual",
+          "Monasteries",
+          "Peaceful",
+          "Buddhist"
+        ],
         "sentiment_score": 4.8,
         "crowd_prediction_level": "High",
-        "best_suited_for": ["Solo", "Spiritual Seekers", "Culture Lovers"],
+        "best_suited_for": [
+          "Solo",
+          "Spiritual Seekers",
+          "Culture Lovers"
+        ],
         "description_ai": "Home to the Dalai Lama, this Tibetan cultural hub features monasteries, meditation centers, and vibrant markets."
       },
       "restaurants": [
-        {
-          "name": "Tibet Kitchen",
-          "cuisine": "Tibetan",
-          "price_range": "budget",
-          "avg_meal_cost": 250,
-          "rating": 4.7,
-          "must_try": ["Thenthuk", "Thukpa", "Kung Pao Chicken", "Aloo Phingsha"]
-        },
-        {
-          "name": "Jimmy's Italian Kitchen",
-          "cuisine": "Italian/Continental",
-          "price_range": "mid_range",
-          "avg_meal_cost": 500,
-          "rating": 4.6,
-          "must_try": ["Chicken Vodka Pasta", "Baked Gnocchi", "Chocolate Mousse"]
-        },
-        {
-          "name": "Mc'lo Restaurant",
-          "cuisine": "International/Tibetan",
-          "price_range": "mid_range",
-          "avg_meal_cost": 450,
-          "rating": 4.5,
-          "must_try": ["Live Music Experience", "International Platter"]
-        },
-        {
-          "name": "German Bakery",
-          "cuisine": "Bakery/Continental",
-          "price_range": "budget",
-          "avg_meal_cost": 300,
-          "rating": 4.4,
-          "must_try": ["Apple Strudel", "Cheesecake", "Brownies"]
-        }
-      ]
+        "Illiterati Cafe",
+        "Tibet Kitchen",
+        "Jimmy's Italian Kitchen"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Shimla_from_Jakhoo.jpg/500px-Shimla_from_Jakhoo.jpg",
+      "food_details": {
+        "famous_food": [
+          "Thukpa",
+          "Momos",
+          "Tingmo"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/500px-Momo_nepal.jpg"
+      }
     },
     {
       "id": "HP-07",
       "name": "Tsuglagkhang Complex",
       "city": "McLeod Ganj",
       "category": "Religious/Pilgrimage Sites",
-      "coordinates": { "latitude": "32.2245", "longitude": "76.3215" },
+      "coordinates": {
+        "latitude": "32.2245",
+        "longitude": "76.3215"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2800,
         "base_travel_cost": 500,
-        "seasonal_surge_factor": 1.20,
-        "traffic_delay_weight": 1.10
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 1.1
       },
       "per_day_budget": {
         "budget": 2400,
@@ -299,41 +341,47 @@
       "entry_fee": 0,
       "avg_duration_hrs": 2,
       "ai_metadata": {
-        "vibe_tags": ["Sacred", "Buddhist", "Peaceful", "Prayer-Wheels", "Exile"],
+        "vibe_tags": [
+          "Sacred",
+          "Buddhist",
+          "Peaceful",
+          "Prayer-Wheels",
+          "Exile"
+        ],
         "sentiment_score": 4.9,
         "crowd_prediction_level": "Medium",
-        "best_suited_for": ["Pilgrims", "Spiritual Seekers"],
+        "best_suited_for": [
+          "Pilgrims",
+          "Spiritual Seekers"
+        ],
         "description_ai": "The official residence of the Dalai Lama featuring a beautiful temple, museum, and peaceful meditation gardens."
       },
       "restaurants": [
-        {
-          "name": "Norbulingka Cafe",
-          "cuisine": "Tibetan",
-          "price_range": "mid_range",
-          "avg_meal_cost": 400,
-          "rating": 4.6,
-          "must_try": ["Tibetan Thali", "Butter Tea", "Momos"]
-        },
-        {
-          "name": "The Other Space",
-          "cuisine": "Cafe/Continental",
-          "price_range": "mid_range",
-          "avg_meal_cost": 450,
-          "rating": 4.5,
-          "must_try": ["Specialty Coffee", "Art Gallery Experience"]
-        }
-      ]
+        "Tibet Kitchen",
+        "Lung Ta Japanese"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Shimla_from_Jakhoo.jpg/500px-Shimla_from_Jakhoo.jpg",
+      "food_details": {
+        "famous_food": [
+          "Tibetan Bread",
+          "Butter Tea"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/500px-Momo_nepal.jpg"
+      }
     },
     {
       "id": "HP-08",
       "name": "Bhagsunag Waterfall",
       "city": "McLeod Ganj",
       "category": "Waterfalls",
-      "coordinates": { "latitude": "32.2415", "longitude": "76.3320" },
+      "coordinates": {
+        "latitude": "32.2415",
+        "longitude": "76.3320"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2600,
         "base_travel_cost": 400,
-        "seasonal_surge_factor": 1.20,
+        "seasonal_surge_factor": 1.2,
         "traffic_delay_weight": 1.15
       },
       "per_day_budget": {
@@ -344,42 +392,48 @@
       "entry_fee": 0,
       "avg_duration_hrs": 2,
       "ai_metadata": {
-        "vibe_tags": ["Cascading", "Sacred", "Refreshing", "Trek", "Cafes"],
+        "vibe_tags": [
+          "Cascading",
+          "Sacred",
+          "Refreshing",
+          "Trek",
+          "Cafes"
+        ],
         "sentiment_score": 4.6,
         "crowd_prediction_level": "High",
-        "best_suited_for": ["Trekkers", "Families", "Solo"],
+        "best_suited_for": [
+          "Trekkers",
+          "Families",
+          "Solo"
+        ],
         "description_ai": "A scenic waterfall near the Bhagsunath Temple, surrounded by cafes and shops."
       },
       "restaurants": [
-        {
-          "name": "Shiva Cafe",
-          "cuisine": "Cafe/Multi-Cuisine",
-          "price_range": "budget",
-          "avg_meal_cost": 300,
-          "rating": 4.5,
-          "must_try": ["Ginger Honey Lemon Tea", "Farmhouse Pizza", "Pancakes"]
-        },
-        {
-          "name": "Nick's Italian Kitchen",
-          "cuisine": "Italian",
-          "price_range": "mid_range",
-          "avg_meal_cost": 500,
-          "rating": 4.6,
-          "must_try": ["Spaghetti", "Gnocchi", "Cannelloni"]
-        }
-      ]
+        "Shiva Cafe Bhagsunag"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Shimla_from_Jakhoo.jpg/500px-Shimla_from_Jakhoo.jpg",
+      "food_details": {
+        "famous_food": [
+          "Pancakes",
+          "Israeli Food"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/500px-Momo_nepal.jpg"
+      }
     },
     {
       "id": "HP-09",
       "name": "Bir Billing",
       "city": "Bir",
       "category": "Adventure Sports",
-      "coordinates": { "latitude": "32.0435", "longitude": "76.7115" },
+      "coordinates": {
+        "latitude": "32.0435",
+        "longitude": "76.7115"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2500,
         "base_travel_cost": 700,
-        "seasonal_surge_factor": 1.20,
-        "traffic_delay_weight": 1.10
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 1.1
       },
       "per_day_budget": {
         "budget": 2600,
@@ -389,37 +443,43 @@
       "entry_fee": 0,
       "avg_duration_hrs": 5,
       "ai_metadata": {
-        "vibe_tags": ["Paragliding", "Thrilling", "Scenic", "Zen", "Vibrant"],
+        "vibe_tags": [
+          "Paragliding",
+          "Thrilling",
+          "Scenic",
+          "Zen",
+          "Vibrant"
+        ],
         "sentiment_score": 4.9,
         "crowd_prediction_level": "Medium-High",
-        "best_suited_for": ["Adventure Seekers", "Solo"],
+        "best_suited_for": [
+          "Adventure Seekers",
+          "Solo"
+        ],
         "description_ai": "Asia's highest paragliding site where you can soar over tea gardens, forests, and valleys at 8,000 feet."
       },
       "restaurants": [
-        {
-          "name": "Silver Linings Cafe",
-          "cuisine": "Italian/Israeli",
-          "price_range": "mid_range",
-          "avg_meal_cost": 450,
-          "rating": 4.5,
-          "must_try": ["Hummus Platter", "Wood-fired Pizza"]
-        },
-        {
-          "name": "Woeser Bakery",
-          "cuisine": "Bakery/Tibetan",
-          "price_range": "budget",
-          "avg_meal_cost": 200,
-          "rating": 4.4,
-          "must_try": ["Fresh Bread", "Apple Pie", "Tibetan Bread"]
-        }
-      ]
+        "Vairagi Cafe",
+        "Garden Cafe Bir"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Shimla_from_Jakhoo.jpg/500px-Shimla_from_Jakhoo.jpg",
+      "food_details": {
+        "famous_food": [
+          "Momos",
+          "Tibetan Cuisine"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/500px-Momo_nepal.jpg"
+      }
     },
     {
       "id": "HP-10",
       "name": "Kasauli",
       "city": "Kasauli",
       "category": "Hill Stations",
-      "coordinates": { "latitude": "30.9005", "longitude": "76.9665" },
+      "coordinates": {
+        "latitude": "30.9005",
+        "longitude": "76.9665"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3200,
         "base_travel_cost": 600,
@@ -434,33 +494,47 @@
       "entry_fee": 0,
       "avg_duration_hrs": 3,
       "ai_metadata": {
-        "vibe_tags": ["Quaint", "Colonial", "Peaceful", "Wooded", "Sunset"],
+        "vibe_tags": [
+          "Quaint",
+          "Colonial",
+          "Peaceful",
+          "Wooded",
+          "Sunset"
+        ],
         "sentiment_score": 4.7,
         "crowd_prediction_level": "Medium",
-        "best_suited_for": ["Couples", "Families", "Solo"],
+        "best_suited_for": [
+          "Couples",
+          "Families",
+          "Solo"
+        ],
         "description_ai": "A quiet colonial-era hill station with pine forests, walking trails, and stunning sunset views."
       },
       "restaurants": [
-        {
-          "name": "Narinder Sweets",
-          "cuisine": "Indian Sweets/Fast Food",
-          "price_range": "budget",
-          "avg_meal_cost": 150,
-          "rating": 4.5,
-          "must_try": ["Bun Samosa", "Gulab Jamun", "Barfi"]
-        }
-      ]
+        "Hangout Rooftop Bar",
+        "Narinder Sweets"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Kasauli_hills.jpg/500px-Kasauli_hills.jpg",
+      "food_details": {
+        "famous_food": [
+          "Himachali Thali"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/500px-Momo_nepal.jpg"
+      }
     },
     {
       "id": "HP-11",
       "name": "Kufri",
       "city": "Shimla",
       "category": "Hill Stations",
-      "coordinates": { "latitude": "31.0785", "longitude": "77.2640" },
+      "coordinates": {
+        "latitude": "31.0785",
+        "longitude": "77.2640"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3000,
         "base_travel_cost": 600,
-        "seasonal_surge_factor": 1.30,
+        "seasonal_surge_factor": 1.3,
         "traffic_delay_weight": 1.25
       },
       "per_day_budget": {
@@ -471,34 +545,47 @@
       "entry_fee": 0,
       "avg_duration_hrs": 3,
       "ai_metadata": {
-        "vibe_tags": ["Snow", "Yak-Rides", "Scenic", "Adventure", "Family"],
+        "vibe_tags": [
+          "Snow",
+          "Yak-Rides",
+          "Scenic",
+          "Adventure",
+          "Family"
+        ],
         "sentiment_score": 4.5,
         "crowd_prediction_level": "High",
-        "best_suited_for": ["Families", "Kids"],
+        "best_suited_for": [
+          "Families",
+          "Kids"
+        ],
         "description_ai": "A small hill station near Shimla famous for snow activities, horse riding, and panoramic Himalayan views."
       },
       "restaurants": [
-        {
-          "name": "Kufri Chai Point",
-          "cuisine": "Snacks/Beverages",
-          "price_range": "budget",
-          "avg_meal_cost": 150,
-          "rating": 4.0,
-          "must_try": ["Maggi", "Tea", "Pakoras"]
-        }
-      ]
+        "Kufri Fun World Restaurant"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Kufri_hills.jpg/500px-Kufri_hills.jpg",
+      "food_details": {
+        "famous_food": [
+          "Pakora",
+          "Hot Chai"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/500px-Momo_nepal.jpg"
+      }
     },
     {
       "id": "HP-12",
       "name": "Spiti Valley",
       "city": "Kaza",
       "category": "Offbeat Destinations",
-      "coordinates": { "latitude": "32.2242", "longitude": "78.0761" },
+      "coordinates": {
+        "latitude": "32.2242",
+        "longitude": "78.0761"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2800,
         "base_travel_cost": 1200,
         "seasonal_surge_factor": 1.25,
-        "traffic_delay_weight": 1.30
+        "traffic_delay_weight": 1.3
       },
       "per_day_budget": {
         "budget": 3000,
@@ -508,33 +595,48 @@
       "entry_fee": 0,
       "avg_duration_hrs": 8,
       "ai_metadata": {
-        "vibe_tags": ["Remote", "Barren", "Buddhist", "High-Altitude", "Stark-Beauty"],
-        "sentiment_score": 5.0,
+        "vibe_tags": [
+          "Remote",
+          "Barren",
+          "Buddhist",
+          "High-Altitude",
+          "Stark-Beauty"
+        ],
+        "sentiment_score": 5,
         "crowd_prediction_level": "Low",
-        "best_suited_for": ["Adventurers", "Photographers", "Solo"],
+        "best_suited_for": [
+          "Adventurers",
+          "Photographers",
+          "Solo"
+        ],
         "description_ai": "A cold desert mountain valley with ancient monasteries, unique landscapes, and a stark, breathtaking beauty."
       },
       "restaurants": [
-        {
-          "name": "The Himalayan Cafe",
-          "cuisine": "Multi-Cuisine",
-          "price_range": "mid_range",
-          "avg_meal_cost": 400,
-          "rating": 4.3,
-          "must_try": ["Thukpa", "Momos", "Pasta"]
-        }
-      ]
+        "Sol Cafe Kaza",
+        "The Himalayan Cafe"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Spiti_River_Kaza_Himachal_Jun18_D72_7232.jpg/500px-Spiti_River_Kaza_Himachal_Jun18_D72_7232.jpg",
+      "food_details": {
+        "famous_food": [
+          "Thukpa",
+          "Chhang"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/500px-Momo_nepal.jpg"
+      }
     },
     {
       "id": "HP-13",
       "name": "Key Monastery",
       "city": "Spiti Valley",
       "category": "Religious/Pilgrimage Sites",
-      "coordinates": { "latitude": "32.2425", "longitude": "78.0125" },
+      "coordinates": {
+        "latitude": "32.2425",
+        "longitude": "78.0125"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3000,
         "base_travel_cost": 1000,
-        "seasonal_surge_factor": 1.20,
+        "seasonal_surge_factor": 1.2,
         "traffic_delay_weight": 1.25
       },
       "per_day_budget": {
@@ -545,34 +647,48 @@
       "entry_fee": 0,
       "avg_duration_hrs": 3,
       "ai_metadata": {
-        "vibe_tags": ["Ancient", "Buddhist", "Hilltop", "Fortress-Like", "Spiritual"],
+        "vibe_tags": [
+          "Ancient",
+          "Buddhist",
+          "Hilltop",
+          "Fortress-Like",
+          "Spiritual"
+        ],
         "sentiment_score": 4.9,
         "crowd_prediction_level": "Medium",
-        "best_suited_for": ["Spiritual Seekers", "History Buffs", "Photographers"],
+        "best_suited_for": [
+          "Spiritual Seekers",
+          "History Buffs",
+          "Photographers"
+        ],
         "description_ai": "A 1,000-year-old Tibetan Buddhist monastery perched dramatically on a hilltop, the largest in Spiti Valley."
       },
       "restaurants": [
-        {
-          "name": "Monastery Cafeteria",
-          "cuisine": "Tibetan",
-          "price_range": "budget",
-          "avg_meal_cost": 150,
-          "rating": 4.2,
-          "must_try": ["Butter Tea", "Tsampa", "Noodles"]
-        }
-      ]
+        "Key Monastery Canteen"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/1000_Year_loop.jpg/500px-1000_Year_loop.jpg",
+      "food_details": {
+        "famous_food": [
+          "Butter Tea",
+          "Tsampa"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/500px-Momo_nepal.jpg"
+      }
     },
     {
       "id": "HP-14",
       "name": "Chandratal Lake",
       "city": "Spiti Valley",
       "category": "Lakes",
-      "coordinates": { "latitude": "32.4765", "longitude": "77.6160" },
+      "coordinates": {
+        "latitude": "32.4765",
+        "longitude": "77.6160"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3500,
         "base_travel_cost": 1500,
-        "seasonal_surge_factor": 1.30,
-        "traffic_delay_weight": 1.40
+        "seasonal_surge_factor": 1.3,
+        "traffic_delay_weight": 1.4
       },
       "per_day_budget": {
         "budget": 3500,
@@ -582,33 +698,47 @@
       "entry_fee": 0,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Crescent-Shaped", "High-Altitude", "Crystal-Clear", "Camping", "Serene"],
-        "sentiment_score": 5.0,
+        "vibe_tags": [
+          "Crescent-Shaped",
+          "High-Altitude",
+          "Crystal-Clear",
+          "Camping",
+          "Serene"
+        ],
+        "sentiment_score": 5,
         "crowd_prediction_level": "Low-Medium",
-        "best_suited_for": ["Trekkers", "Campers", "Nature Lovers"],
+        "best_suited_for": [
+          "Trekkers",
+          "Campers",
+          "Nature Lovers"
+        ],
         "description_ai": "A stunning crescent-shaped lake at 14,000 ft, known for its changing colors and pristine camping sites."
       },
       "restaurants": [
-        {
-          "name": "Camping Mess",
-          "cuisine": "Simple Indian",
-          "price_range": "budget",
-          "avg_meal_cost": 200,
-          "rating": 3.8,
-          "must_try": ["Dal Rice", "Soup", "Paratha"]
-        }
-      ]
+        "Camp Side Dining"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Suranga_Chandratillake.jpg/500px-Suranga_Chandratillake.jpg",
+      "food_details": {
+        "famous_food": [
+          "Rajma Rice",
+          "Maggi"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/500px-Momo_nepal.jpg"
+      }
     },
     {
       "id": "HP-15",
       "name": "Kinnaur Valley",
       "city": "Kinnaur",
       "category": "Offbeat Destinations",
-      "coordinates": { "latitude": "31.5540", "longitude": "78.2730" },
+      "coordinates": {
+        "latitude": "31.5540",
+        "longitude": "78.2730"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2600,
         "base_travel_cost": 1000,
-        "seasonal_surge_factor": 1.20,
+        "seasonal_surge_factor": 1.2,
         "traffic_delay_weight": 1.25
       },
       "per_day_budget": {
@@ -619,10 +749,18 @@
       "entry_fee": 0,
       "avg_duration_hrs": 6,
       "ai_metadata": {
-        "vibe_tags": ["Apple-Orchards", "Hindu-Buddhist", "Scenic", "Remote"],
+        "vibe_tags": [
+          "Apple-Orchards",
+          "Hindu-Buddhist",
+          "Scenic",
+          "Remote"
+        ],
         "sentiment_score": 4.8,
         "crowd_prediction_level": "Low",
-        "best_suited_for": ["Nature Lovers", "Photographers"],
+        "best_suited_for": [
+          "Nature Lovers",
+          "Photographers"
+        ],
         "description_ai": "A land of apple orchards, ancient temples, and dramatic landscapes where Hinduism and Buddhism meet."
       },
       "restaurants": [
@@ -632,21 +770,33 @@
           "price_range": "budget",
           "avg_meal_cost": 250,
           "rating": 4.2,
-          "must_try": ["Apple Juice", "Local Trout", "Siddu"]
+          "must_try": [
+            "Apple Juice",
+            "Local Trout",
+            "Siddu"
+          ]
         }
-      ]
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Trek-browse.jpg/500px-Trek-browse.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/500px-Momo_nepal.jpg"
+      }
     },
     {
       "id": "HP-16",
       "name": "Tattapani Hot Springs",
       "city": "Mandi",
       "category": "Wellness & Adventure",
-      "coordinates": { "latitude": "31.2975", "longitude": "77.0880" },
+      "coordinates": {
+        "latitude": "31.2975",
+        "longitude": "77.0880"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2700,
         "base_travel_cost": 600,
-        "seasonal_surge_factor": 1.20,
-        "traffic_delay_weight": 1.20
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 1.2
       },
       "per_day_budget": {
         "budget": 2500,
@@ -656,10 +806,19 @@
       "entry_fee": 50,
       "avg_duration_hrs": 3,
       "ai_metadata": {
-        "vibe_tags": ["Hot-Springs", "River-Rafting", "Therapeutic", "Adventure", "Scenic"],
+        "vibe_tags": [
+          "Hot-Springs",
+          "River-Rafting",
+          "Therapeutic",
+          "Adventure",
+          "Scenic"
+        ],
         "sentiment_score": 4.6,
         "crowd_prediction_level": "Medium",
-        "best_suited_for": ["Adventure Seekers", "Wellness Seekers"],
+        "best_suited_for": [
+          "Adventure Seekers",
+          "Wellness Seekers"
+        ],
         "description_ai": "Sulphur hot springs believed to have medicinal properties, plus water sports like jet skiing and river rafting on the Sutlej."
       },
       "restaurants": [
@@ -669,21 +828,33 @@
           "price_range": "budget",
           "avg_meal_cost": 250,
           "rating": 4.1,
-          "must_try": ["Fresh Trout", "Paratha", "Dal Tadka"]
+          "must_try": [
+            "Fresh Trout",
+            "Paratha",
+            "Dal Tadka"
+          ]
         }
-      ]
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Shimla_from_Jakhoo.jpg/500px-Shimla_from_Jakhoo.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/500px-Momo_nepal.jpg"
+      }
     },
     {
       "id": "HP-17",
       "name": "Great Himalayan National Park",
       "city": "Kullu",
       "category": "Wildlife/National Parks",
-      "coordinates": { "latitude": "31.8167", "longitude": "77.5500" },
+      "coordinates": {
+        "latitude": "31.8167",
+        "longitude": "77.5500"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2500,
         "base_travel_cost": 800,
         "seasonal_surge_factor": 1.15,
-        "traffic_delay_weight": 1.10
+        "traffic_delay_weight": 1.1
       },
       "per_day_budget": {
         "budget": 2800,
@@ -693,10 +864,20 @@
       "entry_fee": 200,
       "avg_duration_hrs": 6,
       "ai_metadata": {
-        "vibe_tags": ["UNESCO", "Biodiversity", "Trekking", "Wildlife", "Pristine"],
+        "vibe_tags": [
+          "UNESCO",
+          "Biodiversity",
+          "Trekking",
+          "Wildlife",
+          "Pristine"
+        ],
         "sentiment_score": 4.9,
         "crowd_prediction_level": "Low-Medium",
-        "best_suited_for": ["Trekkers", "Wildlife Lovers", "Eco-tourists"],
+        "best_suited_for": [
+          "Trekkers",
+          "Wildlife Lovers",
+          "Eco-tourists"
+        ],
         "description_ai": "A UNESCO World Heritage site, this park is a biodiversity hotspot with alpine meadows, glaciers, and rare wildlife."
       },
       "restaurants": [
@@ -705,22 +886,33 @@
           "cuisine": "Simple Indian",
           "price_range": "budget",
           "avg_meal_cost": 200,
-          "rating": 4.0,
-          "must_try": ["Rice and Dal", "Vegetable Curry"]
+          "rating": 4,
+          "must_try": [
+            "Rice and Dal",
+            "Vegetable Curry"
+          ]
         }
-      ]
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Himalayn_National_Park_01.jpg/500px-Himalayn_National_Park_01.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/500px-Momo_nepal.jpg"
+      }
     },
     {
       "id": "HP-18",
       "name": "Malana Village",
       "city": "Kullu",
       "category": "Offbeat Destinations",
-      "coordinates": { "latitude": "32.0575", "longitude": "77.2615" },
+      "coordinates": {
+        "latitude": "32.0575",
+        "longitude": "77.2615"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2400,
         "base_travel_cost": 800,
-        "seasonal_surge_factor": 1.20,
-        "traffic_delay_weight": 1.30
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 1.3
       },
       "per_day_budget": {
         "budget": 2500,
@@ -730,10 +922,20 @@
       "entry_fee": 0,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Ancient", "Isolated", "Unique-Culture", "Rules", "Mysterious"],
+        "vibe_tags": [
+          "Ancient",
+          "Isolated",
+          "Unique-Culture",
+          "Rules",
+          "Mysterious"
+        ],
         "sentiment_score": 4.4,
         "crowd_prediction_level": "Low-Medium",
-        "best_suited_for": ["Anthropology Buffs", "Solo", "Photographers"],
+        "best_suited_for": [
+          "Anthropology Buffs",
+          "Solo",
+          "Photographers"
+        ],
         "description_ai": "A remote village with its own distinct culture and rules, believed to be one of the oldest democracies in the world."
       },
       "restaurants": [
@@ -743,21 +945,33 @@
           "price_range": "budget",
           "avg_meal_cost": 200,
           "rating": 4.1,
-          "must_try": ["Local Dal", "Rice", "Pickle"]
+          "must_try": [
+            "Local Dal",
+            "Rice",
+            "Pickle"
+          ]
         }
-      ]
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Eunos_-_Wisma_Geylang_Serai_%282025%29_-_img_02.jpg/500px-Eunos_-_Wisma_Geylang_Serai_%282025%29_-_img_02.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/500px-Momo_nepal.jpg"
+      }
     },
     {
       "id": "HP-19",
       "name": "Kullu Dussehra Grounds",
       "city": "Kullu",
       "category": "Cultural & Festivals",
-      "coordinates": { "latitude": "31.9600", "longitude": "77.1167" },
+      "coordinates": {
+        "latitude": "31.9600",
+        "longitude": "77.1167"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2800,
         "base_travel_cost": 500,
-        "seasonal_surge_factor": 1.40,
-        "traffic_delay_weight": 1.20
+        "seasonal_surge_factor": 1.4,
+        "traffic_delay_weight": 1.2
       },
       "per_day_budget": {
         "budget": 2600,
@@ -767,10 +981,19 @@
       "entry_fee": 0,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Festive", "Colorful", "Deities", "Traditional", "Vibrant"],
+        "vibe_tags": [
+          "Festive",
+          "Colorful",
+          "Deities",
+          "Traditional",
+          "Vibrant"
+        ],
         "sentiment_score": 4.8,
         "crowd_prediction_level": "Extreme (Oct)",
-        "best_suited_for": ["Culture Lovers", "Families"],
+        "best_suited_for": [
+          "Culture Lovers",
+          "Families"
+        ],
         "description_ai": "The venue for the famous week-long Kullu Dussehra festival where local deities are paraded in colorful processions."
       },
       "restaurants": [
@@ -780,7 +1003,10 @@
           "price_range": "budget",
           "avg_meal_cost": 150,
           "rating": 4.4,
-          "must_try": ["Apple Jalebi", "Kiwi Barfi"]
+          "must_try": [
+            "Apple Jalebi",
+            "Kiwi Barfi"
+          ]
         },
         {
           "name": "Himalaya Sweets",
@@ -788,20 +1014,31 @@
           "price_range": "budget",
           "avg_meal_cost": 150,
           "rating": 4.5,
-          "must_try": ["Siddu", "Traditional Sweets"]
+          "must_try": [
+            "Siddu",
+            "Traditional Sweets"
+          ]
         }
-      ]
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Shimla_from_Jakhoo.jpg/500px-Shimla_from_Jakhoo.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/500px-Momo_nepal.jpg"
+      }
     },
     {
       "id": "HP-20",
       "name": "Palampur Tea Gardens",
       "city": "Palampur",
       "category": "Hill Stations",
-      "coordinates": { "latitude": "32.1105", "longitude": "76.5365" },
+      "coordinates": {
+        "latitude": "32.1105",
+        "longitude": "76.5365"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2600,
         "base_travel_cost": 600,
-        "seasonal_surge_factor": 1.20,
+        "seasonal_surge_factor": 1.2,
         "traffic_delay_weight": 1.15
       },
       "per_day_budget": {
@@ -812,10 +1049,19 @@
       "entry_fee": 0,
       "avg_duration_hrs": 3,
       "ai_metadata": {
-        "vibe_tags": ["Tea-Estates", "Scenic", "Green", "Peaceful", "Dhauladhar-Views"],
+        "vibe_tags": [
+          "Tea-Estates",
+          "Scenic",
+          "Green",
+          "Peaceful",
+          "Dhauladhar-Views"
+        ],
         "sentiment_score": 4.7,
         "crowd_prediction_level": "Medium",
-        "best_suited_for": ["Couples", "Nature Lovers"],
+        "best_suited_for": [
+          "Couples",
+          "Nature Lovers"
+        ],
         "description_ai": "A charming town known for its sprawling tea gardens set against the backdrop of the Dhauladhar range."
       },
       "restaurants": [
@@ -825,7 +1071,10 @@
           "price_range": "budget",
           "avg_meal_cost": 150,
           "rating": 4.3,
-          "must_try": ["Desi Ghee Sweets", "Samosa"]
+          "must_try": [
+            "Desi Ghee Sweets",
+            "Samosa"
+          ]
         },
         {
           "name": "Ravi Sweets Shop",
@@ -833,20 +1082,33 @@
           "price_range": "budget",
           "avg_meal_cost": 150,
           "rating": 4.4,
-          "must_try": ["Gulab Jamun", "Jalebi", "Siddu", "Babru"]
+          "must_try": [
+            "Gulab Jamun",
+            "Jalebi",
+            "Siddu",
+            "Babru"
+          ]
         }
-      ]
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Shimla_from_Jakhoo.jpg/500px-Shimla_from_Jakhoo.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/500px-Momo_nepal.jpg"
+      }
     },
     {
       "id": "HP-21",
       "name": "Kangra Fort",
       "city": "Kangra",
       "category": "Historical Forts",
-      "coordinates": { "latitude": "32.1010", "longitude": "76.2690" },
+      "coordinates": {
+        "latitude": "32.1010",
+        "longitude": "76.2690"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2600,
         "base_travel_cost": 500,
-        "seasonal_surge_factor": 1.20,
+        "seasonal_surge_factor": 1.2,
         "traffic_delay_weight": 1.15
       },
       "per_day_budget": {
@@ -857,10 +1119,19 @@
       "entry_fee": 150,
       "avg_duration_hrs": 2,
       "ai_metadata": {
-        "vibe_tags": ["Ancient", "Historic", "Massive", "Panoramic", "Battleground"],
+        "vibe_tags": [
+          "Ancient",
+          "Historic",
+          "Massive",
+          "Panoramic",
+          "Battleground"
+        ],
         "sentiment_score": 4.7,
         "crowd_prediction_level": "Medium",
-        "best_suited_for": ["History Buffs", "Families"],
+        "best_suited_for": [
+          "History Buffs",
+          "Families"
+        ],
         "description_ai": "One of India's oldest and largest forts, with a history spanning over 2,000 years and commanding views of the Kangra Valley."
       },
       "restaurants": [
@@ -870,7 +1141,11 @@
           "price_range": "mid_range",
           "avg_meal_cost": 400,
           "rating": 4.3,
-          "must_try": ["Noodles", "Manchurian", "Soups"]
+          "must_try": [
+            "Noodles",
+            "Manchurian",
+            "Soups"
+          ]
         },
         {
           "name": "Abhi Vaishnav Bhojnalya",
@@ -878,21 +1153,32 @@
           "price_range": "budget",
           "avg_meal_cost": 200,
           "rating": 4.2,
-          "must_try": ["North Indian Thali", "Dal Makhani"]
+          "must_try": [
+            "North Indian Thali",
+            "Dal Makhani"
+          ]
         }
-      ]
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Kangra_Fort_%2CHimachal_Pradesh_06.jpg/500px-Kangra_Fort_%2CHimachal_Pradesh_06.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/500px-Momo_nepal.jpg"
+      }
     },
     {
       "id": "HP-22",
       "name": "Naddi Zipline (Asia's Longest)",
       "city": "Dharamshala",
       "category": "Adventure Sports",
-      "coordinates": { "latitude": "32.2420", "longitude": "76.3350" },
+      "coordinates": {
+        "latitude": "32.2420",
+        "longitude": "76.3350"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2800,
         "base_travel_cost": 500,
-        "seasonal_surge_factor": 1.20,
-        "traffic_delay_weight": 1.10
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 1.1
       },
       "per_day_budget": {
         "budget": 3000,
@@ -902,10 +1188,20 @@
       "entry_fee": 1500,
       "avg_duration_hrs": 2,
       "ai_metadata": {
-        "vibe_tags": ["Thrilling", "Aerial", "Record-breaking", "Panoramic", "Adventure"],
+        "vibe_tags": [
+          "Thrilling",
+          "Aerial",
+          "Record-breaking",
+          "Panoramic",
+          "Adventure"
+        ],
         "sentiment_score": 4.9,
         "crowd_prediction_level": "Medium-High",
-        "best_suited_for": ["Adrenaline Junkies", "Solo", "Friends"],
+        "best_suited_for": [
+          "Adrenaline Junkies",
+          "Solo",
+          "Friends"
+        ],
         "description_ai": "Asia's longest zipline soaring over the Dhauladhar Valley, offering breathtaking aerial views of forests and villages."
       },
       "restaurants": [
@@ -915,21 +1211,33 @@
           "price_range": "mid_range",
           "avg_meal_cost": 400,
           "rating": 4.4,
-          "must_try": ["Falafel", "Pita Bread", "Hummus"]
+          "must_try": [
+            "Falafel",
+            "Pita Bread",
+            "Hummus"
+          ]
         }
-      ]
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Shimla_from_Jakhoo.jpg/500px-Shimla_from_Jakhoo.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/500px-Momo_nepal.jpg"
+      }
     },
     {
       "id": "HP-23",
       "name": "Khajjiar (Mini Switzerland)",
       "city": "Chamba",
       "category": "Hill Stations",
-      "coordinates": { "latitude": "32.5545", "longitude": "76.0635" },
+      "coordinates": {
+        "latitude": "32.5545",
+        "longitude": "76.0635"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3000,
         "base_travel_cost": 700,
         "seasonal_surge_factor": 1.25,
-        "traffic_delay_weight": 1.20
+        "traffic_delay_weight": 1.2
       },
       "per_day_budget": {
         "budget": 2700,
@@ -939,33 +1247,47 @@
       "entry_fee": 0,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Meadow", "Swiss-like", "Lake", "Forest", "Scenic"],
+        "vibe_tags": [
+          "Meadow",
+          "Swiss-like",
+          "Lake",
+          "Forest",
+          "Scenic"
+        ],
         "sentiment_score": 4.8,
         "crowd_prediction_level": "High",
-        "best_suited_for": ["Families", "Couples", "Photographers"],
+        "best_suited_for": [
+          "Families",
+          "Couples",
+          "Photographers"
+        ],
         "description_ai": "A beautiful meadow often called 'Mini Switzerland of India' with a floating lake and surrounded by cedar forests."
       },
       "restaurants": [
-        {
-          "name": "Khajjiar Lake Cafe",
-          "cuisine": "Snacks/Fast Food",
-          "price_range": "budget",
-          "avg_meal_cost": 200,
-          "rating": 4.1,
-          "must_try": ["Maggi", "Pakoras", "Tea"]
-        }
-      ]
+        "Hotel Devdar Restaurant"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Shimla_from_Jakhoo.jpg/500px-Shimla_from_Jakhoo.jpg",
+      "food_details": {
+        "famous_food": [
+          "Madra",
+          "Channa Madra"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/500px-Momo_nepal.jpg"
+      }
     },
     {
       "id": "HP-24",
       "name": "Dalai Lama Temple",
       "city": "McLeod Ganj",
       "category": "Religious/Pilgrimage Sites",
-      "coordinates": { "latitude": "32.2240", "longitude": "76.3210" },
+      "coordinates": {
+        "latitude": "32.2240",
+        "longitude": "76.3210"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2800,
         "base_travel_cost": 500,
-        "seasonal_surge_factor": 1.20,
+        "seasonal_surge_factor": 1.2,
         "traffic_delay_weight": 1.15
       },
       "per_day_budget": {
@@ -976,42 +1298,47 @@
       "entry_fee": 0,
       "avg_duration_hrs": 2,
       "ai_metadata": {
-        "vibe_tags": ["Sacred", "Peaceful", "Buddhist", "Prayer-Flags", "Spiritual"],
+        "vibe_tags": [
+          "Sacred",
+          "Peaceful",
+          "Buddhist",
+          "Prayer-Flags",
+          "Spiritual"
+        ],
         "sentiment_score": 4.9,
         "crowd_prediction_level": "High",
-        "best_suited_for": ["Pilgrims", "Spiritual Seekers"],
+        "best_suited_for": [
+          "Pilgrims",
+          "Spiritual Seekers"
+        ],
         "description_ai": "A beautiful Buddhist temple complex where the Dalai Lama resides, featuring intricate murals and a meditation hall."
       },
       "restaurants": [
-        {
-          "name": "Bodhi Greens",
-          "cuisine": "Vegetarian/Thai/Japanese",
-          "price_range": "mid_range",
-          "avg_meal_cost": 500,
-          "rating": 4.5,
-          "must_try": ["Buddha Bowl", "Tofu Sticks", "Black Rice"]
-        },
-        {
-          "name": "Lung Ta Japanese Restaurant",
-          "cuisine": "Japanese",
-          "price_range": "mid_range",
-          "avg_meal_cost": 550,
-          "rating": 4.6,
-          "must_try": ["Miso Soup", "Sushi Rolls", "Croquettes"]
-        }
-      ]
+        "Tibet Kitchen"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Shimla_from_Jakhoo.jpg/500px-Shimla_from_Jakhoo.jpg",
+      "food_details": {
+        "famous_food": [
+          "Momos",
+          "Butter Tea"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/500px-Momo_nepal.jpg"
+      }
     },
     {
       "id": "HP-25",
       "name": "Narkanda",
       "city": "Shimla",
       "category": "Hill Stations",
-      "coordinates": { "latitude": "31.2635", "longitude": "77.4535" },
+      "coordinates": {
+        "latitude": "31.2635",
+        "longitude": "77.4535"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2600,
         "base_travel_cost": 600,
         "seasonal_surge_factor": 1.25,
-        "traffic_delay_weight": 1.20
+        "traffic_delay_weight": 1.2
       },
       "per_day_budget": {
         "budget": 2500,
@@ -1021,10 +1348,18 @@
       "entry_fee": 0,
       "avg_duration_hrs": 3,
       "ai_metadata": {
-        "vibe_tags": ["Skiing", "Apple-Orchards", "Panoramic", "Quiet"],
+        "vibe_tags": [
+          "Skiing",
+          "Apple-Orchards",
+          "Panoramic",
+          "Quiet"
+        ],
         "sentiment_score": 4.6,
         "crowd_prediction_level": "Medium",
-        "best_suited_for": ["Skiers", "Couples"],
+        "best_suited_for": [
+          "Skiers",
+          "Couples"
+        ],
         "description_ai": "A charming hill town famous for skiing in winter and apple orchards with spectacular views of the Himalayas."
       },
       "restaurants": [
@@ -1034,21 +1369,33 @@
           "price_range": "budget",
           "avg_meal_cost": 250,
           "rating": 4.2,
-          "must_try": ["Apple Pie", "Fresh Apple Juice", "Sandwiches"]
+          "must_try": [
+            "Apple Pie",
+            "Fresh Apple Juice",
+            "Sandwiches"
+          ]
         }
-      ]
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/NARKANDA.jpg/500px-NARKANDA.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/500px-Momo_nepal.jpg"
+      }
     },
     {
       "id": "HP-26",
       "name": "Barot Valley",
       "city": "Mandi",
       "category": "Offbeat Destinations",
-      "coordinates": { "latitude": "31.9005", "longitude": "76.9165" },
+      "coordinates": {
+        "latitude": "31.9005",
+        "longitude": "76.9165"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2400,
         "base_travel_cost": 700,
         "seasonal_surge_factor": 1.15,
-        "traffic_delay_weight": 1.20
+        "traffic_delay_weight": 1.2
       },
       "per_day_budget": {
         "budget": 2300,
@@ -1058,10 +1405,20 @@
       "entry_fee": 0,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Unexplored", "River", "Trout-Fishing", "Camping", "Serene"],
+        "vibe_tags": [
+          "Unexplored",
+          "River",
+          "Trout-Fishing",
+          "Camping",
+          "Serene"
+        ],
         "sentiment_score": 4.7,
         "crowd_prediction_level": "Low",
-        "best_suited_for": ["Peace Seekers", "Anglers", "Campers"],
+        "best_suited_for": [
+          "Peace Seekers",
+          "Anglers",
+          "Campers"
+        ],
         "description_ai": "A hidden valley known for trout fishing, camping by the Uhl River, and tranquil landscapes."
       },
       "restaurants": [
@@ -1071,21 +1428,32 @@
           "price_range": "mid_range",
           "avg_meal_cost": 400,
           "rating": 4.3,
-          "must_try": ["Fresh Trout", "River Fish Curry"]
+          "must_try": [
+            "Fresh Trout",
+            "River Fish Curry"
+          ]
         }
-      ]
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Silchar_Nazirpatty.jpg/500px-Silchar_Nazirpatty.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/500px-Momo_nepal.jpg"
+      }
     },
     {
       "id": "HP-27",
       "name": "Prashar Lake",
       "city": "Mandi",
       "category": "Lakes",
-      "coordinates": { "latitude": "31.7560", "longitude": "77.1020" },
+      "coordinates": {
+        "latitude": "31.7560",
+        "longitude": "77.1020"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2500,
         "base_travel_cost": 800,
-        "seasonal_surge_factor": 1.20,
-        "traffic_delay_weight": 1.30
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 1.3
       },
       "per_day_budget": {
         "budget": 2700,
@@ -1095,34 +1463,47 @@
       "entry_fee": 0,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Sacred", "Floating-Island", "Trek", "Misty", "Prashar-Rishi"],
+        "vibe_tags": [
+          "Sacred",
+          "Floating-Island",
+          "Trek",
+          "Misty",
+          "Prashar-Rishi"
+        ],
         "sentiment_score": 4.8,
         "crowd_prediction_level": "Medium",
-        "best_suited_for": ["Trekkers", "Spiritual Seekers"],
+        "best_suited_for": [
+          "Trekkers",
+          "Spiritual Seekers"
+        ],
         "description_ai": "A sacred high-altitude lake with a floating island and a three-tiered pagoda-shaped temple dedicated to sage Prashar."
       },
       "restaurants": [
-        {
-          "name": "Lake View Dhaba",
-          "cuisine": "Simple Indian",
-          "price_range": "budget",
-          "avg_meal_cost": 200,
-          "rating": 4.1,
-          "must_try": ["Rice and Dal", "Maggi", "Tea"]
-        }
-      ]
+        "Trek-side Dhabas"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Prashar_Lake_and_temple_%2CMandi_%2CHimachal_Pardesh.jpg/500px-Prashar_Lake_and_temple_%2CMandi_%2CHimachal_Pardesh.jpg",
+      "food_details": {
+        "famous_food": [
+          "Siddu",
+          "Dal"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/500px-Momo_nepal.jpg"
+      }
     },
     {
       "id": "HP-28",
       "name": "Chail",
       "city": "Solan",
       "category": "Hill Stations",
-      "coordinates": { "latitude": "30.9665", "longitude": "77.1835" },
+      "coordinates": {
+        "latitude": "30.9665",
+        "longitude": "77.1835"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3000,
         "base_travel_cost": 600,
         "seasonal_surge_factor": 1.25,
-        "traffic_delay_weight": 1.20
+        "traffic_delay_weight": 1.2
       },
       "per_day_budget": {
         "budget": 2700,
@@ -1132,10 +1513,18 @@
       "entry_fee": 0,
       "avg_duration_hrs": 3,
       "ai_metadata": {
-        "vibe_tags": ["World's-Highest-Cricket-Ground", "Palace", "Quiet", "Forests"],
+        "vibe_tags": [
+          "World's-Highest-Cricket-Ground",
+          "Palace",
+          "Quiet",
+          "Forests"
+        ],
         "sentiment_score": 4.6,
         "crowd_prediction_level": "Medium",
-        "best_suited_for": ["Families", "Couples"],
+        "best_suited_for": [
+          "Families",
+          "Couples"
+        ],
         "description_ai": "A quiet hill station with the world's highest cricket ground, a former palace, and dense cedar forests."
       },
       "restaurants": [
@@ -1145,20 +1534,31 @@
           "price_range": "luxury",
           "avg_meal_cost": 1200,
           "rating": 4.6,
-          "must_try": ["Royal Thali", "Continental Dishes"]
+          "must_try": [
+            "Royal Thali",
+            "Continental Dishes"
+          ]
         }
-      ]
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/4/49/Coal_India_Logo.svg/500px-Coal_India_Logo.svg.png",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/500px-Momo_nepal.jpg"
+      }
     },
     {
       "id": "HP-29",
       "name": "Solan (Mushroom Capital)",
       "city": "Solan",
       "category": "Major Cities & Cultural Spots",
-      "coordinates": { "latitude": "30.9045", "longitude": "77.0965" },
+      "coordinates": {
+        "latitude": "30.9045",
+        "longitude": "77.0965"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2500,
         "base_travel_cost": 500,
-        "seasonal_surge_factor": 1.20,
+        "seasonal_surge_factor": 1.2,
         "traffic_delay_weight": 1.15
       },
       "per_day_budget": {
@@ -1169,10 +1569,18 @@
       "entry_fee": 0,
       "avg_duration_hrs": 2,
       "ai_metadata": {
-        "vibe_tags": ["Mushroom-Culture", "Educational", "Gateway", "Pleasant"],
+        "vibe_tags": [
+          "Mushroom-Culture",
+          "Educational",
+          "Gateway",
+          "Pleasant"
+        ],
         "sentiment_score": 4.4,
         "crowd_prediction_level": "Low-Medium",
-        "best_suited_for": ["Families", "Students"],
+        "best_suited_for": [
+          "Families",
+          "Students"
+        ],
         "description_ai": "Known as the 'Mushroom Capital of India', this town is a gateway to several hill stations and has a famous mushroom research center."
       },
       "restaurants": [
@@ -1182,7 +1590,11 @@
           "price_range": "budget",
           "avg_meal_cost": 150,
           "rating": 4.3,
-          "must_try": ["Dahi Bhalla", "Chaat Papdi", "Dosa"]
+          "must_try": [
+            "Dahi Bhalla",
+            "Chaat Papdi",
+            "Dosa"
+          ]
         },
         {
           "name": "The Riya Fast Food",
@@ -1190,16 +1602,28 @@
           "price_range": "budget",
           "avg_meal_cost": 150,
           "rating": 4.2,
-          "must_try": ["Samosa", "Spring Rolls", "Rolls"]
+          "must_try": [
+            "Samosa",
+            "Spring Rolls",
+            "Rolls"
+          ]
         }
-      ]
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Shimla_from_Jakhoo.jpg/500px-Shimla_from_Jakhoo.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/500px-Momo_nepal.jpg"
+      }
     },
     {
       "id": "HP-30",
       "name": "Una",
       "city": "Una",
       "category": "Major Cities & Cultural Spots",
-      "coordinates": { "latitude": "31.4685", "longitude": "76.2695" },
+      "coordinates": {
+        "latitude": "31.4685",
+        "longitude": "76.2695"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2300,
         "base_travel_cost": 500,
@@ -1214,10 +1638,18 @@
       "entry_fee": 0,
       "avg_duration_hrs": 2,
       "ai_metadata": {
-        "vibe_tags": ["Religious", "Gateway", "Pingli-Wind-Farm", "Cultural"],
+        "vibe_tags": [
+          "Religious",
+          "Gateway",
+          "Pingli-Wind-Farm",
+          "Cultural"
+        ],
         "sentiment_score": 4.3,
         "crowd_prediction_level": "Low",
-        "best_suited_for": ["Pilgrims", "Students"],
+        "best_suited_for": [
+          "Pilgrims",
+          "Students"
+        ],
         "description_ai": "A district known for the nearby Chintpurni Temple and the scenic Pingli Wind Farm."
       },
       "restaurants": [
@@ -1227,7 +1659,11 @@
           "price_range": "budget",
           "avg_meal_cost": 150,
           "rating": 4.3,
-          "must_try": ["Barfi", "Jalebi", "Samosa"]
+          "must_try": [
+            "Barfi",
+            "Jalebi",
+            "Samosa"
+          ]
         },
         {
           "name": "Zaika 72",
@@ -1235,7 +1671,11 @@
           "price_range": "budget",
           "avg_meal_cost": 200,
           "rating": 4.5,
-          "must_try": ["Samosa Chaat", "Chicken Lollipop", "Malai Chaap"]
+          "must_try": [
+            "Samosa Chaat",
+            "Chicken Lollipop",
+            "Malai Chaap"
+          ]
         },
         {
           "name": "Cold Corner Fast Food",
@@ -1243,254 +1683,987 @@
           "price_range": "budget",
           "avg_meal_cost": 180,
           "rating": 4.3,
-          "must_try": ["Momos", "Pasta", "Pastries"]
+          "must_try": [
+            "Momos",
+            "Pasta",
+            "Pastries"
+          ]
         }
-      ]
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Shimla_from_Jakhoo.jpg/500px-Shimla_from_Jakhoo.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/500px-Momo_nepal.jpg"
+      }
     }
   ],
   "search_indexes": {
     "tibetan": [
-      { "restaurant": "Tibet Kitchen", "area": "Dharamshala & McLeod Ganj", "id": "HP-06" },
-      { "restaurant": "Norbulingka Cafe", "area": "Tsuglagkhang Complex", "id": "HP-07" },
-      { "restaurant": "Woeser Bakery", "area": "Bir Billing", "id": "HP-09" },
-      { "restaurant": "Monastery Cafeteria", "area": "Key Monastery", "id": "HP-13" }
+      {
+        "restaurant": "Tibet Kitchen",
+        "area": "Dharamshala & McLeod Ganj",
+        "id": "HP-06"
+      },
+      {
+        "restaurant": "Norbulingka Cafe",
+        "area": "Tsuglagkhang Complex",
+        "id": "HP-07"
+      },
+      {
+        "restaurant": "Woeser Bakery",
+        "area": "Bir Billing",
+        "id": "HP-09"
+      },
+      {
+        "restaurant": "Monastery Cafeteria",
+        "area": "Key Monastery",
+        "id": "HP-13"
+      }
     ],
     "himachali": [
-      { "restaurant": "Himachali Rasoi", "area": "Shimla Ridge & Mall Road", "id": "HP-01" },
-      { "restaurant": "Himalaya Sweets", "area": "Kullu Dussehra Grounds", "id": "HP-19" },
-      { "restaurant": "Sapna Sweets", "area": "Kullu Dussehra Grounds", "id": "HP-19" },
-      { "restaurant": "Ravi Sweets Shop", "area": "Palampur Tea Gardens", "id": "HP-20" },
-      { "restaurant": "Narinder Sweets", "area": "Kasauli", "id": "HP-10" }
+      {
+        "restaurant": "Himachali Rasoi",
+        "area": "Shimla Ridge & Mall Road",
+        "id": "HP-01"
+      },
+      {
+        "restaurant": "Himalaya Sweets",
+        "area": "Kullu Dussehra Grounds",
+        "id": "HP-19"
+      },
+      {
+        "restaurant": "Sapna Sweets",
+        "area": "Kullu Dussehra Grounds",
+        "id": "HP-19"
+      },
+      {
+        "restaurant": "Ravi Sweets Shop",
+        "area": "Palampur Tea Gardens",
+        "id": "HP-20"
+      },
+      {
+        "restaurant": "Narinder Sweets",
+        "area": "Kasauli",
+        "id": "HP-10"
+      }
     ],
     "siddu": [
-      { "restaurant": "Himachali Rasoi", "area": "Shimla Ridge & Mall Road", "id": "HP-01" },
-      { "restaurant": "Ashiana Restaurant", "area": "Shimla Ridge & Mall Road", "id": "HP-01" },
-      { "restaurant": "Himalaya Sweets", "area": "Kullu Dussehra Grounds", "id": "HP-19" },
-      { "restaurant": "Ravi Sweets Shop", "area": "Palampur Tea Gardens", "id": "HP-20" },
-      { "restaurant": "Kinnaur Apple Cafe", "area": "Kinnaur Valley", "id": "HP-15" }
+      {
+        "restaurant": "Himachali Rasoi",
+        "area": "Shimla Ridge & Mall Road",
+        "id": "HP-01"
+      },
+      {
+        "restaurant": "Ashiana Restaurant",
+        "area": "Shimla Ridge & Mall Road",
+        "id": "HP-01"
+      },
+      {
+        "restaurant": "Himalaya Sweets",
+        "area": "Kullu Dussehra Grounds",
+        "id": "HP-19"
+      },
+      {
+        "restaurant": "Ravi Sweets Shop",
+        "area": "Palampur Tea Gardens",
+        "id": "HP-20"
+      },
+      {
+        "restaurant": "Kinnaur Apple Cafe",
+        "area": "Kinnaur Valley",
+        "id": "HP-15"
+      }
     ],
     "momos": [
-      { "restaurant": "Tibet Kitchen", "area": "Dharamshala & McLeod Ganj", "id": "HP-06" },
-      { "restaurant": "Norbulingka Cafe", "area": "Tsuglagkhang Complex", "id": "HP-07" },
-      { "restaurant": "The Himalayan Cafe", "area": "Spiti Valley", "id": "HP-12" },
-      { "restaurant": "Cold Corner Fast Food", "area": "Una", "id": "HP-30" }
+      {
+        "restaurant": "Tibet Kitchen",
+        "area": "Dharamshala & McLeod Ganj",
+        "id": "HP-06"
+      },
+      {
+        "restaurant": "Norbulingka Cafe",
+        "area": "Tsuglagkhang Complex",
+        "id": "HP-07"
+      },
+      {
+        "restaurant": "The Himalayan Cafe",
+        "area": "Spiti Valley",
+        "id": "HP-12"
+      },
+      {
+        "restaurant": "Cold Corner Fast Food",
+        "area": "Una",
+        "id": "HP-30"
+      }
     ],
     "thukpa": [
-      { "restaurant": "Tibet Kitchen", "area": "Dharamshala & McLeod Ganj", "id": "HP-06" },
-      { "restaurant": "The Himalayan Cafe", "area": "Spiti Valley", "id": "HP-12" }
+      {
+        "restaurant": "Tibet Kitchen",
+        "area": "Dharamshala & McLeod Ganj",
+        "id": "HP-06"
+      },
+      {
+        "restaurant": "The Himalayan Cafe",
+        "area": "Spiti Valley",
+        "id": "HP-12"
+      }
     ],
     "italian": [
-      { "restaurant": "Jimmy's Italian Kitchen", "area": "Dharamshala & McLeod Ganj", "id": "HP-06" },
-      { "restaurant": "Nick's Italian Kitchen", "area": "Bhagsunag Waterfall", "id": "HP-08" },
-      { "restaurant": "Silver Linings Cafe", "area": "Bir Billing", "id": "HP-09" },
-      { "restaurant": "Amayaa Restaurant", "area": "Shimla Ridge & Mall Road", "id": "HP-01" },
-      { "restaurant": "Dharamkot Cafe", "area": "Naddi Zipline", "id": "HP-22" }
+      {
+        "restaurant": "Jimmy's Italian Kitchen",
+        "area": "Dharamshala & McLeod Ganj",
+        "id": "HP-06"
+      },
+      {
+        "restaurant": "Nick's Italian Kitchen",
+        "area": "Bhagsunag Waterfall",
+        "id": "HP-08"
+      },
+      {
+        "restaurant": "Silver Linings Cafe",
+        "area": "Bir Billing",
+        "id": "HP-09"
+      },
+      {
+        "restaurant": "Amayaa Restaurant",
+        "area": "Shimla Ridge & Mall Road",
+        "id": "HP-01"
+      },
+      {
+        "restaurant": "Dharamkot Cafe",
+        "area": "Naddi Zipline",
+        "id": "HP-22"
+      }
     ],
     "continental": [
-      { "restaurant": "The Lazy Dog Lounge", "area": "Manali Old Village", "id": "HP-03" },
-      { "restaurant": "Johnson's Cafe", "area": "Manali Old Village", "id": "HP-03" },
-      { "restaurant": "Jimmy's Italian Kitchen", "area": "Dharamshala & McLeod Ganj", "id": "HP-06" },
-      { "restaurant": "German Bakery", "area": "Dharamshala & McLeod Ganj", "id": "HP-06" },
-      { "restaurant": "Mc'lo Restaurant", "area": "Dharamshala & McLeod Ganj", "id": "HP-06" },
-      { "restaurant": "The Other Space", "area": "Tsuglagkhang Complex", "id": "HP-07" },
-      { "restaurant": "Amayaa Restaurant", "area": "Shimla Ridge & Mall Road", "id": "HP-01" }
+      {
+        "restaurant": "The Lazy Dog Lounge",
+        "area": "Manali Old Village",
+        "id": "HP-03"
+      },
+      {
+        "restaurant": "Johnson's Cafe",
+        "area": "Manali Old Village",
+        "id": "HP-03"
+      },
+      {
+        "restaurant": "Jimmy's Italian Kitchen",
+        "area": "Dharamshala & McLeod Ganj",
+        "id": "HP-06"
+      },
+      {
+        "restaurant": "German Bakery",
+        "area": "Dharamshala & McLeod Ganj",
+        "id": "HP-06"
+      },
+      {
+        "restaurant": "Mc'lo Restaurant",
+        "area": "Dharamshala & McLeod Ganj",
+        "id": "HP-06"
+      },
+      {
+        "restaurant": "The Other Space",
+        "area": "Tsuglagkhang Complex",
+        "id": "HP-07"
+      },
+      {
+        "restaurant": "Amayaa Restaurant",
+        "area": "Shimla Ridge & Mall Road",
+        "id": "HP-01"
+      }
     ],
     "chinese": [
-      { "restaurant": "Hygienic Fast Food", "area": "Shimla Ridge & Mall Road", "id": "HP-01" },
-      { "restaurant": "Mc'lo Restaurant", "area": "Dharamshala & McLeod Ganj", "id": "HP-06" },
-      { "restaurant": "The Noodle House", "area": "Kangra Fort", "id": "HP-21" },
-      { "restaurant": "Zaika 72", "area": "Una", "id": "HP-30" }
+      {
+        "restaurant": "Hygienic Fast Food",
+        "area": "Shimla Ridge & Mall Road",
+        "id": "HP-01"
+      },
+      {
+        "restaurant": "Mc'lo Restaurant",
+        "area": "Dharamshala & McLeod Ganj",
+        "id": "HP-06"
+      },
+      {
+        "restaurant": "The Noodle House",
+        "area": "Kangra Fort",
+        "id": "HP-21"
+      },
+      {
+        "restaurant": "Zaika 72",
+        "area": "Una",
+        "id": "HP-30"
+      }
     ],
     "street_food": [
-      { "restaurant": "Aao Ji Te Khao Ji", "area": "Solan", "id": "HP-29" },
-      { "restaurant": "The Riya Fast Food", "area": "Solan", "id": "HP-29" },
-      { "restaurant": "Cold Corner Fast Food", "area": "Una", "id": "HP-30" },
-      { "restaurant": "Zaika 72", "area": "Una", "id": "HP-30" }
+      {
+        "restaurant": "Aao Ji Te Khao Ji",
+        "area": "Solan",
+        "id": "HP-29"
+      },
+      {
+        "restaurant": "The Riya Fast Food",
+        "area": "Solan",
+        "id": "HP-29"
+      },
+      {
+        "restaurant": "Cold Corner Fast Food",
+        "area": "Una",
+        "id": "HP-30"
+      },
+      {
+        "restaurant": "Zaika 72",
+        "area": "Una",
+        "id": "HP-30"
+      }
     ],
     "sweets": [
-      { "restaurant": "Narinder Sweets", "area": "Kasauli", "id": "HP-10" },
-      { "restaurant": "Diamond Best Bakery", "area": "Kalka-Shimla Toy Train", "id": "HP-02" },
-      { "restaurant": "Sri Nangli Sweets", "area": "Palampur Tea Gardens", "id": "HP-20" },
-      { "restaurant": "Ravi Sweets Shop", "area": "Palampur Tea Gardens", "id": "HP-20" },
-      { "restaurant": "Dayal Sweetso", "area": "Una", "id": "HP-30" },
-      { "restaurant": "Sapna Sweets", "area": "Kullu Dussehra Grounds", "id": "HP-19" },
-      { "restaurant": "Himalaya Sweets", "area": "Kullu Dussehra Grounds", "id": "HP-19" }
+      {
+        "restaurant": "Narinder Sweets",
+        "area": "Kasauli",
+        "id": "HP-10"
+      },
+      {
+        "restaurant": "Diamond Best Bakery",
+        "area": "Kalka-Shimla Toy Train",
+        "id": "HP-02"
+      },
+      {
+        "restaurant": "Sri Nangli Sweets",
+        "area": "Palampur Tea Gardens",
+        "id": "HP-20"
+      },
+      {
+        "restaurant": "Ravi Sweets Shop",
+        "area": "Palampur Tea Gardens",
+        "id": "HP-20"
+      },
+      {
+        "restaurant": "Dayal Sweetso",
+        "area": "Una",
+        "id": "HP-30"
+      },
+      {
+        "restaurant": "Sapna Sweets",
+        "area": "Kullu Dussehra Grounds",
+        "id": "HP-19"
+      },
+      {
+        "restaurant": "Himalaya Sweets",
+        "area": "Kullu Dussehra Grounds",
+        "id": "HP-19"
+      }
     ],
     "apple_specialty": [
-      { "restaurant": "Sapna Sweets", "area": "Kullu Dussehra Grounds", "id": "HP-19" },
-      { "restaurant": "Hatu Apple Cafe", "area": "Narkanda", "id": "HP-25" },
-      { "restaurant": "Kinnaur Apple Cafe", "area": "Kinnaur Valley", "id": "HP-15" },
-      { "restaurant": "Johnson's Cafe", "area": "Manali Old Village", "id": "HP-03" }
+      {
+        "restaurant": "Sapna Sweets",
+        "area": "Kullu Dussehra Grounds",
+        "id": "HP-19"
+      },
+      {
+        "restaurant": "Hatu Apple Cafe",
+        "area": "Narkanda",
+        "id": "HP-25"
+      },
+      {
+        "restaurant": "Kinnaur Apple Cafe",
+        "area": "Kinnaur Valley",
+        "id": "HP-15"
+      },
+      {
+        "restaurant": "Johnson's Cafe",
+        "area": "Manali Old Village",
+        "id": "HP-03"
+      }
     ],
     "trout": [
-      { "restaurant": "Trout House Cafe", "area": "Barot Valley", "id": "HP-26" },
-      { "restaurant": "Riverside Dhaba", "area": "Tattapani Hot Springs", "id": "HP-16" },
-      { "restaurant": "Kinnaur Apple Cafe", "area": "Kinnaur Valley", "id": "HP-15" }
+      {
+        "restaurant": "Trout House Cafe",
+        "area": "Barot Valley",
+        "id": "HP-26"
+      },
+      {
+        "restaurant": "Riverside Dhaba",
+        "area": "Tattapani Hot Springs",
+        "id": "HP-16"
+      },
+      {
+        "restaurant": "Kinnaur Apple Cafe",
+        "area": "Kinnaur Valley",
+        "id": "HP-15"
+      }
     ],
     "bakery": [
-      { "restaurant": "German Bakery", "area": "Dharamshala & McLeod Ganj", "id": "HP-06" },
-      { "restaurant": "Woeser Bakery", "area": "Bir Billing", "id": "HP-09" },
-      { "restaurant": "Diamond Best Bakery", "area": "Kalka-Shimla Toy Train", "id": "HP-02" }
+      {
+        "restaurant": "German Bakery",
+        "area": "Dharamshala & McLeod Ganj",
+        "id": "HP-06"
+      },
+      {
+        "restaurant": "Woeser Bakery",
+        "area": "Bir Billing",
+        "id": "HP-09"
+      },
+      {
+        "restaurant": "Diamond Best Bakery",
+        "area": "Kalka-Shimla Toy Train",
+        "id": "HP-02"
+      }
     ],
     "cafe": [
-      { "restaurant": "Shiva Cafe", "area": "Bhagsunag Waterfall", "id": "HP-08" },
-      { "restaurant": "The Lazy Dog Lounge", "area": "Manali Old Village", "id": "HP-03" },
-      { "restaurant": "The Other Space", "area": "Tsuglagkhang Complex", "id": "HP-07" },
-      { "restaurant": "Silver Linings Cafe", "area": "Bir Billing", "id": "HP-09" },
-      { "restaurant": "Hatu Apple Cafe", "area": "Narkanda", "id": "HP-25" },
-      { "restaurant": "Dharamkot Cafe", "area": "Naddi Zipline", "id": "HP-22" }
+      {
+        "restaurant": "Shiva Cafe",
+        "area": "Bhagsunag Waterfall",
+        "id": "HP-08"
+      },
+      {
+        "restaurant": "The Lazy Dog Lounge",
+        "area": "Manali Old Village",
+        "id": "HP-03"
+      },
+      {
+        "restaurant": "The Other Space",
+        "area": "Tsuglagkhang Complex",
+        "id": "HP-07"
+      },
+      {
+        "restaurant": "Silver Linings Cafe",
+        "area": "Bir Billing",
+        "id": "HP-09"
+      },
+      {
+        "restaurant": "Hatu Apple Cafe",
+        "area": "Narkanda",
+        "id": "HP-25"
+      },
+      {
+        "restaurant": "Dharamkot Cafe",
+        "area": "Naddi Zipline",
+        "id": "HP-22"
+      }
     ],
     "vegetarian": [
-      { "restaurant": "Himachali Rasoi", "area": "Shimla Ridge & Mall Road", "id": "HP-01" },
-      { "restaurant": "Bodhi Greens", "area": "Dalai Lama Temple", "id": "HP-24" },
-      { "restaurant": "Sree Krishna Inn", "area": "Manali", "id": "HP-03" },
-      { "restaurant": "Abhi Vaishnav Bhojnalya", "area": "Kangra Fort", "id": "HP-21" },
-      { "restaurant": "Aao Ji Te Khao Ji", "area": "Solan", "id": "HP-29" }
+      {
+        "restaurant": "Himachali Rasoi",
+        "area": "Shimla Ridge & Mall Road",
+        "id": "HP-01"
+      },
+      {
+        "restaurant": "Bodhi Greens",
+        "area": "Dalai Lama Temple",
+        "id": "HP-24"
+      },
+      {
+        "restaurant": "Sree Krishna Inn",
+        "area": "Manali",
+        "id": "HP-03"
+      },
+      {
+        "restaurant": "Abhi Vaishnav Bhojnalya",
+        "area": "Kangra Fort",
+        "id": "HP-21"
+      },
+      {
+        "restaurant": "Aao Ji Te Khao Ji",
+        "area": "Solan",
+        "id": "HP-29"
+      }
     ],
     "budget": [
-      { "restaurant": "Tibet Kitchen", "area": "Dharamshala & McLeod Ganj", "id": "HP-06" },
-      { "restaurant": "German Bakery", "area": "Dharamshala & McLeod Ganj", "id": "HP-06" },
-      { "restaurant": "Hygienic Fast Food", "area": "Shimla Ridge & Mall Road", "id": "HP-01" },
-      { "restaurant": "Narinder Sweets", "area": "Kasauli", "id": "HP-10" },
-      { "restaurant": "Solang Valley Cafeteria", "area": "Solang Valley", "id": "HP-04" },
-      { "restaurant": "Highway Dhaba", "area": "Rohtang Pass", "id": "HP-05" },
-      { "restaurant": "Woeser Bakery", "area": "Bir Billing", "id": "HP-09" },
-      { "restaurant": "Shiva Cafe", "area": "Bhagsunag Waterfall", "id": "HP-08" },
-      { "restaurant": "Sri Nangli Sweets", "area": "Palampur Tea Gardens", "id": "HP-20" },
-      { "restaurant": "Ravi Sweets Shop", "area": "Palampur Tea Gardens", "id": "HP-20" },
-      { "restaurant": "Dayal Sweetso", "area": "Una", "id": "HP-30" },
-      { "restaurant": "Zaika 72", "area": "Una", "id": "HP-30" },
-      { "restaurant": "Cold Corner Fast Food", "area": "Una", "id": "HP-30" },
-      { "restaurant": "Aao Ji Te Khao Ji", "area": "Solan", "id": "HP-29" },
-      { "restaurant": "The Riya Fast Food", "area": "Solan", "id": "HP-29" },
-      { "restaurant": "Kufri Chai Point", "area": "Kufri", "id": "HP-11" },
-      { "restaurant": "Monastery Cafeteria", "area": "Key Monastery", "id": "HP-13" },
-      { "restaurant": "Camping Mess", "area": "Chandratal Lake", "id": "HP-14" },
-      { "restaurant": "Park Entry Cafe", "area": "Great Himalayan National Park", "id": "HP-17" },
-      { "restaurant": "Malana Homestay Kitchen", "area": "Malana Village", "id": "HP-18" },
-      { "restaurant": "Khajjiar Lake Cafe", "area": "Khajjiar", "id": "HP-23" },
-      { "restaurant": "Lake View Dhaba", "area": "Prashar Lake", "id": "HP-27" },
-      { "restaurant": "Abhi Vaishnav Bhojnalya", "area": "Kangra Fort", "id": "HP-21" }
+      {
+        "restaurant": "Tibet Kitchen",
+        "area": "Dharamshala & McLeod Ganj",
+        "id": "HP-06"
+      },
+      {
+        "restaurant": "German Bakery",
+        "area": "Dharamshala & McLeod Ganj",
+        "id": "HP-06"
+      },
+      {
+        "restaurant": "Hygienic Fast Food",
+        "area": "Shimla Ridge & Mall Road",
+        "id": "HP-01"
+      },
+      {
+        "restaurant": "Narinder Sweets",
+        "area": "Kasauli",
+        "id": "HP-10"
+      },
+      {
+        "restaurant": "Solang Valley Cafeteria",
+        "area": "Solang Valley",
+        "id": "HP-04"
+      },
+      {
+        "restaurant": "Highway Dhaba",
+        "area": "Rohtang Pass",
+        "id": "HP-05"
+      },
+      {
+        "restaurant": "Woeser Bakery",
+        "area": "Bir Billing",
+        "id": "HP-09"
+      },
+      {
+        "restaurant": "Shiva Cafe",
+        "area": "Bhagsunag Waterfall",
+        "id": "HP-08"
+      },
+      {
+        "restaurant": "Sri Nangli Sweets",
+        "area": "Palampur Tea Gardens",
+        "id": "HP-20"
+      },
+      {
+        "restaurant": "Ravi Sweets Shop",
+        "area": "Palampur Tea Gardens",
+        "id": "HP-20"
+      },
+      {
+        "restaurant": "Dayal Sweetso",
+        "area": "Una",
+        "id": "HP-30"
+      },
+      {
+        "restaurant": "Zaika 72",
+        "area": "Una",
+        "id": "HP-30"
+      },
+      {
+        "restaurant": "Cold Corner Fast Food",
+        "area": "Una",
+        "id": "HP-30"
+      },
+      {
+        "restaurant": "Aao Ji Te Khao Ji",
+        "area": "Solan",
+        "id": "HP-29"
+      },
+      {
+        "restaurant": "The Riya Fast Food",
+        "area": "Solan",
+        "id": "HP-29"
+      },
+      {
+        "restaurant": "Kufri Chai Point",
+        "area": "Kufri",
+        "id": "HP-11"
+      },
+      {
+        "restaurant": "Monastery Cafeteria",
+        "area": "Key Monastery",
+        "id": "HP-13"
+      },
+      {
+        "restaurant": "Camping Mess",
+        "area": "Chandratal Lake",
+        "id": "HP-14"
+      },
+      {
+        "restaurant": "Park Entry Cafe",
+        "area": "Great Himalayan National Park",
+        "id": "HP-17"
+      },
+      {
+        "restaurant": "Malana Homestay Kitchen",
+        "area": "Malana Village",
+        "id": "HP-18"
+      },
+      {
+        "restaurant": "Khajjiar Lake Cafe",
+        "area": "Khajjiar",
+        "id": "HP-23"
+      },
+      {
+        "restaurant": "Lake View Dhaba",
+        "area": "Prashar Lake",
+        "id": "HP-27"
+      },
+      {
+        "restaurant": "Abhi Vaishnav Bhojnalya",
+        "area": "Kangra Fort",
+        "id": "HP-21"
+      }
     ],
     "mid_range": [
-      { "restaurant": "Himachali Rasoi", "area": "Shimla Ridge & Mall Road", "id": "HP-01" },
-      { "restaurant": "Ashiana Restaurant", "area": "Shimla Ridge & Mall Road", "id": "HP-01" },
-      { "restaurant": "The Lazy Dog Lounge", "area": "Manali Old Village", "id": "HP-03" },
-      { "restaurant": "Johnson's Cafe", "area": "Manali Old Village", "id": "HP-03" },
-      { "restaurant": "Jimmy's Italian Kitchen", "area": "Dharamshala & McLeod Ganj", "id": "HP-06" },
-      { "restaurant": "Mc'lo Restaurant", "area": "Dharamshala & McLeod Ganj", "id": "HP-06" },
-      { "restaurant": "Norbulingka Cafe", "area": "Tsuglagkhang Complex", "id": "HP-07" },
-      { "restaurant": "The Other Space", "area": "Tsuglagkhang Complex", "id": "HP-07" },
-      { "restaurant": "Nick's Italian Kitchen", "area": "Bhagsunag Waterfall", "id": "HP-08" },
-      { "restaurant": "Silver Linings Cafe", "area": "Bir Billing", "id": "HP-09" },
-      { "restaurant": "The Himalayan Cafe", "area": "Spiti Valley", "id": "HP-12" },
-      { "restaurant": "Bodhi Greens", "area": "Dalai Lama Temple", "id": "HP-24" },
-      { "restaurant": "Lung Ta Japanese Restaurant", "area": "Dalai Lama Temple", "id": "HP-24" },
-      { "restaurant": "The Noodle House", "area": "Kangra Fort", "id": "HP-21" },
-      { "restaurant": "Dharamkot Cafe", "area": "Naddi Zipline", "id": "HP-22" },
-      { "restaurant": "Trout House Cafe", "area": "Barot Valley", "id": "HP-26" },
-      { "restaurant": "Hatu Apple Cafe", "area": "Narkanda", "id": "HP-25" }
+      {
+        "restaurant": "Himachali Rasoi",
+        "area": "Shimla Ridge & Mall Road",
+        "id": "HP-01"
+      },
+      {
+        "restaurant": "Ashiana Restaurant",
+        "area": "Shimla Ridge & Mall Road",
+        "id": "HP-01"
+      },
+      {
+        "restaurant": "The Lazy Dog Lounge",
+        "area": "Manali Old Village",
+        "id": "HP-03"
+      },
+      {
+        "restaurant": "Johnson's Cafe",
+        "area": "Manali Old Village",
+        "id": "HP-03"
+      },
+      {
+        "restaurant": "Jimmy's Italian Kitchen",
+        "area": "Dharamshala & McLeod Ganj",
+        "id": "HP-06"
+      },
+      {
+        "restaurant": "Mc'lo Restaurant",
+        "area": "Dharamshala & McLeod Ganj",
+        "id": "HP-06"
+      },
+      {
+        "restaurant": "Norbulingka Cafe",
+        "area": "Tsuglagkhang Complex",
+        "id": "HP-07"
+      },
+      {
+        "restaurant": "The Other Space",
+        "area": "Tsuglagkhang Complex",
+        "id": "HP-07"
+      },
+      {
+        "restaurant": "Nick's Italian Kitchen",
+        "area": "Bhagsunag Waterfall",
+        "id": "HP-08"
+      },
+      {
+        "restaurant": "Silver Linings Cafe",
+        "area": "Bir Billing",
+        "id": "HP-09"
+      },
+      {
+        "restaurant": "The Himalayan Cafe",
+        "area": "Spiti Valley",
+        "id": "HP-12"
+      },
+      {
+        "restaurant": "Bodhi Greens",
+        "area": "Dalai Lama Temple",
+        "id": "HP-24"
+      },
+      {
+        "restaurant": "Lung Ta Japanese Restaurant",
+        "area": "Dalai Lama Temple",
+        "id": "HP-24"
+      },
+      {
+        "restaurant": "The Noodle House",
+        "area": "Kangra Fort",
+        "id": "HP-21"
+      },
+      {
+        "restaurant": "Dharamkot Cafe",
+        "area": "Naddi Zipline",
+        "id": "HP-22"
+      },
+      {
+        "restaurant": "Trout House Cafe",
+        "area": "Barot Valley",
+        "id": "HP-26"
+      },
+      {
+        "restaurant": "Hatu Apple Cafe",
+        "area": "Narkanda",
+        "id": "HP-25"
+      }
     ],
     "luxury": [
-      { "restaurant": "Amayaa Restaurant", "area": "Shimla Ridge & Mall Road", "id": "HP-01" },
-      { "restaurant": "Oberoi Cecil", "area": "Shimla", "id": "HP-01" },
-      { "restaurant": "Chail Palace Restaurant", "area": "Chail", "id": "HP-28" }
+      {
+        "restaurant": "Amayaa Restaurant",
+        "area": "Shimla Ridge & Mall Road",
+        "id": "HP-01"
+      },
+      {
+        "restaurant": "Oberoi Cecil",
+        "area": "Shimla",
+        "id": "HP-01"
+      },
+      {
+        "restaurant": "Chail Palace Restaurant",
+        "area": "Chail",
+        "id": "HP-28"
+      }
     ],
     "adventure_sports": [
-      { "id": "HP-04", "name": "Solang Valley", "city": "Manali" },
-      { "id": "HP-05", "name": "Rohtang Pass", "city": "Manali" },
-      { "id": "HP-09", "name": "Bir Billing", "city": "Bir" },
-      { "id": "HP-16", "name": "Tattapani Hot Springs", "city": "Mandi" },
-      { "id": "HP-22", "name": "Naddi Zipline (Asia's Longest)", "city": "Dharamshala" }
+      {
+        "id": "HP-04",
+        "name": "Solang Valley",
+        "city": "Manali"
+      },
+      {
+        "id": "HP-05",
+        "name": "Rohtang Pass",
+        "city": "Manali"
+      },
+      {
+        "id": "HP-09",
+        "name": "Bir Billing",
+        "city": "Bir"
+      },
+      {
+        "id": "HP-16",
+        "name": "Tattapani Hot Springs",
+        "city": "Mandi"
+      },
+      {
+        "id": "HP-22",
+        "name": "Naddi Zipline (Asia's Longest)",
+        "city": "Dharamshala"
+      }
     ],
     "hill_stations": [
-      { "id": "HP-01", "name": "Shimla Ridge & Mall Road", "city": "Shimla" },
-      { "id": "HP-03", "name": "Manali Old Village", "city": "Manali" },
-      { "id": "HP-10", "name": "Kasauli", "city": "Kasauli" },
-      { "id": "HP-11", "name": "Kufri", "city": "Shimla" },
-      { "id": "HP-20", "name": "Palampur Tea Gardens", "city": "Palampur" },
-      { "id": "HP-23", "name": "Khajjiar (Mini Switzerland)", "city": "Chamba" },
-      { "id": "HP-25", "name": "Narkanda", "city": "Shimla" },
-      { "id": "HP-28", "name": "Chail", "city": "Solan" }
+      {
+        "id": "HP-01",
+        "name": "Shimla Ridge & Mall Road",
+        "city": "Shimla"
+      },
+      {
+        "id": "HP-03",
+        "name": "Manali Old Village",
+        "city": "Manali"
+      },
+      {
+        "id": "HP-10",
+        "name": "Kasauli",
+        "city": "Kasauli"
+      },
+      {
+        "id": "HP-11",
+        "name": "Kufri",
+        "city": "Shimla"
+      },
+      {
+        "id": "HP-20",
+        "name": "Palampur Tea Gardens",
+        "city": "Palampur"
+      },
+      {
+        "id": "HP-23",
+        "name": "Khajjiar (Mini Switzerland)",
+        "city": "Chamba"
+      },
+      {
+        "id": "HP-25",
+        "name": "Narkanda",
+        "city": "Shimla"
+      },
+      {
+        "id": "HP-28",
+        "name": "Chail",
+        "city": "Solan"
+      }
     ],
     "offbeat": [
-      { "id": "HP-12", "name": "Spiti Valley", "city": "Kaza" },
-      { "id": "HP-15", "name": "Kinnaur Valley", "city": "Kinnaur" },
-      { "id": "HP-18", "name": "Malana Village", "city": "Kullu" },
-      { "id": "HP-26", "name": "Barot Valley", "city": "Mandi" }
+      {
+        "id": "HP-12",
+        "name": "Spiti Valley",
+        "city": "Kaza"
+      },
+      {
+        "id": "HP-15",
+        "name": "Kinnaur Valley",
+        "city": "Kinnaur"
+      },
+      {
+        "id": "HP-18",
+        "name": "Malana Village",
+        "city": "Kullu"
+      },
+      {
+        "id": "HP-26",
+        "name": "Barot Valley",
+        "city": "Mandi"
+      }
     ],
     "spiritual": [
-      { "id": "HP-06", "name": "Dharamshala & McLeod Ganj", "city": "Dharamshala" },
-      { "id": "HP-07", "name": "Tsuglagkhang Complex", "city": "McLeod Ganj" },
-      { "id": "HP-13", "name": "Key Monastery", "city": "Spiti Valley" },
-      { "id": "HP-24", "name": "Dalai Lama Temple", "city": "McLeod Ganj" }
+      {
+        "id": "HP-06",
+        "name": "Dharamshala & McLeod Ganj",
+        "city": "Dharamshala"
+      },
+      {
+        "id": "HP-07",
+        "name": "Tsuglagkhang Complex",
+        "city": "McLeod Ganj"
+      },
+      {
+        "id": "HP-13",
+        "name": "Key Monastery",
+        "city": "Spiti Valley"
+      },
+      {
+        "id": "HP-24",
+        "name": "Dalai Lama Temple",
+        "city": "McLeod Ganj"
+      }
     ],
     "heritage": [
-      { "id": "HP-01", "name": "Shimla Ridge & Mall Road", "city": "Shimla" },
-      { "id": "HP-02", "name": "Kalka-Shimla Toy Train", "city": "Shimla" },
-      { "id": "HP-21", "name": "Kangra Fort", "city": "Kangra" }
+      {
+        "id": "HP-01",
+        "name": "Shimla Ridge & Mall Road",
+        "city": "Shimla"
+      },
+      {
+        "id": "HP-02",
+        "name": "Kalka-Shimla Toy Train",
+        "city": "Shimla"
+      },
+      {
+        "id": "HP-21",
+        "name": "Kangra Fort",
+        "city": "Kangra"
+      }
     ],
     "lakes": [
-      { "id": "HP-14", "name": "Chandratal Lake", "city": "Spiti Valley" },
-      { "id": "HP-27", "name": "Prashar Lake", "city": "Mandi" }
+      {
+        "id": "HP-14",
+        "name": "Chandratal Lake",
+        "city": "Spiti Valley"
+      },
+      {
+        "id": "HP-27",
+        "name": "Prashar Lake",
+        "city": "Mandi"
+      }
     ],
     "family_friendly": [
-      { "id": "HP-01", "name": "Shimla Ridge & Mall Road", "city": "Shimla" },
-      { "id": "HP-02", "name": "Kalka-Shimla Toy Train", "city": "Shimla" },
-      { "id": "HP-04", "name": "Solang Valley", "city": "Manali" },
-      { "id": "HP-10", "name": "Kasauli", "city": "Kasauli" },
-      { "id": "HP-11", "name": "Kufri", "city": "Shimla" },
-      { "id": "HP-19", "name": "Kullu Dussehra Grounds", "city": "Kullu" },
-      { "id": "HP-23", "name": "Khajjiar (Mini Switzerland)", "city": "Chamba" },
-      { "id": "HP-28", "name": "Chail", "city": "Solan" },
-      { "id": "HP-29", "name": "Solan (Mushroom Capital)", "city": "Solan" }
+      {
+        "id": "HP-01",
+        "name": "Shimla Ridge & Mall Road",
+        "city": "Shimla"
+      },
+      {
+        "id": "HP-02",
+        "name": "Kalka-Shimla Toy Train",
+        "city": "Shimla"
+      },
+      {
+        "id": "HP-04",
+        "name": "Solang Valley",
+        "city": "Manali"
+      },
+      {
+        "id": "HP-10",
+        "name": "Kasauli",
+        "city": "Kasauli"
+      },
+      {
+        "id": "HP-11",
+        "name": "Kufri",
+        "city": "Shimla"
+      },
+      {
+        "id": "HP-19",
+        "name": "Kullu Dussehra Grounds",
+        "city": "Kullu"
+      },
+      {
+        "id": "HP-23",
+        "name": "Khajjiar (Mini Switzerland)",
+        "city": "Chamba"
+      },
+      {
+        "id": "HP-28",
+        "name": "Chail",
+        "city": "Solan"
+      },
+      {
+        "id": "HP-29",
+        "name": "Solan (Mushroom Capital)",
+        "city": "Solan"
+      }
     ],
     "romantic": [
-      { "id": "HP-01", "name": "Shimla Ridge & Mall Road", "city": "Shimla" },
-      { "id": "HP-03", "name": "Manali Old Village", "city": "Manali" },
-      { "id": "HP-06", "name": "Dharamshala & McLeod Ganj", "city": "Dharamshala" },
-      { "id": "HP-10", "name": "Kasauli", "city": "Kasauli" },
-      { "id": "HP-20", "name": "Palampur Tea Gardens", "city": "Palampur" },
-      { "id": "HP-23", "name": "Khajjiar (Mini Switzerland)", "city": "Chamba" },
-      { "id": "HP-25", "name": "Narkanda", "city": "Shimla" }
+      {
+        "id": "HP-01",
+        "name": "Shimla Ridge & Mall Road",
+        "city": "Shimla"
+      },
+      {
+        "id": "HP-03",
+        "name": "Manali Old Village",
+        "city": "Manali"
+      },
+      {
+        "id": "HP-06",
+        "name": "Dharamshala & McLeod Ganj",
+        "city": "Dharamshala"
+      },
+      {
+        "id": "HP-10",
+        "name": "Kasauli",
+        "city": "Kasauli"
+      },
+      {
+        "id": "HP-20",
+        "name": "Palampur Tea Gardens",
+        "city": "Palampur"
+      },
+      {
+        "id": "HP-23",
+        "name": "Khajjiar (Mini Switzerland)",
+        "city": "Chamba"
+      },
+      {
+        "id": "HP-25",
+        "name": "Narkanda",
+        "city": "Shimla"
+      }
     ],
     "trekking": [
-      { "id": "HP-12", "name": "Spiti Valley", "city": "Kaza" },
-      { "id": "HP-14", "name": "Chandratal Lake", "city": "Spiti Valley" },
-      { "id": "HP-17", "name": "Great Himalayan National Park", "city": "Kullu" },
-      { "id": "HP-27", "name": "Prashar Lake", "city": "Mandi" }
+      {
+        "id": "HP-12",
+        "name": "Spiti Valley",
+        "city": "Kaza"
+      },
+      {
+        "id": "HP-14",
+        "name": "Chandratal Lake",
+        "city": "Spiti Valley"
+      },
+      {
+        "id": "HP-17",
+        "name": "Great Himalayan National Park",
+        "city": "Kullu"
+      },
+      {
+        "id": "HP-27",
+        "name": "Prashar Lake",
+        "city": "Mandi"
+      }
     ],
     "wildlife": [
-      { "id": "HP-17", "name": "Great Himalayan National Park", "city": "Kullu" }
+      {
+        "id": "HP-17",
+        "name": "Great Himalayan National Park",
+        "city": "Kullu"
+      }
     ],
     "photography": [
-      { "id": "HP-02", "name": "Kalka-Shimla Toy Train", "city": "Shimla" },
-      { "id": "HP-05", "name": "Rohtang Pass", "city": "Manali" },
-      { "id": "HP-12", "name": "Spiti Valley", "city": "Kaza" },
-      { "id": "HP-13", "name": "Key Monastery", "city": "Spiti Valley" },
-      { "id": "HP-14", "name": "Chandratal Lake", "city": "Spiti Valley" },
-      { "id": "HP-15", "name": "Kinnaur Valley", "city": "Kinnaur" },
-      { "id": "HP-20", "name": "Palampur Tea Gardens", "city": "Palampur" },
-      { "id": "HP-21", "name": "Kangra Fort", "city": "Kangra" },
-      { "id": "HP-23", "name": "Khajjiar (Mini Switzerland)", "city": "Chamba" }
+      {
+        "id": "HP-02",
+        "name": "Kalka-Shimla Toy Train",
+        "city": "Shimla"
+      },
+      {
+        "id": "HP-05",
+        "name": "Rohtang Pass",
+        "city": "Manali"
+      },
+      {
+        "id": "HP-12",
+        "name": "Spiti Valley",
+        "city": "Kaza"
+      },
+      {
+        "id": "HP-13",
+        "name": "Key Monastery",
+        "city": "Spiti Valley"
+      },
+      {
+        "id": "HP-14",
+        "name": "Chandratal Lake",
+        "city": "Spiti Valley"
+      },
+      {
+        "id": "HP-15",
+        "name": "Kinnaur Valley",
+        "city": "Kinnaur"
+      },
+      {
+        "id": "HP-20",
+        "name": "Palampur Tea Gardens",
+        "city": "Palampur"
+      },
+      {
+        "id": "HP-21",
+        "name": "Kangra Fort",
+        "city": "Kangra"
+      },
+      {
+        "id": "HP-23",
+        "name": "Khajjiar (Mini Switzerland)",
+        "city": "Chamba"
+      }
     ],
     "near_me": [
-      { "id": "HP-01", "name": "Shimla Ridge & Mall Road", "city": "Shimla" },
-      { "id": "HP-03", "name": "Manali Old Village", "city": "Manali" },
-      { "id": "HP-06", "name": "Dharamshala & McLeod Ganj", "city": "Dharamshala" },
-      { "id": "HP-10", "name": "Kasauli", "city": "Kasauli" },
-      { "id": "HP-28", "name": "Chail", "city": "Solan" },
-      { "id": "HP-29", "name": "Solan (Mushroom Capital)", "city": "Solan" }
+      {
+        "id": "HP-01",
+        "name": "Shimla Ridge & Mall Road",
+        "city": "Shimla"
+      },
+      {
+        "id": "HP-03",
+        "name": "Manali Old Village",
+        "city": "Manali"
+      },
+      {
+        "id": "HP-06",
+        "name": "Dharamshala & McLeod Ganj",
+        "city": "Dharamshala"
+      },
+      {
+        "id": "HP-10",
+        "name": "Kasauli",
+        "city": "Kasauli"
+      },
+      {
+        "id": "HP-28",
+        "name": "Chail",
+        "city": "Solan"
+      },
+      {
+        "id": "HP-29",
+        "name": "Solan (Mushroom Capital)",
+        "city": "Solan"
+      }
     ],
     "tourist_favorite": [
-      { "id": "HP-01", "name": "Shimla Ridge & Mall Road", "city": "Shimla" },
-      { "id": "HP-02", "name": "Kalka-Shimla Toy Train", "city": "Shimla" },
-      { "id": "HP-03", "name": "Manali Old Village", "city": "Manali" },
-      { "id": "HP-04", "name": "Solang Valley", "city": "Manali" },
-      { "id": "HP-05", "name": "Rohtang Pass", "city": "Manali" },
-      { "id": "HP-06", "name": "Dharamshala & McLeod Ganj", "city": "Dharamshala" },
-      { "id": "HP-09", "name": "Bir Billing", "city": "Bir" },
-      { "id": "HP-23", "name": "Khajjiar (Mini Switzerland)", "city": "Chamba" }
+      {
+        "id": "HP-01",
+        "name": "Shimla Ridge & Mall Road",
+        "city": "Shimla"
+      },
+      {
+        "id": "HP-02",
+        "name": "Kalka-Shimla Toy Train",
+        "city": "Shimla"
+      },
+      {
+        "id": "HP-03",
+        "name": "Manali Old Village",
+        "city": "Manali"
+      },
+      {
+        "id": "HP-04",
+        "name": "Solang Valley",
+        "city": "Manali"
+      },
+      {
+        "id": "HP-05",
+        "name": "Rohtang Pass",
+        "city": "Manali"
+      },
+      {
+        "id": "HP-06",
+        "name": "Dharamshala & McLeod Ganj",
+        "city": "Dharamshala"
+      },
+      {
+        "id": "HP-09",
+        "name": "Bir Billing",
+        "city": "Bir"
+      },
+      {
+        "id": "HP-23",
+        "name": "Khajjiar (Mini Switzerland)",
+        "city": "Chamba"
+      }
     ]
   }
 }

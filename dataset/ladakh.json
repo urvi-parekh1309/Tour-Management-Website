@@ -8,290 +8,581 @@
       "name": "Pangong Tso",
       "city": "Leh District",
       "category": "High-Altitude Lake",
-      "coordinates": { "latitude": "33.7595", "longitude": "78.6674" },
+      "coordinates": {
+        "latitude": "33.7595",
+        "longitude": "78.6674"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2500,
         "base_travel_cost": 4500,
-        "seasonal_surge_factor": 2.10,
-        "traffic_delay_weight": 1.80
+        "seasonal_surge_factor": 2.1,
+        "traffic_delay_weight": 1.8
       },
       "ai_metadata": {
-        "vibe_tags": ["Crystal-Blue", "Border-Vibes", "Camping", "Photography"],
+        "vibe_tags": [
+          "Crystal-Blue",
+          "Border-Vibes",
+          "Camping",
+          "Photography"
+        ],
         "sentiment_score": 4.9,
-        "best_suited_for": ["Nature Lovers", "Photographers", "Adventure Seekers"],
+        "best_suited_for": [
+          "Nature Lovers",
+          "Photographers",
+          "Adventure Seekers"
+        ],
         "description_ai": "A breathtaking endorheic lake that changes colors from azure to turquoise. Famous for its appearance in '3 Idiots' and its stunning Himalayan backdrop."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/ISS054-E-7809_-_View_of_Earth_%28cropped%29.jpg/500px-ISS054-E-7809_-_View_of_Earth_%28cropped%29.jpg",
+      "food_details": {
+        "famous_food": [
+          "Thukpa",
+          "Momos",
+          "Butter Tea"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Thukpa%2C_Tibetan_noodle_in_Osaka%2C_Japan.jpg/500px-Thukpa%2C_Tibetan_noodle_in_Osaka%2C_Japan.jpg"
+      },
+      "restaurants": [
+        "Lakeside Tent Camps"
+      ]
     },
     {
       "id": "LDK-02",
       "name": "Nubra Valley",
       "city": "Diskit",
       "category": "Adventure/Eco-Tourism",
-      "coordinates": { "latitude": "34.5724", "longitude": "77.5583" },
+      "coordinates": {
+        "latitude": "34.5724",
+        "longitude": "77.5583"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 1800,
         "base_travel_cost": 3500,
-        "seasonal_surge_factor": 1.70,
-        "traffic_delay_weight": 1.50
+        "seasonal_surge_factor": 1.7,
+        "traffic_delay_weight": 1.5
       },
       "ai_metadata": {
-        "vibe_tags": ["Sand-Dunes", "Double-Humped-Camels", "Oasis", "Remote"],
+        "vibe_tags": [
+          "Sand-Dunes",
+          "Double-Humped-Camels",
+          "Oasis",
+          "Remote"
+        ],
         "sentiment_score": 4.8,
-        "best_suited_for": ["Adventure Junkies", "Families", "Bikers"],
+        "best_suited_for": [
+          "Adventure Junkies",
+          "Families",
+          "Bikers"
+        ],
         "description_ai": "A high-altitude cold desert known for the white sand dunes of Hunder and the giant Maitreya Buddha statue at Diskit Monastery."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/5_Nubra_valley.jpg/500px-5_Nubra_valley.jpg",
+      "food_details": {
+        "famous_food": [
+          "Skyu",
+          "Tsampa"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Thukpa%2C_Tibetan_noodle_in_Osaka%2C_Japan.jpg/500px-Thukpa%2C_Tibetan_noodle_in_Osaka%2C_Japan.jpg"
+      },
+      "restaurants": [
+        "Hundar Guest House",
+        "Nubra Ecolodge"
+      ]
     },
     {
       "id": "LDK-03",
       "name": "Thiksey Monastery",
       "city": "Thiksey",
       "category": "Spiritual/Cultural",
-      "coordinates": { "latitude": "34.0560", "longitude": "77.6667" },
+      "coordinates": {
+        "latitude": "34.0560",
+        "longitude": "77.6667"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 1500,
         "base_travel_cost": 800,
-        "seasonal_surge_factor": 1.40,
-        "traffic_delay_weight": 1.20
+        "seasonal_surge_factor": 1.4,
+        "traffic_delay_weight": 1.2
       },
       "ai_metadata": {
-        "vibe_tags": ["Mini-Potala", "Maitreya-Buddha", "Sunrise-Chants", "Panoramic"],
+        "vibe_tags": [
+          "Mini-Potala",
+          "Maitreya-Buddha",
+          "Sunrise-Chants",
+          "Panoramic"
+        ],
         "sentiment_score": 4.8,
-        "best_suited_for": ["Spirituality Seekers", "Photographers", "History Buffs"],
+        "best_suited_for": [
+          "Spirituality Seekers",
+          "Photographers",
+          "History Buffs"
+        ],
         "description_ai": "A 12-storey complex resembling the Potala Palace in Lhasa. Known for its 15-meter-tall Maitreya Buddha statue and breathtaking views of the Indus Valley."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Thikse_Monastery_.jpg/500px-Thikse_Monastery_.jpg",
+      "food_details": {
+        "famous_food": [
+          "Butter Tea",
+          "Skyu"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Thukpa%2C_Tibetan_noodle_in_Osaka%2C_Japan.jpg/500px-Thukpa%2C_Tibetan_noodle_in_Osaka%2C_Japan.jpg"
+      },
+      "restaurants": [
+        "Thiksey Kitchen",
+        "Alchi Kitchen"
+      ]
     },
     {
       "id": "LDK-04",
       "name": "Turtuk Village",
       "city": "Nubra Valley",
       "category": "Offbeat/Eco-Tourism",
-      "coordinates": { "latitude": "34.8431", "longitude": "76.8406" },
+      "coordinates": {
+        "latitude": "34.8431",
+        "longitude": "76.8406"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 1100,
         "base_travel_cost": 5500,
-        "seasonal_surge_factor": 1.60,
-        "traffic_delay_weight": 1.90
+        "seasonal_surge_factor": 1.6,
+        "traffic_delay_weight": 1.9
       },
       "ai_metadata": {
-        "vibe_tags": ["Balti-Culture", "Apricot-Orchards", "Border-Village", "Authentic"],
+        "vibe_tags": [
+          "Balti-Culture",
+          "Apricot-Orchards",
+          "Border-Village",
+          "Authentic"
+        ],
         "sentiment_score": 4.9,
-        "best_suited_for": ["Solo Travelers", "Cultural Explorers", "Nature Lovers"],
+        "best_suited_for": [
+          "Solo Travelers",
+          "Cultural Explorers",
+          "Nature Lovers"
+        ],
         "description_ai": "One of the last villages before the Pakistan border. It offers a distinct Balti culture, lush green landscapes, and a rare glimpse into life along the LoC."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Pangong_Tso.jpg/500px-Pangong_Tso.jpg",
+      "food_details": {
+        "famous_food": [
+          "Balti Cuisine",
+          "Apricot Cake"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Thukpa%2C_Tibetan_noodle_in_Osaka%2C_Japan.jpg/500px-Thukpa%2C_Tibetan_noodle_in_Osaka%2C_Japan.jpg"
+      },
+      "restaurants": [
+        "Balti Heritage Kitchen"
+      ]
     },
     {
       "id": "LDK-05",
       "name": "Magnetic Hill",
       "city": "Leh-Kargil Highway",
       "category": "Natural Phenomenon",
-      "coordinates": { "latitude": "34.1800", "longitude": "77.4100" },
+      "coordinates": {
+        "latitude": "34.1800",
+        "longitude": "77.4100"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 0,
         "base_travel_cost": 1200,
-        "seasonal_surge_factor": 1.10,
-        "traffic_delay_weight": 1.30
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 1.3
       },
       "ai_metadata": {
-        "vibe_tags": ["Gravity-Defying", "Optical-Illusion", "Road-Trip", "Curiosity"],
+        "vibe_tags": [
+          "Gravity-Defying",
+          "Optical-Illusion",
+          "Road-Trip",
+          "Curiosity"
+        ],
         "sentiment_score": 4.5,
-        "best_suited_for": ["Families", "Bikers", "Curious Travelers"],
+        "best_suited_for": [
+          "Families",
+          "Bikers",
+          "Curious Travelers"
+        ],
         "description_ai": "A 'gravity hill' where the layout of the surrounding land creates an optical illusion, making stationary vehicles appear to roll uphill."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Magnetic_Hill%2C_New_Brunswick.JPG/500px-Magnetic_Hill%2C_New_Brunswick.JPG",
+      "food_details": {
+        "famous_food": [
+          "Maggi",
+          "Chai",
+          "Momos"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Thukpa%2C_Tibetan_noodle_in_Osaka%2C_Japan.jpg/500px-Thukpa%2C_Tibetan_noodle_in_Osaka%2C_Japan.jpg"
+      },
+      "restaurants": [
+        "Magnetic Hill Dhaba"
+      ]
+    },
+    {
+      "id": "LDK-06",
+      "name": "Hanle",
+      "city": "Changthang",
+      "category": "Astro-Tourism / Dark Sky Reserve",
+      "coordinates": {
+        "latitude": "32.7680",
+        "longitude": "78.9770"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 1500,
+        "base_travel_cost": 7500,
+        "seasonal_surge_factor": 1.45,
+        "traffic_delay_weight": 1.6
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Stargazing",
+          "Observatory",
+          "Milky-Way",
+          "Remote-Peace"
+        ],
+        "sentiment_score": 4.9,
+        "best_suited_for": [
+          "Astrophotographers",
+          "Quiet-Seekers",
+          "Couples"
+        ],
+        "description_ai": "Home to India’s first Dark Sky Reserve and the Himalayan Chandra Telescope. It offers the clearest night skies in India, making the Milky Way visible to the naked eye."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/S_Starke_%40_Davis_St_9291.jpg/500px-S_Starke_%40_Davis_St_9291.jpg",
+      "food_details": {
+        "famous_food": [
+          "Thukpa",
+          "Skyu"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Thukpa%2C_Tibetan_noodle_in_Osaka%2C_Japan.jpg/500px-Thukpa%2C_Tibetan_noodle_in_Osaka%2C_Japan.jpg"
+      },
+      "restaurants": [
+        "Hanle Monastery Guest House"
+      ]
+    },
+    {
+      "id": "LDK-07",
+      "name": "Zanskar Valley (Padum)",
+      "city": "Kargil District",
+      "category": "Adventure / Wilderness",
+      "coordinates": {
+        "latitude": "33.4680",
+        "longitude": "76.8810"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 1200,
+        "base_travel_cost": 12000,
+        "seasonal_surge_factor": 1.8,
+        "traffic_delay_weight": 2.1
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Rugged",
+          "Glaciers",
+          "Frozen-River",
+          "Isolated"
+        ],
+        "sentiment_score": 4.8,
+        "best_suited_for": [
+          "Hardcore Adventurers",
+          "Trekkers",
+          "Off-Roaders"
+        ],
+        "description_ai": "Accessible via the grueling Shinku La pass or the legendary Chadar Trek in winter. Known for the Phuktal Monastery, which is built into a massive cave mouth."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Pangong_Tso.jpg/500px-Pangong_Tso.jpg",
+      "food_details": {
+        "famous_food": [
+          "Thukpa",
+          "Butter Tea"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Thukpa%2C_Tibetan_noodle_in_Osaka%2C_Japan.jpg/500px-Thukpa%2C_Tibetan_noodle_in_Osaka%2C_Japan.jpg"
+      },
+      "restaurants": [
+        "Padum Guest House Kitchen"
+      ]
+    },
+    {
+      "id": "LDK-08",
+      "name": "Tso Moriri",
+      "city": "Korzok",
+      "category": "High-Altitude Lake",
+      "coordinates": {
+        "latitude": "32.9100",
+        "longitude": "78.3200"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2000,
+        "base_travel_cost": 6500,
+        "seasonal_surge_factor": 1.9,
+        "traffic_delay_weight": 1.7
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Sacred",
+          "Blue-Waters",
+          "Nomadic-Life",
+          "Wildlife"
+        ],
+        "sentiment_score": 4.7,
+        "best_suited_for": [
+          "Nature Lovers",
+          "Bird Watchers",
+          "Solo Travelers"
+        ],
+        "description_ai": "A freshwater high-altitude lake that is quieter and more sacred than Pangong. It is a breeding ground for rare Black-necked cranes."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Tso_Moriri%2C_Ladakh_%2834855616204%29.jpg/500px-Tso_Moriri%2C_Ladakh_%2834855616204%29.jpg",
+      "food_details": {
+        "famous_food": [
+          "Tibetan Bread",
+          "Chhang"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Thukpa%2C_Tibetan_noodle_in_Osaka%2C_Japan.jpg/500px-Thukpa%2C_Tibetan_noodle_in_Osaka%2C_Japan.jpg"
+      },
+      "restaurants": [
+        "Korzok Village Homestays"
+      ]
+    },
+    {
+      "id": "LDK-09",
+      "name": "Leh Palace",
+      "city": "Leh",
+      "category": "Historical Heritage",
+      "coordinates": {
+        "latitude": "34.1660",
+        "longitude": "77.5860"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 0,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1,
+        "traffic_delay_weight": 1.1
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Monarchy",
+          "Architecture",
+          "Sunset-View",
+          "Tibetan-Style"
+        ],
+        "sentiment_score": 4.6,
+        "best_suited_for": [
+          "History Lovers",
+          "Families",
+          "First-Timers"
+        ],
+        "description_ai": "A former royal palace overlooking the town of Leh. Modeled after the Potala Palace in Lhasa, it offers a 360-degree view of the Zanskar range."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Leh_Palace_2011.jpg/500px-Leh_Palace_2011.jpg",
+      "food_details": {
+        "famous_food": [
+          "Momos",
+          "Thukpa",
+          "Skyu"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Thukpa%2C_Tibetan_noodle_in_Osaka%2C_Japan.jpg/500px-Thukpa%2C_Tibetan_noodle_in_Osaka%2C_Japan.jpg"
+      },
+      "restaurants": [
+        "The Tibetan Kitchen Leh",
+        "Bon Appetit",
+        "Gesmo Restaurant"
+      ]
+    },
+    {
+      "id": "LDK-10",
+      "name": "Hemis National Park",
+      "city": "Karu Region",
+      "category": "Wildlife / Conservation",
+      "coordinates": {
+        "latitude": "33.9900",
+        "longitude": "77.5000"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 1000,
+        "base_travel_cost": 2500,
+        "seasonal_surge_factor": 1.5,
+        "traffic_delay_weight": 1.3
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Snow-Leopard",
+          "Ghost-of-the-Mountains",
+          "Trekking",
+          "Flora"
+        ],
+        "sentiment_score": 4.8,
+        "best_suited_for": [
+          "Wildlife Enthusiasts",
+          "Trekkers"
+        ],
+        "description_ai": "The largest national park in South Asia and the best place in the world to spot the elusive Snow Leopard during the winter months (Jan-Feb)."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/13-10-08_217_CONFLUENCE_OF_INDUS_RIVER_N.jpg/500px-13-10-08_217_CONFLUENCE_OF_INDUS_RIVER_N.jpg",
+      "food_details": {
+        "famous_food": [
+          "Momos",
+          "Butter Tea"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Thukpa%2C_Tibetan_noodle_in_Osaka%2C_Japan.jpg/500px-Thukpa%2C_Tibetan_noodle_in_Osaka%2C_Japan.jpg"
+      },
+      "restaurants": [
+        "Hemis Cafe"
+      ]
+    }
+  ],
+  "transportation": [
+    {
+      "id": "LDK-TRANS-01",
+      "name": "Private Taxi (SUV/Innova)",
+      "city": "Leh Base",
+      "category": "Private Transport",
+      "coordinates": {
+        "latitude": "34.1642",
+        "longitude": "77.5848"
+      },
+      "budget_metrics": {
+        "base_daily_rate": 4500,
+        "pangong_round_trip_3day": 20400,
+        "nubra_round_trip_2day": 11800,
+        "seasonal_surge_factor": 1.25,
+        "driver_halt_charge_per_night": 500
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Comfort",
+          "Safe",
+          "Customizable",
+          "Local-Expertise"
+        ],
+        "sentiment_score": 4.9,
+        "best_suited_for": [
+          "Families",
+          "Large Groups",
+          "Senior Travelers"
+        ],
+        "description_ai": "The most reliable way to traverse high passes. Managed by the Ladakh Taxi Union with fixed price lists to prevent overcharging. Essential for remote areas like Hanle or Tso Moriri."
       }
     },
-    
-  {
-    "id": "LDK-06",
-    "name": "Hanle",
-    "city": "Changthang",
-    "category": "Astro-Tourism / Dark Sky Reserve",
-    "coordinates": { "latitude": "32.7680", "longitude": "78.9770" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 1500,
-      "base_travel_cost": 7500,
-      "seasonal_surge_factor": 1.45,
-      "traffic_delay_weight": 1.60
+    {
+      "id": "LDK-TRANS-02",
+      "name": "Adventure Bike Rental (Himalayan 450)",
+      "city": "Leh Market",
+      "category": "Self-Drive",
+      "coordinates": {
+        "latitude": "34.1610",
+        "longitude": "77.5830"
+      },
+      "budget_metrics": {
+        "base_daily_rate": 3000,
+        "fuel_est_per_100km": 450,
+        "gear_rental_kit_day": 800,
+        "security_deposit_base": 10000,
+        "maintenance_risk_weight": 1.6
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Adrenaline",
+          "Freedom",
+          "Rugged",
+          "Biker-Community"
+        ],
+        "sentiment_score": 4.8,
+        "best_suited_for": [
+          "Solo Travelers",
+          "Adventure Enthusiasts",
+          "Couples"
+        ],
+        "description_ai": "The 2026 'Expedition Tier' choice. Liquid-cooled engines are now standard for Khardung La climbs to avoid overheating. Requires a valid permanent driving license."
+      }
     },
-    "ai_metadata": {
-      "vibe_tags": ["Stargazing", "Observatory", "Milky-Way", "Remote-Peace"],
-      "sentiment_score": 4.9,
-      "best_suited_for": ["Astrophotographers", "Quiet-Seekers", "Couples"],
-      "description_ai": "Home to India’s first Dark Sky Reserve and the Himalayan Chandra Telescope. It offers the clearest night skies in India, making the Milky Way visible to the naked eye."
-    }
-  },
-  {
-    "id": "LDK-07",
-    "name": "Zanskar Valley (Padum)",
-    "city": "Kargil District",
-    "category": "Adventure / Wilderness",
-    "coordinates": { "latitude": "33.4680", "longitude": "76.8810" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 1200,
-      "base_travel_cost": 12000,
-      "seasonal_surge_factor": 1.80,
-      "traffic_delay_weight": 2.10
+    {
+      "id": "LDK-TRANS-03",
+      "name": "Shared Tempo Traveller",
+      "city": "Leh Bus Stand",
+      "category": "Public/Shared",
+      "coordinates": {
+        "latitude": "34.1590",
+        "longitude": "77.5810"
+      },
+      "budget_metrics": {
+        "base_seat_rate_nubra": 800,
+        "base_seat_rate_pangong": 900,
+        "group_booking_discount": 0.15,
+        "waiting_time_weight": 2.1
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Budget-Friendly",
+          "Social",
+          "Standard-Routes"
+        ],
+        "sentiment_score": 4.2,
+        "best_suited_for": [
+          "Backpackers",
+          "Solo Budget Travelers"
+        ],
+        "description_ai": "A middle ground between public buses and private taxis. Usually departs when full. Great for solo travelers looking to split costs on major circuits."
+      }
     },
-    "ai_metadata": {
-      "vibe_tags": ["Rugged", "Glaciers", "Frozen-River", "Isolated"],
-      "sentiment_score": 4.8,
-      "best_suited_for": ["Hardcore Adventurers", "Trekkers", "Off-Roaders"],
-      "description_ai": "Accessible via the grueling Shinku La pass or the legendary Chadar Trek in winter. Known for the Phuktal Monastery, which is built into a massive cave mouth."
+    {
+      "id": "LDK-TRANS-04",
+      "name": "JKSRTC / Local Bus",
+      "city": "Leh Main Stand",
+      "category": "Public Transport",
+      "coordinates": {
+        "latitude": "34.1585",
+        "longitude": "77.5790"
+      },
+      "budget_metrics": {
+        "base_fare_local": 50,
+        "long_distance_avg_fare": 300,
+        "seasonal_surge_factor": 1,
+        "frequency_reliability_score": 0.4
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Ultra-Budget",
+          "Local-Immersion",
+          "Slow-Travel"
+        ],
+        "sentiment_score": 3.9,
+        "best_suited_for": [
+          "Long-term Travelers",
+          "Extreme Budget Seekers"
+        ],
+        "description_ai": "The cheapest way to travel, though infrequent. Buses to Nubra or Pangong typically only run 2-3 times a week. Ideal for those with a flexible schedule."
+      }
     }
-  },
-  {
-    "id": "LDK-08",
-    "name": "Tso Moriri",
-    "city": "Korzok",
-    "category": "High-Altitude Lake",
-    "coordinates": { "latitude": "32.9100", "longitude": "78.3200" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 2000,
-      "base_travel_cost": 6500,
-      "seasonal_surge_factor": 1.90,
-      "traffic_delay_weight": 1.70
-    },
-    "ai_metadata": {
-      "vibe_tags": ["Sacred", "Blue-Waters", "Nomadic-Life", "Wildlife"],
-      "sentiment_score": 4.7,
-      "best_suited_for": ["Nature Lovers", "Bird Watchers", "Solo Travelers"],
-      "description_ai": "A freshwater high-altitude lake that is quieter and more sacred than Pangong. It is a breeding ground for rare Black-necked cranes."
-    }
-  },
-  {
-    "id": "LDK-09",
-    "name": "Leh Palace",
-    "city": "Leh",
-    "category": "Historical Heritage",
-    "coordinates": { "latitude": "34.1660", "longitude": "77.5860" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 0,
-      "base_travel_cost": 300,
-      "seasonal_surge_factor": 1.00,
-      "traffic_delay_weight": 1.10
-    },
-    "ai_metadata": {
-      "vibe_tags": ["Monarchy", "Architecture", "Sunset-View", "Tibetan-Style"],
-      "sentiment_score": 4.6,
-      "best_suited_for": ["History Lovers", "Families", "First-Timers"],
-      "description_ai": "A former royal palace overlooking the town of Leh. Modeled after the Potala Palace in Lhasa, it offers a 360-degree view of the Zanskar range."
-    }
-  },
-  {
-    "id": "LDK-10",
-    "name": "Hemis National Park",
-    "city": "Karu Region",
-    "category": "Wildlife / Conservation",
-    "coordinates": { "latitude": "33.9900", "longitude": "77.5000" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 1000,
-      "base_travel_cost": 2500,
-      "seasonal_surge_factor": 1.50,
-      "traffic_delay_weight": 1.30
-    },
-    "ai_metadata": {
-      "vibe_tags": ["Snow-Leopard", "Ghost-of-the-Mountains", "Trekking", "Flora"],
-      "sentiment_score": 4.8,
-      "best_suited_for": ["Wildlife Enthusiasts", "Trekkers"],
-      "description_ai": "The largest national park in South Asia and the best place in the world to spot the elusive Snow Leopard during the winter months (Jan-Feb)."
-    }
-  }
   ],
-  "transportation":[
-  {
-    "id": "LDK-TRANS-01",
-    "name": "Private Taxi (SUV/Innova)",
-    "city": "Leh Base",
-    "category": "Private Transport",
-    "coordinates": { "latitude": "34.1642", "longitude": "77.5848" },
-    "budget_metrics": {
-      "base_daily_rate": 4500,
-      "pangong_round_trip_3day": 20400,
-      "nubra_round_trip_2day": 11800,
-      "seasonal_surge_factor": 1.25,
-      "driver_halt_charge_per_night": 500
-    },
-    "ai_metadata": {
-      "vibe_tags": ["Comfort", "Safe", "Customizable", "Local-Expertise"],
-      "sentiment_score": 4.9,
-      "best_suited_for": ["Families", "Large Groups", "Senior Travelers"],
-      "description_ai": "The most reliable way to traverse high passes. Managed by the Ladakh Taxi Union with fixed price lists to prevent overcharging. Essential for remote areas like Hanle or Tso Moriri."
-    }
-  },
-  {
-    "id": "LDK-TRANS-02",
-    "name": "Adventure Bike Rental (Himalayan 450)",
-    "city": "Leh Market",
-    "category": "Self-Drive",
-    "coordinates": { "latitude": "34.1610", "longitude": "77.5830" },
-    "budget_metrics": {
-      "base_daily_rate": 3000,
-      "fuel_est_per_100km": 450,
-      "gear_rental_kit_day": 800,
-      "security_deposit_base": 10000,
-      "maintenance_risk_weight": 1.6
-    },
-    "ai_metadata": {
-      "vibe_tags": ["Adrenaline", "Freedom", "Rugged", "Biker-Community"],
-      "sentiment_score": 4.8,
-      "best_suited_for": ["Solo Travelers", "Adventure Enthusiasts", "Couples"],
-      "description_ai": "The 2026 'Expedition Tier' choice. Liquid-cooled engines are now standard for Khardung La climbs to avoid overheating. Requires a valid permanent driving license."
-    }
-  },
-  {
-    "id": "LDK-TRANS-03",
-    "name": "Shared Tempo Traveller",
-    "city": "Leh Bus Stand",
-    "category": "Public/Shared",
-    "coordinates": { "latitude": "34.1590", "longitude": "77.5810" },
-    "budget_metrics": {
-      "base_seat_rate_nubra": 800,
-      "base_seat_rate_pangong": 900,
-      "group_booking_discount": 0.15,
-      "waiting_time_weight": 2.1
-    },
-    "ai_metadata": {
-      "vibe_tags": ["Budget-Friendly", "Social", "Standard-Routes"],
-      "sentiment_score": 4.2,
-      "best_suited_for": ["Backpackers", "Solo Budget Travelers"],
-      "description_ai": "A middle ground between public buses and private taxis. Usually departs when full. Great for solo travelers looking to split costs on major circuits."
-    }
-  },
-  {
-    "id": "LDK-TRANS-04",
-    "name": "JKSRTC / Local Bus",
-    "city": "Leh Main Stand",
-    "category": "Public Transport",
-    "coordinates": { "latitude": "34.1585", "longitude": "77.5790" },
-    "budget_metrics": {
-      "base_fare_local": 50,
-      "long_distance_avg_fare": 300,
-      "seasonal_surge_factor": 1.0,
-      "frequency_reliability_score": 0.4
-    },
-    "ai_metadata": {
-      "vibe_tags": ["Ultra-Budget", "Local-Immersion", "Slow-Travel"],
-      "sentiment_score": 3.9,
-      "best_suited_for": ["Long-term Travelers", "Extreme Budget Seekers"],
-      "description_ai": "The cheapest way to travel, though infrequent. Buses to Nubra or Pangong typically only run 2-3 times a week. Ideal for those with a flexible schedule."
-    }
-  }
-],
   "restaurants": [
     {
       "id": "LDK-RES-01",
       "name": "The Tibetan Kitchen",
       "city": "Leh",
       "category": "Authentic Cuisine",
-      "coordinates": { "latitude": "34.1642", "longitude": "77.5848" },
+      "coordinates": {
+        "latitude": "34.1642",
+        "longitude": "77.5848"
+      },
       "budget_metrics": {
         "base_meal_cost": 600,
         "waiting_time_weight": 1.9,
-        "seasonal_surge_factor": 1.20,
-        "popularity_index": 5.0
+        "seasonal_surge_factor": 1.2,
+        "popularity_index": 5
       },
       "ai_metadata": {
-        "vibe_tags": ["Authentic", "Bustling", "Outdoor-Seating", "Local-Flavors"],
+        "vibe_tags": [
+          "Authentic",
+          "Bustling",
+          "Outdoor-Seating",
+          "Local-Flavors"
+        ],
         "sentiment_score": 4.7,
-        "best_suited_for": ["Foodies", "Groups", "Cultural Explorers"],
+        "best_suited_for": [
+          "Foodies",
+          "Groups",
+          "Cultural Explorers"
+        ],
         "description_ai": "The go-to spot in Leh for authentic Tibetan food. Their 'Gyako' (hotpot) is legendary but requires a 24-hour pre-order."
       }
     },
@@ -300,17 +591,29 @@
       "name": "Alchi Kitchen",
       "city": "Leh / Alchi",
       "category": "Modern Ladakhi",
-      "coordinates": { "latitude": "34.2237", "longitude": "77.1752" },
+      "coordinates": {
+        "latitude": "34.2237",
+        "longitude": "77.1752"
+      },
       "budget_metrics": {
         "base_meal_cost": 800,
         "waiting_time_weight": 1.3,
-        "seasonal_surge_factor": 1.10,
+        "seasonal_surge_factor": 1.1,
         "popularity_index": 4.8
       },
       "ai_metadata": {
-        "vibe_tags": ["Heritage", "Cosy", "Traditional-Twist", "Women-Led"],
+        "vibe_tags": [
+          "Heritage",
+          "Cosy",
+          "Traditional-Twist",
+          "Women-Led"
+        ],
         "sentiment_score": 4.9,
-        "best_suited_for": ["Fine Dining", "Couples", "Slow Travel"],
+        "best_suited_for": [
+          "Fine Dining",
+          "Couples",
+          "Slow Travel"
+        ],
         "description_ai": "A unique open-kitchen concept serving traditional Ladakhi recipes like Khambir and Skyu with a modern aesthetic."
       }
     },
@@ -319,7 +622,10 @@
       "name": "Gesmo Restaurant",
       "city": "Leh",
       "category": "Cafe/Bakery",
-      "coordinates": { "latitude": "34.1625", "longitude": "77.5840" },
+      "coordinates": {
+        "latitude": "34.1625",
+        "longitude": "77.5840"
+      },
       "budget_metrics": {
         "base_meal_cost": 450,
         "waiting_time_weight": 1.6,
@@ -327,9 +633,18 @@
         "popularity_index": 4.9
       },
       "ai_metadata": {
-        "vibe_tags": ["Oldest-Cafe", "Yak-Cheese-Pizza", "German-Bakery", "Cozy"],
+        "vibe_tags": [
+          "Oldest-Cafe",
+          "Yak-Cheese-Pizza",
+          "German-Bakery",
+          "Cozy"
+        ],
         "sentiment_score": 4.7,
-        "best_suited_for": ["Breakfast", "Backpackers", "Pizza Lovers"],
+        "best_suited_for": [
+          "Breakfast",
+          "Backpackers",
+          "Pizza Lovers"
+        ],
         "description_ai": "A legendary haunt in Leh known for its fresh yak cheese pizza, apricot jam, and being a hub for travelers to swap stories."
       }
     },
@@ -338,17 +653,29 @@
       "name": "Bodhi Greens",
       "city": "Leh",
       "category": "Vegan/Organic",
-      "coordinates": { "latitude": "34.1645", "longitude": "77.5855" },
+      "coordinates": {
+        "latitude": "34.1645",
+        "longitude": "77.5855"
+      },
       "budget_metrics": {
         "base_meal_cost": 700,
         "waiting_time_weight": 1.4,
-        "seasonal_surge_factor": 1.10,
+        "seasonal_surge_factor": 1.1,
         "popularity_index": 4.6
       },
       "ai_metadata": {
-        "vibe_tags": ["Rooftop", "Eco-Conscious", "Healthy-Eats", "Mountain-Views"],
+        "vibe_tags": [
+          "Rooftop",
+          "Eco-Conscious",
+          "Healthy-Eats",
+          "Mountain-Views"
+        ],
         "sentiment_score": 4.8,
-        "best_suited_for": ["Health Enthusiasts", "Vegans", "Digital Nomads"],
+        "best_suited_for": [
+          "Health Enthusiasts",
+          "Vegans",
+          "Digital Nomads"
+        ],
         "description_ai": "An urban vegan cafe offering organic smoothie bowls and falafels with a stellar rooftop view of the Shanti Stupa."
       }
     }

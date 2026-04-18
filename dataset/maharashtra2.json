@@ -1,1211 +1,2525 @@
 {
   "state": "Maharashtra",
-  "destinations":[
-  {
-    "id": "MAH-01",
-    "name": "Ajanta Caves",
-    "city": "Aurangabad (Chhatrapati Sambhajinagar)",
-    "category": "UNESCO Heritage Sites",
-    "coordinates": { "latitude": "20.5512", "longitude": "75.7031" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 2500,
-      "base_travel_cost": 1200,
-      "seasonal_surge_factor": 1.25,
-      "traffic_delay_weight": 1.10
+  "destinations": [
+    {
+      "id": "MAH-01",
+      "name": "Ajanta Caves",
+      "city": "Aurangabad (Chhatrapati Sambhajinagar)",
+      "category": "UNESCO Heritage Sites",
+      "coordinates": {
+        "latitude": "20.5512",
+        "longitude": "75.7031"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2500,
+        "base_travel_cost": 1200,
+        "seasonal_surge_factor": 1.25,
+        "traffic_delay_weight": 1.1
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Ancient",
+          "Buddhist-Art",
+          "Serene",
+          "Masterpiece",
+          "Spiritual"
+        ],
+        "sentiment_score": 4.9,
+        "best_suited_for": [
+          "History Buffs",
+          "Art Lovers",
+          "Solo Travelers"
+        ],
+        "description_ai": "A horseshoe-shaped gorge featuring 30 rock-cut Buddhist caves renowned for their magnificent ancient wall paintings and sculptures."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Ajanta_%2863%29.jpg/500px-Ajanta_%2863%29.jpg",
+      "food_details": {
+        "famous_food": [
+          "Hurda",
+          "Jowar Bhakri",
+          "Zunka"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "MTDC Restaurant Ajanta",
+        "Fardapur Dhabas"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Ancient", "Buddhist-Art", "Serene", "Masterpiece", "Spiritual"],
-      "sentiment_score": 4.9,
-      "best_suited_for": ["History Buffs", "Art Lovers", "Solo Travelers"],
-      "description_ai": "A horseshoe-shaped gorge featuring 30 rock-cut Buddhist caves renowned for their magnificent ancient wall paintings and sculptures."
-    }
-  },
-  {
-    "id": "MAH-02",
-    "name": "Ellora Caves",
-    "city": "Aurangabad (Chhatrapati Sambhajinagar)",
-    "category": "UNESCO Heritage Sites",
-    "coordinates": { "latitude": "20.0268", "longitude": "75.1771" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 2500,
-      "base_travel_cost": 800,
-      "seasonal_surge_factor": 1.20,
-      "traffic_delay_weight": 1.20
+    {
+      "id": "MAH-02",
+      "name": "Ellora Caves",
+      "city": "Aurangabad (Chhatrapati Sambhajinagar)",
+      "category": "UNESCO Heritage Sites",
+      "coordinates": {
+        "latitude": "20.0268",
+        "longitude": "75.1771"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2500,
+        "base_travel_cost": 800,
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 1.2
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Monolithic",
+          "Kailasa-Temple",
+          "Grand",
+          "Multi-Religious",
+          "Architectural"
+        ],
+        "sentiment_score": 4.9,
+        "best_suited_for": [
+          "Architecture Fans",
+          "Families",
+          "Culture Seekers"
+        ],
+        "description_ai": "One of the largest rock-cut monastery-temple complexes in the world, featuring the massive monolithic Kailasa Temple."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mumbai_03-2016_30_Gateway_of_India.jpg/500px-Mumbai_03-2016_30_Gateway_of_India.jpg",
+      "food_details": {
+        "famous_food": [
+          "Naan Qalia",
+          "Dalma"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "The Garden Restaurant Ellora",
+        "Hotel Kailas"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Monolithic", "Kailasa-Temple", "Grand", "Multi-Religious", "Architectural"],
-      "sentiment_score": 4.9,
-      "best_suited_for": ["Architecture Fans", "Families", "Culture Seekers"],
-      "description_ai": "One of the largest rock-cut monastery-temple complexes in the world, featuring the massive monolithic Kailasa Temple."
-    }
-  },
-  {
-    "id": "MAH-03",
-    "name": "Elephanta Caves",
-    "city": "Mumbai",
-    "category": "UNESCO Heritage Sites",
-    "coordinates": { "latitude": "18.9633", "longitude": "72.9315" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 6000,
-      "base_travel_cost": 500,
-      "seasonal_surge_factor": 1.10,
-      "traffic_delay_weight": 1.40
+    {
+      "id": "MAH-03",
+      "name": "Elephanta Caves",
+      "city": "Mumbai",
+      "category": "UNESCO Heritage Sites",
+      "coordinates": {
+        "latitude": "18.9633",
+        "longitude": "72.9315"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 6000,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 1.4
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Island-Vibe",
+          "Hindu-Rock-Art",
+          "Ferry-Ride",
+          "Ancient-Sculptures"
+        ],
+        "sentiment_score": 4.6,
+        "best_suited_for": [
+          "Day-Trippers",
+          "History Seekers",
+          "Couples"
+        ],
+        "description_ai": "A collection of cave temples predominantly dedicated to Lord Shiva, located on Gharapuri Island in Mumbai Harbour."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Elephanta_Caves_Trimurti.jpg/500px-Elephanta_Caves_Trimurti.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Island-Vibe", "Hindu-Rock-Art", "Ferry-Ride", "Ancient-Sculptures"],
-      "sentiment_score": 4.6,
-      "best_suited_for": ["Day-Trippers", "History Seekers", "Couples"],
-      "description_ai": "A collection of cave temples predominantly dedicated to Lord Shiva, located on Gharapuri Island in Mumbai Harbour."
-    }
-  },
-  {
-    "id": "MAH-04",
-    "name": "Chhatrapati Shivaji Maharaj Terminus (CSMT)",
-    "city": "Mumbai",
-    "category": "UNESCO Heritage Sites",
-    "coordinates": { "latitude": "18.9400", "longitude": "72.8353" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 5000,
-      "base_travel_cost": 200,
-      "seasonal_surge_factor": 1.15,
-      "traffic_delay_weight": 2.30
+    {
+      "id": "MAH-04",
+      "name": "Chhatrapati Shivaji Maharaj Terminus (CSMT)",
+      "city": "Mumbai",
+      "category": "UNESCO Heritage Sites",
+      "coordinates": {
+        "latitude": "18.9400",
+        "longitude": "72.8353"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 200,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 2.3
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Gothic-Revival",
+          "Iconic",
+          "Historic-Hub",
+          "Bustling",
+          "Architectural"
+        ],
+        "sentiment_score": 4.8,
+        "best_suited_for": [
+          "Photographers",
+          "Architecture Lovers",
+          "Commuters"
+        ],
+        "description_ai": "A historic railway station and UNESCO site representing an extraordinary fusion of Victorian Gothic and Indian architecture."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mumbai_03-2016_30_Gateway_of_India.jpg/500px-Mumbai_03-2016_30_Gateway_of_India.jpg",
+      "food_details": {
+        "famous_food": [
+          "Bun Maska",
+          "Irani Chai"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Britannia & Co.",
+        "Jimmy Boy"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Gothic-Revival", "Iconic", "Historic-Hub", "Bustling", "Architectural"],
-      "sentiment_score": 4.8,
-      "best_suited_for": ["Photographers", "Architecture Lovers", "Commuters"],
-      "description_ai": "A historic railway station and UNESCO site representing an extraordinary fusion of Victorian Gothic and Indian architecture."
-    }
-  },
-  
-  {
-    "id": "MAH-05",
-    "name": "Raigad Fort",
-    "city": "Raigad",
-    "category": "Historical Forts",
-    "coordinates": { "latitude": "18.2347", "longitude": "73.4464" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 2000,
-      "base_travel_cost": 1200,
-      "seasonal_surge_factor": 1.40,
-      "traffic_delay_weight": 1.15
+    {
+      "id": "MAH-05",
+      "name": "Raigad Fort",
+      "city": "Raigad",
+      "category": "Historical Forts",
+      "coordinates": {
+        "latitude": "18.2347",
+        "longitude": "73.4464"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2000,
+        "base_travel_cost": 1200,
+        "seasonal_surge_factor": 1.4,
+        "traffic_delay_weight": 1.15
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Capital",
+          "Grandeur",
+          "Trekking",
+          "Historic",
+          "Majestic"
+        ],
+        "sentiment_score": 4.9,
+        "best_suited_for": [
+          "History Buffs",
+          "Adventure Seekers",
+          "Families"
+        ],
+        "description_ai": "The capital of the Maratha Empire under Chhatrapati Shivaji Maharaj, situated atop the Sahyadri mountains."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Nagarkhana%2C_Raigad_Fort%2C_India.jpg/500px-Nagarkhana%2C_Raigad_Fort%2C_India.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Capital", "Grandeur", "Trekking", "Historic", "Majestic"],
-      "sentiment_score": 4.9,
-      "best_suited_for": ["History Buffs", "Adventure Seekers", "Families"],
-      "description_ai": "The capital of the Maratha Empire under Chhatrapati Shivaji Maharaj, situated atop the Sahyadri mountains."
-    }
-  },
-  {
-    "id": "MAH-06",
-    "name": "Pratapgad Fort",
-    "city": "Satara",
-    "category": "Historical Forts",
-    "coordinates": { "latitude": "17.9317", "longitude": "73.5851" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 4500,
-      "base_travel_cost": 600,
-      "seasonal_surge_factor": 1.50,
-      "traffic_delay_weight": 1.20
+    {
+      "id": "MAH-06",
+      "name": "Pratapgad Fort",
+      "city": "Satara",
+      "category": "Historical Forts",
+      "coordinates": {
+        "latitude": "17.9317",
+        "longitude": "73.5851"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4500,
+        "base_travel_cost": 600,
+        "seasonal_surge_factor": 1.5,
+        "traffic_delay_weight": 1.2
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Battle-Site",
+          "Towering",
+          "Views",
+          "Victory-Monument"
+        ],
+        "sentiment_score": 4.8,
+        "best_suited_for": [
+          "History Buffs",
+          "Couples",
+          "Photographers"
+        ],
+        "description_ai": "A mountain fort famous for the Battle of Pratapgad, featuring a massive bronze statue of Shivaji Maharaj."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Pratapgad_The_Fort_of_Valour.jpg/500px-Pratapgad_The_Fort_of_Valour.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Battle-Site", "Towering", "Views", "Victory-Monument"],
-      "sentiment_score": 4.8,
-      "best_suited_for": ["History Buffs", "Couples", "Photographers"],
-      "description_ai": "A mountain fort famous for the Battle of Pratapgad, featuring a massive bronze statue of Shivaji Maharaj."
-    }
-  },
-  {
-    "id": "MAH-07",
-    "name": "Janjira Fort",
-    "city": "Murud",
-    "category": "Historical Forts",
-    "coordinates": { "latitude": "18.2982", "longitude": "72.9644" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 3500,
-      "base_travel_cost": 1000,
-      "seasonal_surge_factor": 1.30,
-      "traffic_delay_weight": 1.10
+    {
+      "id": "MAH-07",
+      "name": "Janjira Fort",
+      "city": "Murud",
+      "category": "Historical Forts",
+      "coordinates": {
+        "latitude": "18.2982",
+        "longitude": "72.9644"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3500,
+        "base_travel_cost": 1000,
+        "seasonal_surge_factor": 1.3,
+        "traffic_delay_weight": 1.1
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Sea-Fort",
+          "Unconquered",
+          "Historic",
+          "Marine-Engineering"
+        ],
+        "sentiment_score": 4.8,
+        "best_suited_for": [
+          "History Seekers",
+          "Day-Trippers",
+          "Architects"
+        ],
+        "description_ai": "A formidable marine fort located on an island off the coastal village of Murud, never conquered in its prime."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Fort_Janjira_Unconquered.JPG/500px-Fort_Janjira_Unconquered.JPG",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Sea-Fort", "Unconquered", "Historic", "Marine-Engineering"],
-      "sentiment_score": 4.8,
-      "best_suited_for": ["History Seekers", "Day-Trippers", "Architects"],
-      "description_ai": "A formidable marine fort located on an island off the coastal village of Murud, never conquered in its prime."
-    }
-  },
-  {
-    "id": "MAH-08",
-    "name": "Sindhudurg Fort",
-    "city": "Malvan",
-    "category": "Historical Forts",
-    "coordinates": { "latitude": "16.0592", "longitude": "73.4542" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 3000,
-      "base_travel_cost": 2500,
-      "seasonal_surge_factor": 1.40,
-      "traffic_delay_weight": 1.05
+    {
+      "id": "MAH-08",
+      "name": "Sindhudurg Fort",
+      "city": "Malvan",
+      "category": "Historical Forts",
+      "coordinates": {
+        "latitude": "16.0592",
+        "longitude": "73.4542"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 2500,
+        "seasonal_surge_factor": 1.4,
+        "traffic_delay_weight": 1.05
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Island-Fort",
+          "Marine-Heritage",
+          "Epic",
+          "Defensive"
+        ],
+        "sentiment_score": 4.9,
+        "best_suited_for": [
+          "History Buffs",
+          "Nature Lovers",
+          "Solo Travelers"
+        ],
+        "description_ai": "A massive sea fort built by Shivaji Maharaj to counteract the rising influence of foreign merchants."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Sindhudurg_fort.JPG/500px-Sindhudurg_fort.JPG",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Island-Fort", "Marine-Heritage", "Epic", "Defensive"],
-      "sentiment_score": 4.9,
-      "best_suited_for": ["History Buffs", "Nature Lovers", "Solo Travelers"],
-      "description_ai": "A massive sea fort built by Shivaji Maharaj to counteract the rising influence of foreign merchants."
-    }
-  },
-  {
-    "id": "MAH-09",
-    "name": "Lohagad Fort",
-    "city": "Lonavala",
-    "category": "Historical Forts",
-    "coordinates": { "latitude": "18.7056", "longitude": "73.4811" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 5000,
-      "base_travel_cost": 400,
-      "seasonal_surge_factor": 1.50,
-      "traffic_delay_weight": 1.60
+    {
+      "id": "MAH-09",
+      "name": "Lohagad Fort",
+      "city": "Lonavala",
+      "category": "Historical Forts",
+      "coordinates": {
+        "latitude": "18.7056",
+        "longitude": "73.4811"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.5,
+        "traffic_delay_weight": 1.6
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Easy-Trek",
+          "Scorpion-Tail",
+          "Ancient",
+          "Monsoon-Favorite"
+        ],
+        "sentiment_score": 4.7,
+        "best_suited_for": [
+          "Beginner Trekkers",
+          "Friends",
+          "Families"
+        ],
+        "description_ai": "A multi-regime fort famous for its 'Vinchu Kata' (Scorpion's Tail) structure and beautiful monsoon vistas."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Lohagarh_Fort.jpg/500px-Lohagarh_Fort.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Easy-Trek", "Scorpion-Tail", "Ancient", "Monsoon-Favorite"],
-      "sentiment_score": 4.7,
-      "best_suited_for": ["Beginner Trekkers", "Friends", "Families"],
-      "description_ai": "A multi-regime fort famous for its 'Vinchu Kata' (Scorpion's Tail) structure and beautiful monsoon vistas."
-    }
-  },
-  {
-    "id": "MAH-10",
-    "name": "Visapur Fort",
-    "city": "Lonavala",
-    "category": "Historical Forts",
-    "coordinates": { "latitude": "18.7214", "longitude": "73.4856" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 5000,
-      "base_travel_cost": 400,
-      "seasonal_surge_factor": 1.50,
-      "traffic_delay_weight": 1.60
+    {
+      "id": "MAH-10",
+      "name": "Visapur Fort",
+      "city": "Lonavala",
+      "category": "Historical Forts",
+      "coordinates": {
+        "latitude": "18.7214",
+        "longitude": "73.4856"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.5,
+        "traffic_delay_weight": 1.6
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Water-Staircase",
+          "Twin-Fort",
+          "Ruined-Grandeur",
+          "Lush"
+        ],
+        "sentiment_score": 4.6,
+        "best_suited_for": [
+          "Adventure Seekers",
+          "Photographers",
+          "Hikers"
+        ],
+        "description_ai": "The twin fort of Lohagad, known for its massive stone carvings and staircases that turn into waterfalls during rains."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Fortification_wall_at_visapur.jpg/500px-Fortification_wall_at_visapur.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Water-Staircase", "Twin-Fort", "Ruined-Grandeur", "Lush"],
-      "sentiment_score": 4.6,
-      "best_suited_for": ["Adventure Seekers", "Photographers", "Hikers"],
-      "description_ai": "The twin fort of Lohagad, known for its massive stone carvings and staircases that turn into waterfalls during rains."
-    }
-  },
-  {
-    "id": "MAH-11",
-    "name": "Sinhagad Fort",
-    "city": "Pune",
-    "category": "Historical Forts",
-    "coordinates": { "latitude": "18.3661", "longitude": "73.7554" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 2500,
-      "base_travel_cost": 600,
-      "seasonal_surge_factor": 1.25,
-      "traffic_delay_weight": 1.90
+    {
+      "id": "MAH-11",
+      "name": "Sinhagad Fort",
+      "city": "Pune",
+      "category": "Historical Forts",
+      "coordinates": {
+        "latitude": "18.3661",
+        "longitude": "73.7554"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2500,
+        "base_travel_cost": 600,
+        "seasonal_surge_factor": 1.25,
+        "traffic_delay_weight": 1.9
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Lion-Fort",
+          "Pithla-Bhakri",
+          "History",
+          "Sunset-Point"
+        ],
+        "sentiment_score": 4.9,
+        "best_suited_for": [
+          "Foodies",
+          "Morning Walkers",
+          "History Buffs"
+        ],
+        "description_ai": "A strategic fortress famous for the battle led by Tanaji Malusare and its iconic local Maharashtrian cuisine."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Sinhagad.jpg/500px-Sinhagad.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Lion-Fort", "Pithla-Bhakri", "History", "Sunset-Point"],
-      "sentiment_score": 4.9,
-      "best_suited_for": ["Foodies", "Morning Walkers", "History Buffs"],
-      "description_ai": "A strategic fortress famous for the battle led by Tanaji Malusare and its iconic local Maharashtrian cuisine."
-    }
-  },
-  {
-    "id": "MAH-12",
-    "name": "Daulatabad Fort",
-    "city": "Aurangabad",
-    "category": "Historical Forts",
-    "coordinates": { "latitude": "19.9406", "longitude": "75.2131" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 2500,
-      "base_travel_cost": 500,
-      "seasonal_surge_factor": 1.20,
-      "traffic_delay_weight": 1.15
+    {
+      "id": "MAH-12",
+      "name": "Daulatabad Fort",
+      "city": "Aurangabad",
+      "category": "Historical Forts",
+      "coordinates": {
+        "latitude": "19.9406",
+        "longitude": "75.2131"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2500,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 1.15
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Strategic",
+          "Dark-Passages",
+          "Impenetrable",
+          "Medieval"
+        ],
+        "sentiment_score": 4.8,
+        "best_suited_for": [
+          "History Buffs",
+          "Architects",
+          "Students"
+        ],
+        "description_ai": "A 14th-century hilltop fortress once known as Deogiri, featuring a complex defense system of dark labyrinths."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Daulatabad_Fort_a_view.JPG/500px-Daulatabad_Fort_a_view.JPG",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Strategic", "Dark-Passages", "Impenetrable", "Medieval"],
-      "sentiment_score": 4.8,
-      "best_suited_for": ["History Buffs", "Architects", "Students"],
-      "description_ai": "A 14th-century hilltop fortress once known as Deogiri, featuring a complex defense system of dark labyrinths."
-    }
-  },
-  {
-    "id": "MAH-13",
-    "name": "Murud-Janjira",
-    "city": "Raigad Coast",
-    "category": "Historical Forts",
-    "coordinates": { "latitude": "18.2982", "longitude": "72.9644" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 3500,
-      "base_travel_cost": 1200,
-      "seasonal_surge_factor": 1.30,
-      "traffic_delay_weight": 1.10
+    {
+      "id": "MAH-13",
+      "name": "Murud-Janjira",
+      "city": "Raigad Coast",
+      "category": "Historical Forts",
+      "coordinates": {
+        "latitude": "18.2982",
+        "longitude": "72.9644"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3500,
+        "base_travel_cost": 1200,
+        "seasonal_surge_factor": 1.3,
+        "traffic_delay_weight": 1.1
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Sea-Sentry",
+          "Heritage",
+          "Boat-Ride",
+          "Coastal"
+        ],
+        "sentiment_score": 4.8,
+        "best_suited_for": [
+          "Tourists",
+          "Families",
+          "Culture Seekers"
+        ],
+        "description_ai": "Often referred to as the only fort in India that remained unconquered despite attacks by various colonial powers."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Fort_Janjira_Unconquered.JPG/500px-Fort_Janjira_Unconquered.JPG",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Sea-Sentry", "Heritage", "Boat-Ride", "Coastal"],
-      "sentiment_score": 4.8,
-      "best_suited_for": ["Tourists", "Families", "Culture Seekers"],
-      "description_ai": "Often referred to as the only fort in India that remained unconquered despite attacks by various colonial powers."
-    }
-  },
-  
-  {
-    "id": "MAH-14",
-    "name": "Gateway of India",
-    "city": "Mumbai (Colaba)",
-    "category": "Mumbai Icons",
-    "coordinates": { "latitude": "18.9220", "longitude": "72.8347" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 7000,
-      "base_travel_cost": 400,
-      "seasonal_surge_factor": 1.20,
-      "traffic_delay_weight": 2.20
+    {
+      "id": "MAH-14",
+      "name": "Gateway of India",
+      "city": "Mumbai (Colaba)",
+      "category": "Mumbai Icons",
+      "coordinates": {
+        "latitude": "18.9220",
+        "longitude": "72.8347"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 7000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 2.2
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Iconic",
+          "Waterfront",
+          "Heritage",
+          "Majestic",
+          "Colonial"
+        ],
+        "sentiment_score": 4.9,
+        "best_suited_for": [
+          "Foreign Tourists",
+          "Photographers",
+          "Families"
+        ],
+        "description_ai": "An arch-monument built during the 20th century, overlooking the Arabian Sea; it serves as Mumbai's most recognized symbolic landmark."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mumbai_03-2016_30_Gateway_of_India.jpg/500px-Mumbai_03-2016_30_Gateway_of_India.jpg",
+      "food_details": {
+        "famous_food": [
+          "Vada Pav",
+          "Pav Bhaji",
+          "Bombil Fry"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Leopold Cafe",
+        "Bademiya",
+        "Cafe Mondegar"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Iconic", "Waterfront", "Heritage", "Majestic", "Colonial"],
-      "sentiment_score": 4.9,
-      "best_suited_for": ["Foreign Tourists", "Photographers", "Families"],
-      "description_ai": "An arch-monument built during the 20th century, overlooking the Arabian Sea; it serves as Mumbai's most recognized symbolic landmark."
-    }
-  },
-  {
-    "id": "MAH-15",
-    "name": "Marine Drive",
-    "city": "Mumbai (South)",
-    "category": "Mumbai Icons",
-    "coordinates": { "latitude": "18.9431", "longitude": "72.8231" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 8000,
-      "base_travel_cost": 300,
-      "seasonal_surge_factor": 1.25,
-      "traffic_delay_weight": 2.00
+    {
+      "id": "MAH-15",
+      "name": "Marine Drive",
+      "city": "Mumbai (South)",
+      "category": "Mumbai Icons",
+      "coordinates": {
+        "latitude": "18.9431",
+        "longitude": "72.8231"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 8000,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.25,
+        "traffic_delay_weight": 2
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Sea-Face",
+          "Queen-Necklace",
+          "Sunset",
+          "Breezy",
+          "Scenic"
+        ],
+        "sentiment_score": 4.9,
+        "best_suited_for": [
+          "Couples",
+          "Solo Travelers",
+          "Evening Strollers"
+        ],
+        "description_ai": "A 3.6-kilometer-long promenade along the coast, forming a natural bay known for its stunning night lights resembling a pearl necklace."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mumbai_03-2016_30_Gateway_of_India.jpg/500px-Mumbai_03-2016_30_Gateway_of_India.jpg",
+      "food_details": {
+        "famous_food": [
+          "Bhel Puri",
+          "Sev Puri",
+          "Vada Pav"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Pizza By The Bay",
+        "Cafe Madras"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Sea-Face", "Queen-Necklace", "Sunset", "Breezy", "Scenic"],
-      "sentiment_score": 4.9,
-      "best_suited_for": ["Couples", "Solo Travelers", "Evening Strollers"],
-      "description_ai": "A 3.6-kilometer-long promenade along the coast, forming a natural bay known for its stunning night lights resembling a pearl necklace."
-    }
-  },
-  {
-    "id": "MAH-16",
-    "name": "Haji Ali Dargah",
-    "city": "Mumbai (Worli)",
-    "category": "Mumbai Icons",
-    "coordinates": { "latitude": "18.9827", "longitude": "72.8089" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 5000,
-      "base_travel_cost": 400,
-      "seasonal_surge_factor": 1.30,
-      "traffic_delay_weight": 2.15
+    {
+      "id": "MAH-16",
+      "name": "Haji Ali Dargah",
+      "city": "Mumbai (Worli)",
+      "category": "Mumbai Icons",
+      "coordinates": {
+        "latitude": "18.9827",
+        "longitude": "72.8089"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.3,
+        "traffic_delay_weight": 2.15
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Spiritual",
+          "Floating-Architecture",
+          "Sufi-Culture",
+          "Unique"
+        ],
+        "sentiment_score": 4.8,
+        "best_suited_for": [
+          "Pilgrims",
+          "Culture Seekers",
+          "Architecture Fans"
+        ],
+        "description_ai": "A mosque and dargah located on a tiny islet off the coast of Worli, accessible only during low tide via a narrow causeway."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Mumbai_03-2016_12_Haji_Ali_Dargah.jpg/500px-Mumbai_03-2016_12_Haji_Ali_Dargah.jpg",
+      "food_details": {
+        "famous_food": [
+          "Fresh Fruit Juice",
+          "Kebab Roll"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Haji Ali Juice Centre",
+        "Bade Miya"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Spiritual", "Floating-Architecture", "Sufi-Culture", "Unique"],
-      "sentiment_score": 4.8,
-      "best_suited_for": ["Pilgrims", "Culture Seekers", "Architecture Fans"],
-      "description_ai": "A mosque and dargah located on a tiny islet off the coast of Worli, accessible only during low tide via a narrow causeway."
-    }
-  },
-  {
-    "id": "MAH-17",
-    "name": "Global Vipassana Pagoda",
-    "city": "Mumbai (Gorai)",
-    "category": "Mumbai Icons",
-    "coordinates": { "latitude": "19.2285", "longitude": "72.8058" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 2000,
-      "base_travel_cost": 800,
-      "seasonal_surge_factor": 1.10,
-      "traffic_delay_weight": 1.40
+    {
+      "id": "MAH-17",
+      "name": "Global Vipassana Pagoda",
+      "city": "Mumbai (Gorai)",
+      "category": "Mumbai Icons",
+      "coordinates": {
+        "latitude": "19.2285",
+        "longitude": "72.8058"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2000,
+        "base_travel_cost": 800,
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 1.4
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Golden-Dome",
+          "Meditation",
+          "Peaceful",
+          "Grand",
+          "Buddhist"
+        ],
+        "sentiment_score": 4.7,
+        "best_suited_for": [
+          "Spiritual Seekers",
+          "Meditation Practitioners",
+          "Families"
+        ],
+        "description_ai": "A massive meditation hall serving as a monument of peace and harmony, featuring the world's largest stone dome built without support pillars."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/GlobalVipasanaPagoda.JPG/500px-GlobalVipasanaPagoda.JPG",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Golden-Dome", "Meditation", "Peaceful", "Grand", "Buddhist"],
-      "sentiment_score": 4.7,
-      "best_suited_for": ["Spiritual Seekers", "Meditation Practitioners", "Families"],
-      "description_ai": "A massive meditation hall serving as a monument of peace and harmony, featuring the world's largest stone dome built without support pillars."
-    }
-  },
-  {
-    "id": "MAH-18",
-    "name": "Kanheri Caves",
-    "city": "Mumbai (Borivali)",
-    "category": "Mumbai Icons",
-    "coordinates": { "latitude": "19.2061", "longitude": "72.9067" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 4000,
-      "base_travel_cost": 400,
-      "seasonal_surge_factor": 1.10,
-      "traffic_delay_weight": 1.90
+    {
+      "id": "MAH-18",
+      "name": "Kanheri Caves",
+      "city": "Mumbai (Borivali)",
+      "category": "Mumbai Icons",
+      "coordinates": {
+        "latitude": "19.2061",
+        "longitude": "72.9067"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 1.9
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Ancient-Caves",
+          "Buddhist-Heritage",
+          "Nature-Trails",
+          "Historic"
+        ],
+        "sentiment_score": 4.6,
+        "best_suited_for": [
+          "History Buffs",
+          "Trekkers",
+          "Nature Lovers"
+        ],
+        "description_ai": "A group of caves and rock-cut monuments located deep within Sanjay Gandhi National Park, showcasing ancient Buddhist architecture."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Kanheri_Caves_prayer_hall.JPG/500px-Kanheri_Caves_prayer_hall.JPG",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Ancient-Caves", "Buddhist-Heritage", "Nature-Trails", "Historic"],
-      "sentiment_score": 4.6,
-      "best_suited_for": ["History Buffs", "Trekkers", "Nature Lovers"],
-      "description_ai": "A group of caves and rock-cut monuments located deep within Sanjay Gandhi National Park, showcasing ancient Buddhist architecture."
-    }
-  },
-  
-  {
-    "id": "MAH-19",
-    "name": "Shirdi Sai Baba Temple",
-    "city": "Shirdi",
-    "category": "Religious/Pilgrimage Sites",
-    "coordinates": { "latitude": "19.7645", "longitude": "74.4762" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 2500,
-      "base_travel_cost": 1200,
-      "seasonal_surge_factor": 1.50,
-      "traffic_delay_weight": 1.40
+    {
+      "id": "MAH-19",
+      "name": "Shirdi Sai Baba Temple",
+      "city": "Shirdi",
+      "category": "Religious/Pilgrimage Sites",
+      "coordinates": {
+        "latitude": "19.7645",
+        "longitude": "74.4762"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2500,
+        "base_travel_cost": 1200,
+        "seasonal_surge_factor": 1.5,
+        "traffic_delay_weight": 1.4
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Spiritual-Peace",
+          "Devotional-Aura",
+          "Inclusive",
+          "Organized",
+          "Miraculous"
+        ],
+        "sentiment_score": 4.9,
+        "best_suited_for": [
+          "Families",
+          "Senior Citizens",
+          "Solo Seekers"
+        ],
+        "description_ai": "The sacred abode of the 19th-century saint Sai Baba, drawing millions of devotees globally to his Samadhi Mandir."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mumbai_03-2016_30_Gateway_of_India.jpg/500px-Mumbai_03-2016_30_Gateway_of_India.jpg",
+      "food_details": {
+        "famous_food": [
+          "Maharashtrian Thali",
+          "Modak"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Prasadalay Shirdi",
+        "Hotel Saishree"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Spiritual-Peace", "Devotional-Aura", "Inclusive", "Organized", "Miraculous"],
-      "sentiment_score": 4.9,
-      "best_suited_for": ["Families", "Senior Citizens", "Solo Seekers"],
-      "description_ai": "The sacred abode of the 19th-century saint Sai Baba, drawing millions of devotees globally to his Samadhi Mandir."
-    }
-  },
-  {
-    "id": "MAH-20",
-    "name": "Trimbakeshwar",
-    "city": "Nashik",
-    "category": "Religious/Pilgrimage Sites",
-    "coordinates": { "latitude": "19.9324", "longitude": "73.5385" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 2000,
-      "base_travel_cost": 800,
-      "seasonal_surge_factor": 1.40,
-      "traffic_delay_weight": 1.30
+    {
+      "id": "MAH-20",
+      "name": "Trimbakeshwar",
+      "city": "Nashik",
+      "category": "Religious/Pilgrimage Sites",
+      "coordinates": {
+        "latitude": "19.9324",
+        "longitude": "73.5385"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2000,
+        "base_travel_cost": 800,
+        "seasonal_surge_factor": 1.4,
+        "traffic_delay_weight": 1.3
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Jyotirlinga",
+          "Ancient-Architecture",
+          "River-Source",
+          "Holy",
+          "Spiritual"
+        ],
+        "sentiment_score": 4.8,
+        "best_suited_for": [
+          "Devout Hindus",
+          "History Seekers",
+          "Families"
+        ],
+        "description_ai": "One of the 12 sacred Jyotirlingas, featuring a unique three-faced lingam and located at the source of the holy Godavari River."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Trimbakeshwar_Temple-Nashik-Maharashtra-1.jpg/500px-Trimbakeshwar_Temple-Nashik-Maharashtra-1.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Jyotirlinga", "Ancient-Architecture", "River-Source", "Holy", "Spiritual"],
-      "sentiment_score": 4.8,
-      "best_suited_for": ["Devout Hindus", "History Seekers", "Families"],
-      "description_ai": "One of the 12 sacred Jyotirlingas, featuring a unique three-faced lingam and located at the source of the holy Godavari River."
-    }
-  },
-  {
-    "id": "MAH-21",
-    "name": "Dagdusheth Halwai Ganpati",
-    "city": "Pune",
-    "category": "Religious/Pilgrimage Sites",
-    "coordinates": { "latitude": "18.5164", "longitude": "73.8560" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 3000,
-      "base_travel_cost": 400,
-      "seasonal_surge_factor": 2.50,
-      "traffic_delay_weight": 2.20
+    {
+      "id": "MAH-21",
+      "name": "Dagdusheth Halwai Ganpati",
+      "city": "Pune",
+      "category": "Religious/Pilgrimage Sites",
+      "coordinates": {
+        "latitude": "18.5164",
+        "longitude": "73.8560"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 2.5,
+        "traffic_delay_weight": 2.2
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Golden-Idol",
+          "Vibrant",
+          "Iconic-Pune",
+          "Festive",
+          "Crowded"
+        ],
+        "sentiment_score": 4.9,
+        "best_suited_for": [
+          "Ganesh Devotees",
+          "Tourists",
+          "Families"
+        ],
+        "description_ai": "Pune's most famous Ganpati temple, known for its majestic golden idol and massive crowds during the Ganeshotsav festival."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Dagdusheth_Ganpati_Temple_Decorated_during_Ganesh_Chaturti_September_2012_%281%29.JPG/500px-Dagdusheth_Ganpati_Temple_Decorated_during_Ganesh_Chaturti_September_2012_%281%29.JPG",
+      "food_details": {
+        "famous_food": [
+          "Misal Pav",
+          "Modak",
+          "Puran Poli"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Dagdusheth Halwai Sweet Shop",
+        "Bedekar Misal Pune"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Golden-Idol", "Vibrant", "Iconic-Pune", "Festive", "Crowded"],
-      "sentiment_score": 4.9,
-      "best_suited_for": ["Ganesh Devotees", "Tourists", "Families"],
-      "description_ai": "Pune's most famous Ganpati temple, known for its majestic golden idol and massive crowds during the Ganeshotsav festival."
-    }
-  },
-  {
-    "id": "MAH-22",
-    "name": "Shani Shingnapur",
-    "city": "Nevasa",
-    "category": "Religious/Pilgrimage Sites",
-    "coordinates": { "latitude": "19.3951", "longitude": "74.8219" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 1500,
-      "base_travel_cost": 1000,
-      "seasonal_surge_factor": 1.30,
-      "traffic_delay_weight": 1.20
+    {
+      "id": "MAH-22",
+      "name": "Shani Shingnapur",
+      "city": "Nevasa",
+      "category": "Religious/Pilgrimage Sites",
+      "coordinates": {
+        "latitude": "19.3951",
+        "longitude": "74.8219"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 1500,
+        "base_travel_cost": 1000,
+        "seasonal_surge_factor": 1.3,
+        "traffic_delay_weight": 1.2
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Doorless-Homes",
+          "Justice",
+          "Unique-Customs",
+          "Fearless",
+          "Sacred"
+        ],
+        "sentiment_score": 4.7,
+        "best_suited_for": [
+          "Curiosity Seekers",
+          "Pilgrims",
+          "Solo Travelers"
+        ],
+        "description_ai": "A unique village where houses have no doors, signifying absolute faith in the resident deity, Lord Shani."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Shani_Shignapur_renowned_for_its_Shani_temple.jpg/500px-Shani_Shignapur_renowned_for_its_Shani_temple.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Doorless-Homes", "Justice", "Unique-Customs", "Fearless", "Sacred"],
-      "sentiment_score": 4.7,
-      "best_suited_for": ["Curiosity Seekers", "Pilgrims", "Solo Travelers"],
-      "description_ai": "A unique village where houses have no doors, signifying absolute faith in the resident deity, Lord Shani."
-    }
-  },
-  {
-    "id": "MAH-23",
-    "name": "Grishneshwar Temple",
-    "city": "Verul",
-    "category": "Religious/Pilgrimage Sites",
-    "coordinates": { "latitude": "20.0250", "longitude": "75.1699" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 1800,
-      "base_travel_cost": 600,
-      "seasonal_surge_factor": 1.25,
-      "traffic_delay_weight": 1.15
+    {
+      "id": "MAH-23",
+      "name": "Grishneshwar Temple",
+      "city": "Verul",
+      "category": "Religious/Pilgrimage Sites",
+      "coordinates": {
+        "latitude": "20.0250",
+        "longitude": "75.1699"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 1800,
+        "base_travel_cost": 600,
+        "seasonal_surge_factor": 1.25,
+        "traffic_delay_weight": 1.15
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Final-Jyotirlinga",
+          "Pink-Stone",
+          "Heritage",
+          "Quiet",
+          "Intricate"
+        ],
+        "sentiment_score": 4.8,
+        "best_suited_for": [
+          "History Lovers",
+          "Pilgrims",
+          "Architects"
+        ],
+        "description_ai": "The 12th Jyotirlinga temple, rebuilt by Ahilyabai Holkar, known for its beautiful South Indian style architecture."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Grishneshwar_temple_in_Aurangabad_district.jpg/500px-Grishneshwar_temple_in_Aurangabad_district.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Final-Jyotirlinga", "Pink-Stone", "Heritage", "Quiet", "Intricate"],
-      "sentiment_score": 4.8,
-      "best_suited_for": ["History Lovers", "Pilgrims", "Architects"],
-      "description_ai": "The 12th Jyotirlinga temple, rebuilt by Ahilyabai Holkar, known for its beautiful South Indian style architecture."
-    }
-  },
-  {
-    "id": "MAH-24",
-    "name": "Mount Mary Church",
-    "city": "Mumbai (Bandra)",
-    "category": "Religious/Pilgrimage Sites",
-    "coordinates": { "latitude": "19.0465", "longitude": "72.8223" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 6000,
-      "base_travel_cost": 300,
-      "seasonal_surge_factor": 1.60,
-      "traffic_delay_weight": 2.10
+    {
+      "id": "MAH-24",
+      "name": "Mount Mary Church",
+      "city": "Mumbai (Bandra)",
+      "category": "Religious/Pilgrimage Sites",
+      "coordinates": {
+        "latitude": "19.0465",
+        "longitude": "72.8223"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 6000,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.6,
+        "traffic_delay_weight": 2.1
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Neo-Gothic",
+          "Sea-View",
+          "Peaceful",
+          "Iconic-Bandra",
+          "Fair"
+        ],
+        "sentiment_score": 4.7,
+        "best_suited_for": [
+          "Couples",
+          "Solo Travelers",
+          "History Buffs"
+        ],
+        "description_ai": "A Roman Catholic Basilica overlooking the Arabian Sea, famous for the annual Bandra Fair and its stunning Neo-Gothic architecture."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Mount_Mary_Church_%28Bombay%29.jpg/500px-Mount_Mary_Church_%28Bombay%29.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Neo-Gothic", "Sea-View", "Peaceful", "Iconic-Bandra", "Fair"],
-      "sentiment_score": 4.7,
-      "best_suited_for": ["Couples", "Solo Travelers", "History Buffs"],
-      "description_ai": "A Roman Catholic Basilica overlooking the Arabian Sea, famous for the annual Bandra Fair and its stunning Neo-Gothic architecture."
-    }
-  },
-
-  {
-    "id": "MAH-25",
-    "name": "B. Merwan & Co.",
-    "city": "Mumbai (Grant Road)",
-    "category": "Irani Cafes",
-    "coordinates": { "latitude": "18.9592", "longitude": "72.8194" },
-    "budget_metrics": {
-      "base_meal_cost": 250,
-      "seasonal_surge_factor": 1.10,
-      "traffic_delay_weight": 2.10
+    {
+      "id": "MAH-25",
+      "name": "B. Merwan & Co.",
+      "city": "Mumbai (Grant Road)",
+      "category": "Irani Cafes",
+      "coordinates": {
+        "latitude": "18.9592",
+        "longitude": "72.8194"
+      },
+      "budget_metrics": {
+        "base_meal_cost": 250,
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 2.1
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Century-Old",
+          "Mawa-Cakes",
+          "Hectic",
+          "Nostalgic",
+          "Budget-Friendly"
+        ],
+        "taste_profile": "Sweet",
+        "sentiment_score": 4.8,
+        "best_suited_for": [
+          "Early-Birds",
+          "Sweet-Toothed",
+          "Solo Travelers"
+        ],
+        "description_ai": "A legendary 1914-established Irani cafe world-famous for its melt-in-the-mouth Mawa cakes and vintage wooden furniture."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Burwan_in_Murshidabad.svg/500px-Burwan_in_Murshidabad.svg.png",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Century-Old", "Mawa-Cakes", "Hectic", "Nostalgic", "Budget-Friendly"],
-      "taste_profile": "Sweet",
-      "sentiment_score": 4.8,
-      "best_suited_for": ["Early-Birds", "Sweet-Toothed", "Solo Travelers"],
-      "description_ai": "A legendary 1914-established Irani cafe world-famous for its melt-in-the-mouth Mawa cakes and vintage wooden furniture."
-    }
-  },
-  {
-    "id": "MAH-26",
-    "name": "Yazdani Bakery",
-    "city": "Mumbai (Fort)",
-    "category": "Irani Cafes",
-    "coordinates": { "latitude": "18.9318", "longitude": "72.8355" },
-    "budget_metrics": {
-      "base_meal_cost": 300,
-      "seasonal_surge_factor": 1.15,
-      "traffic_delay_weight": 1.95
+    {
+      "id": "MAH-26",
+      "name": "Yazdani Bakery",
+      "city": "Mumbai (Fort)",
+      "category": "Irani Cafes",
+      "coordinates": {
+        "latitude": "18.9318",
+        "longitude": "72.8355"
+      },
+      "budget_metrics": {
+        "base_meal_cost": 300,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.95
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Wood-Fired-Oven",
+          "Heritage-Bakery",
+          "Aromatic",
+          "Classic",
+          "Cozy"
+        ],
+        "taste_profile": "Medium",
+        "sentiment_score": 4.7,
+        "best_suited_for": [
+          "History Lovers",
+          "Bread Enthusiasts",
+          "Medium-Spice-Palates"
+        ],
+        "description_ai": "A third-generation family-run bakery known for its sourdough crust and Brun Maska, housed in a heritage building in Fort."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Yazdani_Restaurant_and_Bakery%2C_Mumbai.JPG/500px-Yazdani_Restaurant_and_Bakery%2C_Mumbai.JPG",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Wood-Fired-Oven", "Heritage-Bakery", "Aromatic", "Classic", "Cozy"],
-      "taste_profile": "Medium",
-      "sentiment_score": 4.7,
-      "best_suited_for": ["History Lovers", "Bread Enthusiasts", "Medium-Spice-Palates"],
-      "description_ai": "A third-generation family-run bakery known for its sourdough crust and Brun Maska, housed in a heritage building in Fort."
-    }
-  },
-  
-  {
-    "id": "MAH-27",
-    "name": "Bedekar Misal",
-    "city": "Pune",
-    "category": "Legendary Dining",
-    "coordinates": { "latitude": "18.5144", "longitude": "73.8446" },
-    "budget_metrics": {
-      "base_meal_cost": 150,
-      "seasonal_surge_factor": 1.15,
-      "traffic_delay_weight": 2.10
+    {
+      "id": "MAH-27",
+      "name": "Bedekar Misal",
+      "city": "Pune",
+      "category": "Legendary Dining",
+      "coordinates": {
+        "latitude": "18.5144",
+        "longitude": "73.8446"
+      },
+      "budget_metrics": {
+        "base_meal_cost": 150,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 2.1
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Heritage",
+          "Authentic",
+          "Bustling",
+          "Local-Favorite"
+        ],
+        "taste_profile": "Extremely Spicy",
+        "sentiment_score": 4.8,
+        "best_suited_for": [
+          "Spicy-Lovers",
+          "Students",
+          "Foodies"
+        ],
+        "description_ai": "One of Pune's oldest Misal houses, known for its fiery Puneri Misal served with sliced bread."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/d/de/MalatiBedekarPic.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Heritage", "Authentic", "Bustling", "Local-Favorite"],
-      "taste_profile": "Extremely Spicy",
-      "sentiment_score": 4.8,
-      "best_suited_for": ["Spicy-Lovers", "Students", "Foodies"],
-      "description_ai": "One of Pune's oldest Misal houses, known for its fiery Puneri Misal served with sliced bread."
-    }
-  },
-  {
-    "id": "MAH-28",
-    "name": "Kayani Bakery",
-    "city": "Pune (Camp)",
-    "category": "Legendary Dining",
-    "coordinates": { "latitude": "18.5212", "longitude": "73.8785" },
-    "budget_metrics": {
-      "base_meal_cost": 400,
-      "seasonal_surge_factor": 1.20,
-      "traffic_delay_weight": 1.90
+    {
+      "id": "MAH-28",
+      "name": "Kayani Bakery",
+      "city": "Pune (Camp)",
+      "category": "Legendary Dining",
+      "coordinates": {
+        "latitude": "18.5212",
+        "longitude": "73.8785"
+      },
+      "budget_metrics": {
+        "base_meal_cost": 400,
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 1.9
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Iconic",
+          "Shrewsbury-Biscuits",
+          "Nostalgic",
+          "Crowded"
+        ],
+        "taste_profile": "Sweet",
+        "sentiment_score": 4.7,
+        "best_suited_for": [
+          "Families",
+          "Sweet-Toothed",
+          "History Lovers"
+        ],
+        "description_ai": "World-famous for its Shrewsbury biscuits and mawa cakes; a cornerstone of Pune's culinary heritage."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mumbai_03-2016_30_Gateway_of_India.jpg/500px-Mumbai_03-2016_30_Gateway_of_India.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Iconic", "Shrewsbury-Biscuits", "Nostalgic", "Crowded"],
-      "taste_profile": "Sweet",
-      "sentiment_score": 4.7,
-      "best_suited_for": ["Families", "Sweet-Toothed", "History Lovers"],
-      "description_ai": "World-famous for its Shrewsbury biscuits and mawa cakes; a cornerstone of Pune's culinary heritage."
-    }
-  },
-  {
-    "id": "MAH-29",
-    "name": "Vaishali",
-    "city": "Pune (FC Road)",
-    "category": "Legendary Dining",
-    "coordinates": { "latitude": "18.5244", "longitude": "73.8415" },
-    "budget_metrics": {
-      "base_meal_cost": 350,
-      "seasonal_surge_factor": 1.10,
-      "traffic_delay_weight": 2.20
+    {
+      "id": "MAH-29",
+      "name": "Vaishali",
+      "city": "Pune (FC Road)",
+      "category": "Legendary Dining",
+      "coordinates": {
+        "latitude": "18.5244",
+        "longitude": "73.8415"
+      },
+      "budget_metrics": {
+        "base_meal_cost": 350,
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 2.2
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "College-Hub",
+          "Evergreen",
+          "Vibrant",
+          "Morning-Vibe"
+        ],
+        "taste_profile": "Medium",
+        "sentiment_score": 4.8,
+        "best_suited_for": [
+          "Students",
+          "Families",
+          "Medium-Spice-Palates"
+        ],
+        "description_ai": "A legendary institution on FC Road, famous for its SPDP and South Indian breakfast."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mumbai_03-2016_30_Gateway_of_India.jpg/500px-Mumbai_03-2016_30_Gateway_of_India.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["College-Hub", "Evergreen", "Vibrant", "Morning-Vibe"],
-      "taste_profile": "Medium",
-      "sentiment_score": 4.8,
-      "best_suited_for": ["Students", "Families", "Medium-Spice-Palates"],
-      "description_ai": "A legendary institution on FC Road, famous for its SPDP and South Indian breakfast."
-    }
-  },
-  {
-    "id": "MAH-30",
-    "name": "Blue Nile",
-    "city": "Pune (Camp)",
-    "category": "Legendary Dining",
-    "coordinates": { "latitude": "18.5284", "longitude": "73.8739" },
-    "budget_metrics": {
-      "base_meal_cost": 800,
-      "seasonal_surge_factor": 1.25,
-      "traffic_delay_weight": 1.85
+    {
+      "id": "MAH-30",
+      "name": "Blue Nile",
+      "city": "Pune (Camp)",
+      "category": "Legendary Dining",
+      "coordinates": {
+        "latitude": "18.5284",
+        "longitude": "73.8739"
+      },
+      "budget_metrics": {
+        "base_meal_cost": 800,
+        "seasonal_surge_factor": 1.25,
+        "traffic_delay_weight": 1.85
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Mughlai",
+          "Biryani-Legend",
+          "Classic",
+          "Old-World"
+        ],
+        "taste_profile": "Medium",
+        "sentiment_score": 4.6,
+        "best_suited_for": [
+          "Meat-Lovers",
+          "Families",
+          "Groups"
+        ],
+        "description_ai": "A Pune landmark renowned for its authentic Persian and Mughlai cuisine, especially the Mutton Biryani."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/ET_Bahir_Dar_asv2018-02_img32_view_from_Bezawit.jpg/500px-ET_Bahir_Dar_asv2018-02_img32_view_from_Bezawit.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Mughlai", "Biryani-Legend", "Classic", "Old-World"],
-      "taste_profile": "Medium",
-      "sentiment_score": 4.6,
-      "best_suited_for": ["Meat-Lovers", "Families", "Groups"],
-      "description_ai": "A Pune landmark renowned for its authentic Persian and Mughlai cuisine, especially the Mutton Biryani."
-    }
-  },
-  {
-    "id": "MAH-31",
-    "name": "Sadhana Chulivarchi Misal",
-    "city": "Nashik",
-    "category": "Legendary Dining",
-    "coordinates": { "latitude": "20.0154", "longitude": "73.7432" },
-    "budget_metrics": {
-      "base_meal_cost": 200,
-      "seasonal_surge_factor": 1.30,
-      "traffic_delay_weight": 1.40
+    {
+      "id": "MAH-31",
+      "name": "Sadhana Chulivarchi Misal",
+      "city": "Nashik",
+      "category": "Legendary Dining",
+      "coordinates": {
+        "latitude": "20.0154",
+        "longitude": "73.7432"
+      },
+      "budget_metrics": {
+        "base_meal_cost": 200,
+        "seasonal_surge_factor": 1.3,
+        "traffic_delay_weight": 1.4
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Village-Theme",
+          "Wood-Fired",
+          "Smoky",
+          "Earthy"
+        ],
+        "taste_profile": "Extremely Spicy",
+        "sentiment_score": 4.9,
+        "best_suited_for": [
+          "Spicy-Lovers",
+          "Adventure-Eaters",
+          "Nature-Seekers"
+        ],
+        "description_ai": "Famous for Misal cooked on traditional wood-fire (Chulivarchi), giving it a distinct smoky flavor."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mumbai_03-2016_30_Gateway_of_India.jpg/500px-Mumbai_03-2016_30_Gateway_of_India.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Village-Theme", "Wood-Fired", "Smoky", "Earthy"],
-      "taste_profile": "Extremely Spicy",
-      "sentiment_score": 4.9,
-      "best_suited_for": ["Spicy-Lovers", "Adventure-Eaters", "Nature-Seekers"],
-      "description_ai": "Famous for Misal cooked on traditional wood-fire (Chulivarchi), giving it a distinct smoky flavor."
-    }
-  },
-  {
-    "id": "MAH-32",
-    "name": "Ram-Bandhu",
-    "city": "Nashik",
-    "category": "Legendary Dining",
-    "coordinates": { "latitude": "19.9975", "longitude": "73.7898" },
-    "budget_metrics": {
-      "base_meal_cost": 150,
-      "seasonal_surge_factor": 1.10,
-      "traffic_delay_weight": 1.60
+    {
+      "id": "MAH-32",
+      "name": "Ram-Bandhu",
+      "city": "Nashik",
+      "category": "Legendary Dining",
+      "coordinates": {
+        "latitude": "19.9975",
+        "longitude": "73.7898"
+      },
+      "budget_metrics": {
+        "base_meal_cost": 150,
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 1.6
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Local-Staple",
+          "Quick-Bite",
+          "Tradition",
+          "Consistent"
+        ],
+        "taste_profile": "Spicy",
+        "sentiment_score": 4.5,
+        "best_suited_for": [
+          "Students",
+          "Solo-Travelers",
+          "Spicy-Lovers"
+        ],
+        "description_ai": "A Nashik household name, famous for its pre-packaged spices and local snack outlets."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mumbai_03-2016_30_Gateway_of_India.jpg/500px-Mumbai_03-2016_30_Gateway_of_India.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Local-Staple", "Quick-Bite", "Tradition", "Consistent"],
-      "taste_profile": "Spicy",
-      "sentiment_score": 4.5,
-      "best_suited_for": ["Students", "Solo-Travelers", "Spicy-Lovers"],
-      "description_ai": "A Nashik household name, famous for its pre-packaged spices and local snack outlets."
-    }
-  },
-  {
-    "id": "MAH-33",
-    "name": "Haldiram’s (Original)",
-    "city": "Nagpur",
-    "category": "Legendary Dining",
-    "coordinates": { "latitude": "21.1458", "longitude": "79.0882" },
-    "budget_metrics": {
-      "base_meal_cost": 300,
-      "seasonal_surge_factor": 1.15,
-      "traffic_delay_weight": 1.80
+    {
+      "id": "MAH-33",
+      "name": "Haldiram’s (Original)",
+      "city": "Nagpur",
+      "category": "Legendary Dining",
+      "coordinates": {
+        "latitude": "21.1458",
+        "longitude": "79.0882"
+      },
+      "budget_metrics": {
+        "base_meal_cost": 300,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.8
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Clean",
+          "Family-Favorite",
+          "Extensive-Menu",
+          "Trusted"
+        ],
+        "taste_profile": "Medium & Sweet",
+        "sentiment_score": 4.7,
+        "best_suited_for": [
+          "Families",
+          "Kids",
+          "Sweet-Toothed"
+        ],
+        "description_ai": "The original branch of the global chain, serving the best of Nagpur's street snacks and sweets."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mumbai_03-2016_30_Gateway_of_India.jpg/500px-Mumbai_03-2016_30_Gateway_of_India.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Clean", "Family-Favorite", "Extensive-Menu", "Trusted"],
-      "taste_profile": "Medium & Sweet",
-      "sentiment_score": 4.7,
-      "best_suited_for": ["Families", "Kids", "Sweet-Toothed"],
-      "description_ai": "The original branch of the global chain, serving the best of Nagpur's street snacks and sweets."
-    }
-  },
-  {
-    "id": "MAH-34",
-    "name": "Santosh Dhaba",
-    "city": "Nagpur (Airport Road)",
-    "category": "Legendary Dining",
-    "coordinates": { "latitude": "21.0822", "longitude": "79.0666" },
-    "budget_metrics": {
-      "base_meal_cost": 450,
-      "seasonal_surge_factor": 1.10,
-      "traffic_delay_weight": 1.30
+    {
+      "id": "MAH-34",
+      "name": "Santosh Dhaba",
+      "city": "Nagpur (Airport Road)",
+      "category": "Legendary Dining",
+      "coordinates": {
+        "latitude": "21.0822",
+        "longitude": "79.0666"
+      },
+      "budget_metrics": {
+        "base_meal_cost": 450,
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 1.3
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Rustic",
+          "Highway-Style",
+          "Generous-Portions",
+          "Simple"
+        ],
+        "taste_profile": "Spicy & Rich",
+        "sentiment_score": 4.4,
+        "best_suited_for": [
+          "Groups",
+          "Late-Night-Eaters",
+          "Spicy-Lovers"
+        ],
+        "description_ai": "A popular local spot known for its authentic Saoji-style rich and spicy gravies."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Santosh_Shoban.jpg/500px-Santosh_Shoban.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Rustic", "Highway-Style", "Generous-Portions", "Simple"],
-      "taste_profile": "Spicy & Rich",
-      "sentiment_score": 4.4,
-      "best_suited_for": ["Groups", "Late-Night-Eaters", "Spicy-Lovers"],
-      "description_ai": "A popular local spot known for its authentic Saoji-style rich and spicy gravies."
-    }
-  },
-  
-  {
-    "id": "MAH-35",
-    "name": "Ramashray",
-    "city": "Mumbai (Matunga)",
-    "category": "Legendary Dining",
-    "coordinates": { "latitude": "19.0279", "longitude": "72.8512" },
-    "budget_metrics": {
-      "base_meal_cost": 300,
-      "seasonal_surge_factor": 1.10,
-      "traffic_delay_weight": 1.90
+    {
+      "id": "MAH-35",
+      "name": "Ramashray",
+      "city": "Mumbai (Matunga)",
+      "category": "Legendary Dining",
+      "coordinates": {
+        "latitude": "19.0279",
+        "longitude": "72.8512"
+      },
+      "budget_metrics": {
+        "base_meal_cost": 300,
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 1.9
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Iconic",
+          "Breakfast-Spot",
+          "Quick-Service",
+          "Authentic"
+        ],
+        "taste_profile": "Medium & South-Indian",
+        "sentiment_score": 4.8,
+        "best_suited_for": [
+          "Foodies",
+          "Medium-Spice-Palates",
+          "Early-Birds"
+        ],
+        "description_ai": "A cultural landmark in Matunga famous for its authentic South Indian breakfast and filter coffee."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mumbai_03-2016_30_Gateway_of_India.jpg/500px-Mumbai_03-2016_30_Gateway_of_India.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Iconic", "Breakfast-Spot", "Quick-Service", "Authentic"],
-      "taste_profile": "Medium & South-Indian",
-      "sentiment_score": 4.8,
-      "best_suited_for": ["Foodies", "Medium-Spice-Palates", "Early-Birds"],
-      "description_ai": "A cultural landmark in Matunga famous for its authentic South Indian breakfast and filter coffee."
-    }
-  },
-  {
-    "id": "MAH-36",
-    "name": "Leopold Cafe",
-    "city": "Mumbai (Colaba)",
-    "category": "Legendary Dining",
-    "coordinates": { "latitude": "18.9232", "longitude": "72.8315" },
-    "budget_metrics": {
-      "base_meal_cost": 1200,
-      "seasonal_surge_factor": 1.20,
-      "traffic_delay_weight": 2.20
+    {
+      "id": "MAH-36",
+      "name": "Leopold Cafe",
+      "city": "Mumbai (Colaba)",
+      "category": "Legendary Dining",
+      "coordinates": {
+        "latitude": "18.9232",
+        "longitude": "72.8315"
+      },
+      "budget_metrics": {
+        "base_meal_cost": 1200,
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 2.2
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Historic",
+          "Bustling",
+          "Global-Vibe",
+          "Classic"
+        ],
+        "taste_profile": "Medium",
+        "sentiment_score": 4.7,
+        "best_suited_for": [
+          "Tourists",
+          "Friends",
+          "History Buffs"
+        ],
+        "description_ai": "An iconic 19th-century cafe on Colaba Causeway, known for its lively international atmosphere."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/LeopoldCafe_gobeirne.jpg/500px-LeopoldCafe_gobeirne.jpg",
+      "food_details": {
+        "famous_food": [
+          "Continental",
+          "Sizzlers"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Leopold Cafe (itself)"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Historic", "Bustling", "Global-Vibe", "Classic"],
-      "taste_profile": "Medium",
-      "sentiment_score": 4.7,
-      "best_suited_for": ["Tourists", "Friends", "History Buffs"],
-      "description_ai": "An iconic 19th-century cafe on Colaba Causeway, known for its lively international atmosphere."
-    }
-  },
-  {
-    "id": "MAH-37",
-    "name": "Britannia & Co.",
-    "city": "Mumbai (Fort)",
-    "category": "Legendary Dining",
-    "coordinates": { "latitude": "18.9372", "longitude": "72.8385" },
-    "budget_metrics": {
-      "base_meal_cost": 1500,
-      "seasonal_surge_factor": 1.15,
-      "traffic_delay_weight": 1.80
+    {
+      "id": "MAH-37",
+      "name": "Britannia & Co.",
+      "city": "Mumbai (Fort)",
+      "category": "Legendary Dining",
+      "coordinates": {
+        "latitude": "18.9372",
+        "longitude": "72.8385"
+      },
+      "budget_metrics": {
+        "base_meal_cost": 1500,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.8
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Parsi-Heritage",
+          "Berry-Pulav",
+          "Vintage",
+          "Elegant"
+        ],
+        "taste_profile": "Sweet & Tangy",
+        "sentiment_score": 4.9,
+        "best_suited_for": [
+          "Families",
+          "Culinary-Tourists",
+          "History Lovers"
+        ],
+        "description_ai": "A world-renowned Parsi institution famous for its Berry Pulav and colonial-era charm."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Bacup_Coconut_Dancers_%2865105358%29.jpg/500px-Bacup_Coconut_Dancers_%2865105358%29.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Parsi-Heritage", "Berry-Pulav", "Vintage", "Elegant"],
-      "taste_profile": "Sweet & Tangy",
-      "sentiment_score": 4.9,
-      "best_suited_for": ["Families", "Culinary-Tourists", "History Lovers"],
-      "description_ai": "A world-renowned Parsi institution famous for its Berry Pulav and colonial-era charm."
-    }
-  },
-  {
-    "id": "MAH-38",
-    "name": "Bademiya",
-    "city": "Mumbai (Colaba)",
-    "category": "Legendary Dining",
-    "coordinates": { "latitude": "18.9221", "longitude": "72.8329" },
-    "budget_metrics": {
-      "base_meal_cost": 800,
-      "seasonal_surge_factor": 1.30,
-      "traffic_delay_weight": 2.30
+    {
+      "id": "MAH-38",
+      "name": "Bademiya",
+      "city": "Mumbai (Colaba)",
+      "category": "Legendary Dining",
+      "coordinates": {
+        "latitude": "18.9221",
+        "longitude": "72.8329"
+      },
+      "budget_metrics": {
+        "base_meal_cost": 800,
+        "seasonal_surge_factor": 1.3,
+        "traffic_delay_weight": 2.3
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Gourmet-Street",
+          "Late-Night",
+          "Kebabs",
+          "Bustling"
+        ],
+        "taste_profile": "Spicy & Smokey",
+        "sentiment_score": 4.5,
+        "best_suited_for": [
+          "Meat-Lovers",
+          "Late-Night-Eaters",
+          "Spicy-Lovers"
+        ],
+        "description_ai": "Mumbai's most famous open-air kebab joint, thriving well into the midnight hours."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Bademiya_restaurant%2C_Mumbai.jpg/500px-Bademiya_restaurant%2C_Mumbai.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Gourmet-Street", "Late-Night", "Kebabs", "Bustling"],
-      "taste_profile": "Spicy & Smokey",
-      "sentiment_score": 4.5,
-      "best_suited_for": ["Meat-Lovers", "Late-Night-Eaters", "Spicy-Lovers"],
-      "description_ai": "Mumbai's most famous open-air kebab joint, thriving well into the midnight hours."
-    }
-  },
-  {
-    "id": "MAH-39",
-    "name": "Kyani & Co.",
-    "city": "Mumbai (Marine Lines)",
-    "category": "Legendary Dining",
-    "coordinates": { "latitude": "18.9439", "longitude": "72.8286" },
-    "budget_metrics": {
-      "base_meal_cost": 400,
-      "seasonal_surge_factor": 1.10,
-      "traffic_delay_weight": 2.10
+    {
+      "id": "MAH-39",
+      "name": "Kyani & Co.",
+      "city": "Mumbai (Marine Lines)",
+      "category": "Legendary Dining",
+      "coordinates": {
+        "latitude": "18.9439",
+        "longitude": "72.8286"
+      },
+      "budget_metrics": {
+        "base_meal_cost": 400,
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 2.1
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Irani-Heritage",
+          "Nostalgic",
+          "Budget-Friendly",
+          "Aesthetic"
+        ],
+        "taste_profile": "Sweet & Mild",
+        "sentiment_score": 4.7,
+        "best_suited_for": [
+          "Solo Travelers",
+          "Students",
+          "History Lovers"
+        ],
+        "description_ai": "One of the oldest Parsi/Irani cafes in Mumbai, famous for its Bun Maska and Mawa cakes."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Kyanite_crystals.jpg/500px-Kyanite_crystals.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Irani-Heritage", "Nostalgic", "Budget-Friendly", "Aesthetic"],
-      "taste_profile": "Sweet & Mild",
-      "sentiment_score": 4.7,
-      "best_suited_for": ["Solo Travelers", "Students", "History Lovers"],
-      "description_ai": "One of the oldest Parsi/Irani cafes in Mumbai, famous for its Bun Maska and Mawa cakes."
-    }
-  },
-  {
-    "id": "MAH-40",
-    "name": "Bagdadi",
-    "city": "Mumbai (Colaba)",
-    "category": "Legendary Dining",
-    "coordinates": { "latitude": "18.9234", "longitude": "72.8327" },
-    "budget_metrics": {
-      "base_meal_cost": 500,
-      "seasonal_surge_factor": 1.10,
-      "traffic_delay_weight": 2.10
+    {
+      "id": "MAH-40",
+      "name": "Bagdadi",
+      "city": "Mumbai (Colaba)",
+      "category": "Legendary Dining",
+      "coordinates": {
+        "latitude": "18.9234",
+        "longitude": "72.8327"
+      },
+      "budget_metrics": {
+        "base_meal_cost": 500,
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 2.1
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Mughlai",
+          "Old-School",
+          "Budget-Dining",
+          "Large-Portions"
+        ],
+        "taste_profile": "Spicy & Rich",
+        "sentiment_score": 4.4,
+        "best_suited_for": [
+          "Groups",
+          "Budget-Travelers",
+          "Spicy-Lovers"
+        ],
+        "description_ai": "A historic no-frills restaurant known for its massive rotis and rich Mughlai gravies."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Bagdah_in_North_24_Parganas_%28West_Bengal%29.svg/500px-Bagdah_in_North_24_Parganas_%28West_Bengal%29.svg.png",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Mughlai", "Old-School", "Budget-Dining", "Large-Portions"],
-      "taste_profile": "Spicy & Rich",
-      "sentiment_score": 4.4,
-      "best_suited_for": ["Groups", "Budget-Travelers", "Spicy-Lovers"],
-      "description_ai": "A historic no-frills restaurant known for its massive rotis and rich Mughlai gravies."
-    }
-  },
-  {
-    "id": "MAH-41",
-    "name": "Cafe Mondegar",
-    "city": "Mumbai (Colaba)",
-    "category": "Legendary Dining",
-    "coordinates": { "latitude": "18.9242", "longitude": "72.8328" },
-    "budget_metrics": {
-      "base_meal_cost": 1000,
-      "seasonal_surge_factor": 1.25,
-      "traffic_delay_weight": 2.20
+    {
+      "id": "MAH-41",
+      "name": "Cafe Mondegar",
+      "city": "Mumbai (Colaba)",
+      "category": "Legendary Dining",
+      "coordinates": {
+        "latitude": "18.9242",
+        "longitude": "72.8328"
+      },
+      "budget_metrics": {
+        "base_meal_cost": 1000,
+        "seasonal_surge_factor": 1.25,
+        "traffic_delay_weight": 2.2
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Art-Wall",
+          "Jukebox",
+          "Retro",
+          "Lively"
+        ],
+        "taste_profile": "Medium",
+        "sentiment_score": 4.6,
+        "best_suited_for": [
+          "Friends",
+          "Music Lovers",
+          "Medium-Spice-Palates"
+        ],
+        "description_ai": "Iconic cafe known for Mario Miranda murals and its vintage jukebox atmosphere."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Cafe_Mondegar_Logo.JPG/500px-Cafe_Mondegar_Logo.JPG",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Art-Wall", "Jukebox", "Retro", "Lively"],
-      "taste_profile": "Medium",
-      "sentiment_score": 4.6,
-      "best_suited_for": ["Friends", "Music Lovers", "Medium-Spice-Palates"],
-      "description_ai": "Iconic cafe known for Mario Miranda murals and its vintage jukebox atmosphere."
-    }
-  },
-  {
-    "id": "MAH-42",
-    "name": "Amar Juice Centre",
-    "city": "Mumbai (Vile Parle)",
-    "category": "Legendary Dining",
-    "coordinates": { "latitude": "19.1065", "longitude": "72.8361" },
-    "budget_metrics": {
-      "base_meal_cost": 450,
-      "seasonal_surge_factor": 1.15,
-      "traffic_delay_weight": 2.00
+    {
+      "id": "MAH-42",
+      "name": "Amar Juice Centre",
+      "city": "Mumbai (Vile Parle)",
+      "category": "Legendary Dining",
+      "coordinates": {
+        "latitude": "19.1065",
+        "longitude": "72.8361"
+      },
+      "budget_metrics": {
+        "base_meal_cost": 450,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 2
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Late-Night",
+          "Pav-Bhaji",
+          "Bustling",
+          "Quick-Service"
+        ],
+        "taste_profile": "Spicy & Buttery",
+        "sentiment_score": 4.5,
+        "best_suited_for": [
+          "Late-Night-Eaters",
+          "Students",
+          "Spicy-Lovers"
+        ],
+        "description_ai": "A late-night staple in Juhu/Vile Parle, renowned for its buttery Pav Bhaji and fresh juices."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mumbai_03-2016_30_Gateway_of_India.jpg/500px-Mumbai_03-2016_30_Gateway_of_India.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Late-Night", "Pav-Bhaji", "Bustling", "Quick-Service"],
-      "taste_profile": "Spicy & Buttery",
-      "sentiment_score": 4.5,
-      "best_suited_for": ["Late-Night-Eaters", "Students", "Spicy-Lovers"],
-      "description_ai": "A late-night staple in Juhu/Vile Parle, renowned for its buttery Pav Bhaji and fresh juices."
-    }
-  },
-  {
-    "id": "MAH-43",
-    "name": "Sardar Pav Bhaji",
-    "city": "Mumbai (Tardeo)",
-    "category": "Legendary Dining",
-    "coordinates": { "latitude": "18.9681", "longitude": "72.8153" },
-    "budget_metrics": {
-      "base_meal_cost": 400,
-      "seasonal_surge_factor": 1.10,
-      "traffic_delay_weight": 2.40
+    {
+      "id": "MAH-43",
+      "name": "Sardar Pav Bhaji",
+      "city": "Mumbai (Tardeo)",
+      "category": "Legendary Dining",
+      "coordinates": {
+        "latitude": "18.9681",
+        "longitude": "72.8153"
+      },
+      "budget_metrics": {
+        "base_meal_cost": 400,
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 2.4
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Iconic",
+          "Buttery",
+          "Crowded",
+          "Quick-Bite"
+        ],
+        "taste_profile": "Spicy",
+        "sentiment_score": 4.6,
+        "best_suited_for": [
+          "Street-Food-Fans",
+          "Spicy-Lovers",
+          "Quick-Snackers"
+        ],
+        "description_ai": "World-famous for its Amul-butter laden Pav Bhaji; a must-visit for street food enthusiasts."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mumbai_03-2016_30_Gateway_of_India.jpg/500px-Mumbai_03-2016_30_Gateway_of_India.jpg",
+      "food_details": {
+        "famous_food": [
+          "Pav Bhaji"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Sardar Refreshments"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Iconic", "Buttery", "Crowded", "Quick-Bite"],
-      "taste_profile": "Spicy",
-      "sentiment_score": 4.6,
-      "best_suited_for": ["Street-Food-Fans", "Spicy-Lovers", "Quick-Snackers"],
-      "description_ai": "World-famous for its Amul-butter laden Pav Bhaji; a must-visit for street food enthusiasts."
-    }
-  },
-
-  {
-    "id": "MAH-44",
-    "name": "R-City Mall",
-    "city": "Mumbai (Ghatkopar)",
-    "category": "Malls",
-    "coordinates": { "latitude": "19.0994", "longitude": "72.9163" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 5000,
-      "base_travel_cost": 600,
-      "seasonal_surge_factor": 1.30,
-      "traffic_delay_weight": 2.40
+    {
+      "id": "MAH-44",
+      "name": "R-City Mall",
+      "city": "Mumbai (Ghatkopar)",
+      "category": "Malls",
+      "coordinates": {
+        "latitude": "19.0994",
+        "longitude": "72.9163"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 600,
+        "seasonal_surge_factor": 1.3,
+        "traffic_delay_weight": 2.4
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Sprawling",
+          "Entertainment-Hub",
+          "Vibrant",
+          "Modern"
+        ],
+        "sentiment_score": 4.6,
+        "best_suited_for": [
+          "Families",
+          "Bargain Hunters",
+          "Movie Goers"
+        ],
+        "description_ai": "One of Mumbai's largest malls featuring over 300 brands, extensive dining options, and multiple entertainment zones."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/R_City_Mall_Ghatkopar.jpg/500px-R_City_Mall_Ghatkopar.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Sprawling", "Entertainment-Hub", "Vibrant", "Modern"],
-      "sentiment_score": 4.6,
-      "best_suited_for": ["Families", "Bargain Hunters", "Movie Goers"],
-      "description_ai": "One of Mumbai's largest malls featuring over 300 brands, extensive dining options, and multiple entertainment zones."
-    }
-  },
-  {
-    "id": "MAH-45",
-    "name": "Phoenix Marketcity (Kurla)",
-    "city": "Mumbai (Kurla)",
-    "category": "Malls",
-    "coordinates": { "latitude": "19.0884", "longitude": "72.8822" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 5500,
-      "base_travel_cost": 700,
-      "seasonal_surge_factor": 1.35,
-      "traffic_delay_weight": 2.50
+    {
+      "id": "MAH-45",
+      "name": "Phoenix Marketcity (Kurla)",
+      "city": "Mumbai (Kurla)",
+      "category": "Malls",
+      "coordinates": {
+        "latitude": "19.0884",
+        "longitude": "72.8822"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5500,
+        "base_travel_cost": 700,
+        "seasonal_surge_factor": 1.35,
+        "traffic_delay_weight": 2.5
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Massive",
+          "Premium-Retail",
+          "Bustling",
+          "Indoor-Activities"
+        ],
+        "sentiment_score": 4.5,
+        "best_suited_for": [
+          "Luxury Shoppers",
+          "Groups",
+          "Families"
+        ],
+        "description_ai": "A massive shopping destination in North Mumbai known for its vast international brand portfolio and massive food court."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mumbai_03-2016_30_Gateway_of_India.jpg/500px-Mumbai_03-2016_30_Gateway_of_India.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Massive", "Premium-Retail", "Bustling", "Indoor-Activities"],
-      "sentiment_score": 4.5,
-      "best_suited_for": ["Luxury Shoppers", "Groups", "Families"],
-      "description_ai": "A massive shopping destination in North Mumbai known for its vast international brand portfolio and massive food court."
-    }
-  },
-  {
-    "id": "MAH-46",
-    "name": "Phoenix Marketcity (Pune)",
-    "city": "Pune (Viman Nagar)",
-    "category": "Malls",
-    "coordinates": { "latitude": "18.5622", "longitude": "73.9167" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 4500,
-      "base_travel_cost": 500,
-      "seasonal_surge_factor": 1.40,
-      "traffic_delay_weight": 2.20
+    {
+      "id": "MAH-46",
+      "name": "Phoenix Marketcity (Pune)",
+      "city": "Pune (Viman Nagar)",
+      "category": "Malls",
+      "coordinates": {
+        "latitude": "18.5622",
+        "longitude": "73.9167"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4500,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 1.4,
+        "traffic_delay_weight": 2.2
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Upscale",
+          "Youth-Hub",
+          "Vibrant",
+          "Dining-Plaza"
+        ],
+        "sentiment_score": 4.7,
+        "best_suited_for": [
+          "Students",
+          "Families",
+          "Fashionistas"
+        ],
+        "description_ai": "The premier lifestyle and shopping destination in Pune, featuring a mix of luxury and high-street brands."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Phoenix_Marketcity_in_Viman_Nagar%2C_Pune.jpg/500px-Phoenix_Marketcity_in_Viman_Nagar%2C_Pune.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Upscale", "Youth-Hub", "Vibrant", "Dining-Plaza"],
-      "sentiment_score": 4.7,
-      "best_suited_for": ["Students", "Families", "Fashionistas"],
-      "description_ai": "The premier lifestyle and shopping destination in Pune, featuring a mix of luxury and high-street brands."
-    }
-  },
-  {
-    "id": "MAH-47",
-    "name": "High Street Phoenix",
-    "city": "Mumbai (Lower Parel)",
-    "category": "Malls",
-    "coordinates": { "latitude": "18.9941", "longitude": "72.8242" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 8000,
-      "base_travel_cost": 400,
-      "seasonal_surge_factor": 1.25,
-      "traffic_delay_weight": 2.60
+    {
+      "id": "MAH-47",
+      "name": "High Street Phoenix",
+      "city": "Mumbai (Lower Parel)",
+      "category": "Malls",
+      "coordinates": {
+        "latitude": "18.9941",
+        "longitude": "72.8242"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 8000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.25,
+        "traffic_delay_weight": 2.6
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Posh",
+          "Mill-Land-Heritage",
+          "Luxury",
+          "Trendy"
+        ],
+        "sentiment_score": 4.8,
+        "best_suited_for": [
+          "High-End Shoppers",
+          "Couples",
+          "Architecture Lovers"
+        ],
+        "description_ai": "A luxury shopping precinct located in a converted textile mill area, housing the ultra-premium Palladium mall."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Lower_Parel_Phoenix_Palladium.jpg/500px-Lower_Parel_Phoenix_Palladium.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Posh", "Mill-Land-Heritage", "Luxury", "Trendy"],
-      "sentiment_score": 4.8,
-      "best_suited_for": ["High-End Shoppers", "Couples", "Architecture Lovers"],
-      "description_ai": "A luxury shopping precinct located in a converted textile mill area, housing the ultra-premium Palladium mall."
-    }
-  },
-  {
-    "id": "MAH-48",
-    "name": "Inorbit Mall",
-    "city": "Mumbai (Malad)",
-    "category": "Malls",
-    "coordinates": { "latitude": "19.1731", "longitude": "72.8360" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 4500,
-      "base_travel_cost": 500,
-      "seasonal_surge_factor": 1.20,
-      "traffic_delay_weight": 2.30
+    {
+      "id": "MAH-48",
+      "name": "Inorbit Mall",
+      "city": "Mumbai (Malad)",
+      "category": "Malls",
+      "coordinates": {
+        "latitude": "19.1731",
+        "longitude": "72.8360"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4500,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 2.3
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Suburban-Favorite",
+          "Organized",
+          "Cozy",
+          "Reliable"
+        ],
+        "sentiment_score": 4.5,
+        "best_suited_for": [
+          "Local Families",
+          "Students",
+          "Casual Shoppers"
+        ],
+        "description_ai": "A well-planned suburban mall in Malad west known for its great selection of mid-range brands and convenient layout."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/en/e/ee/Inorbit_Mall_Logo.gif",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Suburban-Favorite", "Organized", "Cozy", "Reliable"],
-      "sentiment_score": 4.5,
-      "best_suited_for": ["Local Families", "Students", "Casual Shoppers"],
-      "description_ai": "A well-planned suburban mall in Malad west known for its great selection of mid-range brands and convenient layout."
-    }
-  },
-  
-  {
-    "id": "MAH-49",
-    "name": "Colaba Causeway",
-    "city": "Mumbai",
-    "category": "Street Shopping",
-    "coordinates": { "latitude": "18.9215", "longitude": "72.8322" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 7000,
-      "base_travel_cost": 400,
-      "seasonal_surge_factor": 1.30,
-      "traffic_delay_weight": 2.20
+    {
+      "id": "MAH-49",
+      "name": "Colaba Causeway",
+      "city": "Mumbai",
+      "category": "Street Shopping",
+      "coordinates": {
+        "latitude": "18.9215",
+        "longitude": "72.8322"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 7000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.3,
+        "traffic_delay_weight": 2.2
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Street-Shopping",
+          "Vibrant",
+          "Tourist-Hub",
+          "Antiques",
+          "Bargaining"
+        ],
+        "sentiment_score": 4.8,
+        "best_suited_for": [
+          "Bargain Hunters",
+          "Foreign Tourists",
+          "Students"
+        ],
+        "description_ai": "The 'Culture Square' of Mumbai, offering everything from high-end boutiques to street stalls selling jewelry and artifacts."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mumbai_03-2016_30_Gateway_of_India.jpg/500px-Mumbai_03-2016_30_Gateway_of_India.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Street-Shopping", "Vibrant", "Tourist-Hub", "Antiques", "Bargaining"],
-      "sentiment_score": 4.8,
-      "best_suited_for": ["Bargain Hunters", "Foreign Tourists", "Students"],
-      "description_ai": "The 'Culture Square' of Mumbai, offering everything from high-end boutiques to street stalls selling jewelry and artifacts."
-    }
-  },
-  {
-    "id": "MAH-50",
-    "name": "Hill Road",
-    "city": "Mumbai (Bandra)",
-    "category": "Street Shopping",
-    "coordinates": { "latitude": "19.0526", "longitude": "72.8285" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 6500,
-      "base_travel_cost": 500,
-      "seasonal_surge_factor": 1.40,
-      "traffic_delay_weight": 2.50
+    {
+      "id": "MAH-50",
+      "name": "Hill Road",
+      "city": "Mumbai (Bandra)",
+      "category": "Street Shopping",
+      "coordinates": {
+        "latitude": "19.0526",
+        "longitude": "72.8285"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 6500,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 1.4,
+        "traffic_delay_weight": 2.5
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Trendy-Fashion",
+          "Street-Style",
+          "Bustling",
+          "Youthful"
+        ],
+        "sentiment_score": 4.7,
+        "best_suited_for": [
+          "Fashionistas",
+          "College Students",
+          "Budget Shoppers"
+        ],
+        "description_ai": "A shopping paradise in Bandra known for trendy footwear, accessories, and the latest street fashion at affordable prices."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mumbai_03-2016_30_Gateway_of_India.jpg/500px-Mumbai_03-2016_30_Gateway_of_India.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Trendy-Fashion", "Street-Style", "Bustling", "Youthful"],
-      "sentiment_score": 4.7,
-      "best_suited_for": ["Fashionistas", "College Students", "Budget Shoppers"],
-      "description_ai": "A shopping paradise in Bandra known for trendy footwear, accessories, and the latest street fashion at affordable prices."
-    }
-  },
-  {
-    "id": "MAH-51",
-    "name": "Linking Road",
-    "city": "Mumbai (Bandra)",
-    "category": "Street Shopping",
-    "coordinates": { "latitude": "19.0583", "longitude": "72.8347" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 6500,
-      "base_travel_cost": 500,
-      "seasonal_surge_factor": 1.40,
-      "traffic_delay_weight": 2.60
+    {
+      "id": "MAH-51",
+      "name": "Linking Road",
+      "city": "Mumbai (Bandra)",
+      "category": "Street Shopping",
+      "coordinates": {
+        "latitude": "19.0583",
+        "longitude": "72.8347"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 6500,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 1.4,
+        "traffic_delay_weight": 2.6
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Mixed-Retail",
+          "Footwear-Paradise",
+          "Busy",
+          "Eclectic"
+        ],
+        "sentiment_score": 4.6,
+        "best_suited_for": [
+          "Bargain Hunters",
+          "Families",
+          "Friends"
+        ],
+        "description_ai": "A unique blend of luxury brand showrooms and traditional street stalls, most famous for its vast collection of shoes and handbags."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Mumbai_belt_shop.jpg/500px-Mumbai_belt_shop.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Mixed-Retail", "Footwear-Paradise", "Busy", "Eclectic"],
-      "sentiment_score": 4.6,
-      "best_suited_for": ["Bargain Hunters", "Families", "Friends"],
-      "description_ai": "A unique blend of luxury brand showrooms and traditional street stalls, most famous for its vast collection of shoes and handbags."
-    }
-  },
-  {
-    "id": "MAH-52",
-    "name": "Fashion Street",
-    "city": "Mumbai (South)",
-    "category": "Street Shopping",
-    "coordinates": { "latitude": "18.9392", "longitude": "72.8298" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 5000,
-      "base_travel_cost": 300,
-      "seasonal_surge_factor": 1.15,
-      "traffic_delay_weight": 2.10
+    {
+      "id": "MAH-52",
+      "name": "Fashion Street",
+      "city": "Mumbai (South)",
+      "category": "Street Shopping",
+      "coordinates": {
+        "latitude": "18.9392",
+        "longitude": "72.8298"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 2.1
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Export-Surplus",
+          "Cheap-Eats",
+          "Bargaining",
+          "Lively"
+        ],
+        "sentiment_score": 4.3,
+        "best_suited_for": [
+          "Students",
+          "Budget Shoppers",
+          "Solo Travelers"
+        ],
+        "description_ai": "A long cluster of over 150 stalls near Cross Maidan offering export-surplus clothing and trendy apparel at throwaway prices."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Fs1.jpg/500px-Fs1.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Export-Surplus", "Cheap-Eats", "Bargaining", "Lively"],
-      "sentiment_score": 4.3,
-      "best_suited_for": ["Students", "Budget Shoppers", "Solo Travelers"],
-      "description_ai": "A long cluster of over 150 stalls near Cross Maidan offering export-surplus clothing and trendy apparel at throwaway prices."
-    }
-  },
-  {
-    "id": "MAH-53",
-    "name": "Tulsi Baug",
-    "city": "Pune",
-    "category": "Traditional Shopping",
-    "coordinates": { "latitude": "18.5152", "longitude": "73.8543" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 2500,
-      "base_travel_cost": 300,
-      "seasonal_surge_factor": 1.25,
-      "traffic_delay_weight": 2.30
+    {
+      "id": "MAH-53",
+      "name": "Tulsi Baug",
+      "city": "Pune",
+      "category": "Traditional Shopping",
+      "coordinates": {
+        "latitude": "18.5152",
+        "longitude": "73.8543"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2500,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.25,
+        "traffic_delay_weight": 2.3
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Kitchenware",
+          "Traditional",
+          "Crowded",
+          "Authentic-Pune"
+        ],
+        "sentiment_score": 4.5,
+        "best_suited_for": [
+          "Families",
+          "Local Shoppers",
+          "History Seekers"
+        ],
+        "description_ai": "A historic market in the heart of Pune's old city, famous for copper-brass items, household goods, and traditional clothing."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mumbai_03-2016_30_Gateway_of_India.jpg/500px-Mumbai_03-2016_30_Gateway_of_India.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Kitchenware", "Traditional", "Crowded", "Authentic-Pune"],
-      "sentiment_score": 4.5,
-      "best_suited_for": ["Families", "Local Shoppers", "History Seekers"],
-      "description_ai": "A historic market in the heart of Pune's old city, famous for copper-brass items, household goods, and traditional clothing."
-    }
-  },
-  {
-    "id": "MAH-54",
-    "name": "Laxmi Road",
-    "city": "Pune",
-    "category": "Traditional Shopping",
-    "coordinates": { "latitude": "18.5144", "longitude": "73.8560" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 2500,
-      "base_travel_cost": 300,
-      "seasonal_surge_factor": 1.25,
-      "traffic_delay_weight": 2.40
+    {
+      "id": "MAH-54",
+      "name": "Laxmi Road",
+      "city": "Pune",
+      "category": "Traditional Shopping",
+      "coordinates": {
+        "latitude": "18.5144",
+        "longitude": "73.8560"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2500,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.25,
+        "traffic_delay_weight": 2.4
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Sarees",
+          "Traditional-Jewelry",
+          "Pune-Culture",
+          "Festive",
+          "Bustling"
+        ],
+        "sentiment_score": 4.7,
+        "best_suited_for": [
+          "Wedding Shoppers",
+          "Families",
+          "Culture Seekers"
+        ],
+        "description_ai": "The most famous traditional shopping street in Pune. Known for Paithani sarees and the authentic 'Puneri' shopping experience."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Raai_Laxmi_Official_Photoshoot_10.jpg/500px-Raai_Laxmi_Official_Photoshoot_10.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Sarees", "Traditional-Jewelry", "Pune-Culture", "Festive", "Bustling"],
-      "sentiment_score": 4.7,
-      "best_suited_for": ["Wedding Shoppers", "Families", "Culture Seekers"],
-      "description_ai": "The most famous traditional shopping street in Pune. Known for Paithani sarees and the authentic 'Puneri' shopping experience."
-    }
-  },
-
-  {
-    "id": "MAH-55",
-    "name": "Lonar Meteorite Lake",
-    "city": "Buldhana",
-    "category": "Geological Wonder",
-    "coordinates": { "latitude": "19.9760", "longitude": "76.5072" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 1800,
-      "base_travel_cost": 800,
-      "seasonal_surge_factor": 1.10,
-      "traffic_delay_weight": 1.20
+    {
+      "id": "MAH-55",
+      "name": "Lonar Meteorite Lake",
+      "city": "Buldhana",
+      "category": "Geological Wonder",
+      "coordinates": {
+        "latitude": "19.9760",
+        "longitude": "76.5072"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 1800,
+        "base_travel_cost": 800,
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 1.2
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Trekking",
+          "Science",
+          "Ancient-Temples",
+          "Unique",
+          "Mysterious"
+        ],
+        "sentiment_score": 4.8,
+        "best_suited_for": [
+          "Nature Lovers",
+          "Photographers",
+          "Adventure Seekers"
+        ],
+        "description_ai": "The world's only high-velocity impact crater in basaltic rock. A saline soda lake surrounded by lush forests and ancient ruins."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mumbai_03-2016_30_Gateway_of_India.jpg/500px-Mumbai_03-2016_30_Gateway_of_India.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Trekking", "Science", "Ancient-Temples", "Unique", "Mysterious"],
-      "sentiment_score": 4.8,
-      "best_suited_for": ["Nature Lovers", "Photographers", "Adventure Seekers"],
-      "description_ai": "The world's only high-velocity impact crater in basaltic rock. A saline soda lake surrounded by lush forests and ancient ruins."
-    }
-  },
-  {
-    "id": "MAH-56",
-    "name": "Thoseghar Waterfalls",
-    "city": "Satara",
-    "category": "Nature & Monsoon",
-    "coordinates": { "latitude": "17.5975", "longitude": "73.8475" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 1500,
-      "base_travel_cost": 500,
-      "seasonal_surge_factor": 1.60,
-      "traffic_delay_weight": 1.80
+    {
+      "id": "MAH-56",
+      "name": "Thoseghar Waterfalls",
+      "city": "Satara",
+      "category": "Nature & Monsoon",
+      "coordinates": {
+        "latitude": "17.5975",
+        "longitude": "73.8475"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 1500,
+        "base_travel_cost": 500,
+        "seasonal_surge_factor": 1.6,
+        "traffic_delay_weight": 1.8
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Monsoon-Magic",
+          "Lush-Green",
+          "Picnic",
+          "Refreshing"
+        ],
+        "sentiment_score": 4.5,
+        "best_suited_for": [
+          "Day Trippers",
+          "Nature Enthusiasts",
+          "Families"
+        ],
+        "description_ai": "A series of spectacular waterfalls ranging from 15m to 200m. Best experienced during the heavy Maharashtra monsoons."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/%E0%B2%A4%E0%B3%8B%E0%B2%B6%E0%B3%86%E0%B2%98%E0%B2%B0%E0%B3%8D_%E0%B2%9C%E0%B2%B2%E0%B2%AA%E0%B2%BE%E0%B2%A4.JPG/500px-%E0%B2%A4%E0%B3%8B%E0%B2%B6%E0%B3%86%E0%B2%98%E0%B2%B0%E0%B3%8D_%E0%B2%9C%E0%B2%B2%E0%B2%AA%E0%B2%BE%E0%B2%A4.JPG",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Monsoon-Magic", "Lush-Green", "Picnic", "Refreshing"],
-      "sentiment_score": 4.5,
-      "best_suited_for": ["Day Trippers", "Nature Enthusiasts", "Families"],
-      "description_ai": "A series of spectacular waterfalls ranging from 15m to 200m. Best experienced during the heavy Maharashtra monsoons."
-    }
-  },
-  {
-    "id": "MAH-57",
-    "name": "Sula Vineyards",
-    "city": "Nashik",
-    "category": "Agro-Tourism",
-    "coordinates": { "latitude": "20.0075", "longitude": "73.7142" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 8500,
-      "base_travel_cost": 400,
-      "seasonal_surge_factor": 1.45,
-      "traffic_delay_weight": 1.50
+    {
+      "id": "MAH-57",
+      "name": "Sula Vineyards",
+      "city": "Nashik",
+      "category": "Agro-Tourism",
+      "coordinates": {
+        "latitude": "20.0075",
+        "longitude": "73.7142"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 8500,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.45,
+        "traffic_delay_weight": 1.5
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Wine-Tasting",
+          "Luxury",
+          "Vineyard-Stays",
+          "Sunset-Views"
+        ],
+        "sentiment_score": 4.9,
+        "best_suited_for": [
+          "Couples",
+          "Luxury Travelers",
+          "Friends Groups"
+        ],
+        "description_ai": "India's premier winery offering a sophisticated lifestyle experience with tasting rooms and gourmet dining overlooking the Gangapur Dam."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Sula-Logo.jpg/500px-Sula-Logo.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Wine-Tasting", "Luxury", "Vineyard-Stays", "Sunset-Views"],
-      "sentiment_score": 4.9,
-      "best_suited_for": ["Couples", "Luxury Travelers", "Friends Groups"],
-      "description_ai": "India's premier winery offering a sophisticated lifestyle experience with tasting rooms and gourmet dining overlooking the Gangapur Dam."
-    }
-  },
-  {
-    "id": "MAH-58",
-    "name": "Bhimashankar Temple",
-    "city": "Pune District",
-    "category": "Religious/Wildlife",
-    "coordinates": { "latitude": "19.0721", "longitude": "73.5358" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 1200,
-      "base_travel_cost": 1200,
-      "seasonal_surge_factor": 1.80,
-      "traffic_delay_weight": 2.10
+    {
+      "id": "MAH-58",
+      "name": "Bhimashankar Temple",
+      "city": "Pune District",
+      "category": "Religious/Wildlife",
+      "coordinates": {
+        "latitude": "19.0721",
+        "longitude": "73.5358"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 1200,
+        "base_travel_cost": 1200,
+        "seasonal_surge_factor": 1.8,
+        "traffic_delay_weight": 2.1
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Jyotirlinga",
+          "Spiritual",
+          "Rainforest",
+          "Malabar-Giant-Squirrel"
+        ],
+        "sentiment_score": 4.6,
+        "best_suited_for": [
+          "Pilgrims",
+          "Trekkers",
+          "Wildlife Enthusiasts"
+        ],
+        "description_ai": "A sacred Jyotirlinga shrine set amidst a dense wildlife sanctuary. Famous for Nagara style architecture and biodiversity."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Bhimashankar.jpg",
+      "food_details": {
+        "famous_food": [
+          "Vada Pav",
+          "Misal Pav"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "MTDC Restaurant Bhimashankar"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Jyotirlinga", "Spiritual", "Rainforest", "Malabar-Giant-Squirrel"],
-      "sentiment_score": 4.6,
-      "best_suited_for": ["Pilgrims", "Trekkers", "Wildlife Enthusiasts"],
-      "description_ai": "A sacred Jyotirlinga shrine set amidst a dense wildlife sanctuary. Famous for Nagara style architecture and biodiversity."
-    }
-  },
-  {
-    "id": "MAH-59",
-    "name": "Versova Beach",
-    "city": "Mumbai",
-    "category": "Coastal/Urban",
-    "coordinates": { "latitude": "19.1312", "longitude": "72.8093" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 4500,
-      "base_travel_cost": 600,
-      "seasonal_surge_factor": 1.20,
-      "traffic_delay_weight": 2.90
+    {
+      "id": "MAH-59",
+      "name": "Versova Beach",
+      "city": "Mumbai",
+      "category": "Coastal/Urban",
+      "coordinates": {
+        "latitude": "19.1312",
+        "longitude": "72.8093"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4500,
+        "base_travel_cost": 600,
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 2.9
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Community-Cleanup",
+          "Koli-Culture",
+          "Cafes",
+          "Rock-Bound"
+        ],
+        "sentiment_score": 4.2,
+        "best_suited_for": [
+          "Locals",
+          "Youth",
+          "Social Workers"
+        ],
+        "description_ai": "Known for its massive community-led cleanup success. Offers a mix of local fishing village vibes and trendy urban cafes."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Versova_beach.JPG/500px-Versova_beach.JPG",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Community-Cleanup", "Koli-Culture", "Cafes", "Rock-Bound"],
-      "sentiment_score": 4.2,
-      "best_suited_for": ["Locals", "Youth", "Social Workers"],
-      "description_ai": "Known for its massive community-led cleanup success. Offers a mix of local fishing village vibes and trendy urban cafes."
-    }
-  },
-  {
-    "id": "MAH-60",
-    "name": "Aga Khan Palace",
-    "city": "Pune",
-    "category": "Historical",
-    "coordinates": { "latitude": "18.5524", "longitude": "73.9015" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 3000,
-      "base_travel_cost": 250,
-      "seasonal_surge_factor": 1.15,
-      "traffic_delay_weight": 2.20
+    {
+      "id": "MAH-60",
+      "name": "Aga Khan Palace",
+      "city": "Pune",
+      "category": "Historical",
+      "coordinates": {
+        "latitude": "18.5524",
+        "longitude": "73.9015"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 250,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 2.2
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Gandhi-History",
+          "Architecture",
+          "Peaceful",
+          "Gardens"
+        ],
+        "sentiment_score": 4.7,
+        "best_suited_for": [
+          "History Buffs",
+          "Students",
+          "Architecture Lovers"
+        ],
+        "description_ai": "A majestic building with Italian arches and spacious lawns, serving as a memorial to Mahatma Gandhi's life and struggle."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Pune_Palace.jpg/500px-Pune_Palace.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Gandhi-History", "Architecture", "Peaceful", "Gardens"],
-      "sentiment_score": 4.7,
-      "best_suited_for": ["History Buffs", "Students", "Architecture Lovers"],
-      "description_ai": "A majestic building with Italian arches and spacious lawns, serving as a memorial to Mahatma Gandhi's life and struggle."
-    }
-  },
-  {
-    "id": "MAH-61",
-    "name": "Baramotichi Vihir",
-    "city": "Satara",
-    "category": "Heritage/Architecture",
-    "coordinates": { "latitude": "17.7025", "longitude": "74.1560" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 1000,
-      "base_travel_cost": 600,
-      "seasonal_surge_factor": 1.05,
-      "traffic_delay_weight": 1.10
+    {
+      "id": "MAH-61",
+      "name": "Baramotichi Vihir",
+      "city": "Satara",
+      "category": "Heritage/Architecture",
+      "coordinates": {
+        "latitude": "17.7025",
+        "longitude": "74.1560"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 1000,
+        "base_travel_cost": 600,
+        "seasonal_surge_factor": 1.05,
+        "traffic_delay_weight": 1.1
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Stepwell",
+          "Hidden-Gem",
+          "Medieval-Engineering",
+          "Intricate-Stone"
+        ],
+        "sentiment_score": 4.4,
+        "best_suited_for": [
+          "Offbeat Travelers",
+          "History Students",
+          "Photographers"
+        ],
+        "description_ai": "An octagonal stepwell built in 1646. A marvel of stone carving and ancient water management systems."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mumbai_03-2016_30_Gateway_of_India.jpg/500px-Mumbai_03-2016_30_Gateway_of_India.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Stepwell", "Hidden-Gem", "Medieval-Engineering", "Intricate-Stone"],
-      "sentiment_score": 4.4,
-      "best_suited_for": ["Offbeat Travelers", "History Students", "Photographers"],
-      "description_ai": "An octagonal stepwell built in 1646. A marvel of stone carving and ancient water management systems."
-    }
-  },
-  {
-    "id": "MAH-62",
-    "name": "Ratnagiri Petroglyphs",
-    "city": "Ratnagiri",
-    "category": "Archaeological",
-    "coordinates": { "latitude": "16.9902", "longitude": "73.3120" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 2000,
-      "base_travel_cost": 1500,
-      "seasonal_surge_factor": 1.10,
-      "traffic_delay_weight": 1.30
+    {
+      "id": "MAH-62",
+      "name": "Ratnagiri Petroglyphs",
+      "city": "Ratnagiri",
+      "category": "Archaeological",
+      "coordinates": {
+        "latitude": "16.9902",
+        "longitude": "73.3120"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2000,
+        "base_travel_cost": 1500,
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 1.3
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Prehistoric",
+          "Rock-Art",
+          "Laterite-Plateau",
+          "Ancient-Civilization"
+        ],
+        "sentiment_score": 4.8,
+        "best_suited_for": [
+          "Explorers",
+          "History Enthusiasts",
+          "Academic Researchers"
+        ],
+        "description_ai": "Mysterious rock carvings dating back thousands of years. Spread across the Konkan plateaus, depicting animals and human figures."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mumbai_03-2016_30_Gateway_of_India.jpg/500px-Mumbai_03-2016_30_Gateway_of_India.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-    "ai_metadata": {
-      "vibe_tags": ["Prehistoric", "Rock-Art", "Laterite-Plateau", "Ancient-Civilization"],
-      "sentiment_score": 4.8,
-      "best_suited_for": ["Explorers", "History Enthusiasts", "Academic Researchers"],
-      "description_ai": "Mysterious rock carvings dating back thousands of years. Spread across the Konkan plateaus, depicting animals and human figures."
+    {
+      "id": "MAH-63",
+      "name": "Velas Beach",
+      "city": "Ratnagiri",
+      "category": "Eco-Tourism",
+      "coordinates": {
+        "latitude": "17.9547",
+        "longitude": "73.0245"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 1200,
+        "base_travel_cost": 900,
+        "seasonal_surge_factor": 1.9,
+        "traffic_delay_weight": 1.4
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Olive-Ridley-Turtles",
+          "Homestays",
+          "Village-Life",
+          "Serene"
+        ],
+        "sentiment_score": 4.9,
+        "best_suited_for": [
+          "Nature Lovers",
+          "Eco-Conscious Travelers",
+          "Families"
+        ],
+        "description_ai": "Famous for the annual Turtle Festival. A quiet village where visitors can witness the hatching of Olive Ridley sea turtles."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Mumbai_03-2016_30_Gateway_of_India.jpg/500px-Mumbai_03-2016_30_Gateway_of_India.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     }
-  },
-  {
-    "id": "MAH-63",
-    "name": "Velas Beach",
-    "city": "Ratnagiri",
-    "category": "Eco-Tourism",
-    "coordinates": { "latitude": "17.9547", "longitude": "73.0245" },
-    "budget_metrics": {
-      "base_stay_cost_per_day": 1200,
-      "base_travel_cost": 900,
-      "seasonal_surge_factor": 1.90,
-      "traffic_delay_weight": 1.40
-    },
-    "ai_metadata": {
-      "vibe_tags": ["Olive-Ridley-Turtles", "Homestays", "Village-Life", "Serene"],
-      "sentiment_score": 4.9,
-      "best_suited_for": ["Nature Lovers", "Eco-Conscious Travelers", "Families"],
-      "description_ai": "Famous for the annual Turtle Festival. A quiet village where visitors can witness the hatching of Olive Ridley sea turtles."
-    }
-  }
-]
+  ]
 }

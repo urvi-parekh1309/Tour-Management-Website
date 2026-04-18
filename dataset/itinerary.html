@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Itinerary - Smart Travel Planner</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <!-- Force redirect to home on browser reload -->
+    <script>
+        if (performance.navigation && performance.navigation.type === 1) {
+            window.location.href = 'index.html';
+        }
+    </script>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        :root {
+            --bg-color: #F8F2E8;
+            --text-dark: #3E2B1E;
+            --text-light: #857568;
+            --primary-orange: #FE8C2C;
+            --btn-bg: #634533;
+            --nav-bg: #FAF6F1;
+        }
+        body { font-family: 'Inter', sans-serif; background-color: var(--bg-color); color: var(--text-dark); }
+        h1, h2, h3, .serif-font { font-family: 'Playfair Display', serif; }
+        
+        #itinerary-map { height: 450px; border-radius: 12px; z-index: 1;}
+        
+        .loader { border: 4px solid #f3f3f3; border-top: 4px solid var(--primary-orange); border-radius: 50%; width: 40px; height: 40px; animation: spin 1s linear infinite; margin: auto;}
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        
+        /* Map Pin */
+        .custom-pin div {
+            background-color: #FE8C2C; width: 24px; height: 24px; border-radius: 50%; 
+            border: 3px solid white; box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+    <!-- Header -->
+    <header class="flex justify-between items-center px-8 py-4 bg-[#FAF6F1] border-b border-gray-200">
+        <a href="index.html" class="flex items-center gap-4 text-decoration-none">
+            <div class="w-12 h-12 bg-[#FE8C2C] rounded-full flex items-center justify-center shadow-lg">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+                </svg>
+            </div>
+            <div>
+                <h1 class="text-[#3E2B1E] text-2xl font-bold leading-tight">Smart Travel Planner</h1>
+                <p class="text-[0.65rem] uppercase tracking-widest text-[#857568] font-medium">Ministry of Tourism, Govt. of India</p>
+            </div>
+        </a>
+        <nav class="hidden md:flex gap-8 items-center font-medium">
+            <a href="index.html" class="text-[#3E2B1E] hover:text-[#FE8C2C] transition">Home</a>
+            <a href="javascript:void(0)" onclick="openLoginOverlay()" class="text-[#3E2B1E] hover:text-[#FE8C2C] transition">Log In</a>
+            <div onclick="openLoginOverlay()" class="px-6 py-2 bg-[#634533] text-white rounded-full cursor-pointer hover:bg-[#4a3224] transition">Sign Up</div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-1 w-full max-w-6xl mx-auto px-6 py-10">
+        
+        <div id="loading-state" class="flex flex-col items-center justify-center h-64 text-center">
+            <div class="loader mb-4"></div>
+            <h3 class="text-xl font-bold text-[#634533]">Crafting your perfect Indian itinerary...</h3>
+        </div>
+
+        <div id="itinerary-grid" class="hidden grid grid-cols-1 gap-8">
+            
+            <!-- Quick Summary Panel -->
+            <div class="bg-white rounded-3xl p-8 shadow-sm border border-gray-100 relative overflow-hidden">
+                <!-- Background visual -->
+                <div class="absolute top-0 right-0 w-64 h-64 bg-orange-50 rounded-full translate-x-1/3 -translate-y-1/3 pointer-events-none"></div>
+                
+                <div class="flex flex-col md:flex-row justify-between items-start md:items-center relative z-10">
+                    <div>
+                        <a href="explore.html" class="text-sm font-bold text-[#FE8C2C] uppercase tracking-wider mb-2 inline-block hover:underline">← Modify Search</a>
+                        <h2 class="text-4xl font-bold text-[#3E2B1E] mb-2 serif-font" id="res-title">Trip to...</h2>
+                        <div class="flex flex-wrap gap-2 text-sm text-[#857568] font-medium" id="res-tags">
+                            <!-- Tags injected -->
+                        </div>
+                    </div>
+                    <div class="mt-6 md:mt-0 bg-[#FAF6F1] p-6 rounded-2xl border border-orange-100 text-center min-w-[200px]">
+                        <p class="text-xs font-bold uppercase tracking-widest text-[#857568] mb-1">Total Estimated Cost</p>
+                        <p class="text-4xl font-bold text-[#FE8C2C]" id="res-cost">₹0</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Full Width Map -->
+            <div class="bg-white p-3 rounded-3xl shadow-sm border border-gray-100 relative z-10">
+                <div id="itinerary-map"></div>
+            </div>
+
+            <!-- Beautiful Timeline -->
+            <div class="bg-white rounded-3xl p-8 shadow-sm border border-gray-100">
+                <h3 class="text-2xl font-bold mb-10 flex items-center gap-3 serif-font text-[#3E2B1E]">
+                    <span class="w-10 h-10 bg-[#FAF6F1] text-[#FE8C2C] flex items-center justify-center rounded-xl">📍</span>
+                    Your Day-by-Day Journey
+                </h3>
+                
+                <div id="timeline" class="flex flex-col gap-12 relative before:absolute before:inset-0 before:ml-4 before:-translate-x-px before:h-full before:w-0.5 before:bg-gradient-to-b before:from-orange-400 before:via-orange-200 before:to-transparent">
+                    <!-- Timeline Items injected here -->
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Login Overlay -->
+    <div id="loginOverlay" class="hidden fixed inset-0 bg-black/50 z-[999] flex items-center justify-center backdrop-blur-sm">
+        <div class="bg-white p-10 rounded-3xl w-[90%] max-w-sm shadow-xl relative">
+            <button onclick="document.getElementById('loginOverlay').classList.add('hidden')" class="absolute top-4 right-6 text-2xl text-gray-400 hover:text-gray-600">&times;</button>
+            <h3 class="font-bold text-3xl text-[#3E2B1E] mb-1 serif-font">Welcome</h3>
+            <p class="text-[#857568] mb-6 text-sm">Sign in to save your adventures.</p>
+            <form onsubmit="handleLoginSubmit(event)" class="flex flex-col gap-4">
+                <div>
+                    <label class="block text-sm font-bold text-[#634533] mb-1">Email</label>
+                    <input type="email" value="demo@tourism.gov.in" required class="w-full p-3 border border-gray-200 rounded-xl outline-none bg-gray-50 focus:border-[#FE8C2C]">
+                </div>
+                <div>
+                    <label class="block text-sm font-bold text-[#634533] mb-1">Password</label>
+                    <input type="password" value="********" required class="w-full p-3 border border-gray-200 rounded-xl outline-none bg-gray-50 focus:border-[#FE8C2C]">
+                </div>
+                <button type="submit" class="mt-2 w-full p-3 bg-[#634533] text-white rounded-xl font-bold hover:bg-[#4a3224] transition">Sign In securely</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function openLoginOverlay() {
+            document.getElementById('loginOverlay').classList.remove('hidden');
+        }
+        function handleLoginSubmit(e) {
+            e.preventDefault();
+            localStorage.setItem('isLoggedIn', 'true');
+            document.getElementById('loginOverlay').classList.add('hidden');
+            alert("Successfully logged in!");
+        }
+        // Array of cool unsplash images relevant to India to cycle through to ensure they never break
+        const imgPool = [
+            'https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=600&q=80', // Taj
+            'https://images.unsplash.com/photo-1596895111956-bf57059e0078?auto=format&fit=crop&w=600&q=80', // Palace
+            'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&w=600&q=80', // Hawa mahal
+            'https://images.unsplash.com/photo-1514222134-b57cbb8ce073?auto=format&fit=crop&w=600&q=80', // Mountain
+            'https://images.unsplash.com/photo-1593693397690-362cb9666cb3?auto=format&fit=crop&w=600&q=80', // Temple
+            'https://images.unsplash.com/photo-1592552802264-16aab8a34241?auto=format&fit=crop&w=600&q=80', // Kerala boat
+            'https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=600&q=80', // Safari
+            'https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80', // Food
+        ];
+        
+        let poolIndex = 0;
+
+        document.addEventListener("DOMContentLoaded", async () => {
+            const params = new URLSearchParams(window.location.search);
+            const stateFile = params.get('stateFile');
+            const stateName = params.get('stateName');
+            const duration = parseInt(params.get('duration') || '3');
+            const budgetLimit = parseInt(params.get('budget') || '99999');
+            const interestsRaw = params.get('interests') || '';
+            const interests = interestsRaw ? interestsRaw.split(',') : [];
+
+            if (!stateFile) {
+                document.getElementById('loading-state').innerHTML = `<h3 class="text-red-500 font-bold">Error: No state selected. Please return to Search.</h3>`;
+                return;
+            }
+
+            try {
+                const req = await fetch(`/${stateFile}.json`);
+                if(!req.ok) throw new Error("Dataset not found for this state");
+                const data = await req.json();
+                
+                const allDestinations = data.destinations || data.locations || [];
+                
+                // Advanced Smart Filtering algorithm
+                let filtered = allDestinations.filter(d => {
+                    const daily = d.daily_expense?.total_per_day || 0;
+                    return daily <= budgetLimit;
+                });
+                
+                if (interests.length > 0) {
+                    filtered.forEach(d => {
+                        let score = 0;
+                        const cat = (d.category || "").toLowerCase();
+                        interests.forEach(interest => {
+                            if (cat.includes(interest.toLowerCase())) score++;
+                        });
+                        d._score = score;
+                    });
+                    filtered.sort((a,b) => b._score - a._score);
+                }
+
+                let itinerary = [];
+                let destsToUse = filtered.length > 0 ? filtered : allDestinations;
+
+                if (destsToUse.length >= duration) {
+                    itinerary = destsToUse.slice(0, duration).map(d => ({...d, _day_title: "Day trip to"}));
+                } else {
+                    // Distribute the days across available destinations evenly
+                    let daysPerPlace = Math.max(1, Math.floor(duration / destsToUse.length));
+                    let extraDays = duration % destsToUse.length;
+                    
+                    for (let i = 0; i < destsToUse.length; i++) {
+                        let daysHere = daysPerPlace + (i < extraDays ? 1 : 0);
+                        for (let d = 0; d < daysHere; d++) {
+                            const clone = JSON.parse(JSON.stringify(destsToUse[i]));
+                            if (daysHere > 1) {
+                                clone._day_title = `Exploring (Day ${d + 1}/${daysHere})`;
+                            } else {
+                                clone._day_title = "Day trip to";
+                            }
+                            itinerary.push(clone);
+                        }
+                    }
+                }
+
+                if(itinerary.length === 0) {
+                    document.getElementById('loading-state').innerHTML = `<h3 class="text-red-500 font-bold">No destinations matched your criteria (Budget too low?).</h3><a href="explore.html" class="mt-4 inline-block px-4 py-2 bg-orange-500 text-white rounded">Go Back</a>`;
+                    return;
+                }
+
+                renderItineraryUI(itinerary, stateName, duration, budgetLimit, interests);
+
+            } catch (e) {
+                console.error(e);
+                document.getElementById('loading-state').innerHTML = `<h3 class="text-red-500 font-bold">System Error: Could not load data.</h3>`;
+            }
+        });
+
+        function renderItineraryUI(destinations, stateName, duration, budgetLimit, interests) {
+            document.getElementById('loading-state').classList.add('hidden');
+            document.getElementById('itinerary-grid').classList.remove('hidden');
+
+            document.getElementById('res-title').innerText = `Amazing Trip to ${stateName}`;
+            
+            const tags = [];
+            tags.push(`<span class="bg-white border border-gray-200 px-3 py-1 rounded-full text-[#3E2B1E]">🗓️ ${duration} Days</span>`);
+            tags.push(`<span class="bg-white border border-gray-200 px-3 py-1 rounded-full text-[#3E2B1E]">💰 ${budgetLimit === 99999 ? 'No Limit' : '₹'+budgetLimit+'/day max'}</span>`);
+            if (interests.length > 0) {
+                tags.push(`<span class="bg-white border border-gray-200 px-3 py-1 rounded-full text-[#3E2B1E]">⭐ ${interests.join(", ")}</span>`);
+            }
+            document.getElementById('res-tags').innerHTML = tags.join('');
+
+            let totalCost = 0;
+            const timelineDiv = document.getElementById('timeline');
+            timelineDiv.innerHTML = '';
+            
+            const coordinatesForMap = [];
+
+            destinations.forEach((dest, index) => {
+                const dayCost = dest.daily_expense?.total_per_day || 2000;
+                totalCost += dayCost;
+
+                if (dest.coordinates) {
+                    coordinatesForMap.push([dest.coordinates.latitude, dest.coordinates.longitude, dest.name]);
+                }
+
+                let foods = dest.food_details?.famous_food?.join(", ") || "Local Specialities";
+                let rests = "Popular local eateries";
+                if (dest.restaurants && dest.restaurants.length > 0) {
+                    rests = dest.restaurants.map(r => typeof r === 'string' ? r : (r.name || 'Local Eatery')).join(", ");
+                }
+                
+                // Use actual JSON urls with reliable fallbacks.
+                const myImg = dest.image_url || "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/500px-Taj_Mahal_%28Edited%29.jpeg";
+                const foodImg = dest.food_details?.food_image_url || "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Bambayya_Pav_bhaji.jpg/500px-Bambayya_Pav_bhaji.jpg";
+
+                // Food Spot logic
+                const foodSpotHtml = `
+                    <div class="mt-6 bg-[#FAF6F1] rounded-2xl overflow-hidden shadow-sm border border-orange-100 flex flex-col">
+                        <div class="h-48 w-full overflow-hidden relative">
+                            <img src="${foodImg}" class="w-full h-full object-cover" alt="Local food">
+                            <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4 pb-2">
+                                <p class="text-xs font-bold uppercase text-[#FE8C2C] mb-0 tracking-widest drop-shadow-md">Must Try Local Cuisine</p>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <p class="text-base font-bold text-[#3E2B1E] mb-1">Famous for: <span class="text-[#FE8C2C]">${foods}</span></p>
+                            <p class="text-sm text-[#857568] flex items-center gap-2">
+                                <span>🍽️</span> Best Restaurants: <span class="font-medium">${rests}</span>
+                            </p>
+                        </div>
+                    </div>
+                `;
+
+                const html = `
+                    <div class="relative flex items-start group pl-12 -ml-2">
+                        <!-- Connecting Line Dot -->
+                        <div class="absolute left-0 top-0 w-8 h-8 rounded-full border-4 border-white bg-[#FE8C2C] text-white flex items-center justify-center font-bold shadow z-10">${index + 1}</div>
+                        
+                        <!-- Content Card -->
+                        <div class="w-full bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden hover:shadow-lg transition duration-300">
+                            <div class="flex flex-col md:flex-row">
+                                <!-- Image Side -->
+                                <div class="md:w-1/3 relative h-48 md:h-auto">
+                                    <img src="${myImg}" class="absolute inset-0 w-full h-full object-cover" alt="${dest.name}">
+                                    <div class="absolute top-4 left-4 bg-white/90 backdrop-blur px-3 py-1 text-xs font-bold rounded-lg text-[#3E2B1E] shadow">Day ${index + 1}</div>
+                                </div>
+                                <!-- Details Side -->
+                                <div class="md:w-2/3 p-6 flex flex-col justify-between">
+                                    <div>
+                                        <div class="flex justify-between items-start mb-2">
+                                            <h4 class="font-bold text-2xl text-[#634533] serif-font">${dest.name}</h4>
+                                            <span class="bg-orange-50 text-[#FE8C2C] text-sm font-bold px-3 py-1 rounded-full">₹ ${dayCost}/day</span>
+                                        </div>
+                                        <p class="text-sm text-[#857568] font-medium mb-4 uppercase tracking-wider">${dest._day_title || 'Day trip to'} • ${dest.category || 'Sightseeing'}</p>
+                                    </div>
+                                    
+                                    ${foodSpotHtml}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                timelineDiv.innerHTML += html;
+            });
+
+            document.getElementById('res-cost').innerText = `₹ ${totalCost.toLocaleString()}`;
+
+            // Ensure map container renders before sizing
+            setTimeout(() => {
+                renderMap(coordinatesForMap);
+            }, 100);
+        }
+
+        let myMap = null;
+        let routeLayer = null;
+        function renderMap(points) {
+            const mapEl = document.getElementById('itinerary-map');
+            if (!mapEl) return;
+            
+            if (myMap) {
+                myMap.remove();
+            }
+            
+            myMap = L.map('itinerary-map');
+            L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+                attribution: '&copy; OpenStreetMap &copy; CARTO'
+            }).addTo(myMap);
+
+            if (points.length === 0) {
+                myMap.setView([20.5937, 78.9629], 5);
+                return;
+            }
+
+            const iconPin = L.divIcon({
+                className: 'custom-pin',
+                html: `<div></div>`,
+                iconSize: [24, 24],
+                iconAnchor: [12, 12]
+            });
+
+            const latlngs = [];
+            points.forEach(p => {
+                const ll = [p[0], p[1]];
+                latlngs.push(ll);
+                L.marker(ll, {icon: iconPin}).addTo(myMap).bindPopup(`<b class="font-inter">${p[2]}</b>`);
+            });
+
+            if (points.length > 1) {
+                routeLayer = L.polyline(latlngs, {color: '#FE8C2C', weight: 4, dashArray: '8, 8', opacity: 0.8}).addTo(myMap);
+            }
+
+            myMap.fitBounds(L.latLngBounds(latlngs), {padding: [50, 50]});
+        }
+    </script>
+</body>
+</html>

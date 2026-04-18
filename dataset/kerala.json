@@ -6,12 +6,15 @@
       "name": "Munnar Tea Gardens",
       "city": "Munnar",
       "category": "Hill Stations",
-      "coordinates": { "latitude": "10.0889", "longitude": "77.0595" },
+      "coordinates": {
+        "latitude": "10.0889",
+        "longitude": "77.0595"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3000,
         "base_travel_cost": 800,
         "seasonal_surge_factor": 1.25,
-        "traffic_delay_weight": 1.20
+        "traffic_delay_weight": 1.2
       },
       "per_day_budget": {
         "budget": 3500,
@@ -21,50 +24,49 @@
       "entry_fee": 0,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Lush", "Cool-Climate", "Green", "Scenic", "Plantations"],
+        "vibe_tags": [
+          "Lush",
+          "Cool-Climate",
+          "Green",
+          "Scenic",
+          "Plantations"
+        ],
         "sentiment_score": 4.9,
         "crowd_prediction_level": "High",
-        "best_suited_for": ["Couples", "Nature Lovers", "Photographers"],
+        "best_suited_for": [
+          "Couples",
+          "Nature Lovers",
+          "Photographers"
+        ],
         "description_ai": "Rolling hills covered in endless tea plantations with misty viewpoints and colonial-era charm."
       },
       "restaurants": [
-        {
-          "name": "Saravana Bhavan",
-          "cuisine": "South Indian",
-          "price_range": "budget",
-          "avg_meal_cost": 150,
-          "rating": 4.2,
-          "must_try": ["Dosa", "Idli", "Filter Coffee"]
-        },
-        {
-          "name": "Rapsy Restaurant",
-          "cuisine": "Multi-Cuisine",
-          "price_range": "mid_range",
-          "avg_meal_cost": 400,
-          "rating": 4.5,
-          "must_try": ["Kerala Parotta", "Beef Fry", "Appam with Stew"]
-        },
-        {
-          "name": "The Hill Spice",
-          "cuisine": "Kerala/Continental",
-          "price_range": "luxury",
-          "avg_meal_cost": 1200,
-          "rating": 4.7,
-          "must_try": ["Tea-infused Dishes", "Malabar Fish Curry", "Duck Roast"]
-        }
-      ]
+        "Saravana Bhavan Munnar",
+        "Rapsy Restaurant"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/A_houseboat_in_Alleppey%2C_Kerala.jpg/500px-A_houseboat_in_Alleppey%2C_Kerala.jpg",
+      "food_details": {
+        "famous_food": [
+          "Appam & Stew",
+          "Puttu & Kadala"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rameshwaram_Cafe_Dosa.jpg/500px-Rameshwaram_Cafe_Dosa.jpg"
+      }
     },
     {
       "id": "KER-02",
       "name": "Alleppey Backwaters",
       "city": "Alappuzha",
       "category": "Backwaters",
-      "coordinates": { "latitude": "9.4981", "longitude": "76.3388" },
+      "coordinates": {
+        "latitude": "9.4981",
+        "longitude": "76.3388"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 4500,
         "base_travel_cost": 700,
-        "seasonal_surge_factor": 1.30,
-        "traffic_delay_weight": 1.10
+        "seasonal_surge_factor": 1.3,
+        "traffic_delay_weight": 1.1
       },
       "per_day_budget": {
         "budget": 4000,
@@ -74,49 +76,47 @@
       "entry_fee": 0,
       "avg_duration_hrs": 5,
       "ai_metadata": {
-        "vibe_tags": ["Serene", "Houseboats", "Waterways", "Romantic", "Palm-lined"],
+        "vibe_tags": [
+          "Serene",
+          "Houseboats",
+          "Waterways",
+          "Romantic",
+          "Palm-lined"
+        ],
         "sentiment_score": 4.8,
         "crowd_prediction_level": "High",
-        "best_suited_for": ["Couples", "Families"],
+        "best_suited_for": [
+          "Couples",
+          "Families"
+        ],
         "description_ai": "A labyrinth of canals and lagoons explored best by traditional houseboats and canoe rides."
       },
       "restaurants": [
-        {
-          "name": "Harbour Restaurant",
-          "cuisine": "Seafood/Kerala",
-          "price_range": "mid_range",
-          "avg_meal_cost": 500,
-          "rating": 4.6,
-          "must_try": ["Karimeen Pollichathu", "Prawn Fry", "Chemmeen Curry"]
-        },
-        {
-          "name": "The Rice Boat",
-          "cuisine": "Kerala Seafood",
-          "price_range": "luxury",
-          "avg_meal_cost": 1500,
-          "rating": 4.8,
-          "must_try": ["Seafood Platter", "Mango Curry", "Nadan Chicken Curry"]
-        },
-        {
-          "name": "Indian Coffee House",
-          "cuisine": "South Indian",
-          "price_range": "budget",
-          "avg_meal_cost": 120,
-          "rating": 4.3,
-          "must_try": ["Cutlet", "Beef Curry", "Filter Coffee"]
-        }
-      ]
+        "Houseboat Kitchen",
+        "Dreamers Cafe"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/A_houseboat_in_Alleppey%2C_Kerala.jpg/500px-A_houseboat_in_Alleppey%2C_Kerala.jpg",
+      "food_details": {
+        "famous_food": [
+          "Karimeen Pollichathu",
+          "Kerala Fish Curry"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rameshwaram_Cafe_Dosa.jpg/500px-Rameshwaram_Cafe_Dosa.jpg"
+      }
     },
     {
       "id": "KER-03",
       "name": "Varkala Beach",
       "city": "Varkala",
       "category": "Beaches",
-      "coordinates": { "latitude": "8.7379", "longitude": "76.7163" },
+      "coordinates": {
+        "latitude": "8.7379",
+        "longitude": "76.7163"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3500,
         "base_travel_cost": 600,
-        "seasonal_surge_factor": 1.20,
+        "seasonal_surge_factor": 1.2,
         "traffic_delay_weight": 1.15
       },
       "per_day_budget": {
@@ -127,50 +127,49 @@
       "entry_fee": 0,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Cliffside", "Sunset", "Yoga", "Relaxed", "Spiritual"],
+        "vibe_tags": [
+          "Cliffside",
+          "Sunset",
+          "Yoga",
+          "Relaxed",
+          "Spiritual"
+        ],
         "sentiment_score": 4.7,
         "crowd_prediction_level": "Medium-High",
-        "best_suited_for": ["Solo", "Backpackers", "Couples"],
+        "best_suited_for": [
+          "Solo",
+          "Backpackers",
+          "Couples"
+        ],
         "description_ai": "A unique cliff beach offering sweeping sea views, yoga retreats, and laid-back cafés."
       },
       "restaurants": [
-        {
-          "name": "Cliff Story Cafe",
-          "cuisine": "Continental/Italian",
-          "price_range": "mid_range",
-          "avg_meal_cost": 450,
-          "rating": 4.6,
-          "must_try": ["Wood-fired Pizza", "Smoothie Bowls", "Falafel Wrap"]
-        },
-        {
-          "name": "Abba Restaurant",
-          "cuisine": "Israeli/Mediterranean",
-          "price_range": "mid_range",
-          "avg_meal_cost": 400,
-          "rating": 4.5,
-          "must_try": ["Hummus Platter", "Shakshuka", "Grilled Fish"]
-        },
-        {
-          "name": "InDa Cafe",
-          "cuisine": "Multi-Cuisine",
-          "price_range": "budget",
-          "avg_meal_cost": 250,
-          "rating": 4.4,
-          "must_try": ["Tandoori Platter", "Pasta", "Fresh Juices"]
-        }
-      ]
+        "Cafe del Mar Varkala",
+        "Abba Restaurant"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Varkala_beach_from_above.jpg/500px-Varkala_beach_from_above.jpg",
+      "food_details": {
+        "famous_food": [
+          "Prawn Moilee",
+          "Fish Fry"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rameshwaram_Cafe_Dosa.jpg/500px-Rameshwaram_Cafe_Dosa.jpg"
+      }
     },
     {
       "id": "KER-04",
       "name": "Kovalam Beach",
       "city": "Thiruvananthapuram",
       "category": "Beaches",
-      "coordinates": { "latitude": "8.4000", "longitude": "76.9780" },
+      "coordinates": {
+        "latitude": "8.4000",
+        "longitude": "76.9780"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 4000,
         "base_travel_cost": 600,
-        "seasonal_surge_factor": 1.20,
-        "traffic_delay_weight": 1.30
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 1.3
       },
       "per_day_budget": {
         "budget": 3000,
@@ -180,50 +179,47 @@
       "entry_fee": 0,
       "avg_duration_hrs": 3,
       "ai_metadata": {
-        "vibe_tags": ["Touristy", "Surf", "Golden-Sand", "Resorts"],
+        "vibe_tags": [
+          "Touristy",
+          "Surf",
+          "Golden-Sand",
+          "Resorts"
+        ],
         "sentiment_score": 4.6,
         "crowd_prediction_level": "High",
-        "best_suited_for": ["Families", "Beach Lovers"],
+        "best_suited_for": [
+          "Families",
+          "Beach Lovers"
+        ],
         "description_ai": "Kerala's most famous beach resort destination with crescent-shaped shores."
       },
       "restaurants": [
-        {
-          "name": "The Tides",
-          "cuisine": "Seafood/Continental",
-          "price_range": "luxury",
-          "avg_meal_cost": 1200,
-          "rating": 4.7,
-          "must_try": ["Lobster Thermidor", "Grilled Pomfret", "Seafood Paella"]
-        },
-        {
-          "name": "German Bakery",
-          "cuisine": "Bakery/Continental",
-          "price_range": "budget",
-          "avg_meal_cost": 200,
-          "rating": 4.3,
-          "must_try": ["Apple Strudel", "Brownies", "Vegetable Quiche"]
-        },
-        {
-          "name": "Bait Restaurant",
-          "cuisine": "Seafood/Kerala",
-          "price_range": "mid_range",
-          "avg_meal_cost": 600,
-          "rating": 4.5,
-          "must_try": ["Kingfish Tawa Fry", "Prawn Masala", "Mango Fizz"]
-        }
-      ]
+        "Fusion Restaurant",
+        "Bait Restaurant"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Kovalam_beach_trivandrum_kerala.jpg/500px-Kovalam_beach_trivandrum_kerala.jpg",
+      "food_details": {
+        "famous_food": [
+          "Malabar Parotta",
+          "Kerala Prawn Curry"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rameshwaram_Cafe_Dosa.jpg/500px-Rameshwaram_Cafe_Dosa.jpg"
+      }
     },
     {
       "id": "KER-05",
       "name": "Wayanad Wildlife Sanctuary",
       "city": "Wayanad",
       "category": "Wildlife/National Parks",
-      "coordinates": { "latitude": "11.6854", "longitude": "76.1320" },
+      "coordinates": {
+        "latitude": "11.6854",
+        "longitude": "76.1320"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2500,
         "base_travel_cost": 900,
         "seasonal_surge_factor": 1.15,
-        "traffic_delay_weight": 1.10
+        "traffic_delay_weight": 1.1
       },
       "per_day_budget": {
         "budget": 3200,
@@ -233,49 +229,46 @@
       "entry_fee": 110,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Wild", "Forests", "Elephants", "Eco-tourism"],
+        "vibe_tags": [
+          "Wild",
+          "Forests",
+          "Elephants",
+          "Eco-tourism"
+        ],
         "sentiment_score": 4.7,
         "crowd_prediction_level": "Medium",
-        "best_suited_for": ["Wildlife Lovers", "Nature Buffs"],
+        "best_suited_for": [
+          "Wildlife Lovers",
+          "Nature Buffs"
+        ],
         "description_ai": "A protected reserve known for elephants, birds, and dense tropical forests."
       },
       "restaurants": [
-        {
-          "name": "Jubilee Restaurant",
-          "cuisine": "Kerala/Mughlai",
-          "price_range": "mid_range",
-          "avg_meal_cost": 350,
-          "rating": 4.4,
-          "must_try": ["Wayanad Biriyani", "Chicken Fry", "Porotta"]
-        },
-        {
-          "name": "The Bungalow Restaurant",
-          "cuisine": "Multi-Cuisine",
-          "price_range": "luxury",
-          "avg_meal_cost": 1000,
-          "rating": 4.6,
-          "must_try": ["Tribal-inspired Dishes", "Spiced Pork", "Wild Mushroom Curry"]
-        },
-        {
-          "name": "Udupi Krishna Restaurant",
-          "cuisine": "South Indian",
-          "price_range": "budget",
-          "avg_meal_cost": 150,
-          "rating": 4.2,
-          "must_try": ["Vegetarian Thali", "Masala Dosa", "Payasam"]
-        }
-      ]
+        "Edakkal Hermitage Restaurant",
+        "Vythiri Resort Dining"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/A_houseboat_in_Alleppey%2C_Kerala.jpg/500px-A_houseboat_in_Alleppey%2C_Kerala.jpg",
+      "food_details": {
+        "famous_food": [
+          "Dosa Ghee Roast",
+          "Bamboo Chicken"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rameshwaram_Cafe_Dosa.jpg/500px-Rameshwaram_Cafe_Dosa.jpg"
+      }
     },
     {
       "id": "KER-06",
       "name": "Athirappilly Waterfalls",
       "city": "Thrissur",
       "category": "Waterfalls",
-      "coordinates": { "latitude": "10.2850", "longitude": "76.5690" },
+      "coordinates": {
+        "latitude": "10.2850",
+        "longitude": "76.5690"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2500,
         "base_travel_cost": 700,
-        "seasonal_surge_factor": 1.20,
+        "seasonal_surge_factor": 1.2,
         "traffic_delay_weight": 1.15
       },
       "per_day_budget": {
@@ -286,41 +279,43 @@
       "entry_fee": 40,
       "avg_duration_hrs": 2,
       "ai_metadata": {
-        "vibe_tags": ["Powerful", "Monsoon", "Jungle"],
+        "vibe_tags": [
+          "Powerful",
+          "Monsoon",
+          "Jungle"
+        ],
         "sentiment_score": 4.8,
-        "best_suited_for": ["Nature Lovers"],
+        "best_suited_for": [
+          "Nature Lovers"
+        ],
         "description_ai": "Kerala's largest waterfall surrounded by lush rainforests."
       },
       "restaurants": [
-        {
-          "name": "Rainforest Restaurant",
-          "cuisine": "Kerala",
-          "price_range": "mid_range",
-          "avg_meal_cost": 300,
-          "rating": 4.3,
-          "must_try": ["Fish Curry", "Tapioca", "Chicken Roast"]
-        },
-        {
-          "name": "Athirappilly Falls View Cafe",
-          "cuisine": "Snacks/Tea",
-          "price_range": "budget",
-          "avg_meal_cost": 100,
-          "rating": 4.0,
-          "must_try": ["Tea", "Pakkavada", "Banana Chips"]
-        }
-      ]
+        "Rainforest Resort Restaurant"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/The_View_of_the_Athirapally_Falls_during_the_onset_of_Monsoon.jpg/500px-The_View_of_the_Athirapally_Falls_during_the_onset_of_Monsoon.jpg",
+      "food_details": {
+        "famous_food": [
+          "Kerala Sadya",
+          "Tapioca & Fish Curry"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rameshwaram_Cafe_Dosa.jpg/500px-Rameshwaram_Cafe_Dosa.jpg"
+      }
     },
     {
       "id": "KER-07",
       "name": "Periyar National Park",
       "city": "Thekkady",
       "category": "Wildlife/National Parks",
-      "coordinates": { "latitude": "9.4670", "longitude": "77.2410" },
+      "coordinates": {
+        "latitude": "9.4670",
+        "longitude": "77.2410"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3000,
         "base_travel_cost": 900,
-        "seasonal_surge_factor": 1.20,
-        "traffic_delay_weight": 1.10
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 1.1
       },
       "per_day_budget": {
         "budget": 3000,
@@ -330,41 +325,44 @@
       "entry_fee": 45,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Boat-Safari", "Elephants", "Forest"],
+        "vibe_tags": [
+          "Boat-Safari",
+          "Elephants",
+          "Forest"
+        ],
         "sentiment_score": 4.8,
-        "best_suited_for": ["Wildlife Lovers"],
+        "best_suited_for": [
+          "Wildlife Lovers"
+        ],
         "description_ai": "A tiger reserve famous for boat safaris on Periyar Lake."
       },
       "restaurants": [
-        {
-          "name": "Spice Garden Restaurant",
-          "cuisine": "Kerala/Indian",
-          "price_range": "mid_range",
-          "avg_meal_cost": 400,
-          "rating": 4.5,
-          "must_try": ["Spice-infused Dishes", "Kerala Sadya", "Fish Molly"]
-        },
-        {
-          "name": "Coffee Garden",
-          "cuisine": "Multi-Cuisine",
-          "price_range": "budget",
-          "avg_meal_cost": 200,
-          "rating": 4.2,
-          "must_try": ["Fresh Coffee", "Omelette", "Toast"]
-        }
-      ]
+        "Spice Village Restaurant Thekkady",
+        "Periyar House Canteen"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Periyar_National_Park.JPG/500px-Periyar_National_Park.JPG",
+      "food_details": {
+        "famous_food": [
+          "Banana Chips",
+          "Kerala Meals"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rameshwaram_Cafe_Dosa.jpg/500px-Rameshwaram_Cafe_Dosa.jpg"
+      }
     },
     {
       "id": "KER-08",
       "name": "Kumarakom Backwaters",
       "city": "Kumarakom",
       "category": "Backwaters",
-      "coordinates": { "latitude": "9.6175", "longitude": "76.4290" },
+      "coordinates": {
+        "latitude": "9.6175",
+        "longitude": "76.4290"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 5000,
         "base_travel_cost": 700,
         "seasonal_surge_factor": 1.25,
-        "traffic_delay_weight": 1.10
+        "traffic_delay_weight": 1.1
       },
       "per_day_budget": {
         "budget": 4500,
@@ -374,40 +372,42 @@
       "entry_fee": 0,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Luxury", "Birds", "Canals"],
+        "vibe_tags": [
+          "Luxury",
+          "Birds",
+          "Canals"
+        ],
         "sentiment_score": 4.9,
-        "best_suited_for": ["Couples"],
+        "best_suited_for": [
+          "Couples"
+        ],
         "description_ai": "Premium backwater destination with bird sanctuary and luxury resorts."
       },
       "restaurants": [
-        {
-          "name": "Ettukettu Restaurant",
-          "cuisine": "Kerala Seafood",
-          "price_range": "luxury",
-          "avg_meal_cost": 1500,
-          "rating": 4.8,
-          "must_try": ["Karimeen Pollichathu", "Nadan Erachi Curry", "Puttu and Kadala"]
-        },
-        {
-          "name": "Tharavadu Restaurant",
-          "cuisine": "Traditional Kerala",
-          "price_range": "mid_range",
-          "avg_meal_cost": 600,
-          "rating": 4.6,
-          "must_try": ["Sadya", "Malabar Parotta", "Beef Ularthiyathu"]
-        }
-      ]
+        "Kumarakom Resort Restaurant"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/A_houseboat_in_Alleppey%2C_Kerala.jpg/500px-A_houseboat_in_Alleppey%2C_Kerala.jpg",
+      "food_details": {
+        "famous_food": [
+          "Karimeen Fry",
+          "Duck Roast"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rameshwaram_Cafe_Dosa.jpg/500px-Rameshwaram_Cafe_Dosa.jpg"
+      }
     },
     {
       "id": "KER-09",
       "name": "Bekal Fort",
       "city": "Kasaragod",
       "category": "Historical Forts",
-      "coordinates": { "latitude": "12.4210", "longitude": "75.0260" },
+      "coordinates": {
+        "latitude": "12.4210",
+        "longitude": "75.0260"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2500,
         "base_travel_cost": 800,
-        "seasonal_surge_factor": 1.10,
+        "seasonal_surge_factor": 1.1,
         "traffic_delay_weight": 1.15
       },
       "per_day_budget": {
@@ -418,41 +418,42 @@
       "entry_fee": 25,
       "avg_duration_hrs": 2,
       "ai_metadata": {
-        "vibe_tags": ["Sea-Fort", "Historic", "Panoramic"],
+        "vibe_tags": [
+          "Sea-Fort",
+          "Historic",
+          "Panoramic"
+        ],
         "sentiment_score": 4.6,
-        "best_suited_for": ["History Buffs"],
+        "best_suited_for": [
+          "History Buffs"
+        ],
         "description_ai": "India's largest fort built along the Arabian Sea coast."
       },
       "restaurants": [
-        {
-          "name": "Bekal Fort View Restaurant",
-          "cuisine": "Kerala/Arabian",
-          "price_range": "mid_range",
-          "avg_meal_cost": 350,
-          "rating": 4.3,
-          "must_try": ["Arabian Biriyani", "Grilled Seafood", "Pathiri"]
-        },
-        {
-          "name": "Maharaja Multi-Cuisine",
-          "cuisine": "Indian/Chinese",
-          "price_range": "budget",
-          "avg_meal_cost": 180,
-          "rating": 4.1,
-          "must_try": ["Veg Fried Rice", "Chilli Chicken", "Parotta"]
-        }
-      ]
+        "Bekal Ripples Resort"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Bakel_Fort_Beach_Kasaragod7.jpg/500px-Bakel_Fort_Beach_Kasaragod7.jpg",
+      "food_details": {
+        "famous_food": [
+          "Malabar Dum Biryani"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rameshwaram_Cafe_Dosa.jpg/500px-Rameshwaram_Cafe_Dosa.jpg"
+      }
     },
     {
       "id": "KER-10",
       "name": "Fort Kochi",
       "city": "Kochi",
       "category": "Major Cities & Cultural Spots",
-      "coordinates": { "latitude": "9.9667", "longitude": "76.2425" },
+      "coordinates": {
+        "latitude": "9.9667",
+        "longitude": "76.2425"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 4000,
         "base_travel_cost": 500,
-        "seasonal_surge_factor": 1.20,
-        "traffic_delay_weight": 1.30
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 1.3
       },
       "per_day_budget": {
         "budget": 3500,
@@ -462,57 +463,45 @@
       "entry_fee": 0,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Colonial", "Art", "Cafes"],
+        "vibe_tags": [
+          "Colonial",
+          "Art",
+          "Cafes"
+        ],
         "sentiment_score": 4.8,
-        "best_suited_for": ["Culture Lovers"],
+        "best_suited_for": [
+          "Culture Lovers"
+        ],
         "description_ai": "Colonial-era port town famous for Chinese fishing nets and art cafés."
       },
       "restaurants": [
-        {
-          "name": "Kashi Art Cafe",
-          "cuisine": "Continental/Cafe",
-          "price_range": "mid_range",
-          "avg_meal_cost": 450,
-          "rating": 4.7,
-          "must_try": ["Brownie with Ice Cream", "Quiche", "Cold Coffee"]
-        },
-        {
-          "name": "Oceanos Restaurant",
-          "cuisine": "Seafood/Mediterranean",
-          "price_range": "luxury",
-          "avg_meal_cost": 1400,
-          "rating": 4.8,
-          "must_try": ["Grilled Lobster", "Seafood Platter", "Paella"]
-        },
-        {
-          "name": "Kayees Biriyani",
-          "cuisine": "Mughlai/Kerala",
-          "price_range": "budget",
-          "avg_meal_cost": 200,
-          "rating": 4.6,
-          "must_try": ["Chicken Biriyani", "Egg Roast", "Raita"]
-        },
-        {
-          "name": "Teapot Cafe",
-          "cuisine": "Cafe/Tea House",
-          "price_range": "mid_range",
-          "avg_meal_cost": 350,
-          "rating": 4.5,
-          "must_try": ["High Tea Set", "Sandwiches", "Tea Varieties"]
-        }
-      ]
+        "Kashi Art Cafe",
+        "Fort House Restaurant",
+        "Oceanos"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Kochi%2C_Fishing_nets_at_sunset%2C_Kerala%2C_India.jpg/500px-Kochi%2C_Fishing_nets_at_sunset%2C_Kerala%2C_India.jpg",
+      "food_details": {
+        "famous_food": [
+          "Malabar Biryani",
+          "Appam & Stew"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rameshwaram_Cafe_Dosa.jpg/500px-Rameshwaram_Cafe_Dosa.jpg"
+      }
     },
     {
       "id": "KER-11",
       "name": "Cherai Beach",
       "city": "Kochi",
       "category": "Beaches",
-      "coordinates": { "latitude": "10.1410", "longitude": "76.1780" },
+      "coordinates": {
+        "latitude": "10.1410",
+        "longitude": "76.1780"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3000,
         "base_travel_cost": 500,
         "seasonal_surge_factor": 1.15,
-        "traffic_delay_weight": 1.10
+        "traffic_delay_weight": 1.1
       },
       "per_day_budget": {
         "budget": 2500,
@@ -522,9 +511,15 @@
       "entry_fee": 0,
       "avg_duration_hrs": 3,
       "ai_metadata": {
-        "vibe_tags": ["Clean", "Calm", "Backwater-Beach"],
+        "vibe_tags": [
+          "Clean",
+          "Calm",
+          "Backwater-Beach"
+        ],
         "sentiment_score": 4.7,
-        "best_suited_for": ["Families"],
+        "best_suited_for": [
+          "Families"
+        ],
         "description_ai": "A peaceful beach where backwaters meet the sea."
       },
       "restaurants": [
@@ -534,7 +529,11 @@
           "price_range": "mid_range",
           "avg_meal_cost": 400,
           "rating": 4.4,
-          "must_try": ["Fresh Catch Fry", "Coconut Curry", "Kappa and Meen"]
+          "must_try": [
+            "Fresh Catch Fry",
+            "Coconut Curry",
+            "Kappa and Meen"
+          ]
         },
         {
           "name": "Beach Cafe",
@@ -542,21 +541,33 @@
           "price_range": "budget",
           "avg_meal_cost": 150,
           "rating": 4.2,
-          "must_try": ["Tea", "Puffs", "Ice Cream"]
+          "must_try": [
+            "Tea",
+            "Puffs",
+            "Ice Cream"
+          ]
         }
-      ]
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Sunrise_at_Cherai_Beach.jpg/500px-Sunrise_at_Cherai_Beach.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rameshwaram_Cafe_Dosa.jpg/500px-Rameshwaram_Cafe_Dosa.jpg"
+      }
     },
     {
       "id": "KER-12",
       "name": "Silent Valley National Park",
       "city": "Palakkad",
       "category": "Wildlife/National Parks",
-      "coordinates": { "latitude": "11.0710", "longitude": "76.4450" },
+      "coordinates": {
+        "latitude": "11.0710",
+        "longitude": "76.4450"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2800,
         "base_travel_cost": 900,
-        "seasonal_surge_factor": 1.10,
-        "traffic_delay_weight": 1.10
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 1.1
       },
       "per_day_budget": {
         "budget": 2800,
@@ -566,9 +577,15 @@
       "entry_fee": 100,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Rainforest", "Pristine", "Biodiversity"],
+        "vibe_tags": [
+          "Rainforest",
+          "Pristine",
+          "Biodiversity"
+        ],
         "sentiment_score": 4.9,
-        "best_suited_for": ["Eco-tourists"],
+        "best_suited_for": [
+          "Eco-tourists"
+        ],
         "description_ai": "One of the last untouched rainforests in the Western Ghats."
       },
       "restaurants": [
@@ -577,22 +594,34 @@
           "cuisine": "South Indian",
           "price_range": "budget",
           "avg_meal_cost": 150,
-          "rating": 4.0,
-          "must_try": ["Rice and Sambar", "Vegetable Curry", "Buttermilk"]
+          "rating": 4,
+          "must_try": [
+            "Rice and Sambar",
+            "Vegetable Curry",
+            "Buttermilk"
+          ]
         }
-      ]
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/SAN_BIRDS_48.jpg/500px-SAN_BIRDS_48.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rameshwaram_Cafe_Dosa.jpg/500px-Rameshwaram_Cafe_Dosa.jpg"
+      }
     },
     {
       "id": "KER-13",
       "name": "Meesapulimala",
       "city": "Munnar",
       "category": "Trekking",
-      "coordinates": { "latitude": "10.1140", "longitude": "77.1000" },
+      "coordinates": {
+        "latitude": "10.1140",
+        "longitude": "77.1000"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2800,
         "base_travel_cost": 800,
-        "seasonal_surge_factor": 1.20,
-        "traffic_delay_weight": 1.10
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 1.1
       },
       "per_day_budget": {
         "budget": 3000,
@@ -602,9 +631,15 @@
       "entry_fee": 0,
       "avg_duration_hrs": 5,
       "ai_metadata": {
-        "vibe_tags": ["Peak", "Adventure", "Mist"],
+        "vibe_tags": [
+          "Peak",
+          "Adventure",
+          "Mist"
+        ],
         "sentiment_score": 4.8,
-        "best_suited_for": ["Trekkers"],
+        "best_suited_for": [
+          "Trekkers"
+        ],
         "description_ai": "Second highest peak in Kerala offering panoramic trekking trails."
       },
       "restaurants": [
@@ -614,7 +649,11 @@
           "price_range": "budget",
           "avg_meal_cost": 200,
           "rating": 4.1,
-          "must_try": ["Noodles", "Soup", "Tea"]
+          "must_try": [
+            "Noodles",
+            "Soup",
+            "Tea"
+          ]
         },
         {
           "name": "Meesapulimala View Point Eatery",
@@ -622,21 +661,33 @@
           "price_range": "mid_range",
           "avg_meal_cost": 300,
           "rating": 4.3,
-          "must_try": ["Vegetable Pulao", "Egg Curry", "Chapati"]
+          "must_try": [
+            "Vegetable Pulao",
+            "Egg Curry",
+            "Chapati"
+          ]
         }
-      ]
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Meeahapullimala.jpg/500px-Meeahapullimala.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rameshwaram_Cafe_Dosa.jpg/500px-Rameshwaram_Cafe_Dosa.jpg"
+      }
     },
     {
       "id": "KER-14",
       "name": "Poovar Island",
       "city": "Poovar",
       "category": "Backwaters",
-      "coordinates": { "latitude": "8.3190", "longitude": "77.0730" },
+      "coordinates": {
+        "latitude": "8.3190",
+        "longitude": "77.0730"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3500,
         "base_travel_cost": 700,
         "seasonal_surge_factor": 1.15,
-        "traffic_delay_weight": 1.10
+        "traffic_delay_weight": 1.1
       },
       "per_day_budget": {
         "budget": 3200,
@@ -646,9 +697,14 @@
       "entry_fee": 0,
       "avg_duration_hrs": 3,
       "ai_metadata": {
-        "vibe_tags": ["Island", "Mangroves"],
+        "vibe_tags": [
+          "Island",
+          "Mangroves"
+        ],
         "sentiment_score": 4.6,
-        "best_suited_for": ["Couples"],
+        "best_suited_for": [
+          "Couples"
+        ],
         "description_ai": "A tranquil island where rivers meet the sea."
       },
       "restaurants": [
@@ -658,7 +714,11 @@
           "price_range": "mid_range",
           "avg_meal_cost": 500,
           "rating": 4.4,
-          "must_try": ["Crab Roast", "Fish Curry", "Appam"]
+          "must_try": [
+            "Crab Roast",
+            "Fish Curry",
+            "Appam"
+          ]
         },
         {
           "name": "Poovar Boat Restaurant",
@@ -666,21 +726,33 @@
           "price_range": "luxury",
           "avg_meal_cost": 1100,
           "rating": 4.6,
-          "must_try": ["Seafood BBQ", "Prawn Gassi", "Neer Dosa"]
+          "must_try": [
+            "Seafood BBQ",
+            "Prawn Gassi",
+            "Neer Dosa"
+          ]
         }
-      ]
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Poplar_Island%2C_Chesapeake_Bay.jpg/500px-Poplar_Island%2C_Chesapeake_Bay.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rameshwaram_Cafe_Dosa.jpg/500px-Rameshwaram_Cafe_Dosa.jpg"
+      }
     },
     {
       "id": "KER-15",
       "name": "Vagamon",
       "city": "Idukki",
       "category": "Hill Stations",
-      "coordinates": { "latitude": "9.6850", "longitude": "76.9050" },
+      "coordinates": {
+        "latitude": "9.6850",
+        "longitude": "76.9050"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2600,
         "base_travel_cost": 700,
         "seasonal_surge_factor": 1.15,
-        "traffic_delay_weight": 1.10
+        "traffic_delay_weight": 1.1
       },
       "per_day_budget": {
         "budget": 2400,
@@ -690,9 +762,15 @@
       "entry_fee": 0,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Meadows", "Foggy", "Quiet"],
+        "vibe_tags": [
+          "Meadows",
+          "Foggy",
+          "Quiet"
+        ],
         "sentiment_score": 4.7,
-        "best_suited_for": ["Peace Seekers"],
+        "best_suited_for": [
+          "Peace Seekers"
+        ],
         "description_ai": "Rolling grasslands and pine forests with a cool climate."
       },
       "restaurants": [
@@ -702,7 +780,11 @@
           "price_range": "mid_range",
           "avg_meal_cost": 350,
           "rating": 4.3,
-          "must_try": ["Nadan Kozhi Curry", "Ghee Roast", "Porotta"]
+          "must_try": [
+            "Nadan Kozhi Curry",
+            "Ghee Roast",
+            "Porotta"
+          ]
         },
         {
           "name": "Meadows Cafe",
@@ -710,21 +792,33 @@
           "price_range": "budget",
           "avg_meal_cost": 180,
           "rating": 4.2,
-          "must_try": ["Mushroom Soup", "Grilled Sandwich", "Coffee"]
+          "must_try": [
+            "Mushroom Soup",
+            "Grilled Sandwich",
+            "Coffee"
+          ]
         }
-      ]
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Vagamon_meadows.JPG/500px-Vagamon_meadows.JPG",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rameshwaram_Cafe_Dosa.jpg/500px-Rameshwaram_Cafe_Dosa.jpg"
+      }
     },
     {
       "id": "KER-16",
       "name": "Ashtamudi Lake",
       "city": "Kollam",
       "category": "Backwaters",
-      "coordinates": { "latitude": "8.8930", "longitude": "76.6000" },
+      "coordinates": {
+        "latitude": "8.8930",
+        "longitude": "76.6000"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3500,
         "base_travel_cost": 600,
         "seasonal_surge_factor": 1.15,
-        "traffic_delay_weight": 1.10
+        "traffic_delay_weight": 1.1
       },
       "per_day_budget": {
         "budget": 3000,
@@ -734,9 +828,14 @@
       "entry_fee": 0,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Lake", "Houseboats"],
+        "vibe_tags": [
+          "Lake",
+          "Houseboats"
+        ],
         "sentiment_score": 4.6,
-        "best_suited_for": ["Families"],
+        "best_suited_for": [
+          "Families"
+        ],
         "description_ai": "Second largest lake in Kerala known for scenic boat rides."
       },
       "restaurants": [
@@ -746,7 +845,11 @@
           "price_range": "mid_range",
           "avg_meal_cost": 450,
           "rating": 4.4,
-          "must_try": ["Karimeen Fry", "Chemmeen Roast", "Chuttulli"]
+          "must_try": [
+            "Karimeen Fry",
+            "Chemmeen Roast",
+            "Chuttulli"
+          ]
         },
         {
           "name": "Ashtamudi Residency",
@@ -754,21 +857,33 @@
           "price_range": "luxury",
           "avg_meal_cost": 900,
           "rating": 4.5,
-          "must_try": ["Seafood Platter", "Malabar Biriyani", "Prawn Curry"]
+          "must_try": [
+            "Seafood Platter",
+            "Malabar Biriyani",
+            "Prawn Curry"
+          ]
         }
-      ]
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Ashtamudi_Kerala.jpg/500px-Ashtamudi_Kerala.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rameshwaram_Cafe_Dosa.jpg/500px-Rameshwaram_Cafe_Dosa.jpg"
+      }
     },
     {
       "id": "KER-17",
       "name": "Malampuzha Dam",
       "city": "Palakkad",
       "category": "Major Cities & Cultural Spots",
-      "coordinates": { "latitude": "10.8450", "longitude": "76.6900" },
+      "coordinates": {
+        "latitude": "10.8450",
+        "longitude": "76.6900"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2500,
         "base_travel_cost": 500,
-        "seasonal_surge_factor": 1.10,
-        "traffic_delay_weight": 1.10
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 1.1
       },
       "per_day_budget": {
         "budget": 2000,
@@ -778,9 +893,14 @@
       "entry_fee": 10,
       "avg_duration_hrs": 2,
       "ai_metadata": {
-        "vibe_tags": ["Gardens", "Picnic"],
+        "vibe_tags": [
+          "Gardens",
+          "Picnic"
+        ],
         "sentiment_score": 4.4,
-        "best_suited_for": ["Families"],
+        "best_suited_for": [
+          "Families"
+        ],
         "description_ai": "A dam complex with landscaped gardens and ropeway."
       },
       "restaurants": [
@@ -789,8 +909,12 @@
           "cuisine": "South Indian/Snacks",
           "price_range": "budget",
           "avg_meal_cost": 150,
-          "rating": 4.0,
-          "must_try": ["Masala Dosa", "Vada", "Filter Coffee"]
+          "rating": 4,
+          "must_try": [
+            "Masala Dosa",
+            "Vada",
+            "Filter Coffee"
+          ]
         },
         {
           "name": "Malampuzha Food Court",
@@ -798,21 +922,33 @@
           "price_range": "budget",
           "avg_meal_cost": 200,
           "rating": 3.9,
-          "must_try": ["Chaats", "Ice Cream", "Bhel Puri"]
+          "must_try": [
+            "Chaats",
+            "Ice Cream",
+            "Bhel Puri"
+          ]
         }
-      ]
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Malampuzha_Dam_Navas_10.jpg/500px-Malampuzha_Dam_Navas_10.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rameshwaram_Cafe_Dosa.jpg/500px-Rameshwaram_Cafe_Dosa.jpg"
+      }
     },
     {
       "id": "KER-18",
       "name": "Ponnani Beach",
       "city": "Ponnani",
       "category": "Beaches",
-      "coordinates": { "latitude": "10.7660", "longitude": "75.9200" },
+      "coordinates": {
+        "latitude": "10.7660",
+        "longitude": "75.9200"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2200,
         "base_travel_cost": 600,
-        "seasonal_surge_factor": 1.10,
-        "traffic_delay_weight": 1.10
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 1.1
       },
       "per_day_budget": {
         "budget": 1800,
@@ -822,9 +958,14 @@
       "entry_fee": 0,
       "avg_duration_hrs": 2,
       "ai_metadata": {
-        "vibe_tags": ["Quiet", "Fishing"],
+        "vibe_tags": [
+          "Quiet",
+          "Fishing"
+        ],
         "sentiment_score": 4.3,
-        "best_suited_for": ["Solo"],
+        "best_suited_for": [
+          "Solo"
+        ],
         "description_ai": "A lesser-known serene fishing beach."
       },
       "restaurants": [
@@ -834,7 +975,11 @@
           "price_range": "budget",
           "avg_meal_cost": 120,
           "rating": 4.1,
-          "must_try": ["Fresh Fried Fish", "Kanthari Chutney", "Tapioca"]
+          "must_try": [
+            "Fresh Fried Fish",
+            "Kanthari Chutney",
+            "Tapioca"
+          ]
         },
         {
           "name": "Beachside Tea Stall",
@@ -842,21 +987,33 @@
           "price_range": "budget",
           "avg_meal_cost": 50,
           "rating": 3.8,
-          "must_try": ["Tea", "Biscuits", "Banana Fritters"]
+          "must_try": [
+            "Tea",
+            "Biscuits",
+            "Banana Fritters"
+          ]
         }
-      ]
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/A_houseboat_in_Alleppey%2C_Kerala.jpg/500px-A_houseboat_in_Alleppey%2C_Kerala.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rameshwaram_Cafe_Dosa.jpg/500px-Rameshwaram_Cafe_Dosa.jpg"
+      }
     },
     {
       "id": "KER-19",
       "name": "Kuttanad",
       "city": "Alappuzha",
       "category": "Backwaters",
-      "coordinates": { "latitude": "9.4000", "longitude": "76.4500" },
+      "coordinates": {
+        "latitude": "9.4000",
+        "longitude": "76.4500"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3000,
         "base_travel_cost": 600,
-        "seasonal_surge_factor": 1.20,
-        "traffic_delay_weight": 1.10
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 1.1
       },
       "per_day_budget": {
         "budget": 2800,
@@ -866,9 +1023,14 @@
       "entry_fee": 0,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Paddy-Fields", "Below-Sea-Level"],
+        "vibe_tags": [
+          "Paddy-Fields",
+          "Below-Sea-Level"
+        ],
         "sentiment_score": 4.7,
-        "best_suited_for": ["Culture Lovers"],
+        "best_suited_for": [
+          "Culture Lovers"
+        ],
         "description_ai": "Known as the rice bowl of Kerala with scenic canals."
       },
       "restaurants": [
@@ -878,7 +1040,11 @@
           "price_range": "mid_range",
           "avg_meal_cost": 400,
           "rating": 4.5,
-          "must_try": ["Kuttanad Duck Curry", "Puttu", "Kappa Biriyani"]
+          "must_try": [
+            "Kuttanad Duck Curry",
+            "Puttu",
+            "Kappa Biriyani"
+          ]
         },
         {
           "name": "Paddy Field View Cafe",
@@ -886,21 +1052,33 @@
           "price_range": "budget",
           "avg_meal_cost": 150,
           "rating": 4.2,
-          "must_try": ["Fresh Toddy", "Fish Fry", "Chicken Curry"]
+          "must_try": [
+            "Fresh Toddy",
+            "Fish Fry",
+            "Chicken Curry"
+          ]
         }
-      ]
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Kerala_Kuttanad1.jpg/500px-Kerala_Kuttanad1.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rameshwaram_Cafe_Dosa.jpg/500px-Rameshwaram_Cafe_Dosa.jpg"
+      }
     },
     {
       "id": "KER-20",
       "name": "Thiruvananthapuram Zoo",
       "city": "Thiruvananthapuram",
       "category": "Wildlife/National Parks",
-      "coordinates": { "latitude": "8.5241", "longitude": "76.9366" },
+      "coordinates": {
+        "latitude": "8.5241",
+        "longitude": "76.9366"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3000,
         "base_travel_cost": 400,
-        "seasonal_surge_factor": 1.10,
-        "traffic_delay_weight": 1.20
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 1.2
       },
       "per_day_budget": {
         "budget": 2500,
@@ -910,9 +1088,14 @@
       "entry_fee": 50,
       "avg_duration_hrs": 3,
       "ai_metadata": {
-        "vibe_tags": ["Educational", "Urban-Zoo"],
+        "vibe_tags": [
+          "Educational",
+          "Urban-Zoo"
+        ],
         "sentiment_score": 4.4,
-        "best_suited_for": ["Families"],
+        "best_suited_for": [
+          "Families"
+        ],
         "description_ai": "One of the oldest zoos in India with diverse species."
       },
       "restaurants": [
@@ -921,8 +1104,12 @@
           "cuisine": "Snacks/Beverages",
           "price_range": "budget",
           "avg_meal_cost": 120,
-          "rating": 4.0,
-          "must_try": ["Samosa", "Cold Drinks", "Puffs"]
+          "rating": 4,
+          "must_try": [
+            "Samosa",
+            "Cold Drinks",
+            "Puffs"
+          ]
         },
         {
           "name": "Ariya Nivas",
@@ -930,7 +1117,11 @@
           "price_range": "budget",
           "avg_meal_cost": 150,
           "rating": 4.3,
-          "must_try": ["Meals", "Dosa", "Pongal"]
+          "must_try": [
+            "Meals",
+            "Dosa",
+            "Pongal"
+          ]
         },
         {
           "name": "Zam Zam Restaurant",
@@ -938,21 +1129,33 @@
           "price_range": "mid_range",
           "avg_meal_cost": 350,
           "rating": 4.4,
-          "must_try": ["Chicken Biriyani", "Beef Curry", "Pathiri"]
+          "must_try": [
+            "Chicken Biriyani",
+            "Beef Curry",
+            "Pathiri"
+          ]
         }
-      ]
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Thiruvananthapuram_Zoo_Collage.jpg/500px-Thiruvananthapuram_Zoo_Collage.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rameshwaram_Cafe_Dosa.jpg/500px-Rameshwaram_Cafe_Dosa.jpg"
+      }
     },
     {
       "id": "KER-21",
       "name": "Padmanabhaswamy Temple",
       "city": "Thiruvananthapuram",
       "category": "Religious/Pilgrimage Sites",
-      "coordinates": { "latitude": "8.4820", "longitude": "76.9430" },
+      "coordinates": {
+        "latitude": "8.4820",
+        "longitude": "76.9430"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3500,
         "base_travel_cost": 400,
-        "seasonal_surge_factor": 1.20,
-        "traffic_delay_weight": 1.30
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 1.3
       },
       "per_day_budget": {
         "budget": 2500,
@@ -962,48 +1165,42 @@
       "entry_fee": 0,
       "avg_duration_hrs": 2,
       "ai_metadata": {
-        "vibe_tags": ["Spiritual", "Wealthy-Temple"],
+        "vibe_tags": [
+          "Spiritual",
+          "Wealthy-Temple"
+        ],
         "sentiment_score": 4.9,
-        "best_suited_for": ["Pilgrims"],
+        "best_suited_for": [
+          "Pilgrims"
+        ],
         "description_ai": "One of the richest temples in the world with Dravidian architecture."
       },
       "restaurants": [
-        {
-          "name": "Mothers Veg Plaza",
-          "cuisine": "Vegetarian",
-          "price_range": "budget",
-          "avg_meal_cost": 150,
-          "rating": 4.4,
-          "must_try": ["South Indian Thali", "Poori", "Curd Rice"]
-        },
-        {
-          "name": "Hotel Rahmaniya",
-          "cuisine": "Mughlai/Kerala",
-          "price_range": "budget",
-          "avg_meal_cost": 200,
-          "rating": 4.3,
-          "must_try": ["Chicken Biriyani", "Al Faham", "Shawarma"]
-        },
-        {
-          "name": "The Crown Restaurant",
-          "cuisine": "Multi-Cuisine",
-          "price_range": "mid_range",
-          "avg_meal_cost": 500,
-          "rating": 4.5,
-          "must_try": ["North Indian Dishes", "Tandoori Items", "Dal Makhani"]
-        }
-      ]
+        "Ariya Nivaas",
+        "Villa Maya"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Sree_Padmanabhaswamy_temple_01.jpg/500px-Sree_Padmanabhaswamy_temple_01.jpg",
+      "food_details": {
+        "famous_food": [
+          "Sadya",
+          "Payasam"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rameshwaram_Cafe_Dosa.jpg/500px-Rameshwaram_Cafe_Dosa.jpg"
+      }
     },
     {
       "id": "KER-22",
       "name": "Kozhikode Beach",
       "city": "Kozhikode",
       "category": "Beaches",
-      "coordinates": { "latitude": "11.2588", "longitude": "75.7804" },
+      "coordinates": {
+        "latitude": "11.2588",
+        "longitude": "75.7804"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2800,
         "base_travel_cost": 500,
-        "seasonal_surge_factor": 1.10,
+        "seasonal_surge_factor": 1.1,
         "traffic_delay_weight": 1.15
       },
       "per_day_budget": {
@@ -1014,9 +1211,14 @@
       "entry_fee": 0,
       "avg_duration_hrs": 2,
       "ai_metadata": {
-        "vibe_tags": ["Historic-Port", "Sunset"],
+        "vibe_tags": [
+          "Historic-Port",
+          "Sunset"
+        ],
         "sentiment_score": 4.5,
-        "best_suited_for": ["Families"],
+        "best_suited_for": [
+          "Families"
+        ],
         "description_ai": "Historic beach where Vasco da Gama first landed."
       },
       "restaurants": [
@@ -1026,7 +1228,11 @@
           "price_range": "mid_range",
           "avg_meal_cost": 350,
           "rating": 4.7,
-          "must_try": ["Kozhikode Biriyani", "Beef Fry", "Chatti Pathiri"]
+          "must_try": [
+            "Kozhikode Biriyani",
+            "Beef Fry",
+            "Chatti Pathiri"
+          ]
         },
         {
           "name": "Paragon Restaurant",
@@ -1034,7 +1240,11 @@
           "price_range": "mid_range",
           "avg_meal_cost": 550,
           "rating": 4.8,
-          "must_try": ["Malabar Fish Biriyani", "Kozhi Chatti Curry", "Al Faham"]
+          "must_try": [
+            "Malabar Fish Biriyani",
+            "Kozhi Chatti Curry",
+            "Al Faham"
+          ]
         },
         {
           "name": "Zain's Hotel",
@@ -1042,7 +1252,11 @@
           "price_range": "budget",
           "avg_meal_cost": 200,
           "rating": 4.5,
-          "must_try": ["Al Faham", "Mandi Rice", "Shawarma"]
+          "must_try": [
+            "Al Faham",
+            "Mandi Rice",
+            "Shawarma"
+          ]
         },
         {
           "name": "Beach Hotel",
@@ -1050,21 +1264,33 @@
           "price_range": "budget",
           "avg_meal_cost": 180,
           "rating": 4.2,
-          "must_try": ["Kallumakkaya Fry", "Netholi Fry", "Pathiri"]
+          "must_try": [
+            "Kallumakkaya Fry",
+            "Netholi Fry",
+            "Pathiri"
+          ]
         }
-      ]
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Kozhikode_Beach_Coastline.jpg/500px-Kozhikode_Beach_Coastline.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rameshwaram_Cafe_Dosa.jpg/500px-Rameshwaram_Cafe_Dosa.jpg"
+      }
     },
     {
       "id": "KER-23",
       "name": "Thalassery Fort",
       "city": "Thalassery",
       "category": "Historical Forts",
-      "coordinates": { "latitude": "11.7480", "longitude": "75.4900" },
+      "coordinates": {
+        "latitude": "11.7480",
+        "longitude": "75.4900"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2400,
         "base_travel_cost": 600,
-        "seasonal_surge_factor": 1.10,
-        "traffic_delay_weight": 1.10
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 1.1
       },
       "per_day_budget": {
         "budget": 2000,
@@ -1074,9 +1300,14 @@
       "entry_fee": 20,
       "avg_duration_hrs": 2,
       "ai_metadata": {
-        "vibe_tags": ["Colonial", "Stone-Fort"],
+        "vibe_tags": [
+          "Colonial",
+          "Stone-Fort"
+        ],
         "sentiment_score": 4.4,
-        "best_suited_for": ["History Buffs"],
+        "best_suited_for": [
+          "History Buffs"
+        ],
         "description_ai": "A British-era fort with massive stone walls."
       },
       "restaurants": [
@@ -1086,7 +1317,11 @@
           "price_range": "mid_range",
           "avg_meal_cost": 350,
           "rating": 4.4,
-          "must_try": ["Thalassery Biriyani", "Mutton Curry", "Kalumakaya"]
+          "must_try": [
+            "Thalassery Biriyani",
+            "Mutton Curry",
+            "Kalumakaya"
+          ]
         },
         {
           "name": "Paris Restaurant",
@@ -1094,21 +1329,33 @@
           "price_range": "budget",
           "avg_meal_cost": 180,
           "rating": 4.3,
-          "must_try": ["Chicken Fried Rice", "Gobi Manchurian", "Parotta"]
+          "must_try": [
+            "Chicken Fried Rice",
+            "Gobi Manchurian",
+            "Parotta"
+          ]
         }
-      ]
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Thalassery_fort.JPG/500px-Thalassery_fort.JPG",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rameshwaram_Cafe_Dosa.jpg/500px-Rameshwaram_Cafe_Dosa.jpg"
+      }
     },
     {
       "id": "KER-24",
       "name": "Marari Beach",
       "city": "Mararikulam",
       "category": "Beaches",
-      "coordinates": { "latitude": "9.6100", "longitude": "76.3020" },
+      "coordinates": {
+        "latitude": "9.6100",
+        "longitude": "76.3020"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3500,
         "base_travel_cost": 600,
-        "seasonal_surge_factor": 1.20,
-        "traffic_delay_weight": 1.10
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 1.1
       },
       "per_day_budget": {
         "budget": 3000,
@@ -1118,9 +1365,14 @@
       "entry_fee": 0,
       "avg_duration_hrs": 3,
       "ai_metadata": {
-        "vibe_tags": ["Luxury", "Quiet"],
+        "vibe_tags": [
+          "Luxury",
+          "Quiet"
+        ],
         "sentiment_score": 4.7,
-        "best_suited_for": ["Couples"],
+        "best_suited_for": [
+          "Couples"
+        ],
         "description_ai": "A tranquil beach with luxury eco-resorts."
       },
       "restaurants": [
@@ -1130,7 +1382,11 @@
           "price_range": "luxury",
           "avg_meal_cost": 1300,
           "rating": 4.7,
-          "must_try": ["Kerala Sadya", "Seafood Grill", "Coconut Desserts"]
+          "must_try": [
+            "Kerala Sadya",
+            "Seafood Grill",
+            "Coconut Desserts"
+          ]
         },
         {
           "name": "Beach Shacks",
@@ -1138,21 +1394,33 @@
           "price_range": "mid_range",
           "avg_meal_cost": 500,
           "rating": 4.4,
-          "must_try": ["Grilled Fish", "Prawn Curry", "Tapioca"]
+          "must_try": [
+            "Grilled Fish",
+            "Prawn Curry",
+            "Tapioca"
+          ]
         }
-      ]
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Marari_Beach_Sunset_01.JPG/500px-Marari_Beach_Sunset_01.JPG",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rameshwaram_Cafe_Dosa.jpg/500px-Rameshwaram_Cafe_Dosa.jpg"
+      }
     },
     {
       "id": "KER-25",
       "name": "Idukki Dam",
       "city": "Idukki",
       "category": "Major Cities & Cultural Spots",
-      "coordinates": { "latitude": "9.8430", "longitude": "76.9760" },
+      "coordinates": {
+        "latitude": "9.8430",
+        "longitude": "76.9760"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2800,
         "base_travel_cost": 700,
         "seasonal_surge_factor": 1.15,
-        "traffic_delay_weight": 1.10
+        "traffic_delay_weight": 1.1
       },
       "per_day_budget": {
         "budget": 2400,
@@ -1162,9 +1430,14 @@
       "entry_fee": 25,
       "avg_duration_hrs": 2,
       "ai_metadata": {
-        "vibe_tags": ["Engineering-Marvel", "Reservoir"],
+        "vibe_tags": [
+          "Engineering-Marvel",
+          "Reservoir"
+        ],
         "sentiment_score": 4.5,
-        "best_suited_for": ["Students"],
+        "best_suited_for": [
+          "Students"
+        ],
         "description_ai": "One of Asia's highest arch dams."
       },
       "restaurants": [
@@ -1174,29 +1447,45 @@
           "price_range": "mid_range",
           "avg_meal_cost": 300,
           "rating": 4.2,
-          "must_try": ["Fish Curry", "Nadan Chicken", "Appam"]
+          "must_try": [
+            "Fish Curry",
+            "Nadan Chicken",
+            "Appam"
+          ]
         },
         {
           "name": "Idukki Tea Stall",
           "cuisine": "Snacks",
           "price_range": "budget",
           "avg_meal_cost": 80,
-          "rating": 4.0,
-          "must_try": ["Tea", "Vada", "Bun"]
+          "rating": 4,
+          "must_try": [
+            "Tea",
+            "Vada",
+            "Bun"
+          ]
         }
-      ]
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Idukki009.jpg/500px-Idukki009.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rameshwaram_Cafe_Dosa.jpg/500px-Rameshwaram_Cafe_Dosa.jpg"
+      }
     },
     {
       "id": "KER-26",
       "name": "Nelliyampathy Hills",
       "city": "Palakkad",
       "category": "Hill Stations",
-      "coordinates": { "latitude": "10.5350", "longitude": "76.6930" },
+      "coordinates": {
+        "latitude": "10.5350",
+        "longitude": "76.6930"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2600,
         "base_travel_cost": 700,
-        "seasonal_surge_factor": 1.10,
-        "traffic_delay_weight": 1.10
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 1.1
       },
       "per_day_budget": {
         "budget": 2300,
@@ -1206,9 +1495,14 @@
       "entry_fee": 0,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Coffee", "Forests"],
+        "vibe_tags": [
+          "Coffee",
+          "Forests"
+        ],
         "sentiment_score": 4.6,
-        "best_suited_for": ["Nature Lovers"],
+        "best_suited_for": [
+          "Nature Lovers"
+        ],
         "description_ai": "Hill retreat with coffee and tea plantations."
       },
       "restaurants": [
@@ -1218,7 +1512,11 @@
           "price_range": "mid_range",
           "avg_meal_cost": 350,
           "rating": 4.3,
-          "must_try": ["Nadan Chicken", "Vegetable Fried Rice", "Gobi Manchurian"]
+          "must_try": [
+            "Nadan Chicken",
+            "Vegetable Fried Rice",
+            "Gobi Manchurian"
+          ]
         },
         {
           "name": "Coffee Plantation Cafe",
@@ -1226,21 +1524,33 @@
           "price_range": "budget",
           "avg_meal_cost": 150,
           "rating": 4.2,
-          "must_try": ["Fresh Coffee", "Sandwiches", "Cakes"]
+          "must_try": [
+            "Fresh Coffee",
+            "Sandwiches",
+            "Cakes"
+          ]
         }
-      ]
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/A_houseboat_in_Alleppey%2C_Kerala.jpg/500px-A_houseboat_in_Alleppey%2C_Kerala.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rameshwaram_Cafe_Dosa.jpg/500px-Rameshwaram_Cafe_Dosa.jpg"
+      }
     },
     {
       "id": "KER-27",
       "name": "Kottayam Churches",
       "city": "Kottayam",
       "category": "Religious/Pilgrimage Sites",
-      "coordinates": { "latitude": "9.5916", "longitude": "76.5222" },
+      "coordinates": {
+        "latitude": "9.5916",
+        "longitude": "76.5222"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2600,
         "base_travel_cost": 500,
-        "seasonal_surge_factor": 1.10,
-        "traffic_delay_weight": 1.10
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 1.1
       },
       "per_day_budget": {
         "budget": 2000,
@@ -1250,9 +1560,14 @@
       "entry_fee": 0,
       "avg_duration_hrs": 2,
       "ai_metadata": {
-        "vibe_tags": ["Heritage", "Christianity"],
+        "vibe_tags": [
+          "Heritage",
+          "Christianity"
+        ],
         "sentiment_score": 4.4,
-        "best_suited_for": ["Pilgrims"],
+        "best_suited_for": [
+          "Pilgrims"
+        ],
         "description_ai": "Historic Syrian Christian churches of Kerala."
       },
       "restaurants": [
@@ -1262,7 +1577,11 @@
           "price_range": "budget",
           "avg_meal_cost": 120,
           "rating": 4.3,
-          "must_try": ["Cutlet", "Beef Curry", "Filter Coffee"]
+          "must_try": [
+            "Cutlet",
+            "Beef Curry",
+            "Filter Coffee"
+          ]
         },
         {
           "name": "Thali Restaurant",
@@ -1270,21 +1589,33 @@
           "price_range": "mid_range",
           "avg_meal_cost": 300,
           "rating": 4.3,
-          "must_try": ["Kerala Meals", "Fish Molly", "Appam"]
+          "must_try": [
+            "Kerala Meals",
+            "Fish Molly",
+            "Appam"
+          ]
         }
-      ]
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/A_houseboat_in_Alleppey%2C_Kerala.jpg/500px-A_houseboat_in_Alleppey%2C_Kerala.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rameshwaram_Cafe_Dosa.jpg/500px-Rameshwaram_Cafe_Dosa.jpg"
+      }
     },
     {
       "id": "KER-28",
       "name": "Thrissur Vadakkunnathan Temple",
       "city": "Thrissur",
       "category": "Religious/Pilgrimage Sites",
-      "coordinates": { "latitude": "10.5260", "longitude": "76.2130" },
+      "coordinates": {
+        "latitude": "10.5260",
+        "longitude": "76.2130"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3000,
         "base_travel_cost": 500,
-        "seasonal_surge_factor": 1.20,
-        "traffic_delay_weight": 1.20
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 1.2
       },
       "per_day_budget": {
         "budget": 2200,
@@ -1294,9 +1625,14 @@
       "entry_fee": 0,
       "avg_duration_hrs": 2,
       "ai_metadata": {
-        "vibe_tags": ["Ancient", "Temple"],
+        "vibe_tags": [
+          "Ancient",
+          "Temple"
+        ],
         "sentiment_score": 4.8,
-        "best_suited_for": ["Pilgrims"],
+        "best_suited_for": [
+          "Pilgrims"
+        ],
         "description_ai": "An ancient Shiva temple in the cultural capital of Kerala."
       },
       "restaurants": [
@@ -1306,7 +1642,11 @@
           "price_range": "budget",
           "avg_meal_cost": 180,
           "rating": 4.4,
-          "must_try": ["Chicken Biriyani", "Beef Fry", "Porotta"]
+          "must_try": [
+            "Chicken Biriyani",
+            "Beef Fry",
+            "Porotta"
+          ]
         },
         {
           "name": "Buhari Hotel",
@@ -1314,7 +1654,11 @@
           "price_range": "budget",
           "avg_meal_cost": 200,
           "rating": 4.3,
-          "must_try": ["Mutton Biriyani", "Chicken 65", "Kuzhi Manthi"]
+          "must_try": [
+            "Mutton Biriyani",
+            "Chicken 65",
+            "Kuzhi Manthi"
+          ]
         },
         {
           "name": "Sree Krishna Inn",
@@ -1322,21 +1666,33 @@
           "price_range": "budget",
           "avg_meal_cost": 120,
           "rating": 4.2,
-          "must_try": ["South Indian Thali", "Masala Dosa", "Pongal"]
+          "must_try": [
+            "South Indian Thali",
+            "Masala Dosa",
+            "Pongal"
+          ]
         }
-      ]
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/%E0%B4%B5%E0%B4%9F%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B5%81%E0%B4%82%E0%B4%A8%E0%B4%BE%E0%B4%A5%E0%B4%95%E0%B5%8D%E0%B4%B7%E0%B5%87%E0%B4%A4%E0%B5%8D%E0%B4%B0%E0%B4%82-%E0%B4%A4%E0%B5%86%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B5%87%E0%B4%97%E0%B5%8B%E0%B4%AA%E0%B5%81%E0%B4%B0%E0%B4%82.jpg/500px-%E0%B4%B5%E0%B4%9F%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B5%81%E0%B4%82%E0%B4%A8%E0%B4%BE%E0%B4%A5%E0%B4%95%E0%B5%8D%E0%B4%B7%E0%B5%87%E0%B4%A4%E0%B5%8D%E0%B4%B0%E0%B4%82-%E0%B4%A4%E0%B5%86%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B5%87%E0%B4%97%E0%B5%8B%E0%B4%AA%E0%B5%81%E0%B4%B0%E0%B4%82.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rameshwaram_Cafe_Dosa.jpg/500px-Rameshwaram_Cafe_Dosa.jpg"
+      }
     },
     {
       "id": "KER-29",
       "name": "Parambikulam Tiger Reserve",
       "city": "Palakkad",
       "category": "Wildlife/National Parks",
-      "coordinates": { "latitude": "10.4000", "longitude": "76.8000" },
+      "coordinates": {
+        "latitude": "10.4000",
+        "longitude": "76.8000"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2800,
         "base_travel_cost": 900,
-        "seasonal_surge_factor": 1.10,
-        "traffic_delay_weight": 1.10
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 1.1
       },
       "per_day_budget": {
         "budget": 2800,
@@ -1346,9 +1702,14 @@
       "entry_fee": 150,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Tiger", "Dense-Forest"],
+        "vibe_tags": [
+          "Tiger",
+          "Dense-Forest"
+        ],
         "sentiment_score": 4.7,
-        "best_suited_for": ["Wildlife Lovers"],
+        "best_suited_for": [
+          "Wildlife Lovers"
+        ],
         "description_ai": "Protected tiger reserve with rich biodiversity."
       },
       "restaurants": [
@@ -1357,8 +1718,12 @@
           "cuisine": "South Indian",
           "price_range": "budget",
           "avg_meal_cost": 120,
-          "rating": 4.0,
-          "must_try": ["Rice and Sambar", "Vegetable Curry", "Tea"]
+          "rating": 4,
+          "must_try": [
+            "Rice and Sambar",
+            "Vegetable Curry",
+            "Tea"
+          ]
         },
         {
           "name": "Parambikulam Eco Lodge Restaurant",
@@ -1366,21 +1731,33 @@
           "price_range": "mid_range",
           "avg_meal_cost": 400,
           "rating": 4.3,
-          "must_try": ["Tribal-style Dishes", "Bamboo Biriyani", "Forest Honey"]
+          "must_try": [
+            "Tribal-style Dishes",
+            "Bamboo Biriyani",
+            "Forest Honey"
+          ]
         }
-      ]
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Valley_View_Parambikulam_02.jpg/500px-Valley_View_Parambikulam_02.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rameshwaram_Cafe_Dosa.jpg/500px-Rameshwaram_Cafe_Dosa.jpg"
+      }
     },
     {
       "id": "KER-30",
       "name": "Kalari Kovilakom",
       "city": "Palakkad",
       "category": "Wellness & Ayurveda",
-      "coordinates": { "latitude": "10.7780", "longitude": "76.6530" },
+      "coordinates": {
+        "latitude": "10.7780",
+        "longitude": "76.6530"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 6000,
         "base_travel_cost": 800,
-        "seasonal_surge_factor": 1.30,
-        "traffic_delay_weight": 1.10
+        "seasonal_surge_factor": 1.3,
+        "traffic_delay_weight": 1.1
       },
       "per_day_budget": {
         "budget": 5500,
@@ -1390,9 +1767,15 @@
       "entry_fee": 0,
       "avg_duration_hrs": 5,
       "ai_metadata": {
-        "vibe_tags": ["Ayurveda", "Luxury", "Healing"],
+        "vibe_tags": [
+          "Ayurveda",
+          "Luxury",
+          "Healing"
+        ],
         "sentiment_score": 4.9,
-        "best_suited_for": ["Wellness Seekers"],
+        "best_suited_for": [
+          "Wellness Seekers"
+        ],
         "description_ai": "A heritage palace turned into an authentic Ayurveda retreat."
       },
       "restaurants": [
@@ -1402,308 +1785,1289 @@
           "price_range": "luxury",
           "avg_meal_cost": 1800,
           "rating": 4.9,
-          "must_try": ["Ayurvedic Meals", "Herbal Soups", "Kitchari"]
+          "must_try": [
+            "Ayurvedic Meals",
+            "Herbal Soups",
+            "Kitchari"
+          ]
         }
-      ]
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/A_houseboat_in_Alleppey%2C_Kerala.jpg/500px-A_houseboat_in_Alleppey%2C_Kerala.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rameshwaram_Cafe_Dosa.jpg/500px-Rameshwaram_Cafe_Dosa.jpg"
+      }
     }
   ],
   "search_indexes": {
     "seafood": [
-      { "restaurant": "Harbour Restaurant", "area": "Alleppey Backwaters", "id": "KER-02" },
-      { "restaurant": "The Rice Boat", "area": "Alleppey Backwaters", "id": "KER-02" },
-      { "restaurant": "The Tides", "area": "Kovalam Beach", "id": "KER-04" },
-      { "restaurant": "Bait Restaurant", "area": "Kovalam Beach", "id": "KER-04" },
-      { "restaurant": "Ettukettu Restaurant", "area": "Kumarakom Backwaters", "id": "KER-08" },
-      { "restaurant": "Oceanos Restaurant", "area": "Fort Kochi", "id": "KER-10" },
-      { "restaurant": "Cherai Beach Restaurant", "area": "Cherai Beach", "id": "KER-11" },
-      { "restaurant": "Island Cafe", "area": "Poovar Island", "id": "KER-14" },
-      { "restaurant": "Poovar Boat Restaurant", "area": "Poovar Island", "id": "KER-14" },
-      { "restaurant": "Lake View Restaurant", "area": "Ashtamudi Lake", "id": "KER-16" },
-      { "restaurant": "Ashtamudi Residency", "area": "Ashtamudi Lake", "id": "KER-16" },
-      { "restaurant": "Ponnani Fish Market Eatery", "area": "Ponnani Beach", "id": "KER-18" },
-      { "restaurant": "Paragon Restaurant", "area": "Kozhikode Beach", "id": "KER-22" },
-      { "restaurant": "Beach Hotel", "area": "Kozhikode Beach", "id": "KER-22" },
-      { "restaurant": "Marari Beach Resort Restaurant", "area": "Marari Beach", "id": "KER-24" },
-      { "restaurant": "Beach Shacks", "area": "Marari Beach", "id": "KER-24" }
+      {
+        "restaurant": "Harbour Restaurant",
+        "area": "Alleppey Backwaters",
+        "id": "KER-02"
+      },
+      {
+        "restaurant": "The Rice Boat",
+        "area": "Alleppey Backwaters",
+        "id": "KER-02"
+      },
+      {
+        "restaurant": "The Tides",
+        "area": "Kovalam Beach",
+        "id": "KER-04"
+      },
+      {
+        "restaurant": "Bait Restaurant",
+        "area": "Kovalam Beach",
+        "id": "KER-04"
+      },
+      {
+        "restaurant": "Ettukettu Restaurant",
+        "area": "Kumarakom Backwaters",
+        "id": "KER-08"
+      },
+      {
+        "restaurant": "Oceanos Restaurant",
+        "area": "Fort Kochi",
+        "id": "KER-10"
+      },
+      {
+        "restaurant": "Cherai Beach Restaurant",
+        "area": "Cherai Beach",
+        "id": "KER-11"
+      },
+      {
+        "restaurant": "Island Cafe",
+        "area": "Poovar Island",
+        "id": "KER-14"
+      },
+      {
+        "restaurant": "Poovar Boat Restaurant",
+        "area": "Poovar Island",
+        "id": "KER-14"
+      },
+      {
+        "restaurant": "Lake View Restaurant",
+        "area": "Ashtamudi Lake",
+        "id": "KER-16"
+      },
+      {
+        "restaurant": "Ashtamudi Residency",
+        "area": "Ashtamudi Lake",
+        "id": "KER-16"
+      },
+      {
+        "restaurant": "Ponnani Fish Market Eatery",
+        "area": "Ponnani Beach",
+        "id": "KER-18"
+      },
+      {
+        "restaurant": "Paragon Restaurant",
+        "area": "Kozhikode Beach",
+        "id": "KER-22"
+      },
+      {
+        "restaurant": "Beach Hotel",
+        "area": "Kozhikode Beach",
+        "id": "KER-22"
+      },
+      {
+        "restaurant": "Marari Beach Resort Restaurant",
+        "area": "Marari Beach",
+        "id": "KER-24"
+      },
+      {
+        "restaurant": "Beach Shacks",
+        "area": "Marari Beach",
+        "id": "KER-24"
+      }
     ],
     "malabar": [
-      { "restaurant": "Bombay Hotel", "area": "Kozhikode Beach", "id": "KER-22" },
-      { "restaurant": "Paragon Restaurant", "area": "Kozhikode Beach", "id": "KER-22" },
-      { "restaurant": "Zain's Hotel", "area": "Kozhikode Beach", "id": "KER-22" },
-      { "restaurant": "Thalassery Fortune Restaurant", "area": "Thalassery Fort", "id": "KER-23" },
-      { "restaurant": "Paris Restaurant", "area": "Thalassery Fort", "id": "KER-23" },
-      { "restaurant": "Bekal Fort View Restaurant", "area": "Bekal Fort", "id": "KER-09" }
+      {
+        "restaurant": "Bombay Hotel",
+        "area": "Kozhikode Beach",
+        "id": "KER-22"
+      },
+      {
+        "restaurant": "Paragon Restaurant",
+        "area": "Kozhikode Beach",
+        "id": "KER-22"
+      },
+      {
+        "restaurant": "Zain's Hotel",
+        "area": "Kozhikode Beach",
+        "id": "KER-22"
+      },
+      {
+        "restaurant": "Thalassery Fortune Restaurant",
+        "area": "Thalassery Fort",
+        "id": "KER-23"
+      },
+      {
+        "restaurant": "Paris Restaurant",
+        "area": "Thalassery Fort",
+        "id": "KER-23"
+      },
+      {
+        "restaurant": "Bekal Fort View Restaurant",
+        "area": "Bekal Fort",
+        "id": "KER-09"
+      }
     ],
     "biriyani": [
-      { "restaurant": "Kayees Biriyani", "area": "Fort Kochi", "id": "KER-10" },
-      { "restaurant": "Bombay Hotel", "area": "Kozhikode Beach", "id": "KER-22" },
-      { "restaurant": "Paragon Restaurant", "area": "Kozhikode Beach", "id": "KER-22" },
-      { "restaurant": "Thalassery Fortune Restaurant", "area": "Thalassery Fort", "id": "KER-23" },
-      { "restaurant": "Jubilee Restaurant", "area": "Wayanad Wildlife Sanctuary", "id": "KER-05" },
-      { "restaurant": "Zam Zam Restaurant", "area": "Thiruvananthapuram Zoo", "id": "KER-20" },
-      { "restaurant": "Hotel Rahmaniya", "area": "Padmanabhaswamy Temple", "id": "KER-21" },
-      { "restaurant": "Pathans Restaurant", "area": "Thrissur Vadakkunnathan Temple", "id": "KER-28" },
-      { "restaurant": "Buhari Hotel", "area": "Thrissur Vadakkunnathan Temple", "id": "KER-28" }
+      {
+        "restaurant": "Kayees Biriyani",
+        "area": "Fort Kochi",
+        "id": "KER-10"
+      },
+      {
+        "restaurant": "Bombay Hotel",
+        "area": "Kozhikode Beach",
+        "id": "KER-22"
+      },
+      {
+        "restaurant": "Paragon Restaurant",
+        "area": "Kozhikode Beach",
+        "id": "KER-22"
+      },
+      {
+        "restaurant": "Thalassery Fortune Restaurant",
+        "area": "Thalassery Fort",
+        "id": "KER-23"
+      },
+      {
+        "restaurant": "Jubilee Restaurant",
+        "area": "Wayanad Wildlife Sanctuary",
+        "id": "KER-05"
+      },
+      {
+        "restaurant": "Zam Zam Restaurant",
+        "area": "Thiruvananthapuram Zoo",
+        "id": "KER-20"
+      },
+      {
+        "restaurant": "Hotel Rahmaniya",
+        "area": "Padmanabhaswamy Temple",
+        "id": "KER-21"
+      },
+      {
+        "restaurant": "Pathans Restaurant",
+        "area": "Thrissur Vadakkunnathan Temple",
+        "id": "KER-28"
+      },
+      {
+        "restaurant": "Buhari Hotel",
+        "area": "Thrissur Vadakkunnathan Temple",
+        "id": "KER-28"
+      }
     ],
     "south_indian": [
-      { "restaurant": "Saravana Bhavan", "area": "Munnar Tea Gardens", "id": "KER-01" },
-      { "restaurant": "Indian Coffee House", "area": "Alleppey Backwaters", "id": "KER-02" },
-      { "restaurant": "Udupi Krishna Restaurant", "area": "Wayanad Wildlife Sanctuary", "id": "KER-05" },
-      { "restaurant": "Ariya Nivas", "area": "Thiruvananthapuram Zoo", "id": "KER-20" },
-      { "restaurant": "Mothers Veg Plaza", "area": "Padmanabhaswamy Temple", "id": "KER-21" },
-      { "restaurant": "Indian Coffee House", "area": "Kottayam Churches", "id": "KER-27" },
-      { "restaurant": "Sree Krishna Inn", "area": "Thrissur Vadakkunnathan Temple", "id": "KER-28" },
-      { "restaurant": "Forest Department Canteen", "area": "Parambikulam Tiger Reserve", "id": "KER-29" }
+      {
+        "restaurant": "Saravana Bhavan",
+        "area": "Munnar Tea Gardens",
+        "id": "KER-01"
+      },
+      {
+        "restaurant": "Indian Coffee House",
+        "area": "Alleppey Backwaters",
+        "id": "KER-02"
+      },
+      {
+        "restaurant": "Udupi Krishna Restaurant",
+        "area": "Wayanad Wildlife Sanctuary",
+        "id": "KER-05"
+      },
+      {
+        "restaurant": "Ariya Nivas",
+        "area": "Thiruvananthapuram Zoo",
+        "id": "KER-20"
+      },
+      {
+        "restaurant": "Mothers Veg Plaza",
+        "area": "Padmanabhaswamy Temple",
+        "id": "KER-21"
+      },
+      {
+        "restaurant": "Indian Coffee House",
+        "area": "Kottayam Churches",
+        "id": "KER-27"
+      },
+      {
+        "restaurant": "Sree Krishna Inn",
+        "area": "Thrissur Vadakkunnathan Temple",
+        "id": "KER-28"
+      },
+      {
+        "restaurant": "Forest Department Canteen",
+        "area": "Parambikulam Tiger Reserve",
+        "id": "KER-29"
+      }
     ],
     "vegetarian": [
-      { "restaurant": "Saravana Bhavan", "area": "Munnar Tea Gardens", "id": "KER-01" },
-      { "restaurant": "Udupi Krishna Restaurant", "area": "Wayanad Wildlife Sanctuary", "id": "KER-05" },
-      { "restaurant": "Ariya Nivas", "area": "Thiruvananthapuram Zoo", "id": "KER-20" },
-      { "restaurant": "Mothers Veg Plaza", "area": "Padmanabhaswamy Temple", "id": "KER-21" },
-      { "restaurant": "Sree Krishna Inn", "area": "Thrissur Vadakkunnathan Temple", "id": "KER-28" },
-      { "restaurant": "Kalari Kitchen", "area": "Kalari Kovilakom", "id": "KER-30" }
+      {
+        "restaurant": "Saravana Bhavan",
+        "area": "Munnar Tea Gardens",
+        "id": "KER-01"
+      },
+      {
+        "restaurant": "Udupi Krishna Restaurant",
+        "area": "Wayanad Wildlife Sanctuary",
+        "id": "KER-05"
+      },
+      {
+        "restaurant": "Ariya Nivas",
+        "area": "Thiruvananthapuram Zoo",
+        "id": "KER-20"
+      },
+      {
+        "restaurant": "Mothers Veg Plaza",
+        "area": "Padmanabhaswamy Temple",
+        "id": "KER-21"
+      },
+      {
+        "restaurant": "Sree Krishna Inn",
+        "area": "Thrissur Vadakkunnathan Temple",
+        "id": "KER-28"
+      },
+      {
+        "restaurant": "Kalari Kitchen",
+        "area": "Kalari Kovilakom",
+        "id": "KER-30"
+      }
     ],
     "mughlai": [
-      { "restaurant": "Jubilee Restaurant", "area": "Wayanad Wildlife Sanctuary", "id": "KER-05" },
-      { "restaurant": "Kayees Biriyani", "area": "Fort Kochi", "id": "KER-10" },
-      { "restaurant": "Zam Zam Restaurant", "area": "Thiruvananthapuram Zoo", "id": "KER-20" },
-      { "restaurant": "Hotel Rahmaniya", "area": "Padmanabhaswamy Temple", "id": "KER-21" },
-      { "restaurant": "Pathans Restaurant", "area": "Thrissur Vadakkunnathan Temple", "id": "KER-28" },
-      { "restaurant": "Buhari Hotel", "area": "Thrissur Vadakkunnathan Temple", "id": "KER-28" }
+      {
+        "restaurant": "Jubilee Restaurant",
+        "area": "Wayanad Wildlife Sanctuary",
+        "id": "KER-05"
+      },
+      {
+        "restaurant": "Kayees Biriyani",
+        "area": "Fort Kochi",
+        "id": "KER-10"
+      },
+      {
+        "restaurant": "Zam Zam Restaurant",
+        "area": "Thiruvananthapuram Zoo",
+        "id": "KER-20"
+      },
+      {
+        "restaurant": "Hotel Rahmaniya",
+        "area": "Padmanabhaswamy Temple",
+        "id": "KER-21"
+      },
+      {
+        "restaurant": "Pathans Restaurant",
+        "area": "Thrissur Vadakkunnathan Temple",
+        "id": "KER-28"
+      },
+      {
+        "restaurant": "Buhari Hotel",
+        "area": "Thrissur Vadakkunnathan Temple",
+        "id": "KER-28"
+      }
     ],
     "continental": [
-      { "restaurant": "The Hill Spice", "area": "Munnar Tea Gardens", "id": "KER-01" },
-      { "restaurant": "Cliff Story Cafe", "area": "Varkala Beach", "id": "KER-03" },
-      { "restaurant": "Abba Restaurant", "area": "Varkala Beach", "id": "KER-03" },
-      { "restaurant": "The Tides", "area": "Kovalam Beach", "id": "KER-04" },
-      { "restaurant": "German Bakery", "area": "Kovalam Beach", "id": "KER-04" },
-      { "restaurant": "Kashi Art Cafe", "area": "Fort Kochi", "id": "KER-10" },
-      { "restaurant": "Oceanos Restaurant", "area": "Fort Kochi", "id": "KER-10" },
-      { "restaurant": "Teapot Cafe", "area": "Fort Kochi", "id": "KER-10" },
-      { "restaurant": "Poovar Boat Restaurant", "area": "Poovar Island", "id": "KER-14" }
+      {
+        "restaurant": "The Hill Spice",
+        "area": "Munnar Tea Gardens",
+        "id": "KER-01"
+      },
+      {
+        "restaurant": "Cliff Story Cafe",
+        "area": "Varkala Beach",
+        "id": "KER-03"
+      },
+      {
+        "restaurant": "Abba Restaurant",
+        "area": "Varkala Beach",
+        "id": "KER-03"
+      },
+      {
+        "restaurant": "The Tides",
+        "area": "Kovalam Beach",
+        "id": "KER-04"
+      },
+      {
+        "restaurant": "German Bakery",
+        "area": "Kovalam Beach",
+        "id": "KER-04"
+      },
+      {
+        "restaurant": "Kashi Art Cafe",
+        "area": "Fort Kochi",
+        "id": "KER-10"
+      },
+      {
+        "restaurant": "Oceanos Restaurant",
+        "area": "Fort Kochi",
+        "id": "KER-10"
+      },
+      {
+        "restaurant": "Teapot Cafe",
+        "area": "Fort Kochi",
+        "id": "KER-10"
+      },
+      {
+        "restaurant": "Poovar Boat Restaurant",
+        "area": "Poovar Island",
+        "id": "KER-14"
+      }
     ],
     "budget": [
-      { "restaurant": "Saravana Bhavan", "area": "Munnar Tea Gardens", "id": "KER-01" },
-      { "restaurant": "Indian Coffee House", "area": "Alleppey Backwaters", "id": "KER-02" },
-      { "restaurant": "InDa Cafe", "area": "Varkala Beach", "id": "KER-03" },
-      { "restaurant": "German Bakery", "area": "Kovalam Beach", "id": "KER-04" },
-      { "restaurant": "Udupi Krishna Restaurant", "area": "Wayanad Wildlife Sanctuary", "id": "KER-05" },
-      { "restaurant": "Athirappilly Falls View Cafe", "area": "Athirappilly Waterfalls", "id": "KER-06" },
-      { "restaurant": "Coffee Garden", "area": "Periyar National Park", "id": "KER-07" },
-      { "restaurant": "Maharaja Multi-Cuisine", "area": "Bekal Fort", "id": "KER-09" },
-      { "restaurant": "Kayees Biriyani", "area": "Fort Kochi", "id": "KER-10" },
-      { "restaurant": "Beach Cafe", "area": "Cherai Beach", "id": "KER-11" },
-      { "restaurant": "Forest Cafe", "area": "Silent Valley National Park", "id": "KER-12" },
-      { "restaurant": "Base Camp Cafe", "area": "Meesapulimala", "id": "KER-13" },
-      { "restaurant": "Meadows Cafe", "area": "Vagamon", "id": "KER-15" },
-      { "restaurant": "Garden Cafe", "area": "Malampuzha Dam", "id": "KER-17" },
-      { "restaurant": "Malampuzha Food Court", "area": "Malampuzha Dam", "id": "KER-17" },
-      { "restaurant": "Ponnani Fish Market Eatery", "area": "Ponnani Beach", "id": "KER-18" },
-      { "restaurant": "Beachside Tea Stall", "area": "Ponnani Beach", "id": "KER-18" },
-      { "restaurant": "Paddy Field View Cafe", "area": "Kuttanad", "id": "KER-19" },
-      { "restaurant": "Zoo Cafe", "area": "Thiruvananthapuram Zoo", "id": "KER-20" },
-      { "restaurant": "Ariya Nivas", "area": "Thiruvananthapuram Zoo", "id": "KER-20" },
-      { "restaurant": "Mothers Veg Plaza", "area": "Padmanabhaswamy Temple", "id": "KER-21" },
-      { "restaurant": "Hotel Rahmaniya", "area": "Padmanabhaswamy Temple", "id": "KER-21" },
-      { "restaurant": "Zain's Hotel", "area": "Kozhikode Beach", "id": "KER-22" },
-      { "restaurant": "Beach Hotel", "area": "Kozhikode Beach", "id": "KER-22" },
-      { "restaurant": "Paris Restaurant", "area": "Thalassery Fort", "id": "KER-23" },
-      { "restaurant": "Idukki Tea Stall", "area": "Idukki Dam", "id": "KER-25" },
-      { "restaurant": "Coffee Plantation Cafe", "area": "Nelliyampathy Hills", "id": "KER-26" },
-      { "restaurant": "Indian Coffee House", "area": "Kottayam Churches", "id": "KER-27" },
-      { "restaurant": "Pathans Restaurant", "area": "Thrissur Vadakkunnathan Temple", "id": "KER-28" },
-      { "restaurant": "Buhari Hotel", "area": "Thrissur Vadakkunnathan Temple", "id": "KER-28" },
-      { "restaurant": "Sree Krishna Inn", "area": "Thrissur Vadakkunnathan Temple", "id": "KER-28" },
-      { "restaurant": "Forest Department Canteen", "area": "Parambikulam Tiger Reserve", "id": "KER-29" }
+      {
+        "restaurant": "Saravana Bhavan",
+        "area": "Munnar Tea Gardens",
+        "id": "KER-01"
+      },
+      {
+        "restaurant": "Indian Coffee House",
+        "area": "Alleppey Backwaters",
+        "id": "KER-02"
+      },
+      {
+        "restaurant": "InDa Cafe",
+        "area": "Varkala Beach",
+        "id": "KER-03"
+      },
+      {
+        "restaurant": "German Bakery",
+        "area": "Kovalam Beach",
+        "id": "KER-04"
+      },
+      {
+        "restaurant": "Udupi Krishna Restaurant",
+        "area": "Wayanad Wildlife Sanctuary",
+        "id": "KER-05"
+      },
+      {
+        "restaurant": "Athirappilly Falls View Cafe",
+        "area": "Athirappilly Waterfalls",
+        "id": "KER-06"
+      },
+      {
+        "restaurant": "Coffee Garden",
+        "area": "Periyar National Park",
+        "id": "KER-07"
+      },
+      {
+        "restaurant": "Maharaja Multi-Cuisine",
+        "area": "Bekal Fort",
+        "id": "KER-09"
+      },
+      {
+        "restaurant": "Kayees Biriyani",
+        "area": "Fort Kochi",
+        "id": "KER-10"
+      },
+      {
+        "restaurant": "Beach Cafe",
+        "area": "Cherai Beach",
+        "id": "KER-11"
+      },
+      {
+        "restaurant": "Forest Cafe",
+        "area": "Silent Valley National Park",
+        "id": "KER-12"
+      },
+      {
+        "restaurant": "Base Camp Cafe",
+        "area": "Meesapulimala",
+        "id": "KER-13"
+      },
+      {
+        "restaurant": "Meadows Cafe",
+        "area": "Vagamon",
+        "id": "KER-15"
+      },
+      {
+        "restaurant": "Garden Cafe",
+        "area": "Malampuzha Dam",
+        "id": "KER-17"
+      },
+      {
+        "restaurant": "Malampuzha Food Court",
+        "area": "Malampuzha Dam",
+        "id": "KER-17"
+      },
+      {
+        "restaurant": "Ponnani Fish Market Eatery",
+        "area": "Ponnani Beach",
+        "id": "KER-18"
+      },
+      {
+        "restaurant": "Beachside Tea Stall",
+        "area": "Ponnani Beach",
+        "id": "KER-18"
+      },
+      {
+        "restaurant": "Paddy Field View Cafe",
+        "area": "Kuttanad",
+        "id": "KER-19"
+      },
+      {
+        "restaurant": "Zoo Cafe",
+        "area": "Thiruvananthapuram Zoo",
+        "id": "KER-20"
+      },
+      {
+        "restaurant": "Ariya Nivas",
+        "area": "Thiruvananthapuram Zoo",
+        "id": "KER-20"
+      },
+      {
+        "restaurant": "Mothers Veg Plaza",
+        "area": "Padmanabhaswamy Temple",
+        "id": "KER-21"
+      },
+      {
+        "restaurant": "Hotel Rahmaniya",
+        "area": "Padmanabhaswamy Temple",
+        "id": "KER-21"
+      },
+      {
+        "restaurant": "Zain's Hotel",
+        "area": "Kozhikode Beach",
+        "id": "KER-22"
+      },
+      {
+        "restaurant": "Beach Hotel",
+        "area": "Kozhikode Beach",
+        "id": "KER-22"
+      },
+      {
+        "restaurant": "Paris Restaurant",
+        "area": "Thalassery Fort",
+        "id": "KER-23"
+      },
+      {
+        "restaurant": "Idukki Tea Stall",
+        "area": "Idukki Dam",
+        "id": "KER-25"
+      },
+      {
+        "restaurant": "Coffee Plantation Cafe",
+        "area": "Nelliyampathy Hills",
+        "id": "KER-26"
+      },
+      {
+        "restaurant": "Indian Coffee House",
+        "area": "Kottayam Churches",
+        "id": "KER-27"
+      },
+      {
+        "restaurant": "Pathans Restaurant",
+        "area": "Thrissur Vadakkunnathan Temple",
+        "id": "KER-28"
+      },
+      {
+        "restaurant": "Buhari Hotel",
+        "area": "Thrissur Vadakkunnathan Temple",
+        "id": "KER-28"
+      },
+      {
+        "restaurant": "Sree Krishna Inn",
+        "area": "Thrissur Vadakkunnathan Temple",
+        "id": "KER-28"
+      },
+      {
+        "restaurant": "Forest Department Canteen",
+        "area": "Parambikulam Tiger Reserve",
+        "id": "KER-29"
+      }
     ],
     "mid_range": [
-      { "restaurant": "Rapsy Restaurant", "area": "Munnar Tea Gardens", "id": "KER-01" },
-      { "restaurant": "Harbour Restaurant", "area": "Alleppey Backwaters", "id": "KER-02" },
-      { "restaurant": "Cliff Story Cafe", "area": "Varkala Beach", "id": "KER-03" },
-      { "restaurant": "Abba Restaurant", "area": "Varkala Beach", "id": "KER-03" },
-      { "restaurant": "Bait Restaurant", "area": "Kovalam Beach", "id": "KER-04" },
-      { "restaurant": "Jubilee Restaurant", "area": "Wayanad Wildlife Sanctuary", "id": "KER-05" },
-      { "restaurant": "Rainforest Restaurant", "area": "Athirappilly Waterfalls", "id": "KER-06" },
-      { "restaurant": "Spice Garden Restaurant", "area": "Periyar National Park", "id": "KER-07" },
-      { "restaurant": "Tharavadu Restaurant", "area": "Kumarakom Backwaters", "id": "KER-08" },
-      { "restaurant": "Bekal Fort View Restaurant", "area": "Bekal Fort", "id": "KER-09" },
-      { "restaurant": "Kashi Art Cafe", "area": "Fort Kochi", "id": "KER-10" },
-      { "restaurant": "Teapot Cafe", "area": "Fort Kochi", "id": "KER-10" },
-      { "restaurant": "Cherai Beach Restaurant", "area": "Cherai Beach", "id": "KER-11" },
-      { "restaurant": "Meesapulimala View Point Eatery", "area": "Meesapulimala", "id": "KER-13" },
-      { "restaurant": "Island Cafe", "area": "Poovar Island", "id": "KER-14" },
-      { "restaurant": "Vagamon Heights Restaurant", "area": "Vagamon", "id": "KER-15" },
-      { "restaurant": "Lake View Restaurant", "area": "Ashtamudi Lake", "id": "KER-16" },
-      { "restaurant": "Kuttanad Restaurant", "area": "Kuttanad", "id": "KER-19" },
-      { "restaurant": "Zam Zam Restaurant", "area": "Thiruvananthapuram Zoo", "id": "KER-20" },
-      { "restaurant": "The Crown Restaurant", "area": "Padmanabhaswamy Temple", "id": "KER-21" },
-      { "restaurant": "Bombay Hotel", "area": "Kozhikode Beach", "id": "KER-22" },
-      { "restaurant": "Paragon Restaurant", "area": "Kozhikode Beach", "id": "KER-22" },
-      { "restaurant": "Thalassery Fortune Restaurant", "area": "Thalassery Fort", "id": "KER-23" },
-      { "restaurant": "Beach Shacks", "area": "Marari Beach", "id": "KER-24" },
-      { "restaurant": "Dam View Restaurant", "area": "Idukki Dam", "id": "KER-25" },
-      { "restaurant": "Nelliyampathy Heights Restaurant", "area": "Nelliyampathy Hills", "id": "KER-26" },
-      { "restaurant": "Thali Restaurant", "area": "Kottayam Churches", "id": "KER-27" },
-      { "restaurant": "Parambikulam Eco Lodge Restaurant", "area": "Parambikulam Tiger Reserve", "id": "KER-29" }
+      {
+        "restaurant": "Rapsy Restaurant",
+        "area": "Munnar Tea Gardens",
+        "id": "KER-01"
+      },
+      {
+        "restaurant": "Harbour Restaurant",
+        "area": "Alleppey Backwaters",
+        "id": "KER-02"
+      },
+      {
+        "restaurant": "Cliff Story Cafe",
+        "area": "Varkala Beach",
+        "id": "KER-03"
+      },
+      {
+        "restaurant": "Abba Restaurant",
+        "area": "Varkala Beach",
+        "id": "KER-03"
+      },
+      {
+        "restaurant": "Bait Restaurant",
+        "area": "Kovalam Beach",
+        "id": "KER-04"
+      },
+      {
+        "restaurant": "Jubilee Restaurant",
+        "area": "Wayanad Wildlife Sanctuary",
+        "id": "KER-05"
+      },
+      {
+        "restaurant": "Rainforest Restaurant",
+        "area": "Athirappilly Waterfalls",
+        "id": "KER-06"
+      },
+      {
+        "restaurant": "Spice Garden Restaurant",
+        "area": "Periyar National Park",
+        "id": "KER-07"
+      },
+      {
+        "restaurant": "Tharavadu Restaurant",
+        "area": "Kumarakom Backwaters",
+        "id": "KER-08"
+      },
+      {
+        "restaurant": "Bekal Fort View Restaurant",
+        "area": "Bekal Fort",
+        "id": "KER-09"
+      },
+      {
+        "restaurant": "Kashi Art Cafe",
+        "area": "Fort Kochi",
+        "id": "KER-10"
+      },
+      {
+        "restaurant": "Teapot Cafe",
+        "area": "Fort Kochi",
+        "id": "KER-10"
+      },
+      {
+        "restaurant": "Cherai Beach Restaurant",
+        "area": "Cherai Beach",
+        "id": "KER-11"
+      },
+      {
+        "restaurant": "Meesapulimala View Point Eatery",
+        "area": "Meesapulimala",
+        "id": "KER-13"
+      },
+      {
+        "restaurant": "Island Cafe",
+        "area": "Poovar Island",
+        "id": "KER-14"
+      },
+      {
+        "restaurant": "Vagamon Heights Restaurant",
+        "area": "Vagamon",
+        "id": "KER-15"
+      },
+      {
+        "restaurant": "Lake View Restaurant",
+        "area": "Ashtamudi Lake",
+        "id": "KER-16"
+      },
+      {
+        "restaurant": "Kuttanad Restaurant",
+        "area": "Kuttanad",
+        "id": "KER-19"
+      },
+      {
+        "restaurant": "Zam Zam Restaurant",
+        "area": "Thiruvananthapuram Zoo",
+        "id": "KER-20"
+      },
+      {
+        "restaurant": "The Crown Restaurant",
+        "area": "Padmanabhaswamy Temple",
+        "id": "KER-21"
+      },
+      {
+        "restaurant": "Bombay Hotel",
+        "area": "Kozhikode Beach",
+        "id": "KER-22"
+      },
+      {
+        "restaurant": "Paragon Restaurant",
+        "area": "Kozhikode Beach",
+        "id": "KER-22"
+      },
+      {
+        "restaurant": "Thalassery Fortune Restaurant",
+        "area": "Thalassery Fort",
+        "id": "KER-23"
+      },
+      {
+        "restaurant": "Beach Shacks",
+        "area": "Marari Beach",
+        "id": "KER-24"
+      },
+      {
+        "restaurant": "Dam View Restaurant",
+        "area": "Idukki Dam",
+        "id": "KER-25"
+      },
+      {
+        "restaurant": "Nelliyampathy Heights Restaurant",
+        "area": "Nelliyampathy Hills",
+        "id": "KER-26"
+      },
+      {
+        "restaurant": "Thali Restaurant",
+        "area": "Kottayam Churches",
+        "id": "KER-27"
+      },
+      {
+        "restaurant": "Parambikulam Eco Lodge Restaurant",
+        "area": "Parambikulam Tiger Reserve",
+        "id": "KER-29"
+      }
     ],
     "luxury": [
-      { "restaurant": "The Hill Spice", "area": "Munnar Tea Gardens", "id": "KER-01" },
-      { "restaurant": "The Rice Boat", "area": "Alleppey Backwaters", "id": "KER-02" },
-      { "restaurant": "The Tides", "area": "Kovalam Beach", "id": "KER-04" },
-      { "restaurant": "The Bungalow Restaurant", "area": "Wayanad Wildlife Sanctuary", "id": "KER-05" },
-      { "restaurant": "Ettukettu Restaurant", "area": "Kumarakom Backwaters", "id": "KER-08" },
-      { "restaurant": "Oceanos Restaurant", "area": "Fort Kochi", "id": "KER-10" },
-      { "restaurant": "Poovar Boat Restaurant", "area": "Poovar Island", "id": "KER-14" },
-      { "restaurant": "Ashtamudi Residency", "area": "Ashtamudi Lake", "id": "KER-16" },
-      { "restaurant": "Marari Beach Resort Restaurant", "area": "Marari Beach", "id": "KER-24" },
-      { "restaurant": "Kalari Kitchen", "area": "Kalari Kovilakom", "id": "KER-30" }
+      {
+        "restaurant": "The Hill Spice",
+        "area": "Munnar Tea Gardens",
+        "id": "KER-01"
+      },
+      {
+        "restaurant": "The Rice Boat",
+        "area": "Alleppey Backwaters",
+        "id": "KER-02"
+      },
+      {
+        "restaurant": "The Tides",
+        "area": "Kovalam Beach",
+        "id": "KER-04"
+      },
+      {
+        "restaurant": "The Bungalow Restaurant",
+        "area": "Wayanad Wildlife Sanctuary",
+        "id": "KER-05"
+      },
+      {
+        "restaurant": "Ettukettu Restaurant",
+        "area": "Kumarakom Backwaters",
+        "id": "KER-08"
+      },
+      {
+        "restaurant": "Oceanos Restaurant",
+        "area": "Fort Kochi",
+        "id": "KER-10"
+      },
+      {
+        "restaurant": "Poovar Boat Restaurant",
+        "area": "Poovar Island",
+        "id": "KER-14"
+      },
+      {
+        "restaurant": "Ashtamudi Residency",
+        "area": "Ashtamudi Lake",
+        "id": "KER-16"
+      },
+      {
+        "restaurant": "Marari Beach Resort Restaurant",
+        "area": "Marari Beach",
+        "id": "KER-24"
+      },
+      {
+        "restaurant": "Kalari Kitchen",
+        "area": "Kalari Kovilakom",
+        "id": "KER-30"
+      }
     ],
     "breakfast": [
-      { "restaurant": "Saravana Bhavan", "area": "Munnar Tea Gardens", "id": "KER-01" },
-      { "restaurant": "German Bakery", "area": "Kovalam Beach", "id": "KER-04" },
-      { "restaurant": "Coffee Garden", "area": "Periyar National Park", "id": "KER-07" },
-      { "restaurant": "Kashi Art Cafe", "area": "Fort Kochi", "id": "KER-10" },
-      { "restaurant": "Teapot Cafe", "area": "Fort Kochi", "id": "KER-10" },
-      { "restaurant": "Meadows Cafe", "area": "Vagamon", "id": "KER-15" },
-      { "restaurant": "Ariya Nivas", "area": "Thiruvananthapuram Zoo", "id": "KER-20" },
-      { "restaurant": "Mothers Veg Plaza", "area": "Padmanabhaswamy Temple", "id": "KER-21" },
-      { "restaurant": "Indian Coffee House", "area": "Kottayam Churches", "id": "KER-27" },
-      { "restaurant": "Sree Krishna Inn", "area": "Thrissur Vadakkunnathan Temple", "id": "KER-28" }
+      {
+        "restaurant": "Saravana Bhavan",
+        "area": "Munnar Tea Gardens",
+        "id": "KER-01"
+      },
+      {
+        "restaurant": "German Bakery",
+        "area": "Kovalam Beach",
+        "id": "KER-04"
+      },
+      {
+        "restaurant": "Coffee Garden",
+        "area": "Periyar National Park",
+        "id": "KER-07"
+      },
+      {
+        "restaurant": "Kashi Art Cafe",
+        "area": "Fort Kochi",
+        "id": "KER-10"
+      },
+      {
+        "restaurant": "Teapot Cafe",
+        "area": "Fort Kochi",
+        "id": "KER-10"
+      },
+      {
+        "restaurant": "Meadows Cafe",
+        "area": "Vagamon",
+        "id": "KER-15"
+      },
+      {
+        "restaurant": "Ariya Nivas",
+        "area": "Thiruvananthapuram Zoo",
+        "id": "KER-20"
+      },
+      {
+        "restaurant": "Mothers Veg Plaza",
+        "area": "Padmanabhaswamy Temple",
+        "id": "KER-21"
+      },
+      {
+        "restaurant": "Indian Coffee House",
+        "area": "Kottayam Churches",
+        "id": "KER-27"
+      },
+      {
+        "restaurant": "Sree Krishna Inn",
+        "area": "Thrissur Vadakkunnathan Temple",
+        "id": "KER-28"
+      }
     ],
     "snacks": [
-      { "restaurant": "Athirappilly Falls View Cafe", "area": "Athirappilly Waterfalls", "id": "KER-06" },
-      { "restaurant": "Coffee Garden", "area": "Periyar National Park", "id": "KER-07" },
-      { "restaurant": "Beach Cafe", "area": "Cherai Beach", "id": "KER-11" },
-      { "restaurant": "Base Camp Cafe", "area": "Meesapulimala", "id": "KER-13" },
-      { "restaurant": "Meadows Cafe", "area": "Vagamon", "id": "KER-15" },
-      { "restaurant": "Garden Cafe", "area": "Malampuzha Dam", "id": "KER-17" },
-      { "restaurant": "Malampuzha Food Court", "area": "Malampuzha Dam", "id": "KER-17" },
-      { "restaurant": "Beachside Tea Stall", "area": "Ponnani Beach", "id": "KER-18" },
-      { "restaurant": "Zoo Cafe", "area": "Thiruvananthapuram Zoo", "id": "KER-20" },
-      { "restaurant": "Idukki Tea Stall", "area": "Idukki Dam", "id": "KER-25" },
-      { "restaurant": "Coffee Plantation Cafe", "area": "Nelliyampathy Hills", "id": "KER-26" }
+      {
+        "restaurant": "Athirappilly Falls View Cafe",
+        "area": "Athirappilly Waterfalls",
+        "id": "KER-06"
+      },
+      {
+        "restaurant": "Coffee Garden",
+        "area": "Periyar National Park",
+        "id": "KER-07"
+      },
+      {
+        "restaurant": "Beach Cafe",
+        "area": "Cherai Beach",
+        "id": "KER-11"
+      },
+      {
+        "restaurant": "Base Camp Cafe",
+        "area": "Meesapulimala",
+        "id": "KER-13"
+      },
+      {
+        "restaurant": "Meadows Cafe",
+        "area": "Vagamon",
+        "id": "KER-15"
+      },
+      {
+        "restaurant": "Garden Cafe",
+        "area": "Malampuzha Dam",
+        "id": "KER-17"
+      },
+      {
+        "restaurant": "Malampuzha Food Court",
+        "area": "Malampuzha Dam",
+        "id": "KER-17"
+      },
+      {
+        "restaurant": "Beachside Tea Stall",
+        "area": "Ponnani Beach",
+        "id": "KER-18"
+      },
+      {
+        "restaurant": "Zoo Cafe",
+        "area": "Thiruvananthapuram Zoo",
+        "id": "KER-20"
+      },
+      {
+        "restaurant": "Idukki Tea Stall",
+        "area": "Idukki Dam",
+        "id": "KER-25"
+      },
+      {
+        "restaurant": "Coffee Plantation Cafe",
+        "area": "Nelliyampathy Hills",
+        "id": "KER-26"
+      }
     ],
     "cafe": [
-      { "restaurant": "Cliff Story Cafe", "area": "Varkala Beach", "id": "KER-03" },
-      { "restaurant": "German Bakery", "area": "Kovalam Beach", "id": "KER-04" },
-      { "restaurant": "Coffee Garden", "area": "Periyar National Park", "id": "KER-07" },
-      { "restaurant": "Kashi Art Cafe", "area": "Fort Kochi", "id": "KER-10" },
-      { "restaurant": "Teapot Cafe", "area": "Fort Kochi", "id": "KER-10" },
-      { "restaurant": "Beach Cafe", "area": "Cherai Beach", "id": "KER-11" },
-      { "restaurant": "Base Camp Cafe", "area": "Meesapulimala", "id": "KER-13" },
-      { "restaurant": "Island Cafe", "area": "Poovar Island", "id": "KER-14" },
-      { "restaurant": "Meadows Cafe", "area": "Vagamon", "id": "KER-15" },
-      { "restaurant": "Paddy Field View Cafe", "area": "Kuttanad", "id": "KER-19" },
-      { "restaurant": "Zoo Cafe", "area": "Thiruvananthapuram Zoo", "id": "KER-20" },
-      { "restaurant": "Coffee Plantation Cafe", "area": "Nelliyampathy Hills", "id": "KER-26" }
+      {
+        "restaurant": "Cliff Story Cafe",
+        "area": "Varkala Beach",
+        "id": "KER-03"
+      },
+      {
+        "restaurant": "German Bakery",
+        "area": "Kovalam Beach",
+        "id": "KER-04"
+      },
+      {
+        "restaurant": "Coffee Garden",
+        "area": "Periyar National Park",
+        "id": "KER-07"
+      },
+      {
+        "restaurant": "Kashi Art Cafe",
+        "area": "Fort Kochi",
+        "id": "KER-10"
+      },
+      {
+        "restaurant": "Teapot Cafe",
+        "area": "Fort Kochi",
+        "id": "KER-10"
+      },
+      {
+        "restaurant": "Beach Cafe",
+        "area": "Cherai Beach",
+        "id": "KER-11"
+      },
+      {
+        "restaurant": "Base Camp Cafe",
+        "area": "Meesapulimala",
+        "id": "KER-13"
+      },
+      {
+        "restaurant": "Island Cafe",
+        "area": "Poovar Island",
+        "id": "KER-14"
+      },
+      {
+        "restaurant": "Meadows Cafe",
+        "area": "Vagamon",
+        "id": "KER-15"
+      },
+      {
+        "restaurant": "Paddy Field View Cafe",
+        "area": "Kuttanad",
+        "id": "KER-19"
+      },
+      {
+        "restaurant": "Zoo Cafe",
+        "area": "Thiruvananthapuram Zoo",
+        "id": "KER-20"
+      },
+      {
+        "restaurant": "Coffee Plantation Cafe",
+        "area": "Nelliyampathy Hills",
+        "id": "KER-26"
+      }
     ],
     "family_friendly": [
-      { "id": "KER-01", "name": "Munnar Tea Gardens", "city": "Munnar" },
-      { "id": "KER-02", "name": "Alleppey Backwaters", "city": "Alappuzha" },
-      { "id": "KER-04", "name": "Kovalam Beach", "city": "Thiruvananthapuram" },
-      { "id": "KER-08", "name": "Kumarakom Backwaters", "city": "Kumarakom" },
-      { "id": "KER-11", "name": "Cherai Beach", "city": "Kochi" },
-      { "id": "KER-16", "name": "Ashtamudi Lake", "city": "Kollam" },
-      { "id": "KER-17", "name": "Malampuzha Dam", "city": "Palakkad" },
-      { "id": "KER-20", "name": "Thiruvananthapuram Zoo", "city": "Thiruvananthapuram" },
-      { "id": "KER-22", "name": "Kozhikode Beach", "city": "Kozhikode" },
-      { "id": "KER-24", "name": "Marari Beach", "city": "Mararikulam" }
+      {
+        "id": "KER-01",
+        "name": "Munnar Tea Gardens",
+        "city": "Munnar"
+      },
+      {
+        "id": "KER-02",
+        "name": "Alleppey Backwaters",
+        "city": "Alappuzha"
+      },
+      {
+        "id": "KER-04",
+        "name": "Kovalam Beach",
+        "city": "Thiruvananthapuram"
+      },
+      {
+        "id": "KER-08",
+        "name": "Kumarakom Backwaters",
+        "city": "Kumarakom"
+      },
+      {
+        "id": "KER-11",
+        "name": "Cherai Beach",
+        "city": "Kochi"
+      },
+      {
+        "id": "KER-16",
+        "name": "Ashtamudi Lake",
+        "city": "Kollam"
+      },
+      {
+        "id": "KER-17",
+        "name": "Malampuzha Dam",
+        "city": "Palakkad"
+      },
+      {
+        "id": "KER-20",
+        "name": "Thiruvananthapuram Zoo",
+        "city": "Thiruvananthapuram"
+      },
+      {
+        "id": "KER-22",
+        "name": "Kozhikode Beach",
+        "city": "Kozhikode"
+      },
+      {
+        "id": "KER-24",
+        "name": "Marari Beach",
+        "city": "Mararikulam"
+      }
     ],
     "romantic": [
-      { "id": "KER-01", "name": "Munnar Tea Gardens", "city": "Munnar" },
-      { "id": "KER-02", "name": "Alleppey Backwaters", "city": "Alappuzha" },
-      { "id": "KER-03", "name": "Varkala Beach", "city": "Varkala" },
-      { "id": "KER-08", "name": "Kumarakom Backwaters", "city": "Kumarakom" },
-      { "id": "KER-10", "name": "Fort Kochi", "city": "Kochi" },
-      { "id": "KER-14", "name": "Poovar Island", "city": "Poovar" },
-      { "id": "KER-15", "name": "Vagamon", "city": "Idukki" },
-      { "id": "KER-24", "name": "Marari Beach", "city": "Mararikulam" }
+      {
+        "id": "KER-01",
+        "name": "Munnar Tea Gardens",
+        "city": "Munnar"
+      },
+      {
+        "id": "KER-02",
+        "name": "Alleppey Backwaters",
+        "city": "Alappuzha"
+      },
+      {
+        "id": "KER-03",
+        "name": "Varkala Beach",
+        "city": "Varkala"
+      },
+      {
+        "id": "KER-08",
+        "name": "Kumarakom Backwaters",
+        "city": "Kumarakom"
+      },
+      {
+        "id": "KER-10",
+        "name": "Fort Kochi",
+        "city": "Kochi"
+      },
+      {
+        "id": "KER-14",
+        "name": "Poovar Island",
+        "city": "Poovar"
+      },
+      {
+        "id": "KER-15",
+        "name": "Vagamon",
+        "city": "Idukki"
+      },
+      {
+        "id": "KER-24",
+        "name": "Marari Beach",
+        "city": "Mararikulam"
+      }
     ],
     "backwaters": [
-      { "id": "KER-02", "name": "Alleppey Backwaters", "city": "Alappuzha" },
-      { "id": "KER-08", "name": "Kumarakom Backwaters", "city": "Kumarakom" },
-      { "id": "KER-14", "name": "Poovar Island", "city": "Poovar" },
-      { "id": "KER-16", "name": "Ashtamudi Lake", "city": "Kollam" },
-      { "id": "KER-19", "name": "Kuttanad", "city": "Alappuzha" }
+      {
+        "id": "KER-02",
+        "name": "Alleppey Backwaters",
+        "city": "Alappuzha"
+      },
+      {
+        "id": "KER-08",
+        "name": "Kumarakom Backwaters",
+        "city": "Kumarakom"
+      },
+      {
+        "id": "KER-14",
+        "name": "Poovar Island",
+        "city": "Poovar"
+      },
+      {
+        "id": "KER-16",
+        "name": "Ashtamudi Lake",
+        "city": "Kollam"
+      },
+      {
+        "id": "KER-19",
+        "name": "Kuttanad",
+        "city": "Alappuzha"
+      }
     ],
     "beaches": [
-      { "id": "KER-03", "name": "Varkala Beach", "city": "Varkala" },
-      { "id": "KER-04", "name": "Kovalam Beach", "city": "Thiruvananthapuram" },
-      { "id": "KER-11", "name": "Cherai Beach", "city": "Kochi" },
-      { "id": "KER-18", "name": "Ponnani Beach", "city": "Ponnani" },
-      { "id": "KER-22", "name": "Kozhikode Beach", "city": "Kozhikode" },
-      { "id": "KER-24", "name": "Marari Beach", "city": "Mararikulam" }
+      {
+        "id": "KER-03",
+        "name": "Varkala Beach",
+        "city": "Varkala"
+      },
+      {
+        "id": "KER-04",
+        "name": "Kovalam Beach",
+        "city": "Thiruvananthapuram"
+      },
+      {
+        "id": "KER-11",
+        "name": "Cherai Beach",
+        "city": "Kochi"
+      },
+      {
+        "id": "KER-18",
+        "name": "Ponnani Beach",
+        "city": "Ponnani"
+      },
+      {
+        "id": "KER-22",
+        "name": "Kozhikode Beach",
+        "city": "Kozhikode"
+      },
+      {
+        "id": "KER-24",
+        "name": "Marari Beach",
+        "city": "Mararikulam"
+      }
     ],
     "hill_stations": [
-      { "id": "KER-01", "name": "Munnar Tea Gardens", "city": "Munnar" },
-      { "id": "KER-13", "name": "Meesapulimala", "city": "Munnar" },
-      { "id": "KER-15", "name": "Vagamon", "city": "Idukki" },
-      { "id": "KER-26", "name": "Nelliyampathy Hills", "city": "Palakkad" }
+      {
+        "id": "KER-01",
+        "name": "Munnar Tea Gardens",
+        "city": "Munnar"
+      },
+      {
+        "id": "KER-13",
+        "name": "Meesapulimala",
+        "city": "Munnar"
+      },
+      {
+        "id": "KER-15",
+        "name": "Vagamon",
+        "city": "Idukki"
+      },
+      {
+        "id": "KER-26",
+        "name": "Nelliyampathy Hills",
+        "city": "Palakkad"
+      }
     ],
     "wildlife": [
-      { "id": "KER-05", "name": "Wayanad Wildlife Sanctuary", "city": "Wayanad" },
-      { "id": "KER-07", "name": "Periyar National Park", "city": "Thekkady" },
-      { "id": "KER-12", "name": "Silent Valley National Park", "city": "Palakkad" },
-      { "id": "KER-20", "name": "Thiruvananthapuram Zoo", "city": "Thiruvananthapuram" },
-      { "id": "KER-29", "name": "Parambikulam Tiger Reserve", "city": "Palakkad" }
+      {
+        "id": "KER-05",
+        "name": "Wayanad Wildlife Sanctuary",
+        "city": "Wayanad"
+      },
+      {
+        "id": "KER-07",
+        "name": "Periyar National Park",
+        "city": "Thekkady"
+      },
+      {
+        "id": "KER-12",
+        "name": "Silent Valley National Park",
+        "city": "Palakkad"
+      },
+      {
+        "id": "KER-20",
+        "name": "Thiruvananthapuram Zoo",
+        "city": "Thiruvananthapuram"
+      },
+      {
+        "id": "KER-29",
+        "name": "Parambikulam Tiger Reserve",
+        "city": "Palakkad"
+      }
     ],
     "heritage": [
-      { "id": "KER-09", "name": "Bekal Fort", "city": "Kasaragod" },
-      { "id": "KER-10", "name": "Fort Kochi", "city": "Kochi" },
-      { "id": "KER-21", "name": "Padmanabhaswamy Temple", "city": "Thiruvananthapuram" },
-      { "id": "KER-23", "name": "Thalassery Fort", "city": "Thalassery" },
-      { "id": "KER-27", "name": "Kottayam Churches", "city": "Kottayam" },
-      { "id": "KER-28", "name": "Thrissur Vadakkunnathan Temple", "city": "Thrissur" },
-      { "id": "KER-30", "name": "Kalari Kovilakom", "city": "Palakkad" }
+      {
+        "id": "KER-09",
+        "name": "Bekal Fort",
+        "city": "Kasaragod"
+      },
+      {
+        "id": "KER-10",
+        "name": "Fort Kochi",
+        "city": "Kochi"
+      },
+      {
+        "id": "KER-21",
+        "name": "Padmanabhaswamy Temple",
+        "city": "Thiruvananthapuram"
+      },
+      {
+        "id": "KER-23",
+        "name": "Thalassery Fort",
+        "city": "Thalassery"
+      },
+      {
+        "id": "KER-27",
+        "name": "Kottayam Churches",
+        "city": "Kottayam"
+      },
+      {
+        "id": "KER-28",
+        "name": "Thrissur Vadakkunnathan Temple",
+        "city": "Thrissur"
+      },
+      {
+        "id": "KER-30",
+        "name": "Kalari Kovilakom",
+        "city": "Palakkad"
+      }
     ],
     "wellness": [
-      { "id": "KER-30", "name": "Kalari Kovilakom", "city": "Palakkad" },
-      { "restaurant": "Kalari Kitchen", "area": "Kalari Kovilakom", "id": "KER-30" }
+      {
+        "id": "KER-30",
+        "name": "Kalari Kovilakom",
+        "city": "Palakkad"
+      },
+      {
+        "restaurant": "Kalari Kitchen",
+        "area": "Kalari Kovilakom",
+        "id": "KER-30"
+      }
     ],
     "ayurveda": [
-      { "id": "KER-30", "name": "Kalari Kovilakom", "city": "Palakkad" },
-      { "restaurant": "Kalari Kitchen", "area": "Kalari Kovilakom", "id": "KER-30" }
+      {
+        "id": "KER-30",
+        "name": "Kalari Kovilakom",
+        "city": "Palakkad"
+      },
+      {
+        "restaurant": "Kalari Kitchen",
+        "area": "Kalari Kovilakom",
+        "id": "KER-30"
+      }
     ],
     "adventure": [
-      { "id": "KER-13", "name": "Meesapulimala", "city": "Munnar" },
-      { "id": "KER-05", "name": "Wayanad Wildlife Sanctuary", "city": "Wayanad" },
-      { "id": "KER-07", "name": "Periyar National Park", "city": "Thekkady" },
-      { "id": "KER-29", "name": "Parambikulam Tiger Reserve", "city": "Palakkad" }
+      {
+        "id": "KER-13",
+        "name": "Meesapulimala",
+        "city": "Munnar"
+      },
+      {
+        "id": "KER-05",
+        "name": "Wayanad Wildlife Sanctuary",
+        "city": "Wayanad"
+      },
+      {
+        "id": "KER-07",
+        "name": "Periyar National Park",
+        "city": "Thekkady"
+      },
+      {
+        "id": "KER-29",
+        "name": "Parambikulam Tiger Reserve",
+        "city": "Palakkad"
+      }
     ],
     "peaceful": [
-      { "id": "KER-03", "name": "Varkala Beach", "city": "Varkala" },
-      { "id": "KER-08", "name": "Kumarakom Backwaters", "city": "Kumarakom" },
-      { "id": "KER-11", "name": "Cherai Beach", "city": "Kochi" },
-      { "id": "KER-12", "name": "Silent Valley National Park", "city": "Palakkad" },
-      { "id": "KER-14", "name": "Poovar Island", "city": "Poovar" },
-      { "id": "KER-15", "name": "Vagamon", "city": "Idukki" },
-      { "id": "KER-18", "name": "Ponnani Beach", "city": "Ponnani" }
+      {
+        "id": "KER-03",
+        "name": "Varkala Beach",
+        "city": "Varkala"
+      },
+      {
+        "id": "KER-08",
+        "name": "Kumarakom Backwaters",
+        "city": "Kumarakom"
+      },
+      {
+        "id": "KER-11",
+        "name": "Cherai Beach",
+        "city": "Kochi"
+      },
+      {
+        "id": "KER-12",
+        "name": "Silent Valley National Park",
+        "city": "Palakkad"
+      },
+      {
+        "id": "KER-14",
+        "name": "Poovar Island",
+        "city": "Poovar"
+      },
+      {
+        "id": "KER-15",
+        "name": "Vagamon",
+        "city": "Idukki"
+      },
+      {
+        "id": "KER-18",
+        "name": "Ponnani Beach",
+        "city": "Ponnani"
+      }
     ],
     "photography": [
-      { "id": "KER-01", "name": "Munnar Tea Gardens", "city": "Munnar" },
-      { "id": "KER-02", "name": "Alleppey Backwaters", "city": "Alappuzha" },
-      { "id": "KER-03", "name": "Varkala Beach", "city": "Varkala" },
-      { "id": "KER-06", "name": "Athirappilly Waterfalls", "city": "Thrissur" },
-      { "id": "KER-09", "name": "Bekal Fort", "city": "Kasaragod" },
-      { "id": "KER-10", "name": "Fort Kochi", "city": "Kochi" },
-      { "id": "KER-13", "name": "Meesapulimala", "city": "Munnar" }
+      {
+        "id": "KER-01",
+        "name": "Munnar Tea Gardens",
+        "city": "Munnar"
+      },
+      {
+        "id": "KER-02",
+        "name": "Alleppey Backwaters",
+        "city": "Alappuzha"
+      },
+      {
+        "id": "KER-03",
+        "name": "Varkala Beach",
+        "city": "Varkala"
+      },
+      {
+        "id": "KER-06",
+        "name": "Athirappilly Waterfalls",
+        "city": "Thrissur"
+      },
+      {
+        "id": "KER-09",
+        "name": "Bekal Fort",
+        "city": "Kasaragod"
+      },
+      {
+        "id": "KER-10",
+        "name": "Fort Kochi",
+        "city": "Kochi"
+      },
+      {
+        "id": "KER-13",
+        "name": "Meesapulimala",
+        "city": "Munnar"
+      }
     ],
     "near_me": [
-      { "id": "KER-10", "name": "Fort Kochi", "city": "Kochi" },
-      { "id": "KER-11", "name": "Cherai Beach", "city": "Kochi" },
-      { "id": "KER-04", "name": "Kovalam Beach", "city": "Thiruvananthapuram" },
-      { "id": "KER-20", "name": "Thiruvananthapuram Zoo", "city": "Thiruvananthapuram" },
-      { "id": "KER-21", "name": "Padmanabhaswamy Temple", "city": "Thiruvananthapuram" },
-      { "id": "KER-22", "name": "Kozhikode Beach", "city": "Kozhikode" }
+      {
+        "id": "KER-10",
+        "name": "Fort Kochi",
+        "city": "Kochi"
+      },
+      {
+        "id": "KER-11",
+        "name": "Cherai Beach",
+        "city": "Kochi"
+      },
+      {
+        "id": "KER-04",
+        "name": "Kovalam Beach",
+        "city": "Thiruvananthapuram"
+      },
+      {
+        "id": "KER-20",
+        "name": "Thiruvananthapuram Zoo",
+        "city": "Thiruvananthapuram"
+      },
+      {
+        "id": "KER-21",
+        "name": "Padmanabhaswamy Temple",
+        "city": "Thiruvananthapuram"
+      },
+      {
+        "id": "KER-22",
+        "name": "Kozhikode Beach",
+        "city": "Kozhikode"
+      }
     ],
     "tourist_favorite": [
-      { "id": "KER-01", "name": "Munnar Tea Gardens", "city": "Munnar" },
-      { "id": "KER-02", "name": "Alleppey Backwaters", "city": "Alappuzha" },
-      { "id": "KER-03", "name": "Varkala Beach", "city": "Varkala" },
-      { "id": "KER-04", "name": "Kovalam Beach", "city": "Thiruvananthapuram" },
-      { "id": "KER-07", "name": "Periyar National Park", "city": "Thekkady" },
-      { "id": "KER-10", "name": "Fort Kochi", "city": "Kochi" },
-      { "id": "KER-22", "name": "Kozhikode Beach", "city": "Kozhikode" }
+      {
+        "id": "KER-01",
+        "name": "Munnar Tea Gardens",
+        "city": "Munnar"
+      },
+      {
+        "id": "KER-02",
+        "name": "Alleppey Backwaters",
+        "city": "Alappuzha"
+      },
+      {
+        "id": "KER-03",
+        "name": "Varkala Beach",
+        "city": "Varkala"
+      },
+      {
+        "id": "KER-04",
+        "name": "Kovalam Beach",
+        "city": "Thiruvananthapuram"
+      },
+      {
+        "id": "KER-07",
+        "name": "Periyar National Park",
+        "city": "Thekkady"
+      },
+      {
+        "id": "KER-10",
+        "name": "Fort Kochi",
+        "city": "Kochi"
+      },
+      {
+        "id": "KER-22",
+        "name": "Kozhikode Beach",
+        "city": "Kozhikode"
+      }
     ]
   }
 }

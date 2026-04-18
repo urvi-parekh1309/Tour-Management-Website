@@ -1,146 +1,264 @@
 {
   "region": "Ladakh",
-  "heritage":[
-  {
-    "id": "UP-UNESCO-01",
-    "name": "Taj Mahal",
-    "city": "Agra",
-    "category": "UNESCO World Heritage",
-    "coordinates": { "latitude": "27.1751", "longitude": "78.0421" },
-    "budget_metrics": { "base_entry_fee": 50, "seasonal_surge_factor": 1.9, "traffic_delay_weight": 2.1 },
-    "ai_metadata": {
-      "vibe_tags": ["Seven-Wonders", "Mughal-Architecture", "White-Marble"],
-      "description_ai": "The ultimate symbol of love. A 17th-century mausoleum and the most famous landmark in India."
+  "heritage": [
+    {
+      "id": "UP-UNESCO-01",
+      "name": "Taj Mahal",
+      "city": "Agra",
+      "category": "UNESCO World Heritage",
+      "coordinates": {
+        "latitude": "27.1751",
+        "longitude": "78.0421"
+      },
+      "budget_metrics": {
+        "base_entry_fee": 50,
+        "seasonal_surge_factor": 1.9,
+        "traffic_delay_weight": 2.1
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Seven-Wonders",
+          "Mughal-Architecture",
+          "White-Marble"
+        ],
+        "description_ai": "The ultimate symbol of love. A 17th-century mausoleum and the most famous landmark in India."
+      }
+    },
+    {
+      "id": "UP-UNESCO-02",
+      "name": "Agra Fort",
+      "city": "Agra",
+      "category": "UNESCO World Heritage",
+      "coordinates": {
+        "latitude": "27.1795",
+        "longitude": "78.0211"
+      },
+      "budget_metrics": {
+        "base_entry_fee": 50,
+        "seasonal_surge_factor": 1.5,
+        "traffic_delay_weight": 1.8
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Red-Sandstone",
+          "Fortress",
+          "Royal-History"
+        ],
+        "description_ai": "A massive 16th-century Mughal fortress that served as the main residence of the emperors of the Mughal Dynasty."
+      }
+    },
+    {
+      "id": "UP-UNESCO-03",
+      "name": "Fatehpur Sikri",
+      "city": "Agra District",
+      "category": "UNESCO World Heritage",
+      "coordinates": {
+        "latitude": "27.0945",
+        "longitude": "77.6677"
+      },
+      "budget_metrics": {
+        "base_entry_fee": 50,
+        "seasonal_surge_factor": 1.4,
+        "traffic_delay_weight": 1.3
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Ghost-City",
+          "Buland-Darwaza",
+          "Victory-City"
+        ],
+        "description_ai": "An exceptionally well-preserved 'phantom city' built by Emperor Akbar, abandoned due to water shortage."
+      }
+    },
+    {
+      "id": "UP-HER-04",
+      "name": "Bara Imambara",
+      "city": "Lucknow",
+      "category": "Heritage/Monument",
+      "coordinates": {
+        "latitude": "26.8690",
+        "longitude": "80.9130"
+      },
+      "budget_metrics": {
+        "base_entry_fee": 50,
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 2.4
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Bhul-Bhulaiya",
+          "Nawabi-Heritage",
+          "Architectural-Marvel"
+        ],
+        "description_ai": "Famous for its incredible maze (Bhul-Bhulaiya) and the massive central hall built without any supporting pillars."
+      }
     }
-  },
-  {
-    "id": "UP-UNESCO-02",
-    "name": "Agra Fort",
-    "city": "Agra",
-    "category": "UNESCO World Heritage",
-    "coordinates": { "latitude": "27.1795", "longitude": "78.0211" },
-    "budget_metrics": { "base_entry_fee": 50, "seasonal_surge_factor": 1.5, "traffic_delay_weight": 1.8 },
-    "ai_metadata": {
-      "vibe_tags": ["Red-Sandstone", "Fortress", "Royal-History"],
-      "description_ai": "A massive 16th-century Mughal fortress that served as the main residence of the emperors of the Mughal Dynasty."
+  ],
+  "temples": [
+    {
+      "id": "UP-SPIR-05",
+      "name": "Ram Janmabhoomi Mandir",
+      "city": "Ayodhya",
+      "category": "Spiritual/Temple",
+      "coordinates": {
+        "latitude": "26.7922",
+        "longitude": "82.1998"
+      },
+      "budget_metrics": {
+        "base_entry_fee": 0,
+        "seasonal_surge_factor": 2.5,
+        "traffic_delay_weight": 2.8
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Divine",
+          "Grand-Architecture",
+          "National-Symbol"
+        ],
+        "description_ai": "The newly inaugurated grand temple dedicated to Lord Rama at his birthplace. A major global pilgrimage site."
+      }
+    },
+    {
+      "id": "UP-SPIR-06",
+      "name": "Bankey Bihari Temple",
+      "city": "Vrindavan",
+      "category": "Spiritual/Temple",
+      "coordinates": {
+        "latitude": "27.5815",
+        "longitude": "77.7011"
+      },
+      "budget_metrics": {
+        "base_entry_fee": 0,
+        "seasonal_surge_factor": 2,
+        "traffic_delay_weight": 2.5
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Krishna-Bhakti",
+          "Vibrant",
+          "Crowded-Devotion"
+        ],
+        "description_ai": "One of the holiest temples of Lord Krishna. Known for the unique 'parda' (curtain) system during Darshan."
+      }
+    },
+    {
+      "id": "UP-SPIR-07",
+      "name": "Triveni Sangam",
+      "city": "Prayagraj",
+      "category": "Spiritual/Confluence",
+      "coordinates": {
+        "latitude": "25.4285",
+        "longitude": "81.8833"
+      },
+      "budget_metrics": {
+        "boat_ride_avg": 500,
+        "seasonal_surge_factor": 3,
+        "traffic_delay_weight": 2
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Kumbh-Mela",
+          "Holy-Confluence",
+          "Ganga-Yamuna-Saraswati"
+        ],
+        "description_ai": "The sacred meeting point of three rivers. It hosts the Kumbh Mela, the largest human gathering on earth."
+      }
     }
-  },
-  {
-    "id": "UP-UNESCO-03",
-    "name": "Fatehpur Sikri",
-    "city": "Agra District",
-    "category": "UNESCO World Heritage",
-    "coordinates": { "latitude": "27.0945", "longitude": "77.6677" },
-    "budget_metrics": { "base_entry_fee": 50, "seasonal_surge_factor": 1.4, "traffic_delay_weight": 1.3 },
-    "ai_metadata": {
-      "vibe_tags": ["Ghost-City", "Buland-Darwaza", "Victory-City"],
-      "description_ai": "An exceptionally well-preserved 'phantom city' built by Emperor Akbar, abandoned due to water shortage."
+  ],
+  "nature": [
+    {
+      "id": "UP-WILD-08",
+      "name": "Dudhwa National Park",
+      "city": "Lakhimpur Kheri",
+      "category": "Wildlife/Nature",
+      "coordinates": {
+        "latitude": "28.4890",
+        "longitude": "80.6030"
+      },
+      "budget_metrics": {
+        "safari_cost": 2500,
+        "seasonal_surge_factor": 1.3,
+        "traffic_delay_weight": 1.1
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Tigers",
+          "Barasingha",
+          "Raw-Wilderness"
+        ],
+        "description_ai": "A vast Terai forest bordering Nepal. The last refuge for the Indian rhinoceros and swamp deer in UP."
+      }
+    },
+    {
+      "id": "UP-WAT-09",
+      "name": "Lakhaniya Dari Falls",
+      "city": "Mirzapur",
+      "category": "Waterfall",
+      "coordinates": {
+        "latitude": "24.8155",
+        "longitude": "82.8720"
+      },
+      "budget_metrics": {
+        "entry_fee": 50,
+        "trek_difficulty": 1.8,
+        "seasonal_surge_factor": 1.5
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Monsoon-Special",
+          "Trekking",
+          "Hidden-Gem"
+        ],
+        "description_ai": "A magnificent 150m plunge. Requires a short trek through rocks and rivulets; best visited during monsoon."
+      }
     }
-  },
-  {
-    "id": "UP-HER-04",
-    "name": "Bara Imambara",
-    "city": "Lucknow",
-    "category": "Heritage/Monument",
-    "coordinates": { "latitude": "26.8690", "longitude": "80.9130" },
-    "budget_metrics": { "base_entry_fee": 50, "seasonal_surge_factor": 1.2, "traffic_delay_weight": 2.4 },
-    "ai_metadata": {
-      "vibe_tags": ["Bhul-Bhulaiya", "Nawabi-Heritage", "Architectural-Marvel"],
-      "description_ai": "Famous for its incredible maze (Bhul-Bhulaiya) and the massive central hall built without any supporting pillars."
+  ],
+  "restaurant": [
+    {
+      "id": "UP-FOOD-10",
+      "name": "Tunday Kababi",
+      "city": "Lucknow",
+      "category": "Authentic Cuisine",
+      "coordinates": {
+        "latitude": "26.8655",
+        "longitude": "80.9167"
+      },
+      "budget_metrics": {
+        "base_meal_cost": 400,
+        "waiting_time_weight": 2.5,
+        "popularity_index": 5
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Galouti-Kabab",
+          "Nawabi-Flavor",
+          "Melt-in-mouth"
+        ],
+        "description_ai": "World-famous for its Galouti Kababs made with over 100 spices. An absolute pilgrimage for meat lovers."
+      }
+    },
+    {
+      "id": "UP-FOOD-11",
+      "name": "Kashi Chat Bhandar",
+      "city": "Varanasi",
+      "category": "Street Food",
+      "coordinates": {
+        "latitude": "25.3100",
+        "longitude": "83.0085"
+      },
+      "budget_metrics": {
+        "base_meal_cost": 150,
+        "waiting_time_weight": 2,
+        "popularity_index": 4.9
+      },
+      "ai_metadata": {
+        "vibe_tags": [
+          "Tomato-Chaat",
+          "Spicy",
+          "Legendary"
+        ],
+        "description_ai": "The most iconic street food joint in Banaras, famous for its unique Tamatar Chaat and Gulab Jamun."
+      }
     }
-  }
-],
-"temples":
-[
-  {
-    "id": "UP-SPIR-05",
-    "name": "Ram Janmabhoomi Mandir",
-    "city": "Ayodhya",
-    "category": "Spiritual/Temple",
-    "coordinates": { "latitude": "26.7922", "longitude": "82.1998" },
-    "budget_metrics": { "base_entry_fee": 0, "seasonal_surge_factor": 2.5, "traffic_delay_weight": 2.8 },
-    "ai_metadata": {
-      "vibe_tags": ["Divine", "Grand-Architecture", "National-Symbol"],
-      "description_ai": "The newly inaugurated grand temple dedicated to Lord Rama at his birthplace. A major global pilgrimage site."
-    }
-  },
-  {
-    "id": "UP-SPIR-06",
-    "name": "Bankey Bihari Temple",
-    "city": "Vrindavan",
-    "category": "Spiritual/Temple",
-    "coordinates": { "latitude": "27.5815", "longitude": "77.7011" },
-    "budget_metrics": { "base_entry_fee": 0, "seasonal_surge_factor": 2.0, "traffic_delay_weight": 2.5 },
-    "ai_metadata": {
-      "vibe_tags": ["Krishna-Bhakti", "Vibrant", "Crowded-Devotion"],
-      "description_ai": "One of the holiest temples of Lord Krishna. Known for the unique 'parda' (curtain) system during Darshan."
-    }
-  },
-  {
-    "id": "UP-SPIR-07",
-    "name": "Triveni Sangam",
-    "city": "Prayagraj",
-    "category": "Spiritual/Confluence",
-    "coordinates": { "latitude": "25.4285", "longitude": "81.8833" },
-    "budget_metrics": { "boat_ride_avg": 500, "seasonal_surge_factor": 3.0, "traffic_delay_weight": 2.0 },
-    "ai_metadata": {
-      "vibe_tags": ["Kumbh-Mela", "Holy-Confluence", "Ganga-Yamuna-Saraswati"],
-      "description_ai": "The sacred meeting point of three rivers. It hosts the Kumbh Mela, the largest human gathering on earth."
-    }
-  }
-],
-"nature":
-[
-  {
-    "id": "UP-WILD-08",
-    "name": "Dudhwa National Park",
-    "city": "Lakhimpur Kheri",
-    "category": "Wildlife/Nature",
-    "coordinates": { "latitude": "28.4890", "longitude": "80.6030" },
-    "budget_metrics": { "safari_cost": 2500, "seasonal_surge_factor": 1.3, "traffic_delay_weight": 1.1 },
-    "ai_metadata": {
-      "vibe_tags": ["Tigers", "Barasingha", "Raw-Wilderness"],
-      "description_ai": "A vast Terai forest bordering Nepal. The last refuge for the Indian rhinoceros and swamp deer in UP."
-    }
-  },
-  {
-    "id": "UP-WAT-09",
-    "name": "Lakhaniya Dari Falls",
-    "city": "Mirzapur",
-    "category": "Waterfall",
-    "coordinates": { "latitude": "24.8155", "longitude": "82.8720" },
-    "budget_metrics": { "entry_fee": 50, "trek_difficulty": 1.8, "seasonal_surge_factor": 1.5 },
-    "ai_metadata": {
-      "vibe_tags": ["Monsoon-Special", "Trekking", "Hidden-Gem"],
-      "description_ai": "A magnificent 150m plunge. Requires a short trek through rocks and rivulets; best visited during monsoon."
-    }
-  }
-],
-"restaurant":
-[
-  {
-    "id": "UP-FOOD-10",
-    "name": "Tunday Kababi",
-    "city": "Lucknow",
-    "category": "Authentic Cuisine",
-    "coordinates": { "latitude": "26.8655", "longitude": "80.9167" },
-    "budget_metrics": { "base_meal_cost": 400, "waiting_time_weight": 2.5, "popularity_index": 5.0 },
-    "ai_metadata": {
-      "vibe_tags": ["Galouti-Kabab", "Nawabi-Flavor", "Melt-in-mouth"],
-      "description_ai": "World-famous for its Galouti Kababs made with over 100 spices. An absolute pilgrimage for meat lovers."
-    }
-  },
-  {
-    "id": "UP-FOOD-11",
-    "name": "Kashi Chat Bhandar",
-    "city": "Varanasi",
-    "category": "Street Food",
-    "coordinates": { "latitude": "25.3100", "longitude": "83.0085" },
-    "budget_metrics": { "base_meal_cost": 150, "waiting_time_weight": 2.0, "popularity_index": 4.9 },
-    "ai_metadata": {
-      "vibe_tags": ["Tomato-Chaat", "Spicy", "Legendary"],
-      "description_ai": "The most iconic street food joint in Banaras, famous for its unique Tamatar Chaat and Gulab Jamun."
-    }
-  }
-]
+  ]
 }

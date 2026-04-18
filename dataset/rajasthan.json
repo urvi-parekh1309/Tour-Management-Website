@@ -6,493 +6,999 @@
       "name": "Amber Palace (Amer Fort)",
       "city": "Jaipur",
       "category": "UNESCO Heritage Sites",
-      "coordinates": { "latitude": "26.9855", "longitude": "75.8513" },
+      "coordinates": {
+        "latitude": "26.9855",
+        "longitude": "75.8513"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3000,
         "base_travel_cost": 800,
-        "seasonal_surge_factor": 1.40,
+        "seasonal_surge_factor": 1.4,
         "traffic_delay_weight": 1.35
       },
       "entry_fee": 100,
       "avg_duration_hrs": 3.5,
       "ai_metadata": {
-        "vibe_tags": ["Regal", "Architectural", "Hilltop", "Historic", "Majestic"],
+        "vibe_tags": [
+          "Regal",
+          "Architectural",
+          "Hilltop",
+          "Historic",
+          "Majestic"
+        ],
         "sentiment_score": 4.9,
         "crowd_prediction_level": "Extremely High",
         "historical_significance_weight": 10,
-        "best_suited_for": ["Family", "History Buffs", "Photographers"],
+        "best_suited_for": [
+          "Family",
+          "History Buffs",
+          "Photographers"
+        ],
         "description_ai": "A stunning 16th-century fortress known for its artistic Hindu style elements and breathtaking Sheesh Mahal (Mirror Palace)."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Amer_Fort%2C_Jaipur.jpg/500px-Amer_Fort%2C_Jaipur.jpg",
+      "food_details": {
+        "famous_food": [
+          "Dal Baati Churma",
+          "Laal Maas",
+          "Ghevar"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "1135 AD at Amer",
+        "Chokhi Dhani"
+      ]
     },
     {
       "id": "RAJ-02",
       "name": "City Palace",
       "city": "Udaipur",
       "category": "Palaces & Royal Heritage",
-      "coordinates": { "latitude": "24.5764", "longitude": "73.6835" },
+      "coordinates": {
+        "latitude": "24.5764",
+        "longitude": "73.6835"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 4500,
         "base_travel_cost": 1000,
-        "seasonal_surge_factor": 1.50,
+        "seasonal_surge_factor": 1.5,
         "traffic_delay_weight": 1.25
       },
       "entry_fee": 300,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Lakeside", "Elegant", "Opulent", "Artistic", "Grand"],
+        "vibe_tags": [
+          "Lakeside",
+          "Elegant",
+          "Opulent",
+          "Artistic",
+          "Grand"
+        ],
         "sentiment_score": 4.8,
         "crowd_prediction_level": "High",
         "historical_significance_weight": 10,
-        "best_suited_for": ["Couples", "Families", "Art Lovers"],
+        "best_suited_for": [
+          "Couples",
+          "Families",
+          "Art Lovers"
+        ],
         "description_ai": "A flamboyant palace complex on the banks of Lake Pichola, showcasing a blend of Rajasthani and Mughal architecture."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Amer_Fort%2C_Jaipur.jpg/500px-Amer_Fort%2C_Jaipur.jpg",
+      "food_details": {
+        "famous_food": [
+          "Pyaaz Kachori",
+          "Rabri"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Suvarna Mahal",
+        "Niros"
+      ]
     },
     {
       "id": "RAJ-03",
       "name": "Mehrangarh Fort",
       "city": "Jodhpur",
       "category": "Historical Forts",
-      "coordinates": { "latitude": "26.2978", "longitude": "73.0185" },
+      "coordinates": {
+        "latitude": "26.2978",
+        "longitude": "73.0185"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2500,
         "base_travel_cost": 700,
-        "seasonal_surge_factor": 1.30,
-        "traffic_delay_weight": 1.40
+        "seasonal_surge_factor": 1.3,
+        "traffic_delay_weight": 1.4
       },
       "entry_fee": 100,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Rugged", "Imposing", "Blue-City-View", "Valorous", "Museum"],
+        "vibe_tags": [
+          "Rugged",
+          "Imposing",
+          "Blue-City-View",
+          "Valorous",
+          "Museum"
+        ],
         "sentiment_score": 4.9,
         "crowd_prediction_level": "Medium-High",
         "historical_significance_weight": 10,
-        "best_suited_for": ["History Buffs", "Solo", "Friends"],
+        "best_suited_for": [
+          "History Buffs",
+          "Solo",
+          "Friends"
+        ],
         "description_ai": "One of the largest forts in India, rising 400 feet above the skyline of the Blue City with formidable thick walls."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Mehrangarh_Fort_sanhita.jpg/500px-Mehrangarh_Fort_sanhita.jpg",
+      "food_details": {
+        "famous_food": [
+          "Mirchi Vada",
+          "Mawa Kachori"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Chokelao Mahal Restaurant",
+        "Jhankar Choti Haveli"
+      ]
     },
     {
       "id": "RAJ-04",
       "name": "Jaisalmer Fort",
       "city": "Jaisalmer",
       "category": "UNESCO Heritage Sites",
-      "coordinates": { "latitude": "26.9124", "longitude": "70.9126" },
+      "coordinates": {
+        "latitude": "26.9124",
+        "longitude": "70.9126"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2200,
         "base_travel_cost": 1500,
-        "seasonal_surge_factor": 1.60,
-        "traffic_delay_weight": 1.10
+        "seasonal_surge_factor": 1.6,
+        "traffic_delay_weight": 1.1
       },
       "entry_fee": 50,
       "avg_duration_hrs": 5,
       "ai_metadata": {
-        "vibe_tags": ["Living-Fort", "Golden-Sandstone", "Desert-Vibe", "Ancient", "Bazaars"],
+        "vibe_tags": [
+          "Living-Fort",
+          "Golden-Sandstone",
+          "Desert-Vibe",
+          "Ancient",
+          "Bazaars"
+        ],
         "sentiment_score": 4.8,
         "crowd_prediction_level": "Medium",
         "historical_significance_weight": 10,
-        "best_suited_for": ["Backpackers", "Couples", "Cultural Explorers"],
+        "best_suited_for": [
+          "Backpackers",
+          "Couples",
+          "Cultural Explorers"
+        ],
         "description_ai": "The 'Sonar Quila' or Golden Fort, uniquely known as a living fort where a quarter of the old city's population still resides."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Jaisalmer_forteresse.jpg/500px-Jaisalmer_forteresse.jpg",
+      "food_details": {
+        "famous_food": [
+          "Ker Sangri",
+          "Gatte Ki Sabzi"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "The Trio Restaurant",
+        "Free Tibet",
+        "Saffron Restaurant"
+      ]
     },
     {
       "id": "RAJ-05",
       "name": "Pushkar Lake & Brahma Temple",
       "city": "Pushkar",
       "category": "Religious/Pilgrimage Sites",
-      "coordinates": { "latitude": "26.4891", "longitude": "74.5511" },
+      "coordinates": {
+        "latitude": "26.4891",
+        "longitude": "74.5511"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 1500,
         "base_travel_cost": 500,
-        "seasonal_surge_factor": 2.00,
-        "traffic_delay_weight": 1.50
+        "seasonal_surge_factor": 2,
+        "traffic_delay_weight": 1.5
       },
       "entry_fee": 0,
       "avg_duration_hrs": 3,
       "ai_metadata": {
-        "vibe_tags": ["Spiritual", "Hippie-Chic", "Sacred", "Sunset", "Tranquil"],
+        "vibe_tags": [
+          "Spiritual",
+          "Hippie-Chic",
+          "Sacred",
+          "Sunset",
+          "Tranquil"
+        ],
         "sentiment_score": 4.6,
         "crowd_prediction_level": "Medium-High",
-        "best_suited_for": ["Solo", "Pilgrims", "Foreign Tourists"],
+        "best_suited_for": [
+          "Solo",
+          "Pilgrims",
+          "Foreign Tourists"
+        ],
         "description_ai": "A sacred lake surrounded by 52 bathing ghats and the world's only prominent Brahma Temple."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Amer_Fort%2C_Jaipur.jpg/500px-Amer_Fort%2C_Jaipur.jpg",
+      "food_details": {
+        "famous_food": [
+          "Malpua",
+          "Dal Baati"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Om Shiva Garden",
+        "Sunset Cafe Pushkar"
+      ]
     },
     {
       "id": "RAJ-06",
       "name": "Ranthambore National Park",
       "city": "Sawai Madhopur",
       "category": "Wildlife/National Parks",
-      "coordinates": { "latitude": "25.9928", "longitude": "76.3571" },
+      "coordinates": {
+        "latitude": "25.9928",
+        "longitude": "76.3571"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 4000,
         "base_travel_cost": 2000,
-        "seasonal_surge_factor": 1.70,
+        "seasonal_surge_factor": 1.7,
         "traffic_delay_weight": 1.15
       },
       "entry_fee": 1200,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Wild", "Tiger-Sighting", "Safari-Life", "Thrilling", "Heritage"],
+        "vibe_tags": [
+          "Wild",
+          "Tiger-Sighting",
+          "Safari-Life",
+          "Thrilling",
+          "Heritage"
+        ],
         "sentiment_score": 4.9,
         "crowd_prediction_level": "High (Seasonal)",
-        "best_suited_for": ["Wildlife Photographers", "Nature Lovers", "Adventure Seekers"],
+        "best_suited_for": [
+          "Wildlife Photographers",
+          "Nature Lovers",
+          "Adventure Seekers"
+        ],
         "description_ai": "One of Northern India's largest national parks, famous for its royal Bengal tigers and ancient ruins within the forest."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Ranthambore_National_Park.JPG/500px-Ranthambore_National_Park.JPG",
+      "food_details": {
+        "famous_food": [
+          "Laal Maas",
+          "Jungle Maas"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Ranthambore Resort Dining"
+      ]
     },
     {
       "id": "RAJ-07",
       "name": "Dilwara Temples",
       "city": "Mount Abu",
       "category": "Religious/Pilgrimage Sites",
-      "coordinates": { "latitude": "24.6121", "longitude": "72.7214" },
+      "coordinates": {
+        "latitude": "24.6121",
+        "longitude": "72.7214"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3200,
         "base_travel_cost": 900,
         "seasonal_surge_factor": 1.45,
-        "traffic_delay_weight": 1.60
+        "traffic_delay_weight": 1.6
       },
       "entry_fee": 0,
       "avg_duration_hrs": 2.5,
       "ai_metadata": {
-        "vibe_tags": ["Marble-Marvel", "Intricate", "Peaceful", "Spiritual", "Detailed"],
+        "vibe_tags": [
+          "Marble-Marvel",
+          "Intricate",
+          "Peaceful",
+          "Spiritual",
+          "Detailed"
+        ],
         "sentiment_score": 4.9,
         "historical_significance_weight": 9,
-        "best_suited_for": ["Art Lovers", "Families", "Spiritual Seekers"],
+        "best_suited_for": [
+          "Art Lovers",
+          "Families",
+          "Spiritual Seekers"
+        ],
         "description_ai": "A group of Jain temples world-renowned for their extraordinary marble stone carvings and architectural finesse."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Delwada.jpg/500px-Delwada.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
     {
       "id": "RAJ-08",
       "name": "Chittorgarh Fort",
       "city": "Chittorgarh",
       "category": "UNESCO Heritage Sites",
-      "coordinates": { "latitude": "24.8879", "longitude": "74.6451" },
+      "coordinates": {
+        "latitude": "24.8879",
+        "longitude": "74.6451"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 1800,
         "base_travel_cost": 1200,
-        "seasonal_surge_factor": 1.20,
-        "traffic_delay_weight": 1.10
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 1.1
       },
       "entry_fee": 50,
       "avg_duration_hrs": 6,
       "ai_metadata": {
-        "vibe_tags": ["Heroic", "Sprawling", "Tragic", "Valorous", "Legendary"],
+        "vibe_tags": [
+          "Heroic",
+          "Sprawling",
+          "Tragic",
+          "Valorous",
+          "Legendary"
+        ],
         "sentiment_score": 4.9,
         "historical_significance_weight": 10,
-        "best_suited_for": ["History Buffs", "Students", "Photographers"],
+        "best_suited_for": [
+          "History Buffs",
+          "Students",
+          "Photographers"
+        ],
         "description_ai": "The largest fort in India and a symbol of Rajput chivalry, resistance, and sacrifice."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Chittorgarh_fort.JPG/500px-Chittorgarh_fort.JPG",
+      "food_details": {
+        "famous_food": [
+          "Mawa Kachori",
+          "Gharonda"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Mewar Haveli Restaurant"
+      ]
     },
     {
       "id": "RAJ-09",
       "name": "Hawa Mahal",
       "city": "Jaipur",
       "category": "Historical Forts",
-      "coordinates": { "latitude": "26.9239", "longitude": "75.8267" },
+      "coordinates": {
+        "latitude": "26.9239",
+        "longitude": "75.8267"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3000,
         "base_travel_cost": 500,
-        "seasonal_surge_factor": 1.40,
-        "traffic_delay_weight": 1.80
+        "seasonal_surge_factor": 1.4,
+        "traffic_delay_weight": 1.8
       },
       "entry_fee": 50,
       "avg_duration_hrs": 1.5,
       "ai_metadata": {
-        "vibe_tags": ["Iconic", "Pink-City", "Intricate", "Symmetrical", "Bustling"],
+        "vibe_tags": [
+          "Iconic",
+          "Pink-City",
+          "Intricate",
+          "Symmetrical",
+          "Bustling"
+        ],
         "sentiment_score": 4.7,
         "crowd_prediction_level": "Extremely High",
         "historical_significance_weight": 9,
-        "best_suited_for": ["Couples", "Solo", "Architecture Lovers"],
+        "best_suited_for": [
+          "Couples",
+          "Solo",
+          "Architecture Lovers"
+        ],
         "description_ai": "The 'Palace of Winds,' featuring 953 small windows designed for royal ladies to observe street life."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg/500px-East_facade_Hawa_Mahal_Jaipur_from_ground_level_%28July_2022%29_-_img_01.jpg",
+      "food_details": {
+        "famous_food": [
+          "Pyaaz Kachori",
+          "Kulfi Faluda"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Wind View Cafe",
+        "Rawat Mishthan Bhandar"
+      ]
     },
     {
       "id": "RAJ-10",
       "name": "Kumbhalgarh Fort",
       "city": "Rajsamand",
       "category": "Historical Forts",
-      "coordinates": { "latitude": "25.1481", "longitude": "73.5873" },
+      "coordinates": {
+        "latitude": "25.1481",
+        "longitude": "73.5873"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3500,
         "base_travel_cost": 1800,
-        "seasonal_surge_factor": 1.30,
-        "traffic_delay_weight": 1.20
+        "seasonal_surge_factor": 1.3,
+        "traffic_delay_weight": 1.2
       },
       "entry_fee": 40,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Great-Wall-of-India", "Massive", "Unconquered", "Panoramic", "Cloud-Fort"],
+        "vibe_tags": [
+          "Great-Wall-of-India",
+          "Massive",
+          "Unconquered",
+          "Panoramic",
+          "Cloud-Fort"
+        ],
         "sentiment_score": 4.8,
         "historical_significance_weight": 10,
-        "best_suited_for": ["Trekkers", "History Buffs", "Friends"],
+        "best_suited_for": [
+          "Trekkers",
+          "History Buffs",
+          "Friends"
+        ],
         "description_ai": "Boasts the second-longest continuous wall in the world and is the birthplace of Maharana Pratap."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Kumbhalgarh_055.jpg/500px-Kumbhalgarh_055.jpg",
+      "food_details": {
+        "famous_food": [
+          "Dal Baati",
+          "Gatte Ki Sabzi"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Aodhi Restaurant"
+      ]
     },
     {
       "id": "RAJ-11",
       "name": "Chand Baori",
       "city": "Abhaneri",
       "category": "Architectural & Water-Heritage",
-      "coordinates": { "latitude": "27.0072", "longitude": "76.6064" },
+      "coordinates": {
+        "latitude": "27.0072",
+        "longitude": "76.6064"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2000,
         "base_travel_cost": 2500,
-        "seasonal_surge_factor": 1.10,
+        "seasonal_surge_factor": 1.1,
         "traffic_delay_weight": 1.05
       },
       "entry_fee": 40,
       "avg_duration_hrs": 1.5,
       "ai_metadata": {
-        "vibe_tags": ["Geometrical", "Subterranean", "Aesthetic", "Ancient", "Symmetrical"],
+        "vibe_tags": [
+          "Geometrical",
+          "Subterranean",
+          "Aesthetic",
+          "Ancient",
+          "Symmetrical"
+        ],
         "sentiment_score": 4.7,
         "historical_significance_weight": 8,
-        "best_suited_for": ["Photographers", "Architects", "Solo"],
+        "best_suited_for": [
+          "Photographers",
+          "Architects",
+          "Solo"
+        ],
         "description_ai": "One of the deepest and largest stepwells in India, featuring 3,500 narrow steps in perfect symmetry."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Chand_Baori_perspective_panorama_%28July_2022%29.jpg/500px-Chand_Baori_perspective_panorama_%28July_2022%29.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
     {
       "id": "RAJ-12",
       "name": "Sam Sand Dunes",
       "city": "Jaisalmer",
       "category": "Adventure & Nature",
-      "coordinates": { "latitude": "26.8322", "longitude": "70.5050" },
+      "coordinates": {
+        "latitude": "26.8322",
+        "longitude": "70.5050"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 5000,
         "base_travel_cost": 1000,
-        "seasonal_surge_factor": 1.80,
-        "traffic_delay_weight": 1.00
+        "seasonal_surge_factor": 1.8,
+        "traffic_delay_weight": 1
       },
       "entry_fee": 0,
       "avg_duration_hrs": 12,
       "ai_metadata": {
-        "vibe_tags": ["Desert-Safari", "Starlit", "Folk-Dance", "Golden", "Romantic"],
+        "vibe_tags": [
+          "Desert-Safari",
+          "Starlit",
+          "Folk-Dance",
+          "Golden",
+          "Romantic"
+        ],
         "sentiment_score": 4.8,
         "crowd_prediction_level": "High (Evening)",
-        "best_suited_for": ["Couples", "Friends", "Adventure Seekers"],
+        "best_suited_for": [
+          "Couples",
+          "Friends",
+          "Adventure Seekers"
+        ],
         "description_ai": "The best place to experience the Thar Desert through camel safaris and luxury desert camping."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Amer_Fort%2C_Jaipur.jpg/500px-Amer_Fort%2C_Jaipur.jpg",
+      "food_details": {
+        "famous_food": [
+          "Ker Sangri",
+          "Bajra Roti"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Desert Camp Dining"
+      ]
     },
     {
       "id": "RAJ-13",
       "name": "Lake Pichola",
       "city": "Udaipur",
       "category": "Major Cities & Cultural Spots",
-      "coordinates": { "latitude": "24.5714", "longitude": "73.6732" },
+      "coordinates": {
+        "latitude": "24.5714",
+        "longitude": "73.6732"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 4500,
         "base_travel_cost": 600,
-        "seasonal_surge_factor": 1.50,
-        "traffic_delay_weight": 1.30
+        "seasonal_surge_factor": 1.5,
+        "traffic_delay_weight": 1.3
       },
       "entry_fee": 0,
       "avg_duration_hrs": 2,
       "ai_metadata": {
-        "vibe_tags": ["Romantic", "Serene", "Boating", "Palace-View", "Picturesque"],
+        "vibe_tags": [
+          "Romantic",
+          "Serene",
+          "Boating",
+          "Palace-View",
+          "Picturesque"
+        ],
         "sentiment_score": 4.9,
         "crowd_prediction_level": "High (Sunset)",
-        "best_suited_for": ["Couples", "Solo", "Photography"],
+        "best_suited_for": [
+          "Couples",
+          "Solo",
+          "Photography"
+        ],
         "description_ai": "An artificial fresh water lake, created in the year 1362 AD, named after the nearby Picholi village."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Udaipur_Lake_India.JPG/500px-Udaipur_Lake_India.JPG",
+      "food_details": {
+        "famous_food": [
+          "Dahi Vada",
+          "Gatte Ki Sabzi"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Ambrai Restaurant",
+        "Upre by 1559 AD"
+      ]
     },
     {
       "id": "RAJ-14",
       "name": "Karni Mata Temple",
       "city": "Deshnoke",
       "category": "Religious/Pilgrimage Sites",
-      "coordinates": { "latitude": "27.7915", "longitude": "73.3411" },
+      "coordinates": {
+        "latitude": "27.7915",
+        "longitude": "73.3411"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2000,
         "base_travel_cost": 1200,
-        "seasonal_surge_factor": 1.20,
-        "traffic_delay_weight": 1.10
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 1.1
       },
       "entry_fee": 0,
       "avg_duration_hrs": 1.5,
       "ai_metadata": {
-        "vibe_tags": ["Unusual", "Mystical", "Sacred-Rats", "Faith", "Devotional"],
+        "vibe_tags": [
+          "Unusual",
+          "Mystical",
+          "Sacred-Rats",
+          "Faith",
+          "Devotional"
+        ],
         "sentiment_score": 4.4,
         "crowd_prediction_level": "Medium",
-        "best_suited_for": ["Solo", "Curiosity Seekers", "Pilgrims"],
+        "best_suited_for": [
+          "Solo",
+          "Curiosity Seekers",
+          "Pilgrims"
+        ],
         "description_ai": "Known as the 'Temple of Rats,' where 25,000 black rats are worshipped and protected."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/20191212_%C5%9Awi%C4%85tynia_Karni_Maty_w_De%C5%9Bnok_1031_8078_DxO.jpg/500px-20191212_%C5%9Awi%C4%85tynia_Karni_Maty_w_De%C5%9Bnok_1031_8078_DxO.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
     {
       "id": "RAJ-15",
       "name": "Keoladeo National Park",
       "city": "Bharatpur",
       "category": "UNESCO Heritage Sites",
-      "coordinates": { "latitude": "27.1592", "longitude": "77.5230" },
+      "coordinates": {
+        "latitude": "27.1592",
+        "longitude": "77.5230"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2500,
         "base_travel_cost": 800,
-        "seasonal_surge_factor": 1.40,
-        "traffic_delay_weight": 1.20
+        "seasonal_surge_factor": 1.4,
+        "traffic_delay_weight": 1.2
       },
       "entry_fee": 75,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Bird-Watching", "Peaceful", "Natural", "Cycle-Safari", "Wetlands"],
+        "vibe_tags": [
+          "Bird-Watching",
+          "Peaceful",
+          "Natural",
+          "Cycle-Safari",
+          "Wetlands"
+        ],
         "sentiment_score": 4.7,
         "crowd_prediction_level": "Medium",
-        "best_suited_for": ["Nature Lovers", "Senior Citizens", "Families"],
+        "best_suited_for": [
+          "Nature Lovers",
+          "Senior Citizens",
+          "Families"
+        ],
         "description_ai": "A world-renowned avifauna sanctuary that hosts thousands of birds, especially during the winter season."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Amer_Fort%2C_Jaipur.jpg/500px-Amer_Fort%2C_Jaipur.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
     {
       "id": "RAJ-16",
       "name": "Junagarh Fort",
       "city": "Bikaner",
       "category": "Historical Forts",
-      "coordinates": { "latitude": "28.0225", "longitude": "73.3119" },
+      "coordinates": {
+        "latitude": "28.0225",
+        "longitude": "73.3119"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2200,
         "base_travel_cost": 600,
         "seasonal_surge_factor": 1.25,
-        "traffic_delay_weight": 1.30
+        "traffic_delay_weight": 1.3
       },
       "entry_fee": 50,
       "avg_duration_hrs": 3,
       "ai_metadata": {
-        "vibe_tags": ["Indo-Islamic", "Unconquered", "Artistic", "Elegant", "Royal"],
+        "vibe_tags": [
+          "Indo-Islamic",
+          "Unconquered",
+          "Artistic",
+          "Elegant",
+          "Royal"
+        ],
         "sentiment_score": 4.8,
         "historical_significance_weight": 9,
-        "best_suited_for": ["History Buffs", "Families"],
+        "best_suited_for": [
+          "History Buffs",
+          "Families"
+        ],
         "description_ai": "A rare fort that is not built on a hilltop; it features some of the most intricate interiors in Rajasthan."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/India_Bikaner_Junagarh_Fort.jpg/500px-India_Bikaner_Junagarh_Fort.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
     {
       "id": "RAJ-17",
       "name": "Bada Bagh",
       "city": "Jaisalmer",
       "category": "Historical Monument",
-      "coordinates": { "latitude": "26.9535", "longitude": "70.8872" },
+      "coordinates": {
+        "latitude": "26.9535",
+        "longitude": "70.8872"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2200,
         "base_travel_cost": 400,
-        "seasonal_surge_factor": 1.50,
+        "seasonal_surge_factor": 1.5,
         "traffic_delay_weight": 1.05
       },
       "entry_fee": 100,
       "avg_duration_hrs": 1.5,
       "ai_metadata": {
-        "vibe_tags": ["Sunset-View", "Cenotaphs", "Melancholic", "Serene", "Golden"],
+        "vibe_tags": [
+          "Sunset-View",
+          "Cenotaphs",
+          "Melancholic",
+          "Serene",
+          "Golden"
+        ],
         "sentiment_score": 4.6,
-        "best_suited_for": ["Photographers", "Couples"],
+        "best_suited_for": [
+          "Photographers",
+          "Couples"
+        ],
         "description_ai": "A garden complex containing a set of royal cenotaphs (chhatris) for all the Maharajas of Jaisalmer."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Resting_places.jpg/500px-Resting_places.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
     {
       "id": "RAJ-18",
       "name": "Nahargarh Fort",
       "city": "Jaipur",
       "category": "Hill Station & Fort",
-      "coordinates": { "latitude": "26.9371", "longitude": "75.8236" },
+      "coordinates": {
+        "latitude": "26.9371",
+        "longitude": "75.8236"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3000,
         "base_travel_cost": 700,
-        "seasonal_surge_factor": 1.40,
-        "traffic_delay_weight": 1.50
+        "seasonal_surge_factor": 1.4,
+        "traffic_delay_weight": 1.5
       },
       "entry_fee": 50,
       "avg_duration_hrs": 3,
       "ai_metadata": {
-        "vibe_tags": ["Skyline-View", "Youth-Hub", "Historical", "Sunset-Point", "Breezy"],
+        "vibe_tags": [
+          "Skyline-View",
+          "Youth-Hub",
+          "Historical",
+          "Sunset-Point",
+          "Breezy"
+        ],
         "sentiment_score": 4.7,
-        "best_suited_for": ["Friends", "Couples", "Solo"],
+        "best_suited_for": [
+          "Friends",
+          "Couples",
+          "Solo"
+        ],
         "description_ai": "Stands on the edge of the Aravalli Hills, providing incredible views over the city of Jaipur."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Nahargarh_13.jpg/500px-Nahargarh_13.jpg",
+      "food_details": {
+        "famous_food": [
+          "Pyaaz Kachori",
+          "Thali"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Padao Restaurant Nahargarh"
+      ]
     },
     {
       "id": "RAJ-19",
       "name": "Saheliyon Ki Bari",
       "city": "Udaipur",
       "category": "Gardens & Cultural",
-      "coordinates": { "latitude": "24.6009", "longitude": "73.6917" },
+      "coordinates": {
+        "latitude": "24.6009",
+        "longitude": "73.6917"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 4500,
         "base_travel_cost": 500,
-        "seasonal_surge_factor": 1.50,
-        "traffic_delay_weight": 1.40
+        "seasonal_surge_factor": 1.5,
+        "traffic_delay_weight": 1.4
       },
       "entry_fee": 10,
       "avg_duration_hrs": 1,
       "ai_metadata": {
-        "vibe_tags": ["Fountains", "Lush", "Leisure", "Royal-Gardens", "Photography"],
+        "vibe_tags": [
+          "Fountains",
+          "Lush",
+          "Leisure",
+          "Royal-Gardens",
+          "Photography"
+        ],
         "sentiment_score": 4.5,
-        "best_suited_for": ["Families", "Couples"],
+        "best_suited_for": [
+          "Families",
+          "Couples"
+        ],
         "description_ai": "The 'Garden of the Maidens' featuring marble elephants, fountains, and a lotus pool."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Saheliyon-ki-Bari_Fountain.JPG/500px-Saheliyon-ki-Bari_Fountain.JPG",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
     {
       "id": "RAJ-20",
       "name": "Brahma Temple",
       "city": "Pushkar",
       "category": "Religious/Pilgrimage Sites",
-      "coordinates": { "latitude": "26.4880", "longitude": "74.5559" },
+      "coordinates": {
+        "latitude": "26.4880",
+        "longitude": "74.5559"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 1500,
         "base_travel_cost": 400,
-        "seasonal_surge_factor": 2.00,
-        "traffic_delay_weight": 1.30
+        "seasonal_surge_factor": 2,
+        "traffic_delay_weight": 1.3
       },
       "entry_fee": 0,
       "avg_duration_hrs": 1,
       "ai_metadata": {
-        "vibe_tags": ["Rare", "Holy", "Ancient", "Vibrant", "Devotional"],
+        "vibe_tags": [
+          "Rare",
+          "Holy",
+          "Ancient",
+          "Vibrant",
+          "Devotional"
+        ],
         "sentiment_score": 4.8,
         "historical_significance_weight": 10,
-        "best_suited_for": ["Pilgrims", "Culture Seekers"],
+        "best_suited_for": [
+          "Pilgrims",
+          "Culture Seekers"
+        ],
         "description_ai": "One of the very few existing temples dedicated to the Hindu creator-god Brahma."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Amer_Fort%2C_Jaipur.jpg/500px-Amer_Fort%2C_Jaipur.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
     {
       "id": "RAJ-21",
       "name": "Bundi (The City of Stepwells)",
       "city": "Bundi",
       "category": "Historical Forts & Water-Heritage",
-      "coordinates": { "latitude": "25.4415", "longitude": "75.6450" },
+      "coordinates": {
+        "latitude": "25.4415",
+        "longitude": "75.6450"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 1800,
         "base_travel_cost": 800,
-        "seasonal_surge_factor": 1.20,
-        "traffic_delay_weight": 1.10
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 1.1
       },
       "entry_fee": 0,
       "avg_duration_hrs": 24,
       "ai_metadata": {
-        "vibe_tags": ["Old-World-Charm", "Stepwells", "Blue-Houses", "Artistic", "Quiet"],
+        "vibe_tags": [
+          "Old-World-Charm",
+          "Stepwells",
+          "Blue-Houses",
+          "Artistic",
+          "Quiet"
+        ],
         "sentiment_score": 4.7,
         "crowd_prediction_level": "Low",
-        "best_suited_for": ["Solo", "Photographers", "Art Lovers"],
+        "best_suited_for": [
+          "Solo",
+          "Photographers",
+          "Art Lovers"
+        ],
         "description_ai": "A hidden gem known for its ornate stepwells like Raniji ki Baori and the stunning murals of Bundi Palace."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Amer_Fort%2C_Jaipur.jpg/500px-Amer_Fort%2C_Jaipur.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
     {
       "id": "RAJ-22",
       "name": "Sariska Tiger Reserve",
       "city": "Alwar",
       "category": "Wildlife/National Parks",
-      "coordinates": { "latitude": "27.3298", "longitude": "76.4332" },
+      "coordinates": {
+        "latitude": "27.3298",
+        "longitude": "76.4332"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3500,
         "base_travel_cost": 1500,
-        "seasonal_surge_factor": 1.40,
+        "seasonal_surge_factor": 1.4,
         "traffic_delay_weight": 1.25
       },
       "entry_fee": 500,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Wild", "Safari", "Aravalli-Hills", "Historical-Ruins", "Lush"],
+        "vibe_tags": [
+          "Wild",
+          "Safari",
+          "Aravalli-Hills",
+          "Historical-Ruins",
+          "Lush"
+        ],
         "sentiment_score": 4.6,
         "crowd_prediction_level": "Medium",
-        "best_suited_for": ["Wildlife Lovers", "Friends", "Weekend Travelers"],
+        "best_suited_for": [
+          "Wildlife Lovers",
+          "Friends",
+          "Weekend Travelers"
+        ],
         "description_ai": "A critical tiger habitat in the Aravallis, home to leopards, hyenas, and the historic Kankanwadi Fort."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Sariska_Tiger_Reserve%2C_Alwar.jpg/500px-Sariska_Tiger_Reserve%2C_Alwar.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
     {
       "id": "RAJ-23",
       "name": "Ranakpur Jain Temple",
       "city": "Ranakpur",
       "category": "Religious/Pilgrimage Sites",
-      "coordinates": { "latitude": "25.1157", "longitude": "73.4735" },
+      "coordinates": {
+        "latitude": "25.1157",
+        "longitude": "73.4735"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2500,
         "base_travel_cost": 1200,
@@ -502,256 +1008,527 @@
       "entry_fee": 200,
       "avg_duration_hrs": 3,
       "ai_metadata": {
-        "vibe_tags": ["Intricate-Marble", "Spiritual", "Quiet", "Architectural", "Serene"],
+        "vibe_tags": [
+          "Intricate-Marble",
+          "Spiritual",
+          "Quiet",
+          "Architectural",
+          "Serene"
+        ],
         "sentiment_score": 4.9,
         "historical_significance_weight": 10,
-        "best_suited_for": ["Families", "Art Lovers", "Spiritual Seekers"],
+        "best_suited_for": [
+          "Families",
+          "Art Lovers",
+          "Spiritual Seekers"
+        ],
         "description_ai": "A 15th-century masterpiece featuring 1,444 uniquely carved marble pillars in a tranquil valley."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Chaumukha_Jain_temple_at_Ranakpur_in_Aravalli_range_near_Udaipur_Rajasthan_India.jpg/500px-Chaumukha_Jain_temple_at_Ranakpur_in_Aravalli_range_near_Udaipur_Rajasthan_India.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
     {
       "id": "RAJ-24",
       "name": "Mandawa (The Open Air Art Gallery)",
       "city": "Mandawa",
       "category": "Cultural & Heritage",
-      "coordinates": { "latitude": "28.0558", "longitude": "75.1415" },
+      "coordinates": {
+        "latitude": "28.0558",
+        "longitude": "75.1415"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2800,
         "base_travel_cost": 1000,
-        "seasonal_surge_factor": 1.30,
-        "traffic_delay_weight": 1.10
+        "seasonal_surge_factor": 1.3,
+        "traffic_delay_weight": 1.1
       },
       "entry_fee": 0,
       "avg_duration_hrs": 6,
       "ai_metadata": {
-        "vibe_tags": ["Frescoed-Havelis", "Rustic", "Art-History", "Desert-Village", "Vintage"],
+        "vibe_tags": [
+          "Frescoed-Havelis",
+          "Rustic",
+          "Art-History",
+          "Desert-Village",
+          "Vintage"
+        ],
         "sentiment_score": 4.7,
         "crowd_prediction_level": "Low-Medium",
-        "best_suited_for": ["Art Enthusiasts", "Solo", "History Buffs"],
+        "best_suited_for": [
+          "Art Enthusiasts",
+          "Solo",
+          "History Buffs"
+        ],
         "description_ai": "Famous for its beautifully painted havelis and frescoes, offering a look at 18th-century merchant life."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Amer_Fort%2C_Jaipur.jpg/500px-Amer_Fort%2C_Jaipur.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
     {
       "id": "RAJ-25",
       "name": "Jawai (Leopard Hills)",
       "city": "Sumerpur",
       "category": "Adventure & Wildlife",
-      "coordinates": { "latitude": "25.1132", "longitude": "73.1611" },
+      "coordinates": {
+        "latitude": "25.1132",
+        "longitude": "73.1611"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 8000,
         "base_travel_cost": 2000,
-        "seasonal_surge_factor": 1.60,
+        "seasonal_surge_factor": 1.6,
         "traffic_delay_weight": 1.05
       },
       "entry_fee": 1500,
       "avg_duration_hrs": 5,
       "ai_metadata": {
-        "vibe_tags": ["Leopard-Spotting", "Granite-Hills", "Luxury-Safari", "Raw-Nature", "Authentic"],
+        "vibe_tags": [
+          "Leopard-Spotting",
+          "Granite-Hills",
+          "Luxury-Safari",
+          "Raw-Nature",
+          "Authentic"
+        ],
         "sentiment_score": 4.9,
         "crowd_prediction_level": "Low",
-        "best_suited_for": ["Wildlife Photographers", "Couples", "Luxury Travelers"],
+        "best_suited_for": [
+          "Wildlife Photographers",
+          "Couples",
+          "Luxury Travelers"
+        ],
         "description_ai": "A unique ecosystem where leopards live harmoniously with Rabari tribesmen among ancient granite boulders."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Amer_Fort%2C_Jaipur.jpg/500px-Amer_Fort%2C_Jaipur.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
     {
       "id": "RAJ-26",
       "name": "Sambhar Salt Lake",
       "city": "Sambhar Lake Town",
       "category": "Nature & Geo-Heritage",
-      "coordinates": { "latitude": "26.9115", "longitude": "75.1610" },
+      "coordinates": {
+        "latitude": "26.9115",
+        "longitude": "75.1610"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 1200,
         "base_travel_cost": 600,
         "seasonal_surge_factor": 1.15,
-        "traffic_delay_weight": 1.20
+        "traffic_delay_weight": 1.2
       },
       "entry_fee": 0,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Salt-Flats", "Flamingos", "White-Desert", "Photogenic", "Industrial-Heritage"],
+        "vibe_tags": [
+          "Salt-Flats",
+          "Flamingos",
+          "White-Desert",
+          "Photogenic",
+          "Industrial-Heritage"
+        ],
         "sentiment_score": 4.5,
         "crowd_prediction_level": "Low",
-        "best_suited_for": ["Photographers", "Bird Watchers", "Offbeat Travelers"],
+        "best_suited_for": [
+          "Photographers",
+          "Bird Watchers",
+          "Offbeat Travelers"
+        ],
         "description_ai": "India's largest inland salt lake, creating a surreal white landscape that is a paradise for flamingo sightings."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Lake_Sambhar.jpg/500px-Lake_Sambhar.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
     {
       "id": "RAJ-27",
       "name": "Bhangarh Fort (Most Haunted Site)",
       "city": "Gola ka Baas",
       "category": "Historical Forts & Mystery",
-      "coordinates": { "latitude": "27.0913", "longitude": "76.2861" },
+      "coordinates": {
+        "latitude": "27.0913",
+        "longitude": "76.2861"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2000,
         "base_travel_cost": 1200,
-        "seasonal_surge_factor": 1.20,
-        "traffic_delay_weight": 1.30
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 1.3
       },
       "entry_fee": 40,
       "avg_duration_hrs": 3,
       "ai_metadata": {
-        "vibe_tags": ["Eerie", "Ruined-City", "Cursed", "Thrilling", "Scenic"],
+        "vibe_tags": [
+          "Eerie",
+          "Ruined-City",
+          "Cursed",
+          "Thrilling",
+          "Scenic"
+        ],
         "sentiment_score": 4.4,
         "crowd_prediction_level": "High (Daytime)",
-        "best_suited_for": ["Adventure Seekers", "History Buffs", "Friends"],
+        "best_suited_for": [
+          "Adventure Seekers",
+          "History Buffs",
+          "Friends"
+        ],
         "description_ai": "Infamous as India's most haunted fort; a 17th-century township of ruins with legends of a dark curse."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Amer_Fort%2C_Jaipur.jpg/500px-Amer_Fort%2C_Jaipur.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
     {
       "id": "RAJ-28",
       "name": "Kuldhara (Abandoned Village)",
       "city": "Jaisalmer",
       "category": "Historical & Ghost Towns",
-      "coordinates": { "latitude": "26.8732", "longitude": "70.7871" },
+      "coordinates": {
+        "latitude": "26.8732",
+        "longitude": "70.7871"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2200,
         "base_travel_cost": 500,
-        "seasonal_surge_factor": 1.40,
-        "traffic_delay_weight": 1.10
+        "seasonal_surge_factor": 1.4,
+        "traffic_delay_weight": 1.1
       },
       "entry_fee": 50,
       "avg_duration_hrs": 2,
       "ai_metadata": {
-        "vibe_tags": ["Deserted", "Spooky-Legends", "Stone-Ruins", "Mystery", "Silence"],
+        "vibe_tags": [
+          "Deserted",
+          "Spooky-Legends",
+          "Stone-Ruins",
+          "Mystery",
+          "Silence"
+        ],
         "sentiment_score": 4.6,
-        "best_suited_for": ["Solo Travelers", "History Lovers", "Photographers"],
+        "best_suited_for": [
+          "Solo Travelers",
+          "History Lovers",
+          "Photographers"
+        ],
         "description_ai": "A village of Paliwal Brahmins abandoned overnight 200 years ago, leaving behind a hauntingly beautiful stone skeleton."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Amer_Fort%2C_Jaipur.jpg/500px-Amer_Fort%2C_Jaipur.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
     {
       "id": "RAJ-29",
       "name": "Tal Chhapar Sanctuary",
       "city": "Churu",
       "category": "Wildlife & Nature",
-      "coordinates": { "latitude": "27.7961", "longitude": "74.4362" },
+      "coordinates": {
+        "latitude": "27.7961",
+        "longitude": "74.4362"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 1500,
         "base_travel_cost": 800,
         "seasonal_surge_factor": 1.25,
-        "traffic_delay_weight": 1.10
+        "traffic_delay_weight": 1.1
       },
       "entry_fee": 50,
       "avg_duration_hrs": 3,
       "ai_metadata": {
-        "vibe_tags": ["Blackbucks", "Grasslands", "Nature-Photography", "Peaceful", "Raptor-Paradise"],
+        "vibe_tags": [
+          "Blackbucks",
+          "Grasslands",
+          "Nature-Photography",
+          "Peaceful",
+          "Raptor-Paradise"
+        ],
         "sentiment_score": 4.8,
-        "best_suited_for": ["Wildlife Photographers", "Solo", "Nature Lovers"],
+        "best_suited_for": [
+          "Wildlife Photographers",
+          "Solo",
+          "Nature Lovers"
+        ],
         "description_ai": "A unique flat grassland ecosystem famous for massive blackbuck populations and migratory birds of prey."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Aquila_rapax.jpg/500px-Aquila_rapax.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
     {
       "id": "RAJ-30",
       "name": "Jaigarh Fort",
       "city": "Jaipur",
       "category": "Military Heritage",
-      "coordinates": { "latitude": "26.9850", "longitude": "75.8456" },
+      "coordinates": {
+        "latitude": "26.9850",
+        "longitude": "75.8456"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3000,
         "base_travel_cost": 600,
-        "seasonal_surge_factor": 1.40,
-        "traffic_delay_weight": 1.50
+        "seasonal_surge_factor": 1.4,
+        "traffic_delay_weight": 1.5
       },
       "entry_fee": 150,
       "avg_duration_hrs": 2.5,
       "ai_metadata": {
-        "vibe_tags": ["Military-Might", "Massive-Cannon", "Strategic", "Panoramic", "Rugged"],
+        "vibe_tags": [
+          "Military-Might",
+          "Massive-Cannon",
+          "Strategic",
+          "Panoramic",
+          "Rugged"
+        ],
         "sentiment_score": 4.7,
         "historical_significance_weight": 10,
-        "best_suited_for": ["History Enthusiasts", "Families", "Students"],
+        "best_suited_for": [
+          "History Enthusiasts",
+          "Families",
+          "Students"
+        ],
         "description_ai": "Home to the Jaivana, the world's largest cannon on wheels, and a network of secret tunnels connecting to Amer Fort."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Amer_Fort%2C_Jaipur.jpg/500px-Amer_Fort%2C_Jaipur.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
     {
       "id": "RAJ-FOOD-01",
       "name": "Chokhi Dhani",
       "city": "Jaipur",
       "category": "Ethnic Dining & Cultural Village",
-      "coordinates": { "latitude": "26.7670", "longitude": "75.8360" },
+      "coordinates": {
+        "latitude": "26.7670",
+        "longitude": "75.8360"
+      },
       "budget_metrics": {
         "base_meal_cost": 900,
-        "seasonal_surge_factor": 1.50,
-        "traffic_delay_weight": 1.40,
-        "weekend_markup": 1.30
+        "seasonal_surge_factor": 1.5,
+        "traffic_delay_weight": 1.4,
+        "weekend_markup": 1.3
       },
       "ai_metadata": {
-        "vibe_tags": ["Village-Experience", "Authentic", "Folk-Music", "Massive-Thali"],
+        "vibe_tags": [
+          "Village-Experience",
+          "Authentic",
+          "Folk-Music",
+          "Massive-Thali"
+        ],
         "taste_profile": "Medium & Rich",
-        "best_suited_for": ["Families", "First-Timers", "Medium-Spice-Palates"],
+        "best_suited_for": [
+          "Families",
+          "First-Timers",
+          "Medium-Spice-Palates"
+        ],
         "description_ai": "A mock Rajasthani village offering a cultural immersion with camel rides, puppet shows, and a legendary unlimited traditional feast."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Amer_Fort%2C_Jaipur.jpg/500px-Amer_Fort%2C_Jaipur.jpg",
+      "food_details": {
+        "famous_food": [
+          "Rajasthani Thali",
+          "Ghevar"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Chokhi Dhani Village Resort"
+      ]
     },
     {
       "id": "RAJ-FOOD-02",
       "name": "Lal Maans at Handi",
       "city": "Jaipur (MI Road)",
       "category": "Iconic Non-Veg Dining",
-      "coordinates": { "latitude": "26.9170", "longitude": "75.8080" },
+      "coordinates": {
+        "latitude": "26.9170",
+        "longitude": "75.8080"
+      },
       "budget_metrics": {
         "base_meal_cost": 600,
-        "seasonal_surge_factor": 1.10,
-        "traffic_delay_weight": 1.90
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 1.9
       },
       "ai_metadata": {
-        "vibe_tags": ["Bustling", "Heritage-Recipe", "Meat-Lovers", "Classic"],
+        "vibe_tags": [
+          "Bustling",
+          "Heritage-Recipe",
+          "Meat-Lovers",
+          "Classic"
+        ],
         "taste_profile": "Extremely Spicy",
-        "best_suited_for": ["Adventure-Eaters", "Spicy-Lovers", "Meat-Enthusiasts"],
+        "best_suited_for": [
+          "Adventure-Eaters",
+          "Spicy-Lovers",
+          "Meat-Enthusiasts"
+        ],
         "description_ai": "World-famous for 'Lal Maans'—a fiery mutton curry prepared with Mathania chillies, a staple of Rajput warrior diets."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Amer_Fort%2C_Jaipur.jpg/500px-Amer_Fort%2C_Jaipur.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
     {
       "id": "RAJ-FOOD-03",
       "name": "Ambrai Restaurant",
       "city": "Udaipur",
       "category": "Fine Dining / Lakeside",
-      "coordinates": { "latitude": "24.5780", "longitude": "73.6800" },
+      "coordinates": {
+        "latitude": "24.5780",
+        "longitude": "73.6800"
+      },
       "budget_metrics": {
         "base_meal_cost": 1800,
-        "seasonal_surge_factor": 1.60,
-        "traffic_delay_weight": 1.20,
-        "view_premium_weight": 1.50
+        "seasonal_surge_factor": 1.6,
+        "traffic_delay_weight": 1.2,
+        "view_premium_weight": 1.5
       },
       "ai_metadata": {
-        "vibe_tags": ["Romantic", "Waterfront", "Candlelight", "Royal-View"],
+        "vibe_tags": [
+          "Romantic",
+          "Waterfront",
+          "Candlelight",
+          "Royal-View"
+        ],
         "taste_profile": "Medium",
-        "best_suited_for": ["Couples", "Luxury-Travelers", "Medium-Spice-Palates"],
+        "best_suited_for": [
+          "Couples",
+          "Luxury-Travelers",
+          "Medium-Spice-Palates"
+        ],
         "description_ai": "Set on the banks of Lake Pichola, offering a stunning view of City Palace and Jag Mandir with refined Mewari cuisine."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Amer_Fort%2C_Jaipur.jpg/500px-Amer_Fort%2C_Jaipur.jpg",
+      "food_details": {
+        "famous_food": [
+          "Laal Maas",
+          "Dal Baati"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Ambrai (itself)"
+      ]
     },
     {
       "id": "RAJ-FOOD-04",
       "name": "Rawat Mishthan Bhandar",
       "city": "Jaipur",
       "category": "Local Legend / Breakfast",
-      "coordinates": { "latitude": "26.9200", "longitude": "75.8000" },
+      "coordinates": {
+        "latitude": "26.9200",
+        "longitude": "75.8000"
+      },
       "budget_metrics": {
         "base_meal_cost": 150,
-        "seasonal_surge_factor": 1.10,
-        "traffic_delay_weight": 2.10
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 2.1
       },
       "ai_metadata": {
-        "vibe_tags": ["Crowded", "Legendary-Snacks", "Quick-Bite", "Iconic"],
+        "vibe_tags": [
+          "Crowded",
+          "Legendary-Snacks",
+          "Quick-Bite",
+          "Iconic"
+        ],
         "taste_profile": "Spicy (Kachori) & Sweet (Ghevar)",
-        "best_suited_for": ["Solo-Travelers", "Students", "Spicy-Lovers"],
+        "best_suited_for": [
+          "Solo-Travelers",
+          "Students",
+          "Spicy-Lovers"
+        ],
         "description_ai": "The undisputed king of 'Pyaaz Kachori' and the best 'Ghevar' in Rajasthan. Be prepared for a massive crowd."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Amer_Fort%2C_Jaipur.jpg/500px-Amer_Fort%2C_Jaipur.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
     {
       "id": "RAJ-FOOD-05",
       "name": "Janta Sweet Home",
       "city": "Jodhpur",
       "category": "Sweets & Snacks",
-      "coordinates": { "latitude": "26.2900", "longitude": "73.0200" },
+      "coordinates": {
+        "latitude": "26.2900",
+        "longitude": "73.0200"
+      },
       "budget_metrics": {
         "base_meal_cost": 200,
-        "seasonal_surge_factor": 1.20,
-        "traffic_delay_weight": 1.60
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 1.6
       },
       "ai_metadata": {
-        "vibe_tags": ["Traditional", "Mouth-Watering", "Authentic", "Blue-City-Special"],
+        "vibe_tags": [
+          "Traditional",
+          "Mouth-Watering",
+          "Authentic",
+          "Blue-City-Special"
+        ],
         "taste_profile": "Sweet & Savory",
-        "best_suited_for": ["Families", "Sweet-Toothed", "Kids"],
+        "best_suited_for": [
+          "Families",
+          "Sweet-Toothed",
+          "Kids"
+        ],
         "description_ai": "Famous for Jodhpur's specialty Mawa Kachori (sweet) and Mirchi Bada (spicy fried chili fritters)."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Amer_Fort%2C_Jaipur.jpg/500px-Amer_Fort%2C_Jaipur.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg/500px-Rajasthani_Dal_Bati_Churma_-_Gurugram_-_Haryana_-_03.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     }
   ]
 }

@@ -6,215 +6,332 @@
       "name": "Ahmedabad",
       "city": "Ahmedabad",
       "category": "Heritage City",
-      "coordinates": { "latitude": 23.0225, "longitude": 72.5714 },
-
-      "food_details": {
-        "food_available": ["gujarati", "street food", "snacks"],
-        "famous_food": ["dhokla", "fafda", "thepla", "handvo"],
-        "veg_nonveg": ["veg"],
-        "spicy_level": "low"
+      "coordinates": {
+        "latitude": 23.0225,
+        "longitude": 72.5714
       },
-
-      "restaurants": ["Agashiye", "Manek Chowk Food Street", "Gordhan Thal"],
-
+      "food_details": {
+        "food_available": [
+          "gujarati",
+          "street food",
+          "snacks"
+        ],
+        "famous_food": [
+          "Dhokla",
+          "Fafda",
+          "Thepla",
+          "Handvo"
+        ],
+        "veg_nonveg": [
+          "veg"
+        ],
+        "spicy_level": "low",
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Dhokla_on_Gujrart.jpg/500px-Dhokla_on_Gujrart.jpg"
+      },
+      "restaurants": [
+        "Manek Chowk Food Stalls",
+        "Agashiye",
+        "Vishalla"
+      ],
       "daily_expense": {
         "stay_cost": 1500,
         "food_cost": 500,
         "transport_cost": 300,
         "total_per_day": 2300
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Sabarmati_riverside.jpg/500px-Sabarmati_riverside.jpg"
     },
-
     {
       "id": "GJ-02",
       "name": "Statue of Unity",
       "city": "Kevadia",
       "category": "Monument",
-      "coordinates": { "latitude": 21.8380, "longitude": 73.7191 },
-
-      "food_details": {
-        "food_available": ["gujarati", "north indian"],
-        "famous_food": ["gujarati thali", "dal dhokli"],
-        "veg_nonveg": ["veg"],
-        "spicy_level": "low"
+      "coordinates": {
+        "latitude": 21.838,
+        "longitude": 73.7191
       },
-
-      "restaurants": ["Unity Food Court", "Ekta Restaurant"],
-
+      "food_details": {
+        "food_available": [
+          "gujarati",
+          "north indian"
+        ],
+        "famous_food": [
+          "Gujarati Thali",
+          "Dal Dhokli"
+        ],
+        "veg_nonveg": [
+          "veg"
+        ],
+        "spicy_level": "low",
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Gujrati_Thali.jpg/500px-Gujrati_Thali.jpg"
+      },
+      "restaurants": [
+        "Ekta Nagar Food Court",
+        "Shrestha Veg Restaurant"
+      ],
       "daily_expense": {
         "stay_cost": 2000,
         "food_cost": 600,
         "transport_cost": 400,
         "total_per_day": 3000
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Statue_of_Unity.jpg/500px-Statue_of_Unity.jpg"
     },
-
     {
       "id": "GJ-03",
       "name": "Gir National Park",
       "city": "Junagadh",
       "category": "Wildlife Sanctuary",
-      "coordinates": { "latitude": 21.1240, "longitude": 70.8240 },
-
-      "food_details": {
-        "food_available": ["gujarati", "north indian"],
-        "famous_food": ["bajra roti", "khichdi", "chaas"],
-        "veg_nonveg": ["veg", "non-veg"],
-        "spicy_level": "medium"
+      "coordinates": {
+        "latitude": 21.124,
+        "longitude": 70.824
       },
-
-      "restaurants": ["Gir Lion Safari Resort Restaurant", "Hotel Anil Farm"],
-
+      "food_details": {
+        "food_available": [
+          "gujarati",
+          "north indian"
+        ],
+        "famous_food": [
+          "Bajra Roti",
+          "Khichdi",
+          "Chaas"
+        ],
+        "veg_nonveg": [
+          "veg",
+          "non-veg"
+        ],
+        "spicy_level": "medium",
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Dall_Khichdi.jpg/500px-Dall_Khichdi.jpg"
+      },
+      "restaurants": [
+        "Gir Jungle Lodge Restaurant",
+        "Lion Safari Camp"
+      ],
       "daily_expense": {
         "stay_cost": 2200,
         "food_cost": 600,
         "transport_cost": 400,
         "total_per_day": 3200
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Gir_lion-Gir_forest%2Cjunagadh%2Cgujarat%2Cindia.jpeg/500px-Gir_lion-Gir_forest%2Cjunagadh%2Cgujarat%2Cindia.jpeg"
     },
-
     {
       "id": "GJ-04",
       "name": "Dwarka",
       "city": "Dwarka",
       "category": "Religious Place",
-      "coordinates": { "latitude": 22.2442, "longitude": 68.9685 },
-
-      "food_details": {
-        "food_available": ["gujarati", "south indian"],
-        "famous_food": ["khichdi", "thepla"],
-        "veg_nonveg": ["veg"],
-        "spicy_level": "low"
+      "coordinates": {
+        "latitude": 22.2442,
+        "longitude": 68.9685
       },
-
-      "restaurants": ["Govinda Restaurant", "Dwarkadhish Bhojanalaya"],
-
+      "food_details": {
+        "food_available": [
+          "gujarati",
+          "south indian"
+        ],
+        "famous_food": [
+          "Khichdi",
+          "Thepla"
+        ],
+        "veg_nonveg": [
+          "veg"
+        ],
+        "spicy_level": "low",
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Dall_Khichdi.jpg/500px-Dall_Khichdi.jpg"
+      },
+      "restaurants": [
+        "Toral Dining Hall",
+        "Shrinathji Restaurant"
+      ],
       "daily_expense": {
         "stay_cost": 1600,
         "food_cost": 500,
         "transport_cost": 300,
         "total_per_day": 2400
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Dwarakadheesh_Temple%2C_2014.jpg/500px-Dwarakadheesh_Temple%2C_2014.jpg"
     },
-
     {
       "id": "GJ-05",
       "name": "Somnath",
       "city": "Somnath",
       "category": "Religious Place",
-      "coordinates": { "latitude": 20.8880, "longitude": 70.4010 },
-
-      "food_details": {
-        "food_available": ["gujarati", "north indian"],
-        "famous_food": ["gujarati thali", "dal chawal"],
-        "veg_nonveg": ["veg"],
-        "spicy_level": "low"
+      "coordinates": {
+        "latitude": 20.888,
+        "longitude": 70.401
       },
-
-      "restaurants": ["Shreeji Dining Hall", "Somnath Bhojanalaya"],
-
+      "food_details": {
+        "food_available": [
+          "gujarati",
+          "north indian"
+        ],
+        "famous_food": [
+          "Gujarati Thali",
+          "Dal Chawal"
+        ],
+        "veg_nonveg": [
+          "veg"
+        ],
+        "spicy_level": "low",
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Gujrati_Thali.jpg/500px-Gujrati_Thali.jpg"
+      },
+      "restaurants": [
+        "Somnath Guest House Canteen",
+        "Jay Somnath Restaurant"
+      ],
       "daily_expense": {
         "stay_cost": 1500,
         "food_cost": 500,
         "transport_cost": 300,
         "total_per_day": 2300
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Somanath_mandir_%28cropped%29.jpg/500px-Somanath_mandir_%28cropped%29.jpg"
     },
-
     {
       "id": "GJ-06",
       "name": "Rann of Kutch",
       "city": "Bhuj",
       "category": "Desert & Festival",
-      "coordinates": { "latitude": 23.7337, "longitude": 69.8597 },
-
-      "food_details": {
-        "food_available": ["gujarati", "kutchi"],
-        "famous_food": ["kutchi dabeli", "bajra roti"],
-        "veg_nonveg": ["veg"],
-        "spicy_level": "medium"
+      "coordinates": {
+        "latitude": 23.7337,
+        "longitude": 69.8597
       },
-
-      "restaurants": ["Hotel Prince Restaurant", "Kutchi Rasoi"],
-
+      "food_details": {
+        "food_available": [
+          "gujarati",
+          "kutchi"
+        ],
+        "famous_food": [
+          "Kutchi Dabeli",
+          "Bajra Roti"
+        ],
+        "veg_nonveg": [
+          "veg"
+        ],
+        "spicy_level": "medium",
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Daabeli.JPG/500px-Daabeli.JPG"
+      },
+      "restaurants": [
+        "Tent City Dining",
+        "Rann Utsav Pavilion"
+      ],
       "daily_expense": {
         "stay_cost": 2500,
         "food_cost": 700,
         "transport_cost": 500,
         "total_per_day": 3700
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Rann_of_Kutch_-_White_Desert.jpg/500px-Rann_of_Kutch_-_White_Desert.jpg"
     },
-
     {
       "id": "GJ-11",
       "name": "Rajkot",
       "city": "Rajkot",
       "category": "Cultural City",
-      "coordinates": { "latitude": 22.3039, "longitude": 70.8022 },
-
-      "food_details": {
-        "food_available": ["gujarati", "street food"],
-        "famous_food": ["sev tameta", "bhajiya"],
-        "veg_nonveg": ["veg"],
-        "spicy_level": "medium"
+      "coordinates": {
+        "latitude": 22.3039,
+        "longitude": 70.8022
       },
-
-      "restaurants": ["Everest Panipuri", "Patel Dining Hall"],
-
+      "food_details": {
+        "food_available": [
+          "gujarati",
+          "street food"
+        ],
+        "famous_food": [
+          "Sev Tameta",
+          "Bhajiya"
+        ],
+        "veg_nonveg": [
+          "veg"
+        ],
+        "spicy_level": "medium",
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Dhokla_on_Gujrart.jpg/500px-Dhokla_on_Gujrart.jpg"
+      },
+      "restaurants": [
+        "Temptations Restaurant",
+        "Kathiyawadi Restaurants"
+      ],
       "daily_expense": {
         "stay_cost": 1400,
         "food_cost": 500,
         "transport_cost": 300,
         "total_per_day": 2200
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/High_street_-_150_ft_Ring_road_Rajkot.jpg/500px-High_street_-_150_ft_Ring_road_Rajkot.jpg"
     },
-
     {
       "id": "GJ-12",
       "name": "Surat",
       "city": "Surat",
       "category": "Diamond City",
-      "coordinates": { "latitude": 21.1702, "longitude": 72.8311 },
-
-      "food_details": {
-        "food_available": ["gujarati", "street food", "sweets"],
-        "famous_food": ["locho", "ghari"],
-        "veg_nonveg": ["veg"],
-        "spicy_level": "medium"
+      "coordinates": {
+        "latitude": 21.1702,
+        "longitude": 72.8311
       },
-
-      "restaurants": ["Sasuma", "Gopal Locho"],
-
+      "food_details": {
+        "food_available": [
+          "gujarati",
+          "street food",
+          "sweets"
+        ],
+        "famous_food": [
+          "Locho",
+          "Ghari"
+        ],
+        "veg_nonveg": [
+          "veg"
+        ],
+        "spicy_level": "medium",
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Dhokla_on_Gujrart.jpg/500px-Dhokla_on_Gujrart.jpg"
+      },
+      "restaurants": [
+        "Surat Famous Locho Stalls",
+        "Bombay Kulfi"
+      ],
       "daily_expense": {
         "stay_cost": 1600,
         "food_cost": 600,
         "transport_cost": 300,
         "total_per_day": 2500
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Bharthana_Althan_area.jpg/500px-Bharthana_Althan_area.jpg"
     },
-
     {
       "id": "GJ-13",
       "name": "Bhavnagar",
       "city": "Bhavnagar",
       "category": "Coastal City",
-      "coordinates": { "latitude": 21.7645, "longitude": 72.1519 },
-
-      "food_details": {
-        "food_available": ["gujarati", "seafood"],
-        "famous_food": ["gathiya", "fish curry"],
-        "veg_nonveg": ["veg", "non-veg"],
-        "spicy_level": "medium"
+      "coordinates": {
+        "latitude": 21.7645,
+        "longitude": 72.1519
       },
-
-      "restaurants": ["Top3 Restaurant", "Nilambag Palace Restaurant"],
-
+      "food_details": {
+        "food_available": [
+          "gujarati",
+          "seafood"
+        ],
+        "famous_food": [
+          "Gathiya",
+          "Fish Curry"
+        ],
+        "veg_nonveg": [
+          "veg",
+          "non-veg"
+        ],
+        "spicy_level": "medium",
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Fish_Moilee_Kerala_Style_%28aka_KeralaFish_Molly%29.JPG/500px-Fish_Moilee_Kerala_Style_%28aka_KeralaFish_Molly%29.JPG"
+      },
+      "restaurants": [
+        "Sankalp Restaurant",
+        "Toral"
+      ],
       "daily_expense": {
         "stay_cost": 1500,
         "food_cost": 600,
         "transport_cost": 300,
         "total_per_day": 2400
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Shri_Swaminarayan_Mandir_gate.jpg/500px-Shri_Swaminarayan_Mandir_gate.jpg"
     }
   ]
 }

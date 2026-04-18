@@ -6,188 +6,394 @@
       "name": "Red Fort (Lal Qila)",
       "city": "Old Delhi",
       "category": "UNESCO Heritage Sites",
-      "coordinates": { "latitude": "28.6562", "longitude": "77.2410" },
+      "coordinates": {
+        "latitude": "28.6562",
+        "longitude": "77.2410"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3500,
         "base_travel_cost": 600,
-        "seasonal_surge_factor": 1.20,
-        "traffic_delay_weight": 1.70
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 1.7
       },
       "entry_fee": 35,
       "avg_duration_hrs": 3,
       "ai_metadata": {
-        "vibe_tags": ["Imperial", "Mughal-Architecture", "Historic", "Massive", "Symbolic"],
+        "vibe_tags": [
+          "Imperial",
+          "Mughal-Architecture",
+          "Historic",
+          "Massive",
+          "Symbolic"
+        ],
         "sentiment_score": 4.7,
         "crowd_prediction_level": "Extremely High",
         "historical_significance_weight": 10,
-        "best_suited_for": ["History Buffs", "Families", "Foreign Tourists"],
+        "best_suited_for": [
+          "History Buffs",
+          "Families",
+          "Foreign Tourists"
+        ],
         "description_ai": "The seat of Mughal power for 200 years, this red sandstone fortress is a symbol of India's sovereignty and architectural brilliance."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Delhi_fort.jpg/500px-Delhi_fort.jpg",
+      "food_details": {
+        "famous_food": [
+          "Butter Chicken",
+          "Nihari",
+          "Biryani"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg/500px-Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg"
+      },
+      "restaurants": [
+        "Karim's",
+        "Al Jawahar",
+        "Moti Mahal"
+      ]
     },
     {
       "id": "DEL-02",
       "name": "Qutub Minar",
       "city": "South Delhi",
       "category": "UNESCO Heritage Sites",
-      "coordinates": { "latitude": "28.5244", "longitude": "77.1855" },
+      "coordinates": {
+        "latitude": "28.5244",
+        "longitude": "77.1855"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 4500,
         "base_travel_cost": 700,
         "seasonal_surge_factor": 1.15,
-        "traffic_delay_weight": 1.40
+        "traffic_delay_weight": 1.4
       },
       "entry_fee": 35,
       "avg_duration_hrs": 2,
       "ai_metadata": {
-        "vibe_tags": ["Ancient", "Architectural-Marvel", "Towering", "Victory-Monument", "Victory"],
+        "vibe_tags": [
+          "Ancient",
+          "Architectural-Marvel",
+          "Towering",
+          "Victory-Monument",
+          "Victory"
+        ],
         "sentiment_score": 4.8,
         "crowd_prediction_level": "High",
         "historical_significance_weight": 10,
-        "best_suited_for": ["Architecture Lovers", "Solo", "Families"],
+        "best_suited_for": [
+          "Architecture Lovers",
+          "Solo",
+          "Families"
+        ],
         "description_ai": "The tallest brick minaret in the world, surrounded by complex ruins including the 4th-century uncorroded Iron Pillar."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Qutb_Minar_2022.jpg/500px-Qutb_Minar_2022.jpg",
+      "food_details": {
+        "famous_food": [
+          "Seekh Kebab",
+          "Rumali Roti"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Lula_kebab_2.jpg/500px-Lula_kebab_2.jpg"
+      },
+      "restaurants": [
+        "Olive Bar & Kitchen",
+        "Qutub Institutional Area Cafes"
+      ]
     },
     {
       "id": "DEL-03",
       "name": "Humayun's Tomb",
       "city": "Nizamuddin",
       "category": "UNESCO Heritage Sites",
-      "coordinates": { "latitude": "28.5933", "longitude": "77.2507" },
+      "coordinates": {
+        "latitude": "28.5933",
+        "longitude": "77.2507"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 4000,
         "base_travel_cost": 500,
-        "seasonal_surge_factor": 1.20,
-        "traffic_delay_weight": 1.30
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 1.3
       },
       "entry_fee": 35,
       "avg_duration_hrs": 2.5,
       "ai_metadata": {
-        "vibe_tags": ["Garden-Tomb", "Symmetrical", "Precursor-to-Taj", "Serene", "Elegant"],
+        "vibe_tags": [
+          "Garden-Tomb",
+          "Symmetrical",
+          "Precursor-to-Taj",
+          "Serene",
+          "Elegant"
+        ],
         "sentiment_score": 4.9,
         "crowd_prediction_level": "Medium",
         "historical_significance_weight": 10,
-        "best_suited_for": ["Couples", "Photographers", "History Buffs"],
+        "best_suited_for": [
+          "Couples",
+          "Photographers",
+          "History Buffs"
+        ],
         "description_ai": "The first garden-tomb on the Indian subcontinent, its Persian-style architecture served as the inspiration for the Taj Mahal."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Tomb_of_Humayun%2C_Delhi.jpg/500px-Tomb_of_Humayun%2C_Delhi.jpg",
+      "food_details": {
+        "famous_food": [
+          "Kebab",
+          "Parantha"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Lula_kebab_2.jpg/500px-Lula_kebab_2.jpg"
+      },
+      "restaurants": [
+        "Khan Chacha",
+        "Nizamuddin Kebab Shops"
+      ]
     },
     {
       "id": "DEL-04",
       "name": "India Gate",
       "city": "New Delhi",
       "category": "Major Cities & Cultural Spots",
-      "coordinates": { "latitude": "28.6129", "longitude": "77.2295" },
+      "coordinates": {
+        "latitude": "28.6129",
+        "longitude": "77.2295"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 5000,
         "base_travel_cost": 400,
-        "seasonal_surge_factor": 1.10,
-        "traffic_delay_weight": 1.80
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 1.8
       },
       "entry_fee": 0,
       "avg_duration_hrs": 1.5,
       "ai_metadata": {
-        "vibe_tags": ["Patriotic", "Lively", "Evening-Hangout", "War-Memorial", "Iconic"],
+        "vibe_tags": [
+          "Patriotic",
+          "Lively",
+          "Evening-Hangout",
+          "War-Memorial",
+          "Iconic"
+        ],
         "sentiment_score": 4.8,
         "crowd_prediction_level": "Extremely High",
         "historical_significance_weight": 9,
-        "best_suited_for": ["Families", "Friends", "Night-Owls"],
+        "best_suited_for": [
+          "Families",
+          "Friends",
+          "Night-Owls"
+        ],
         "description_ai": "A 42-meter high war memorial archway honors Indian soldiers; the surrounding Kartavya Path is Delhi's premier public space."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/India_Gate_%28All_India_War_Memorial%29.jpg/500px-India_Gate_%28All_India_War_Memorial%29.jpg",
+      "food_details": {
+        "famous_food": [
+          "Ice Cream Kulfi",
+          "Chaat"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Matka_kulfi.jpg/500px-Matka_kulfi.jpg"
+      },
+      "restaurants": [
+        "Andhra Pradesh Bhavan Canteen",
+        "Pandara Road Restaurants"
+      ]
     },
     {
       "id": "DEL-05",
       "name": "Lotus Temple",
       "city": "Kalkaji",
       "category": "Religious/Pilgrimage Sites",
-      "coordinates": { "latitude": "28.5535", "longitude": "77.2588" },
+      "coordinates": {
+        "latitude": "28.5535",
+        "longitude": "77.2588"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3000,
         "base_travel_cost": 500,
         "seasonal_surge_factor": 1.15,
-        "traffic_delay_weight": 1.60
+        "traffic_delay_weight": 1.6
       },
       "entry_fee": 0,
       "avg_duration_hrs": 1.5,
       "ai_metadata": {
-        "vibe_tags": ["Silent", "Modern", "Bahai-Faith", "Meditative", "White-Marble"],
+        "vibe_tags": [
+          "Silent",
+          "Modern",
+          "Bahai-Faith",
+          "Meditative",
+          "White-Marble"
+        ],
         "sentiment_score": 4.6,
         "crowd_prediction_level": "High",
         "historical_significance_weight": 6,
-        "best_suited_for": ["Solo", "Peace-seekers", "Families"],
+        "best_suited_for": [
+          "Solo",
+          "Peace-seekers",
+          "Families"
+        ],
         "description_ai": "A Bahá'í House of Worship shaped like a floating lotus, open to people of all religions for silent meditation."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/LotusDelhi.jpg/500px-LotusDelhi.jpg",
+      "food_details": {
+        "famous_food": [
+          "Chole Bhature",
+          "Samosa"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Chole_Bhature_from_Nagpur.JPG/500px-Chole_Bhature_from_Nagpur.JPG"
+      },
+      "restaurants": [
+        "Evergreen Sweet Corner Nehru Place",
+        "Bikanervala"
+      ]
     },
     {
       "id": "DEL-06",
       "name": "Swaminarayan Akshardham",
       "city": "East Delhi",
       "category": "Spiritual & Iconic",
-      "coordinates": { "latitude": "28.6127", "longitude": "77.2773" },
+      "coordinates": {
+        "latitude": "28.6127",
+        "longitude": "77.2773"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2500,
         "base_travel_cost": 800,
-        "seasonal_surge_factor": 1.20,
-        "traffic_delay_weight": 1.50
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 1.5
       },
       "entry_fee": 0,
       "avg_duration_hrs": 5,
       "ai_metadata": {
-        "vibe_tags": ["Grand", "Ornate", "High-Tech", "Traditional", "Water-Show"],
+        "vibe_tags": [
+          "Grand",
+          "Ornate",
+          "High-Tech",
+          "Traditional",
+          "Water-Show"
+        ],
         "sentiment_score": 4.9,
         "crowd_prediction_level": "Extremely High",
-        "best_suited_for": ["Families", "Devotees", "Architecture Lovers"],
+        "best_suited_for": [
+          "Families",
+          "Devotees",
+          "Architecture Lovers"
+        ],
         "description_ai": "A massive spiritual complex showcasing millennia of traditional Indian and Hindu culture, spirituality, and architecture."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Swaminarayan_Akshardham%2C_Delhi.jpg/500px-Swaminarayan_Akshardham%2C_Delhi.jpg",
+      "food_details": {
+        "famous_food": [
+          "Gujarati Thali",
+          "Rajasthani Thali"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Gujrati_Thali.jpg/500px-Gujrati_Thali.jpg"
+      },
+      "restaurants": [
+        "Premvati Food Court (Inside)"
+      ]
     },
     {
       "id": "DEL-07",
       "name": "Chandni Chowk",
       "city": "Old Delhi",
       "category": "Traditional Shopping",
-      "coordinates": { "latitude": "28.6606", "longitude": "77.2302" },
+      "coordinates": {
+        "latitude": "28.6606",
+        "longitude": "77.2302"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2000,
         "base_travel_cost": 300,
-        "seasonal_surge_factor": 1.30,
-        "traffic_delay_weight": 2.00
+        "seasonal_surge_factor": 1.3,
+        "traffic_delay_weight": 2
       },
       "entry_fee": 0,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Chaotic", "Bustling", "Street-Food-Heaven", "Wholesale", "Heritage"],
+        "vibe_tags": [
+          "Chaotic",
+          "Bustling",
+          "Street-Food-Heaven",
+          "Wholesale",
+          "Heritage"
+        ],
         "sentiment_score": 4.5,
         "crowd_prediction_level": "Extreme",
-        "best_suited_for": ["Foodies", "Shoppers", "Photographers"],
+        "best_suited_for": [
+          "Foodies",
+          "Shoppers",
+          "Photographers"
+        ],
         "description_ai": "One of the oldest and busiest markets in India; a sensory explosion of spices, jewelry, and legendary Mughlai street food."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Gurudwara_Sisganj_Sahib_Chandni_Chowk_19.jpg/500px-Gurudwara_Sisganj_Sahib_Chandni_Chowk_19.jpg",
+      "food_details": {
+        "famous_food": [
+          "Parantha",
+          "Jalebi",
+          "Dahi Bhalle"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Triangle_paratha_%28cropped%29.JPG/500px-Triangle_paratha_%28cropped%29.JPG"
+      },
+      "restaurants": [
+        "Paranthe Wali Gali",
+        "Natraj Dahi Bhalle",
+        "Old Famous Jalebi Wala"
+      ]
     },
     {
       "id": "DEL-08",
       "name": "Lodhi Garden",
       "city": "Lodhi Estate",
       "category": "Major Cities & Cultural Spots",
-      "coordinates": { "latitude": "28.5931", "longitude": "77.2197" },
+      "coordinates": {
+        "latitude": "28.5931",
+        "longitude": "77.2197"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 6000,
         "base_travel_cost": 400,
-        "seasonal_surge_factor": 1.10,
+        "seasonal_surge_factor": 1.1,
         "traffic_delay_weight": 1.35
       },
       "entry_fee": 0,
       "avg_duration_hrs": 2,
       "ai_metadata": {
-        "vibe_tags": ["Lush", "Historical-Park", "Jogging", "Quiet", "Tombs"],
+        "vibe_tags": [
+          "Lush",
+          "Historical-Park",
+          "Jogging",
+          "Quiet",
+          "Tombs"
+        ],
         "sentiment_score": 4.8,
         "crowd_prediction_level": "Medium",
-        "best_suited_for": ["Couples", "Solo", "Nature Lovers"],
+        "best_suited_for": [
+          "Couples",
+          "Solo",
+          "Nature Lovers"
+        ],
         "description_ai": "A sprawling 90-acre park containing the tombs of the Sayyid and Lodhi rulers amidst manicured greenery."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Lodhi_Gardens_on_a_sunny_day.jpg/500px-Lodhi_Gardens_on_a_sunny_day.jpg",
+      "food_details": {
+        "famous_food": [
+          "Continental",
+          "Indian Fusion"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg/500px-Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg"
+      },
+      "restaurants": [
+        "Lodi The Garden Restaurant",
+        "Indian Accent"
+      ]
     },
     {
       "id": "DEL-09",
       "name": "Jama Masjid",
       "city": "Old Delhi",
       "category": "Religious/Pilgrimage Sites",
-      "coordinates": { "latitude": "28.6507", "longitude": "77.2334" },
+      "coordinates": {
+        "latitude": "28.6507",
+        "longitude": "77.2334"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2000,
         "base_travel_cost": 350,
@@ -197,265 +403,548 @@
       "entry_fee": 0,
       "avg_duration_hrs": 1.5,
       "ai_metadata": {
-        "vibe_tags": ["Spiritual", "Mughal-Splendor", "Panoramic-Views", "Community", "Massive"],
+        "vibe_tags": [
+          "Spiritual",
+          "Mughal-Splendor",
+          "Panoramic-Views",
+          "Community",
+          "Massive"
+        ],
         "sentiment_score": 4.6,
         "crowd_prediction_level": "High",
         "historical_significance_weight": 10,
-        "best_suited_for": ["Pilgrims", "History Buffs", "Photographers"],
+        "best_suited_for": [
+          "Pilgrims",
+          "History Buffs",
+          "Photographers"
+        ],
         "description_ai": "One of the largest mosques in India, built by Shah Jahan; its courtyard can hold 25,000 devotees."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Jama_Masjid_-_In_the_Noon.jpg/500px-Jama_Masjid_-_In_the_Noon.jpg",
+      "food_details": {
+        "famous_food": [
+          "Nihari",
+          "Seekh Kebab",
+          "Biryani"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Nalli_Nihari_India.jpg/500px-Nalli_Nihari_India.jpg"
+      },
+      "restaurants": [
+        "Karim's",
+        "Al Jawahar",
+        "Haji Shabrati Nihari Wale"
+      ]
     },
     {
       "id": "DEL-10",
       "name": "Dilli Haat",
       "city": "INA",
       "category": "Shopping & Lifestyle",
-      "coordinates": { "latitude": "28.5733", "longitude": "77.2081" },
+      "coordinates": {
+        "latitude": "28.5733",
+        "longitude": "77.2081"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 4000,
         "base_travel_cost": 400,
         "seasonal_surge_factor": 1.15,
-        "traffic_delay_weight": 1.50
+        "traffic_delay_weight": 1.5
       },
       "entry_fee": 30,
       "avg_duration_hrs": 3,
       "ai_metadata": {
-        "vibe_tags": ["Crafts", "Ethnic", "Regional-Cuisine", "Open-Air", "Colorful"],
+        "vibe_tags": [
+          "Crafts",
+          "Ethnic",
+          "Regional-Cuisine",
+          "Open-Air",
+          "Colorful"
+        ],
         "sentiment_score": 4.7,
         "crowd_prediction_level": "Medium-High",
-        "best_suited_for": ["Families", "Shoppers", "Foodies"],
+        "best_suited_for": [
+          "Families",
+          "Shoppers",
+          "Foodies"
+        ],
         "description_ai": "A permanent open-air food and craft bazaar representing rural art and ethnic food from across India's states."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Dilli_Haat.jpg/500px-Dilli_Haat.jpg",
+      "food_details": {
+        "famous_food": [
+          "Litti Chokha",
+          "Momos",
+          "Regional cuisine"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Momo_nepal.jpg/500px-Momo_nepal.jpg"
+      },
+      "restaurants": [
+        "State Food Stalls (inside Dilli Haat)"
+      ]
     },
     {
       "id": "DEL-11",
       "name": "Karim's",
       "city": "Old Delhi",
       "category": "Legendary Dining",
-      "coordinates": { "latitude": "28.6503", "longitude": "77.2336" },
+      "coordinates": {
+        "latitude": "28.6503",
+        "longitude": "77.2336"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2000,
         "base_travel_cost": 400,
-        "seasonal_surge_factor": 1.10,
-        "traffic_delay_weight": 1.90
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 1.9
       },
       "entry_fee": 0,
       "avg_duration_hrs": 1,
       "ai_metadata": {
-        "vibe_tags": ["Mughlai-Original", "Meaty", "Historic", "Crowded", "Authentic"],
+        "vibe_tags": [
+          "Mughlai-Original",
+          "Meaty",
+          "Historic",
+          "Crowded",
+          "Authentic"
+        ],
         "sentiment_score": 4.8,
-        "best_suited_for": ["Meat Lovers", "Culinary Explorers"],
+        "best_suited_for": [
+          "Meat Lovers",
+          "Culinary Explorers"
+        ],
         "description_ai": "Established in 1913, this world-renowned restaurant is famous for its Mutton Korma and Burra Kebabs near Jama Masjid."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Karim%27s.jpg/500px-Karim%27s.jpg",
+      "food_details": {
+        "famous_food": [
+          "Mutton Burra",
+          "Chicken Jahangiri"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg/500px-Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg"
+      },
+      "restaurants": [
+        "Karim's Original (Jama Masjid)"
+      ]
     },
     {
       "id": "DEL-12",
       "name": "Waste to Wonder Park",
       "city": "Sarai Kale Khan",
       "category": "Major Cities & Cultural Spots",
-      "coordinates": { "latitude": "28.5910", "longitude": "77.2550" },
+      "coordinates": {
+        "latitude": "28.5910",
+        "longitude": "77.2550"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3000,
         "base_travel_cost": 500,
-        "seasonal_surge_factor": 1.10,
+        "seasonal_surge_factor": 1.1,
         "traffic_delay_weight": 1.45
       },
       "entry_fee": 50,
       "avg_duration_hrs": 2,
       "ai_metadata": {
-        "vibe_tags": ["Creative", "Eco-friendly", "Replicas", "Illuminated", "Family-Park"],
+        "vibe_tags": [
+          "Creative",
+          "Eco-friendly",
+          "Replicas",
+          "Illuminated",
+          "Family-Park"
+        ],
         "sentiment_score": 4.4,
-        "best_suited_for": ["Families", "Instagrammers", "Kids"],
+        "best_suited_for": [
+          "Families",
+          "Instagrammers",
+          "Kids"
+        ],
         "description_ai": "A unique theme park featuring replicas of the Seven Wonders of the World created entirely from industrial and scrap waste."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Delhi_fort.jpg/500px-Delhi_fort.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg/500px-Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
     {
       "id": "DEL-13",
       "name": "Connaught Place (CP)",
       "city": "New Delhi",
       "category": "Major Cities & Cultural Spots",
-      "coordinates": { "latitude": "28.6315", "longitude": "77.2167" },
+      "coordinates": {
+        "latitude": "28.6315",
+        "longitude": "77.2167"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 6000,
         "base_travel_cost": 300,
-        "seasonal_surge_factor": 1.20,
-        "traffic_delay_weight": 1.90
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 1.9
       },
       "entry_fee": 0,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Georgian-Architecture", "Heart-of-Delhi", "Upscale", "Nightlife", "Social-Hub"],
+        "vibe_tags": [
+          "Georgian-Architecture",
+          "Heart-of-Delhi",
+          "Upscale",
+          "Nightlife",
+          "Social-Hub"
+        ],
         "sentiment_score": 4.7,
         "crowd_prediction_level": "Extremely High",
-        "best_suited_for": ["Friends", "Shoppers", "Youth"],
+        "best_suited_for": [
+          "Friends",
+          "Shoppers",
+          "Youth"
+        ],
         "description_ai": "A massive circular commercial center defined by white colonial pillars, high-end brands, and some of the city's best bars."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Skyline_at_Rajiv_Chowk.JPG/500px-Skyline_at_Rajiv_Chowk.JPG",
+      "food_details": {
+        "famous_food": [
+          "Chole Kulche",
+          "Dosa",
+          "Street Food"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg/500px-Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg"
+      },
+      "restaurants": [
+        "Wenger's",
+        "Saravana Bhavan",
+        "Farzi Cafe"
+      ]
     },
     {
       "id": "DEL-14",
       "name": "Hauz Khas Village",
       "city": "South Delhi",
       "category": "Major Cities & Cultural Spots",
-      "coordinates": { "latitude": "28.5471", "longitude": "77.2040" },
+      "coordinates": {
+        "latitude": "28.5471",
+        "longitude": "77.2040"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3500,
         "base_travel_cost": 400,
-        "seasonal_surge_factor": 1.10,
-        "traffic_delay_weight": 1.50
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 1.5
       },
       "entry_fee": 0,
       "avg_duration_hrs": 5,
       "ai_metadata": {
-        "vibe_tags": ["Trendy", "Artistic", "Medieval-Ruins", "Nightlife", "Bohemian"],
+        "vibe_tags": [
+          "Trendy",
+          "Artistic",
+          "Medieval-Ruins",
+          "Nightlife",
+          "Bohemian"
+        ],
         "sentiment_score": 4.8,
         "crowd_prediction_level": "High (Evenings)",
         "historical_significance_weight": 8,
-        "best_suited_for": ["Youth", "Couples", "Art Lovers", "Friends"],
+        "best_suited_for": [
+          "Youth",
+          "Couples",
+          "Art Lovers",
+          "Friends"
+        ],
         "description_ai": "A fusion of 14th-century Islamic architecture and modern urban culture, featuring upscale boutiques, lakeside cafes, and vibrant pubs."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Feroze_Shah%27s_Tomb.JPG/500px-Feroze_Shah%27s_Tomb.JPG",
+      "food_details": {
+        "famous_food": [
+          "Continental",
+          "Tibetan"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg/500px-Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg"
+      },
+      "restaurants": [
+        "Social Hauz Khas",
+        "Naivedyam",
+        "Yeti"
+      ]
     },
     {
       "id": "DEL-15",
       "name": "National Museum",
       "city": "Janpath",
       "category": "Major Cities & Cultural Spots",
-      "coordinates": { "latitude": "28.6118", "longitude": "77.2192" },
+      "coordinates": {
+        "latitude": "28.6118",
+        "longitude": "77.2192"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 4000,
         "base_travel_cost": 300,
         "seasonal_surge_factor": 1.05,
-        "traffic_delay_weight": 1.60
+        "traffic_delay_weight": 1.6
       },
       "entry_fee": 20,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Educational", "Vast", "Ancient-Artifacts", "Quiet", "Scholarly"],
+        "vibe_tags": [
+          "Educational",
+          "Vast",
+          "Ancient-Artifacts",
+          "Quiet",
+          "Scholarly"
+        ],
         "sentiment_score": 4.6,
         "crowd_prediction_level": "Medium",
         "historical_significance_weight": 10,
-        "best_suited_for": ["History Buffs", "Students", "Solo"],
+        "best_suited_for": [
+          "History Buffs",
+          "Students",
+          "Solo"
+        ],
         "description_ai": "One of India's largest museums, housing over 200,000 artifacts spanning 5,000 years, including the Harappan gallery and Buddhist relics."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Chennai_National_Art_Gallery_GJE.jpg/500px-Chennai_National_Art_Gallery_GJE.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg/500px-Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
     {
       "id": "DEL-16",
       "name": "Majnu ka Tilla (Little Tibet)",
       "city": "North Delhi",
       "category": "Major Cities & Cultural Spots",
-      "coordinates": { "latitude": "28.7014", "longitude": "77.2282" },
+      "coordinates": {
+        "latitude": "28.7014",
+        "longitude": "77.2282"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 1500,
         "base_travel_cost": 400,
         "seasonal_surge_factor": 1.15,
-        "traffic_delay_weight": 1.80
+        "traffic_delay_weight": 1.8
       },
       "entry_fee": 0,
       "avg_duration_hrs": 3,
       "ai_metadata": {
-        "vibe_tags": ["Tibetan-Culture", "Authentic", "Foodie-Hub", "Spiritual", "Narrow-Lanes"],
+        "vibe_tags": [
+          "Tibetan-Culture",
+          "Authentic",
+          "Foodie-Hub",
+          "Spiritual",
+          "Narrow-Lanes"
+        ],
         "sentiment_score": 4.7,
         "crowd_prediction_level": "High",
-        "best_suited_for": ["Foodies", "Students", "Budget Travelers"],
+        "best_suited_for": [
+          "Foodies",
+          "Students",
+          "Budget Travelers"
+        ],
         "description_ai": "A vibrant Tibetan colony famous for its monastery, authentic Himalayan cuisine (Mitho Mitho), and unique handicrafts shopping."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Delhi_fort.jpg/500px-Delhi_fort.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg/500px-Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
     {
       "id": "DEL-17",
       "name": "Gurudwara Bangla Sahib",
       "city": "Connaught Place",
       "category": "Religious/Pilgrimage Sites",
-      "coordinates": { "latitude": "28.6265", "longitude": "77.2091" },
+      "coordinates": {
+        "latitude": "28.6265",
+        "longitude": "77.2091"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 5000,
         "base_travel_cost": 200,
-        "seasonal_surge_factor": 1.20,
-        "traffic_delay_weight": 1.90
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 1.9
       },
       "entry_fee": 0,
       "avg_duration_hrs": 1.5,
       "ai_metadata": {
-        "vibe_tags": ["Serene", "Devotional", "Gold-Dome", "Healing-Water", "Peaceful"],
-        "sentiment_score": 5.0,
+        "vibe_tags": [
+          "Serene",
+          "Devotional",
+          "Gold-Dome",
+          "Healing-Water",
+          "Peaceful"
+        ],
+        "sentiment_score": 5,
         "crowd_prediction_level": "High",
         "historical_significance_weight": 10,
-        "best_suited_for": ["Families", "Solo", "Pilgrims"],
+        "best_suited_for": [
+          "Families",
+          "Solo",
+          "Pilgrims"
+        ],
         "description_ai": "A major Sikh house of worship known for its holy pond (Sarovar) and massive community kitchen (Langar) that serves thousands daily."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Front_view_of_Gurudwara_Bangla_Sahib%2C_Delhi.jpg/500px-Front_view_of_Gurudwara_Bangla_Sahib%2C_Delhi.jpg",
+      "food_details": {
+        "famous_food": [
+          "Dal Roti",
+          "Kheer"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg/500px-Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg"
+      },
+      "restaurants": [
+        "Langar (Free community kitchen inside)"
+      ]
     },
     {
       "id": "DEL-18",
       "name": "Agrasen ki Baoli",
       "city": "Hailey Road",
       "category": "Major Cities & Cultural Spots",
-      "coordinates": { "latitude": "28.6261", "longitude": "77.2250" },
+      "coordinates": {
+        "latitude": "28.6261",
+        "longitude": "77.2250"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 4000,
         "base_travel_cost": 200,
-        "seasonal_surge_factor": 1.10,
-        "traffic_delay_weight": 1.70
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 1.7
       },
       "entry_fee": 0,
       "avg_duration_hrs": 1,
       "ai_metadata": {
-        "vibe_tags": ["Mysterious", "Architectural", "Symmetrical", "Ancient-Stepwell", "Cinematic"],
+        "vibe_tags": [
+          "Mysterious",
+          "Architectural",
+          "Symmetrical",
+          "Ancient-Stepwell",
+          "Cinematic"
+        ],
         "sentiment_score": 4.5,
         "crowd_prediction_level": "High",
         "historical_significance_weight": 8,
-        "best_suited_for": ["Photographers", "Students", "History Enthusiasts"],
+        "best_suited_for": [
+          "Photographers",
+          "Students",
+          "History Enthusiasts"
+        ],
         "description_ai": "A protected 60-meter long historical stepwell featuring 108 steps and unique niche architecture, popularized by Bollywood films."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Agrasen_ki_Baoli%2C_New_Delhi.jpg/500px-Agrasen_ki_Baoli%2C_New_Delhi.jpg",
+      "food_details": {
+        "famous_food": [
+          "South Indian",
+          "Thali"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Gujrati_Thali.jpg/500px-Gujrati_Thali.jpg"
+      },
+      "restaurants": [
+        "Sagar Ratna CP",
+        "Rajdhani Thali"
+      ]
     },
     {
       "id": "DEL-19",
       "name": "National Gallery of Modern Art",
       "city": "Jaipur House",
       "category": "Major Cities & Cultural Spots",
-      "coordinates": { "latitude": "28.6100", "longitude": "77.2340" },
+      "coordinates": {
+        "latitude": "28.6100",
+        "longitude": "77.2340"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 5000,
         "base_travel_cost": 300,
         "seasonal_surge_factor": 1.05,
-        "traffic_delay_weight": 1.40
+        "traffic_delay_weight": 1.4
       },
       "entry_fee": 20,
       "avg_duration_hrs": 3,
       "ai_metadata": {
-        "vibe_tags": ["Artistic", "Elegant", "Sophisticated", "Quiet", "Cultural-Heritage"],
+        "vibe_tags": [
+          "Artistic",
+          "Elegant",
+          "Sophisticated",
+          "Quiet",
+          "Cultural-Heritage"
+        ],
         "sentiment_score": 4.8,
         "crowd_prediction_level": "Low",
         "historical_significance_weight": 9,
-        "best_suited_for": ["Art Lovers", "Solo", "Couples"],
+        "best_suited_for": [
+          "Art Lovers",
+          "Solo",
+          "Couples"
+        ],
         "description_ai": "Housed in the former palace of the Maharaja of Jaipur, it contains over 14,000 works of art including Raja Ravi Varma and Amrita Sher-Gil."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/National_Gallery_of_Modern_Art_logo_%282025%29.png/500px-National_Gallery_of_Modern_Art_logo_%282025%29.png",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg/500px-Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
     {
       "id": "DEL-20",
       "name": "Sarojini Nagar Market",
       "city": "Sarojini Nagar",
       "category": "Traditional Shopping",
-      "coordinates": { "latitude": "28.5772", "longitude": "77.1983" },
+      "coordinates": {
+        "latitude": "28.5772",
+        "longitude": "77.1983"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3000,
         "base_travel_cost": 400,
-        "seasonal_surge_factor": 1.20,
+        "seasonal_surge_factor": 1.2,
         "traffic_delay_weight": 1.95
       },
       "entry_fee": 0,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Bargain-Paradise", "Trendy", "Chaotic", "Fashion-Forward", "Youthful"],
+        "vibe_tags": [
+          "Bargain-Paradise",
+          "Trendy",
+          "Chaotic",
+          "Fashion-Forward",
+          "Youthful"
+        ],
         "sentiment_score": 4.4,
         "crowd_prediction_level": "Extreme",
-        "best_suited_for": ["Fashionistas", "Students", "Bargain Hunters"],
+        "best_suited_for": [
+          "Fashionistas",
+          "Students",
+          "Bargain Hunters"
+        ],
         "description_ai": "Delhi's most famous flea market known for export surplus clothes and trendy fashion at throwaway prices. Bargaining is mandatory here."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/2005_October_29_New_Delhi_Bomb_blasts_map.png/500px-2005_October_29_New_Delhi_Bomb_blasts_map.png",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg/500px-Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
     {
       "id": "DEL-21",
       "name": "Nizamuddin Dargah",
       "city": "Nizamuddin West",
       "category": "Religious/Pilgrimage Sites",
-      "coordinates": { "latitude": "28.5912", "longitude": "77.2435" },
+      "coordinates": {
+        "latitude": "28.5912",
+        "longitude": "77.2435"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2500,
         "base_travel_cost": 400,
@@ -465,42 +954,88 @@
       "entry_fee": 0,
       "avg_duration_hrs": 2.5,
       "ai_metadata": {
-        "vibe_tags": ["Soulful", "Sufi-Music", "Spiritual", "Ancient", "Devotional"],
+        "vibe_tags": [
+          "Soulful",
+          "Sufi-Music",
+          "Spiritual",
+          "Ancient",
+          "Devotional"
+        ],
         "sentiment_score": 4.9,
         "crowd_prediction_level": "Extremely High (Thursdays)",
         "historical_significance_weight": 10,
-        "best_suited_for": ["Music Lovers", "Spiritual Seekers", "History Buffs"],
+        "best_suited_for": [
+          "Music Lovers",
+          "Spiritual Seekers",
+          "History Buffs"
+        ],
         "description_ai": "The mausoleum of Sufi saint Nizamuddin Auliya; famous for its soul-stirring evening Qawwali sessions and medieval atmosphere."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Nizamuddin_Dargah_and_Jamaat_Khana_Masjid%2C_Delhi.jpg/500px-Nizamuddin_Dargah_and_Jamaat_Khana_Masjid%2C_Delhi.jpg",
+      "food_details": {
+        "famous_food": [
+          "Kebab",
+          "Biryani"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Lula_kebab_2.jpg/500px-Lula_kebab_2.jpg"
+      },
+      "restaurants": [
+        "Ghalib Kabab Corner",
+        "Karim's Nizamuddin"
+      ]
     },
     {
       "id": "DEL-22",
       "name": "Garden of Five Senses",
       "city": "Said-ul-Ajaib",
       "category": "Major Cities & Cultural Spots",
-      "coordinates": { "latitude": "28.5132", "longitude": "77.1978" },
+      "coordinates": {
+        "latitude": "28.5132",
+        "longitude": "77.1978"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3500,
         "base_travel_cost": 500,
-        "seasonal_surge_factor": 1.10,
-        "traffic_delay_weight": 1.40
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 1.4
       },
       "entry_fee": 35,
       "avg_duration_hrs": 2,
       "ai_metadata": {
-        "vibe_tags": ["Aesthetic", "Romantic", "Lush", "Sculptural", "Leisurely"],
+        "vibe_tags": [
+          "Aesthetic",
+          "Romantic",
+          "Lush",
+          "Sculptural",
+          "Leisurely"
+        ],
         "sentiment_score": 4.3,
         "crowd_prediction_level": "Medium",
-        "best_suited_for": ["Couples", "Solo", "Nature Lovers"],
+        "best_suited_for": [
+          "Couples",
+          "Solo",
+          "Nature Lovers"
+        ],
         "description_ai": "A 20-acre leisure space designed to stimulate the five senses through themed gardens, wind chimes, and stone murals."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Sun_clock_inside_the_Garden_of_Five_Senses.jpg/500px-Sun_clock_inside_the_Garden_of_Five_Senses.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg/500px-Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
     {
       "id": "DEL-23",
       "name": "National Zoological Park",
       "city": "Mathura Road",
       "category": "Wildlife/National Parks",
-      "coordinates": { "latitude": "28.6045", "longitude": "77.2464" },
+      "coordinates": {
+        "latitude": "28.6045",
+        "longitude": "77.2464"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 4000,
         "base_travel_cost": 400,
@@ -510,84 +1045,176 @@
       "entry_fee": 80,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Wild", "Educational", "Vast", "Eco-friendly", "Family-centric"],
+        "vibe_tags": [
+          "Wild",
+          "Educational",
+          "Vast",
+          "Eco-friendly",
+          "Family-centric"
+        ],
         "sentiment_score": 4.5,
         "crowd_prediction_level": "High (Weekends)",
-        "best_suited_for": ["Families", "Kids", "Wildlife Enthusiasts"],
+        "best_suited_for": [
+          "Families",
+          "Kids",
+          "Wildlife Enthusiasts"
+        ],
         "description_ai": "A 176-acre zoo housing the famous White Tiger, Asiatic Lions, and diverse avian species near the Old Fort."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/NZP_Delhi.jpg/500px-NZP_Delhi.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg/500px-Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
     {
       "id": "DEL-24",
       "name": "Purana Qila (Old Fort)",
       "city": "Indraprastha",
       "category": "Historical Forts",
-      "coordinates": { "latitude": "28.6095", "longitude": "77.2437" },
+      "coordinates": {
+        "latitude": "28.6095",
+        "longitude": "77.2437"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 4000,
         "base_travel_cost": 300,
-        "seasonal_surge_factor": 1.10,
+        "seasonal_surge_factor": 1.1,
         "traffic_delay_weight": 1.55
       },
       "entry_fee": 30,
       "avg_duration_hrs": 2.5,
       "ai_metadata": {
-        "vibe_tags": ["Rugged", "Mughal-Afghan", "Lake-side", "Stately", "Panoramic"],
+        "vibe_tags": [
+          "Rugged",
+          "Mughal-Afghan",
+          "Lake-side",
+          "Stately",
+          "Panoramic"
+        ],
         "sentiment_score": 4.6,
         "historical_significance_weight": 10,
-        "best_suited_for": ["History Buffs", "Families", "Boating Lovers"],
+        "best_suited_for": [
+          "History Buffs",
+          "Families",
+          "Boating Lovers"
+        ],
         "description_ai": "One of the oldest forts in Delhi, believed to be the site of the ancient city of Indraprastha from the Mahabharata."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Delhi_fort.jpg/500px-Delhi_fort.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg/500px-Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
     {
       "id": "DEL-25",
       "name": "Khan Market",
       "city": "Rabindra Nagar",
       "category": "Shopping & Lifestyle",
-      "coordinates": { "latitude": "28.6002", "longitude": "77.2273" },
+      "coordinates": {
+        "latitude": "28.6002",
+        "longitude": "77.2273"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 8000,
         "base_travel_cost": 400,
-        "seasonal_surge_factor": 1.20,
-        "traffic_delay_weight": 1.60
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 1.6
       },
       "entry_fee": 0,
       "avg_duration_hrs": 3,
       "ai_metadata": {
-        "vibe_tags": ["Elite", "Cosmopolitan", "Gourmet", "Expensive", "Literary"],
+        "vibe_tags": [
+          "Elite",
+          "Cosmopolitan",
+          "Gourmet",
+          "Expensive",
+          "Literary"
+        ],
         "sentiment_score": 4.6,
         "crowd_prediction_level": "High",
-        "best_suited_for": ["Premium Shoppers", "Expats", "Book Lovers"],
+        "best_suited_for": [
+          "Premium Shoppers",
+          "Expats",
+          "Book Lovers"
+        ],
         "description_ai": "Ranked as India's most expensive retail street, famous for its high-end boutiques, bookstores, and chic cafes."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/FabIndia_outlet%2C_Khan_Market%2C_New_Delhi.jpg/500px-FabIndia_outlet%2C_Khan_Market%2C_New_Delhi.jpg",
+      "food_details": {
+        "famous_food": [
+          "Italian",
+          "Cafe Food"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg/500px-Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg"
+      },
+      "restaurants": [
+        "Big Chill",
+        "Perch Wine & Coffee Bar",
+        "Town Hall"
+      ]
     },
     {
       "id": "DEL-26",
       "name": "Paranthe Wali Gali",
       "city": "Old Delhi",
       "category": "Legendary Dining",
-      "coordinates": { "latitude": "28.6565", "longitude": "77.2310" },
+      "coordinates": {
+        "latitude": "28.6565",
+        "longitude": "77.2310"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 2000,
         "base_travel_cost": 300,
-        "seasonal_surge_factor": 1.10,
-        "traffic_delay_weight": 2.00
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 2
       },
       "entry_fee": 0,
       "avg_duration_hrs": 1,
       "ai_metadata": {
-        "vibe_tags": ["Flavor-Burst", "Narrow-Lane", "Heritage-Eats", "Vegetarian", "Crowded"],
+        "vibe_tags": [
+          "Flavor-Burst",
+          "Narrow-Lane",
+          "Heritage-Eats",
+          "Vegetarian",
+          "Crowded"
+        ],
         "sentiment_score": 4.4,
-        "best_suited_for": ["Foodies", "Budget Explorers"],
+        "best_suited_for": [
+          "Foodies",
+          "Budget Explorers"
+        ],
         "description_ai": "A world-famous lane in Chandni Chowk serving deep-fried stuffed paranthas since the 1870s."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Paratha_wali_gali.jpeg/500px-Paratha_wali_gali.jpeg",
+      "food_details": {
+        "famous_food": [
+          "Stuffed Parantha",
+          "Rabri"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Triangle_paratha_%28cropped%29.JPG/500px-Triangle_paratha_%28cropped%29.JPG"
+      },
+      "restaurants": [
+        "Pt. Kanhaiyalal Durga Prasad Parantha",
+        "Pt. Gaya Prasad Shiv Charan"
+      ]
     },
     {
       "id": "DEL-27",
       "name": "Raj Ghat",
       "city": "Mahatma Gandhi Marg",
       "category": "Major Cities & Cultural Spots",
-      "coordinates": { "latitude": "28.6406", "longitude": "77.2495" },
+      "coordinates": {
+        "latitude": "28.6406",
+        "longitude": "77.2495"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 3000,
         "base_travel_cost": 400,
@@ -597,254 +1224,469 @@
       "entry_fee": 0,
       "avg_duration_hrs": 1,
       "ai_metadata": {
-        "vibe_tags": ["Somber", "Peaceful", "Respectful", "Minimalist", "Memorial"],
+        "vibe_tags": [
+          "Somber",
+          "Peaceful",
+          "Respectful",
+          "Minimalist",
+          "Memorial"
+        ],
         "sentiment_score": 4.8,
         "historical_significance_weight": 10,
-        "best_suited_for": ["History Seekers", "Solo", "Families"],
+        "best_suited_for": [
+          "History Seekers",
+          "Solo",
+          "Families"
+        ],
         "description_ai": "A simple black marble memorial marking the spot of Mahatma Gandhi's cremation, surrounded by lush lawns."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Gandhi_Memorial.jpg/500px-Gandhi_Memorial.jpg",
+      "food_details": {
+        "famous_food": [
+          "Tandoori Chicken",
+          "Dal Makhani"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Chickentandoori.jpg/500px-Chickentandoori.jpg"
+      },
+      "restaurants": [
+        "Moti Mahal Delux",
+        "Gujarati Bhavan Canteen"
+      ]
     },
     {
       "id": "DEL-28",
       "name": "National Crafts Museum",
       "city": "Pragati Maidan",
       "category": "Major Cities & Cultural Spots",
-      "coordinates": { "latitude": "28.6133", "longitude": "77.2428" },
+      "coordinates": {
+        "latitude": "28.6133",
+        "longitude": "77.2428"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 4500,
         "base_travel_cost": 300,
-        "seasonal_surge_factor": 1.10,
-        "traffic_delay_weight": 1.50
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 1.5
       },
       "entry_fee": 20,
       "avg_duration_hrs": 3,
       "ai_metadata": {
-        "vibe_tags": ["Rural-Village-Vibe", "Handicrafts", "Artistic", "Open-Air", "Authentic"],
+        "vibe_tags": [
+          "Rural-Village-Vibe",
+          "Handicrafts",
+          "Artistic",
+          "Open-Air",
+          "Authentic"
+        ],
         "sentiment_score": 4.7,
-        "best_suited_for": ["Art Lovers", "Families", "Photographers"],
+        "best_suited_for": [
+          "Art Lovers",
+          "Families",
+          "Photographers"
+        ],
         "description_ai": "An open-air museum designed as a village, showcasing diverse Indian textiles, terracotta, and folk art."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/%E0%A4%B6%E0%A4%BF%E0%A4%B2%E0%A5%8D%E0%A4%AA_%E0%A4%B8%E0%A4%82%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A4%B9%E0%A4%BE%E0%A4%B2%E0%A4%AF_%E0%A4%95%E0%A4%BE_%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B5%E0%A5%85%E0%A4%B6_%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0.jpg/500px-%E0%A4%B6%E0%A4%BF%E0%A4%B2%E0%A5%8D%E0%A4%AA_%E0%A4%B8%E0%A4%82%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A4%B9%E0%A4%BE%E0%A4%B2%E0%A4%AF_%E0%A4%95%E0%A4%BE_%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B5%E0%A5%85%E0%A4%B6_%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg/500px-Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
     {
       "id": "DEL-29",
       "name": "Safdarjung Tomb",
       "city": "Lodhi Road",
       "category": "Mughal Heritage",
-      "coordinates": { "latitude": "28.5893", "longitude": "77.2106" },
+      "coordinates": {
+        "latitude": "28.5893",
+        "longitude": "77.2106"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 5000,
         "base_travel_cost": 300,
-        "seasonal_surge_factor": 1.10,
-        "traffic_delay_weight": 1.40
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 1.4
       },
       "entry_fee": 25,
       "avg_duration_hrs": 1.5,
       "ai_metadata": {
-        "vibe_tags": ["Majestic", "Symmetrical", "Quiet", "Mughal-Art", "Gardens"],
+        "vibe_tags": [
+          "Majestic",
+          "Symmetrical",
+          "Quiet",
+          "Mughal-Art",
+          "Gardens"
+        ],
         "sentiment_score": 4.5,
         "historical_significance_weight": 8,
-        "best_suited_for": ["Couples", "History Buffs", "Photographers"],
+        "best_suited_for": [
+          "Couples",
+          "History Buffs",
+          "Photographers"
+        ],
         "description_ai": "The last monumental garden tomb of the Mughal era, often called the 'Last Flicker of Mughal Architecture'."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Safdar_Jang%E2%80%99s_Tomb%2C_Delhi_.jpg/500px-Safdar_Jang%E2%80%99s_Tomb%2C_Delhi_.jpg",
+      "food_details": {
+        "famous_food": [
+          "Butter Chicken",
+          "Naan"
+        ],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg/500px-Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg"
+      },
+      "restaurants": [
+        "Gulati Restaurant",
+        "Dhaba by Claridges"
+      ]
     },
     {
       "id": "DEL-30",
       "name": "Sunder Nursery",
       "city": "Nizamuddin",
       "category": "UNESCO Heritage Sites",
-      "coordinates": { "latitude": "28.5925", "longitude": "77.2486" },
+      "coordinates": {
+        "latitude": "28.5925",
+        "longitude": "77.2486"
+      },
       "budget_metrics": {
         "base_stay_cost_per_day": 4000,
         "base_travel_cost": 400,
-        "seasonal_surge_factor": 1.20,
+        "seasonal_surge_factor": 1.2,
         "traffic_delay_weight": 1.35
       },
       "entry_fee": 50,
       "avg_duration_hrs": 4,
       "ai_metadata": {
-        "vibe_tags": ["Elite-Park", "Heritage-Monuments", "Botany", "Picnic-Spot", "Lush"],
-        "sentiment_score": 5.0,
+        "vibe_tags": [
+          "Elite-Park",
+          "Heritage-Monuments",
+          "Botany",
+          "Picnic-Spot",
+          "Lush"
+        ],
+        "sentiment_score": 5,
         "crowd_prediction_level": "Medium-High",
-        "best_suited_for": ["Families", "Botanists", "Couples", "Solo"],
+        "best_suited_for": [
+          "Families",
+          "Botanists",
+          "Couples",
+          "Solo"
+        ],
         "description_ai": "A restored 16th-century heritage park containing 15 monuments and over 300 tree species; Delhi's answer to Central Park."
-      }
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Sunder_Nursery_Sep-2019.jpg/500px-Sunder_Nursery_Sep-2019.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg/500px-Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
     },
-     {
- "id": "DEL-31",
- "name": "National Rail Museum",
- "city": "Chanakyapuri",
- "category": "Major Cities & Cultural Spots",
- "coordinates": {
- "latitude": "28.5855",
- "longitude": "77.1897"
- },
- "budget_metrics": {
- "base_stay_cost_per_day": 6000,
- "base_travel_cost": 400,
- "seasonal_surge_factor": 1.10,
- "traffic_delay_weight": 1.30
- },
- "entry_fee": 100,
- "avg_duration_hrs": 3,
- "ai_metadata": {
- "vibe_tags": ["Vintage", "Locomotives", "Interactive", "Historical", "Family-Fun"],
-"sentiment_score": 4.6,
- "crowd_prediction_level": "Medium-High",
- "historical_significance_weight": 9,
- "best_suited_for": ["Families", "Kids", "History Enthusiasts"],
- "description_ai": "A sprawling museum showcasing the exotic heritage of Indian Railways, featuring the Fairy Queen steam engine and royal saloons."
- }
- },
- {
- "id": "DEL-32",
- "name": "Paharganj (Main Bazaar)",
- "city": "Central Delhi",
- "category": "Shopping & Lifestyle",
- "coordinates": {
- "latitude": "28.6412",
- "longitude": "77.2145"
- },
- "budget_metrics": {
- "base_stay_cost_per_day": 1200,
- "base_travel_cost": 300,
- "seasonal_surge_factor": 1.20,
- "traffic_delay_weight": 1.90
-},
- "entry_fee": 0,
- "avg_duration_hrs": 3,
- "ai_metadata": {
- "vibe_tags": ["Hippie", "Backpacker-Hub", "Chaotic", "Global-Vibe", "Affordable"],
- "sentiment_score": 4.2,
- "crowd_prediction_level": "Extremely High",
- "best_suited_for": ["Solo Travelers", "Backpackers", "Bargain Hunters"],
- "description_ai": "A world-famous backpacker ghetto known for its cheap hotels, international cafes, and a market selling everything from incense to leather goods."
- }
-},
- {
- "id": "DEL-33",
- "name": "National Science Centre",
- "city": "Pragati Maidan",
- "category": "Major Cities & Cultural Spots",
- "coordinates": {
- "latitude": "28.6131",
- "longitude": "77.2454"
- },
- "budget_metrics": {
-"base_stay_cost_per_day": 4000,
- "base_travel_cost": 400,
- "seasonal_surge_factor": 1.05,
- "traffic_delay_weight": 1.50
- },
- "entry_fee": 60,
- "avg_duration_hrs": 4,
-"ai_metadata": {
- "vibe_tags": ["Interactive", "Science-Fun", "Educational", "Indoors", "Futuristic"],
- "sentiment_score": 4.5,
-"crowd_prediction_level": "High (School groups)",
- "best_suited_for": ["Kids", "Students", "Families"],
- "description_ai": "One of the largest science centers in Asia, featuring hands-on exhibits, a 3D theater, and galleries on nuclear power and pre-historic life."
- }
- },
- {
- "id": "DEL-34",
- "name": "Janpath Market",
- "city": "Connaught Place",
-"category": "Traditional Shopping",
- "coordinates": {
- "latitude": "28.6256",
- "longitude": "77.2217"
-},
-"budget_metrics": {
-"base_stay_cost_per_day": 5000,
- "base_travel_cost": 200,
- "seasonal_surge_factor": 1.15,
- "traffic_delay_weight": 1.80
- },
- "entry_fee": 0,
-"avg_duration_hrs": 2,
- "ai_metadata": {
-"vibe_tags": ["Ethnic-Fashion", "Tibetan-Artifacts", "Bargaining", "Central", "Souvenirs"],
-"sentiment_score": 4.6,
- "crowd_prediction_level": "High",
-"best_suited_for": ["Fashionistas", "Foreign Tourists", "Students"],
- "description_ai": "Famous for the Tibetan Market and street stalls selling silver jewelry, ethnic wear, and brass decorative items."
- }
-},
-{
-"id": "DEL-35",
-"name": "National War Memorial",
- "city": "India Gate Circle",
- "category": "Major Cities & Cultural Spots",
-"coordinates": {
-"latitude": "28.6120",
- "longitude": "77.2290"
- },
-"budget_metrics": {
- "base_stay_cost_per_day": 5000,
- "base_travel_cost": 300,
- "seasonal_surge_factor": 1.10,
- "traffic_delay_weight": 1.75
- },
- "entry_fee": 0,
- "avg_duration_hrs": 1.5,
- "ai_metadata": {
- "vibe_tags": ["Patriotic", "Somber", "Architectural", "Honorary", "Modern"],
- "sentiment_score": 4.9,
- "crowd_prediction_level": "High (Evenings)",
- "historical_significance_weight": 10,
- "best_suited_for": ["Nationalists", "Families", "History Seekers"],
-"description_ai": "A monument dedicated to the Indian Armed Forces, featuring concentric circles and a central obelisk with an eternal flame."
- }
- },
- {
-"id": "DEL-36",
- "name": "Iskcon Temple Delhi",
-"city": "East of Kailash",
- "category": "Religious/Pilgrimage Sites",
- "coordinates": {
- "latitude": "28.5562",
- "longitude": "77.2520"
- },
-"budget_metrics": {
- "base_stay_cost_per_day": 3000,
-"base_travel_cost": 400,
- "seasonal_surge_factor": 1.30,
- "traffic_delay_weight": 1.60
- },
-"entry_fee": 0,
- "avg_duration_hrs": 2,
-"ai_metadata": {
- "vibe_tags": ["Devotional", "Vibrant", "Artistic", "Modern-Architecture", "Peaceful"],
-"sentiment_score": 4.8,
- "crowd_prediction_level": "High",
- "best_suited_for": ["Devotees", "Architecture Lovers", "Families"],
-"description_ai": "One of the largest temple complexes in India, featuring a 'Vedic Cultural Centre' and a magnificent robot-assisted show on the Gita."
-}
-},
- {
- "id": "DEL-37",
-"name": "Chandni Chowk Food Crawl",
- "city": "Old Delhi",
-"category": "Legendary Dining",
- "coordinates": {
- "latitude": "28.6560",
- "longitude": "77.2300"
- },
- "budget_metrics": {
- "base_stay_cost_per_day": 2000,
- "base_travel_cost": 300,
- "seasonal_surge_factor": 1.10,
-"traffic_delay_weight": 2.00
- },
-"entry_fee": 0,
- "avg_duration_hrs": 4,
- "ai_metadata": {
- "vibe_tags": ["Gourmet-Street", "Jalebi", "Kachori", "Iconic-Eats", "Sensory-Overload"],
- "sentiment_score": 4.8,
-"best_suited_for": ["Food Bloggers", "Culinary Travelers", "Groups"],
- "description_ai": "Includes stops like Old Famous Jalebi Wala and Natraj Dahi Bhalle. A journey through the culinary heart of Mughal India."
- }
- }
-                   
+    {
+      "id": "DEL-31",
+      "name": "National Rail Museum",
+      "city": "Chanakyapuri",
+      "category": "Major Cities & Cultural Spots",
+      "coordinates": {
+        "latitude": "28.5855",
+        "longitude": "77.1897"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 6000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 1.3
+      },
+      "entry_fee": 100,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": [
+          "Vintage",
+          "Locomotives",
+          "Interactive",
+          "Historical",
+          "Family-Fun"
+        ],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "Medium-High",
+        "historical_significance_weight": 9,
+        "best_suited_for": [
+          "Families",
+          "Kids",
+          "History Enthusiasts"
+        ],
+        "description_ai": "A sprawling museum showcasing the exotic heritage of Indian Railways, featuring the Fairy Queen steam engine and royal saloons."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Delhi_fort.jpg/500px-Delhi_fort.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg/500px-Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
+    },
+    {
+      "id": "DEL-32",
+      "name": "Paharganj (Main Bazaar)",
+      "city": "Central Delhi",
+      "category": "Shopping & Lifestyle",
+      "coordinates": {
+        "latitude": "28.6412",
+        "longitude": "77.2145"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 1200,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.2,
+        "traffic_delay_weight": 1.9
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 3,
+      "ai_metadata": {
+        "vibe_tags": [
+          "Hippie",
+          "Backpacker-Hub",
+          "Chaotic",
+          "Global-Vibe",
+          "Affordable"
+        ],
+        "sentiment_score": 4.2,
+        "crowd_prediction_level": "Extremely High",
+        "best_suited_for": [
+          "Solo Travelers",
+          "Backpackers",
+          "Bargain Hunters"
+        ],
+        "description_ai": "A world-famous backpacker ghetto known for its cheap hotels, international cafes, and a market selling everything from incense to leather goods."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Delhi_fort.jpg/500px-Delhi_fort.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg/500px-Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
+    },
+    {
+      "id": "DEL-33",
+      "name": "National Science Centre",
+      "city": "Pragati Maidan",
+      "category": "Major Cities & Cultural Spots",
+      "coordinates": {
+        "latitude": "28.6131",
+        "longitude": "77.2454"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 4000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.05,
+        "traffic_delay_weight": 1.5
+      },
+      "entry_fee": 60,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": [
+          "Interactive",
+          "Science-Fun",
+          "Educational",
+          "Indoors",
+          "Futuristic"
+        ],
+        "sentiment_score": 4.5,
+        "crowd_prediction_level": "High (School groups)",
+        "best_suited_for": [
+          "Kids",
+          "Students",
+          "Families"
+        ],
+        "description_ai": "One of the largest science centers in Asia, featuring hands-on exhibits, a 3D theater, and galleries on nuclear power and pre-historic life."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Polska_Krak%C3%B3w_ul._Twardowskiego_16_Narodowe_Centrum_Nauki_%281%29.jpg/500px-Polska_Krak%C3%B3w_ul._Twardowskiego_16_Narodowe_Centrum_Nauki_%281%29.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg/500px-Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
+    },
+    {
+      "id": "DEL-34",
+      "name": "Janpath Market",
+      "city": "Connaught Place",
+      "category": "Traditional Shopping",
+      "coordinates": {
+        "latitude": "28.6256",
+        "longitude": "77.2217"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 200,
+        "seasonal_surge_factor": 1.15,
+        "traffic_delay_weight": 1.8
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": [
+          "Ethnic-Fashion",
+          "Tibetan-Artifacts",
+          "Bargaining",
+          "Central",
+          "Souvenirs"
+        ],
+        "sentiment_score": 4.6,
+        "crowd_prediction_level": "High",
+        "best_suited_for": [
+          "Fashionistas",
+          "Foreign Tourists",
+          "Students"
+        ],
+        "description_ai": "Famous for the Tibetan Market and street stalls selling silver jewelry, ethnic wear, and brass decorative items."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Delhi_fort.jpg/500px-Delhi_fort.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg/500px-Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
+    },
+    {
+      "id": "DEL-35",
+      "name": "National War Memorial",
+      "city": "India Gate Circle",
+      "category": "Major Cities & Cultural Spots",
+      "coordinates": {
+        "latitude": "28.6120",
+        "longitude": "77.2290"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 5000,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 1.75
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 1.5,
+      "ai_metadata": {
+        "vibe_tags": [
+          "Patriotic",
+          "Somber",
+          "Architectural",
+          "Honorary",
+          "Modern"
+        ],
+        "sentiment_score": 4.9,
+        "crowd_prediction_level": "High (Evenings)",
+        "historical_significance_weight": 10,
+        "best_suited_for": [
+          "Nationalists",
+          "Families",
+          "History Seekers"
+        ],
+        "description_ai": "A monument dedicated to the Indian Armed Forces, featuring concentric circles and a central obelisk with an eternal flame."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/National_War_Memorial_on_the_21st_anniversary_of_Kargil_Vijay_Diwas%2C_2020.jpg/500px-National_War_Memorial_on_the_21st_anniversary_of_Kargil_Vijay_Diwas%2C_2020.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg/500px-Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
+    },
+    {
+      "id": "DEL-36",
+      "name": "Iskcon Temple Delhi",
+      "city": "East of Kailash",
+      "category": "Religious/Pilgrimage Sites",
+      "coordinates": {
+        "latitude": "28.5562",
+        "longitude": "77.2520"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 3000,
+        "base_travel_cost": 400,
+        "seasonal_surge_factor": 1.3,
+        "traffic_delay_weight": 1.6
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 2,
+      "ai_metadata": {
+        "vibe_tags": [
+          "Devotional",
+          "Vibrant",
+          "Artistic",
+          "Modern-Architecture",
+          "Peaceful"
+        ],
+        "sentiment_score": 4.8,
+        "crowd_prediction_level": "High",
+        "best_suited_for": [
+          "Devotees",
+          "Architecture Lovers",
+          "Families"
+        ],
+        "description_ai": "One of the largest temple complexes in India, featuring a 'Vedic Cultural Centre' and a magnificent robot-assisted show on the Gita."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Iskcon_Delhi_Temple.jpg/500px-Iskcon_Delhi_Temple.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg/500px-Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
+    },
+    {
+      "id": "DEL-37",
+      "name": "Chandni Chowk Food Crawl",
+      "city": "Old Delhi",
+      "category": "Legendary Dining",
+      "coordinates": {
+        "latitude": "28.6560",
+        "longitude": "77.2300"
+      },
+      "budget_metrics": {
+        "base_stay_cost_per_day": 2000,
+        "base_travel_cost": 300,
+        "seasonal_surge_factor": 1.1,
+        "traffic_delay_weight": 2
+      },
+      "entry_fee": 0,
+      "avg_duration_hrs": 4,
+      "ai_metadata": {
+        "vibe_tags": [
+          "Gourmet-Street",
+          "Jalebi",
+          "Kachori",
+          "Iconic-Eats",
+          "Sensory-Overload"
+        ],
+        "sentiment_score": 4.8,
+        "best_suited_for": [
+          "Food Bloggers",
+          "Culinary Travelers",
+          "Groups"
+        ],
+        "description_ai": "Includes stops like Old Famous Jalebi Wala and Natraj Dahi Bhalle. A journey through the culinary heart of Mughal India."
+      },
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Delhi_fort.jpg/500px-Delhi_fort.jpg",
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg/500px-Butter_Chicken_%26_Butter_Naan_-_Home_-_Chandigarh_-_India_-_0006.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ]
+    }
   ]
 }

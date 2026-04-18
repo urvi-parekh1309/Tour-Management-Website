@@ -1,141 +1,469 @@
-<div class="app-container">
-    <section class="ai-future-section">
-        <div class="ai-header-wrapper">
-            <span class="ai-sparkle">✦</span>
-            <h2>AI Predicted Future Destinations</h2>
-            <p>Based on your behavioral patterns and interest history</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Travel Planner</title>
+    <!-- Use Playfair Display for serif headings, and Inter for sans text -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #F8F2E8;
+            --text-dark: #3E2B1E;
+            --text-light: #857568;
+            --primary-orange: #FE8C2C;
+            --btn-bg: #634533;
+            --nav-bg: #FAF6F1;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-dark);
+            min-height: 100vh;
+            overflow-x: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* ---------------- HEADER ---------------- */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem 5%;
+            background-color: var(--nav-bg);
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+            z-index: 10;
+            position: relative;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo-icon {
+            width: 48px;
+            height: 48px;
+            background-color: var(--primary-orange);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo-text-box h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.6rem;
+            color: var(--text-dark);
+            margin-bottom: 2px;
+            font-weight: 700;
+        }
+
+        .logo-text-box p {
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--text-light);
+            font-weight: 500;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-orange);
+        }
+
+        .signin-btn {
+            background-color: var(--btn-bg);
+            color: white;
+            padding: 10px 24px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.3s ease;
+        }
+        
+        .signin-btn:hover {
+            opacity: 0.9;
+        }
+
+        /* ---------------- MAIN HERO ---------------- */
+        main {
+            flex: 1;
+            position: relative;
+            display: flex;
+            align-items: center;
+            padding: 2rem 5%;
+            overflow: hidden;
+        }
+
+        .hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            width: 100%;
+            align-items: center;
+            position: relative;
+            z-index: 10;
+        }
+
+        /* Girl Image */
+        .hero-image-container {
+            position: relative;
+            z-index: 5;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .hero-image {
+            height: 400px;
+            max-width: 100%;
+            object-fit: contain;
+        }
+
+        /* Animated SVG Path */
+        .path-container {
+            position: absolute;
+            top: 50%;
+            left: 15%;
+            width: 70%;
+            height: 150px;
+            transform: translateY(-50%);
+            z-index: 1;
+            pointer-events: none;
+        }
+        
+        .animated-path {
+            stroke-dasharray: 2000;
+            stroke-dashoffset: 2000;
+            animation: drawPath 3s ease-in-out forwards;
+        }
+
+        @keyframes drawPath {
+            to { stroke-dashoffset: 0; }
+        }
+
+        /* Hero Content (Right Aligned) */
+        .hero-content {
+            position: relative;
+            z-index: 10;
+            text-align: left;
+            padding-left: 2rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .hero-content h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5rem;
+            color: var(--text-dark);
+            margin-bottom: 1rem;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .hero-content h2 span {
+            color: var(--primary-orange);
+        }
+
+        .hero-content p {
+            font-size: 1.1rem;
+            color: var(--text-light);
+            margin-bottom: 2rem;
+            max-width: 450px;
+            line-height: 1.6;
+        }
+
+        .start-btn {
+            background-color: var(--btn-bg);
+            color: white;
+            padding: 14px 32px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.05rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            width: fit-content;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .start-btn:hover {
+            background-color: #4A3326;
+            transform: translateY(-2px);
+        }
+
+        /* Pin Animation */
+        .map-pin {
+            position: absolute;
+            left: auto;
+            right: 15%;
+            bottom: 20%;
+            cursor: pointer;
+            z-index: 20;
+            transform-origin: bottom center;
+            animation: pinDrop 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2.5s both,
+                       float 3s ease-in-out infinite 3.3s;
+        }
+        
+        .map-pin:hover {
+            transform: scale(1.1);
+            animation-play-state: paused;
+        }
+
+        @keyframes pinDrop {
+            0% { transform: translateY(-50px) scale(0); opacity: 0; }
+            60% { transform: translateY(10px) scale(1.1); opacity: 1; }
+            100% { transform: translateY(0) scale(1); opacity: 1; }
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0); }
+        }
+
+        .exploring-text {
+            position: absolute;
+            right: 14%;
+            top: 48%; /* Adjusted for relative pin */
+            font-size: 0.9rem;
+            color: var(--text-light);
+            opacity: 0;
+            animation: fadeIn 1s ease forwards 3s;
+        }
+
+        @keyframes fadeIn {
+            to { opacity: 1; }
+        }
+
+        /* Background Sparkle Elements */
+        .bg-sparkle {
+            position: absolute;
+            right: 10%;
+            top: 25%;
+            width: 150px;
+            opacity: 0.1;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo-container">
+            <div class="logo-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+                </svg>
+            </div>
+            <div class="logo-text-box">
+                <h1>Smart Travel Planner</h1>
+                <p>Ministry of Tourism, Govt. of India</p>
+            </div>
         </div>
-        <div id="ai-recommendations-container" class="recommendation-grid"></div>
-    </section>
-
-    <hr class="section-divider">
-
-    <section class="explorer-section">
-        <div class="filter-bar">
-            <button class="filter-btn" onclick="updateTripList('All')">All</button>
-            <button class="filter-btn" onclick="updateTripList('Eco-Tourism')">Nature</button>
-            <button class="filter-btn" onclick="updateTripList('Spiritual')">Spiritual</button>
-            <button class="filter-btn" onclick="updateTripList('Heritage')">Heritage</button>
-            <button class="filter-btn" onclick="updateTripList('Spicy')">Spicy Food</button>
-            <button class="filter-btn" onclick="updateTripList('Sweet')">Sweets</button>
+        <div class="nav-links">
+            <a href="javascript:void(0)" onclick="openLoginOverlay()">Log In</a>
+            <a href="javascript:void(0)" onclick="openLoginOverlay()" class="signin-btn">Sign Up</a>
         </div>
-        <div id="main-list-container" class="main-grid"></div>
-    </section>
-</div>
+    </header>
 
+    <!-- Main Content -->
+    <main style="display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: calc(100vh - 80px); padding-top: 2rem;">
+        
+        <!-- Top Animation Stage (Responsive SVG + Girl) -->
+        <div style="position: relative; width: 100%; max-width: 1200px; height: 350px;">
+            
+            <!-- Left Side Illustration -->
+            <!-- Added mix-blend-mode: multiply to remove white background instantly -->
+            <img src="traveler_girl.png" alt="Traveler checking map" style="position: absolute; left: 5%; bottom: 0; height: 350px; z-index: 5; object-fit: contain; mix-blend-mode: multiply;">
 
+            <!-- Animated SVG Path -->
+            <svg id="stage-svg" width="100%" height="350" style="position: absolute; top: 0; left: 0; z-index: 1;" preserveAspectRatio="none">
+                <!-- Outer Path -->
+                <path class="animated-path" fill="transparent" stroke="#634533" stroke-width="3" stroke-linecap="round" stroke-dasharray="8,8" />
+                
+                <!-- Background subtle stars -->
+                <path d="M50 0 L55 25 L80 30 L55 35 L50 60 L45 35 L20 30 L45 25 Z" fill="#857568" opacity="0.1" transform="translate(400, 50) scale(0.5)"/>
+            </svg>
 
-:root {
-    --ai-primary: #6366f1;
-    --ai-gradient: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
-    --glass-bg: rgba(255, 255, 255, 0.8);
-    --accent-orange: #e67e22;
-}
+            <!-- The Map Pin exactly at the end of the curve -->
+            <div class="map-pin" id="startJourneyBtn" onclick="handlePinClick()" style="position: absolute; cursor: pointer; z-index: 20; transform: translate(-50%, -50%);">
+                <svg width="60" height="75" viewBox="0 0 40 50" fill="none" xmlns="http://www.w3.org/2000/svg" style="filter: drop-shadow(0 10px 8px rgba(0,0,0,0.2)); transition: transform 0.3s; transform-origin: bottom center;">
+                    <!-- Pin Body -->
+                    <path d="M20 0C8.954 0 0 8.954 0 20C0 35 20 50 20 50C20 50 40 35 40 20C40 8.954 31.046 0 20 0Z" fill="#FE8C2C"/>
+                    <path d="M20 2C9.9 2 1.8 10.1 1.8 20C1.8 33.5 20 47.5 20 47.5C20 47.5 38.2 33.5 38.2 20C38.2 10.1 30.1 2 20 2Z" fill="#FFA552"/>
+                    <!-- White Circle inside -->
+                    <circle cx="20" cy="18" r="10" fill="white"/>
+                    <!-- Indian Flag representation -->
+                    <rect x="15" y="14" width="10" height="3" fill="#FF9933"/>
+                    <rect x="15" y="17" width="10" height="2" fill="white"/>
+                    <rect x="15" y="19" width="10" height="3" fill="#138808"/>
+                    <!-- Ashoka Chakra dot -->
+                    <circle cx="20" cy="18" r="1.5" fill="#000080"/>
+                </svg>
+            </div>
+            
+        </div>
 
-body {
-    font-family: 'Inter', sans-serif;
-    background-color: #f8fafc;
-    color: #1e293b;
-    margin: 0;
-    padding: 20px;
-}
+        <!-- Text Content Below Curve -->
+        <div class="hero-content" style="text-align: center; max-width: 800px; z-index: 10; margin-top: 2rem;">
+            <h2>Plan Your Smart <span>Journey</span></h2>
+            <p style="margin: 0 auto 1.5rem auto;">AI-powered personalized travel planning across Incredible India.</p>
+            <p style="font-size: 0.95rem; font-weight: bold; color: #FE8C2C; text-transform: uppercase; letter-spacing: 2px;">Click the Map Pin to Start</p>
+        </div>
+        
+    </main>
 
-/* AI Future Container */
-.ai-future-section {
-    background: white;
-    padding: 30px;
-    border-radius: 24px;
-    box-shadow: 0 10px 30px rgba(99, 102, 241, 0.1);
-    margin-bottom: 40px;
-    border: 1px solid rgba(99, 102, 241, 0.2);
-}
+    <!-- Login Overlay -->
+    <div id="loginOverlay" style="display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 999; align-items: center; justify-content: center; backdrop-filter: blur(4px);">
+        <div style="background: white; padding: 2.5rem; border-radius: 20px; width: 90%; max-width: 400px; box-shadow: 0 20px 40px rgba(0,0,0,0.2); position: relative;">
+            <button class="close-btn" onclick="closeLoginOverlay()" style="position: absolute; top: 15px; right: 20px; background: none; border: none; font-size: 2rem; cursor: pointer; color: #857568;">&times;</button>
+            <h3 style="font-family: 'Playfair Display', serif; font-size: 2rem; color: #3E2B1E; margin-bottom: 5px;">Welcome</h3>
+            <p style="color: #857568; margin-bottom: 25px; font-size: 0.9rem;">Sign in to save your upcoming adventures.</p>
+            <form onsubmit="handleLoginSubmit(event)" style="display: flex; flex-direction: column; gap: 15px;">
+                <div>
+                    <label style="display:block; font-size: 0.85rem; font-weight: bold; color: #634533; margin-bottom: 5px;">Email</label>
+                    <input type="email" value="demo@tourism.gov.in" required style="width: 100%; padding: 12px; border: 1px solid #ddd; background:#f9f9f9; border-radius: 8px; outline: none; box-sizing: border-box;">
+                </div>
+                <div>
+                    <label style="display:block; font-size: 0.85rem; font-weight: bold; color: #634533; margin-bottom: 5px;">Password</label>
+                    <input type="password" value="********" required style="width: 100%; padding: 12px; border: 1px solid #ddd; background:#f9f9f9; border-radius: 8px; outline: none; box-sizing: border-box;">
+                </div>
+                <button type="submit" style="margin-top: 10px; width: 100%; padding: 14px; background: #634533; color: white; border: none; border-radius: 8px; font-weight: bold; font-size: 1rem; cursor: pointer;">Sign In securely</button>
+            </form>
+        </div>
+    </div>
 
-.ai-sparkle {
-    color: var(--ai-primary);
-    font-size: 1.5rem;
-}
+    <!-- Zoom overlay transition -->
+    <div id="zoomTransition" style="display: none; position: fixed; inset: 0; background: var(--bg-color); z-index: 9999; animation: pageZoom 0.6s ease-in-out forwards;"></div>
 
-/* AI Card Specific Styling */
-.card.ai-recommendation {
-    background: var(--glass-bg);
-    border: 2px solid transparent;
-    border-radius: 16px;
-    padding: 20px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-    transition: 0.3s;
-    border: 1px solid #e2e8f0;
-}
+    <style>
+        .map-pin svg {
+            animation: floatPin 2s ease-in-out infinite;
+        }
+        .map-pin:hover svg {
+            animation: none;
+            transform: scale(1.15) translateY(-5px);
+            filter: brightness(1.1) drop-shadow(0 15px 10px rgba(0,0,0,0.3)) !important;
+        }
+        @keyframes floatPin {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-8px); }
+        }
+        @keyframes pageZoom {
+            0% { transform: scale(0.8); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+        @keyframes drawPath {
+            to { stroke-dashoffset: 0; }
+        }
+    </style>
 
-.ai-badge {
-    background: var(--ai-gradient);
-    color: white;
-    padding: 4px 12px;
-    border-radius: 20px;
-    font-size: 0.8rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-    display: inline-block;
-}
+    <script>
+        // Draw responsive curve and position map pin exactly at the end
+        function adjustPathAndPin() {
+            const svg = document.getElementById('stage-svg');
+            const path = document.querySelector('.animated-path');
+            const pin = document.querySelector('.map-pin');
+            
+            const w = svg.clientWidth || window.innerWidth;
+            const h = 350;
+            
+            // Path starts at x:20% (near girl) and ends at x:85%
+            const startX = w * 0.2;
+            const startY = h * 0.6;
+            
+            const endX = w * 0.85;
+            const endY = h * 0.45; // slightly higher
+            
+            // Bezier control points
+            const cp1X = w * 0.4;
+            const cp1Y = h * 0.9;
+            const cp2X = w * 0.6;
+            const cp2Y = h * 0.1;
+            
+            const d = `M ${startX} ${startY} C ${cp1X} ${cp1Y}, ${cp2X} ${cp2Y}, ${endX} ${endY}`;
+            path.setAttribute('d', d);
+            
+            // Place pin precisely at endX, endY
+            pin.style.left = endX + 'px';
+            pin.style.top = endY + 'px';
+            
+            // animate dash
+            const len = path.getTotalLength();
+            path.style.strokeDasharray = len;
+            path.style.strokeDashoffset = len;
+            path.style.animation = 'drawPath 2s ease forwards';
+        }
+        
+        window.addEventListener('resize', adjustPathAndPin);
+        setTimeout(adjustPathAndPin, 50);
 
-/* AI Insight Box (The "Why") */
-.ai-insight-box {
-    background: rgba(99, 102, 241, 0.05);
-    border-left: 4px solid var(--ai-primary);
-    padding: 12px;
-    margin: 15px 0;
-    font-size: 0.85rem;
-    color: #334155;
-    border-radius: 0 8px 8px 0;
-}
+        // Login Logic
+        let isLoggedIn = localStorage.getItem('isLoggedIn') === 'true';
 
-/* Grids */
-.recommendation-grid, .main-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
-}
+        function openLoginOverlay() {
+            document.getElementById('loginOverlay').style.display = 'flex';
+        }
 
-/* Stats Logic for Budget/Time */
-.stats-grid {
-    display: flex;
-    justify-content: space-between;
-    border-top: 1px solid #e2e8f0;
-    padding-top: 15px;
-    margin-top: 10px;
-}
+        function closeLoginOverlay() {
+            document.getElementById('loginOverlay').style.display = 'none';
+        }
 
-.stat label {
-    font-size: 0.65rem;
-    text-transform: uppercase;
-    color: #64748b;
-    letter-spacing: 0.5px;
-}
+        function handleLoginSubmit(e) {
+            e.preventDefault();
+            localStorage.setItem('isLoggedIn', 'true');
+            isLoggedIn = true;
+            closeLoginOverlay();
+            
+            // If they clicked map pin previously, we redirect immediately after login
+            if (window.pendingRedirect) {
+                triggerZoomTransition();
+            }
+        }
 
-.stat p {
-    font-weight: bold;
-    color: var(--accent-orange);
-    margin: 5px 0 0 0;
-}
+        function handlePinClick() {
+            if (!isLoggedIn) {
+                window.pendingRedirect = true;
+                openLoginOverlay();
+            } else {
+                triggerZoomTransition();
+            }
+        }
 
-/* Buttons */
-.filter-bar { margin-bottom: 20px; display: flex; gap: 10px; flex-wrap: wrap; }
-
-.filter-btn {
-    padding: 8px 16px;
-    border-radius: 8px;
-    border: 1px solid #cbd5e1;
-    background: white;
-    cursor: pointer;
-}
-
-.view-btn {
-    width: 100%;
-    padding: 12px;
-    background: var(--ai-primary);
-    color: white;
-    border: none;
-    border-radius: 10px;
-    margin-top: 15px;
-    cursor: pointer;
-    font-weight: 600;
-}
+        function triggerZoomTransition() {
+            document.getElementById('zoomTransition').style.display = 'block';
+            setTimeout(() => {
+                window.location.href = 'explore.html';
+            }, 550);
+        }
+    </script>
+</body>
+</html>
