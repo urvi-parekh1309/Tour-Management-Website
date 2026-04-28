@@ -37,6 +37,11 @@
         .custom-pin div {
             background-color: #FE8C2C; width: 24px; height: 24px; border-radius: 50%; 
             border: 3px solid white; box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            cursor: pointer; transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .custom-pin div:hover {
+            transform: scale(1.3);
+            box-shadow: 0 6px 12px rgba(254,140,44,0.5);
         }
     </style>
 </head>
@@ -360,7 +365,22 @@
             points.forEach(p => {
                 const ll = [p[0], p[1]];
                 latlngs.push(ll);
-                L.marker(ll, {icon: iconPin}).addTo(myMap).bindPopup(`<b class="font-inter">${p[2]}</b>`);
+                const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p[2])}`;
+                const popupContent = `
+                    <div style="text-align:center; font-family:'Inter',sans-serif; min-width:160px;">
+                        <b style="font-size:14px; color:#3E2B1E;">${p[2]}</b>
+                        <br>
+                        <a href="${googleMapsUrl}" target="_blank" rel="noopener noreferrer"
+                           style="display:inline-block; margin-top:8px; padding:6px 14px; background:#FE8C2C; color:white; border-radius:8px; text-decoration:none; font-size:12px; font-weight:600; transition:background 0.2s;"
+                           onmouseover="this.style.background='#e07a1f'" onmouseout="this.style.background='#FE8C2C'">
+                            📍 Open in Google Maps
+                        </a>
+                    </div>`;
+                const marker = L.marker(ll, {icon: iconPin}).addTo(myMap).bindPopup(popupContent);
+                // Also open Google Maps directly on marker click (after popup shows)
+                marker.on('dblclick', () => {
+                    window.open(googleMapsUrl, '_blank');
+                });
             });
 
             if (points.length > 1) {
