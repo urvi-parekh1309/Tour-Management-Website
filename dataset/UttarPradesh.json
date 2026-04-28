@@ -1,6 +1,6 @@
 {
   "region": "Ladakh",
-  "heritage": [
+  "destinations": [
     {
       "id": "UP-UNESCO-01",
       "name": "Taj Mahal",
@@ -22,7 +22,15 @@
           "White-Marble"
         ],
         "description_ai": "The ultimate symbol of love. A 17th-century mausoleum and the most famous landmark in India."
-      }
+      },
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Indian-Thali-Meal.jpg/800px-Indian-Thali-Meal.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Taj_Mahal_in_March_2004.jpg/800px-Taj_Mahal_in_March_2004.jpg"
     },
     {
       "id": "UP-UNESCO-02",
@@ -45,7 +53,15 @@
           "Royal-History"
         ],
         "description_ai": "A massive 16th-century Mughal fortress that served as the main residence of the emperors of the Mughal Dynasty."
-      }
+      },
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Indian-Thali-Meal.jpg/800px-Indian-Thali-Meal.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Taj_Mahal_in_March_2004.jpg/800px-Taj_Mahal_in_March_2004.jpg"
     },
     {
       "id": "UP-UNESCO-03",
@@ -68,7 +84,15 @@
           "Victory-City"
         ],
         "description_ai": "An exceptionally well-preserved 'phantom city' built by Emperor Akbar, abandoned due to water shortage."
-      }
+      },
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Indian-Thali-Meal.jpg/800px-Indian-Thali-Meal.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Taj_Mahal_in_March_2004.jpg/800px-Taj_Mahal_in_March_2004.jpg"
     },
     {
       "id": "UP-HER-04",
@@ -91,10 +115,16 @@
           "Architectural-Marvel"
         ],
         "description_ai": "Famous for its incredible maze (Bhul-Bhulaiya) and the massive central hall built without any supporting pillars."
-      }
-    }
-  ],
-  "temples": [
+      },
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Indian-Thali-Meal.jpg/800px-Indian-Thali-Meal.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Taj_Mahal_in_March_2004.jpg/800px-Taj_Mahal_in_March_2004.jpg"
+    },
     {
       "id": "UP-SPIR-05",
       "name": "Ram Janmabhoomi Mandir",
@@ -116,7 +146,15 @@
           "National-Symbol"
         ],
         "description_ai": "The newly inaugurated grand temple dedicated to Lord Rama at his birthplace. A major global pilgrimage site."
-      }
+      },
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Indian-Thali-Meal.jpg/800px-Indian-Thali-Meal.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Taj_Mahal_in_March_2004.jpg/800px-Taj_Mahal_in_March_2004.jpg"
     },
     {
       "id": "UP-SPIR-06",
@@ -139,7 +177,15 @@
           "Crowded-Devotion"
         ],
         "description_ai": "One of the holiest temples of Lord Krishna. Known for the unique 'parda' (curtain) system during Darshan."
-      }
+      },
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Indian-Thali-Meal.jpg/800px-Indian-Thali-Meal.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Taj_Mahal_in_March_2004.jpg/800px-Taj_Mahal_in_March_2004.jpg"
     },
     {
       "id": "UP-SPIR-07",
@@ -162,10 +208,16 @@
           "Ganga-Yamuna-Saraswati"
         ],
         "description_ai": "The sacred meeting point of three rivers. It hosts the Kumbh Mela, the largest human gathering on earth."
-      }
-    }
-  ],
-  "nature": [
+      },
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Indian-Thali-Meal.jpg/800px-Indian-Thali-Meal.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Taj_Mahal_in_March_2004.jpg/800px-Taj_Mahal_in_March_2004.jpg"
+    },
     {
       "id": "UP-WILD-08",
       "name": "Dudhwa National Park",
@@ -187,7 +239,15 @@
           "Raw-Wilderness"
         ],
         "description_ai": "A vast Terai forest bordering Nepal. The last refuge for the Indian rhinoceros and swamp deer in UP."
-      }
+      },
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Indian-Thali-Meal.jpg/800px-Indian-Thali-Meal.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Taj_Mahal_in_March_2004.jpg/800px-Taj_Mahal_in_March_2004.jpg"
     },
     {
       "id": "UP-WAT-09",
@@ -210,10 +270,16 @@
           "Hidden-Gem"
         ],
         "description_ai": "A magnificent 150m plunge. Requires a short trek through rocks and rivulets; best visited during monsoon."
-      }
-    }
-  ],
-  "restaurant": [
+      },
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Indian-Thali-Meal.jpg/800px-Indian-Thali-Meal.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Taj_Mahal_in_March_2004.jpg/800px-Taj_Mahal_in_March_2004.jpg"
+    },
     {
       "id": "UP-FOOD-10",
       "name": "Tunday Kababi",
@@ -235,7 +301,15 @@
           "Melt-in-mouth"
         ],
         "description_ai": "World-famous for its Galouti Kababs made with over 100 spices. An absolute pilgrimage for meat lovers."
-      }
+      },
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Indian-Thali-Meal.jpg/800px-Indian-Thali-Meal.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Taj_Mahal_in_March_2004.jpg/800px-Taj_Mahal_in_March_2004.jpg"
     },
     {
       "id": "UP-FOOD-11",
@@ -258,7 +332,15 @@
           "Legendary"
         ],
         "description_ai": "The most iconic street food joint in Banaras, famous for its unique Tamatar Chaat and Gulab Jamun."
-      }
+      },
+      "food_details": {
+        "famous_food": [],
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Indian-Thali-Meal.jpg/800px-Indian-Thali-Meal.jpg"
+      },
+      "restaurants": [
+        "Popular local eateries"
+      ],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Taj_Mahal_in_March_2004.jpg/800px-Taj_Mahal_in_March_2004.jpg"
     }
   ]
 }
