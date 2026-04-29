@@ -26,7 +26,7 @@
           "veg"
         ],
         "spicy_level": "low",
-        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Dhokla_on_a_plate.jpg/800px-Dhokla_on_a_plate.jpg"
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Dhokla.jpg/500px-Dhokla.jpg"
       },
       "restaurants": [
         "Manek Chowk Food Stalls",
@@ -39,7 +39,7 @@
         "transport_cost": 300,
         "total_per_day": 2300
       },
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Sabarmati_Ashram_02.jpg/800px-Sabarmati_Ashram_02.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Sabarmati_riverside.jpg/500px-Sabarmati_riverside.jpg"
     },
     {
       "id": "GJ-02",
@@ -63,7 +63,7 @@
           "veg"
         ],
         "spicy_level": "low",
-        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Indian-Thali-Meal.jpg/800px-Indian-Thali-Meal.jpg"
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Gujarati_Thali.jpg/500px-Gujarati_Thali.jpg"
       },
       "restaurants": [
         "Ekta Nagar Food Court",
@@ -75,7 +75,7 @@
         "transport_cost": 400,
         "total_per_day": 3000
       },
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Statue_of_Unity.jpg/800px-Statue_of_Unity.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Statue_of_Unity.jpg/500px-Statue_of_Unity.jpg"
     },
     {
       "id": "GJ-03",
@@ -101,7 +101,7 @@
           "non-veg"
         ],
         "spicy_level": "medium",
-        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Indian-Thali-Meal.jpg/800px-Indian-Thali-Meal.jpg"
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Bajra_Roti.jpg/500px-Bajra_Roti.jpg"
       },
       "restaurants": [
         "Gir Jungle Lodge Restaurant",
@@ -113,7 +113,7 @@
         "transport_cost": 400,
         "total_per_day": 3200
       },
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Gir_lion.jpg/800px-Gir_lion.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Gir_lion-Gir_forest%2Cjunagadh%2Cgujarat%2Cindia.jpeg/500px-Gir_lion-Gir_forest%2Cjunagadh%2Cgujarat%2Cindia.jpeg"
     },
     {
       "id": "GJ-04",
@@ -137,7 +137,7 @@
           "veg"
         ],
         "spicy_level": "low",
-        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Indian-Thali-Meal.jpg/800px-Indian-Thali-Meal.jpg"
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Thepla.jpg/500px-Thepla.jpg"
       },
       "restaurants": [
         "Toral Dining Hall",
@@ -149,7 +149,7 @@
         "transport_cost": 300,
         "total_per_day": 2400
       },
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Dwarkadhish_Temple.jpg/800px-Dwarkadhish_Temple.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Dwarakadheesh_Temple%2C_2014.jpg/500px-Dwarakadheesh_Temple%2C_2014.jpg"
     },
     {
       "id": "GJ-05",
@@ -173,7 +173,7 @@
           "veg"
         ],
         "spicy_level": "low",
-        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Indian-Thali-Meal.jpg/800px-Indian-Thali-Meal.jpg"
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Gujarati_Thali.jpg/500px-Gujarati_Thali.jpg"
       },
       "restaurants": [
         "Somnath Guest House Canteen",
@@ -185,7 +185,7 @@
         "transport_cost": 300,
         "total_per_day": 2300
       },
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Somnath_mandir.jpg/800px-Somnath_mandir.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Somanath_mandir_%28cropped%29.jpg/500px-Somanath_mandir_%28cropped%29.jpg"
     },
     {
       "id": "GJ-06",
@@ -209,7 +209,7 @@
           "veg"
         ],
         "spicy_level": "medium",
-        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Indian-Thali-Meal.jpg/800px-Indian-Thali-Meal.jpg"
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Dabeli.jpg/500px-Dabeli.jpg"
       },
       "restaurants": [
         "Tent City Dining",
@@ -221,7 +221,7 @@
         "transport_cost": 500,
         "total_per_day": 3700
       },
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Rann_of_Kutch%2C_Gujarat%2C_India.jpg/800px-Rann_of_Kutch%2C_Gujarat%2C_India.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Rann_of_Kutch_-_White_Desert.jpg/500px-Rann_of_Kutch_-_White_Desert.jpg"
     },
     {
       "id": "GJ-11",
@@ -245,7 +245,7 @@
           "veg"
         ],
         "spicy_level": "medium",
-        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Indian-Thali-Meal.jpg/800px-Indian-Thali-Meal.jpg"
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Fafda_and_Jalebi.jpg/500px-Fafda_and_Jalebi.jpg"
       },
       "restaurants": [
         "Temptations Restaurant",
@@ -257,7 +257,7 @@
         "transport_cost": 300,
         "total_per_day": 2200
       },
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Clock_tower_rajkot.jpg/800px-Clock_tower_rajkot.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/High_street_-_150_ft_Ring_road_Rajkot.jpg/500px-High_street_-_150_ft_Ring_road_Rajkot.jpg"
     },
     {
       "id": "GJ-12",
@@ -282,7 +282,7 @@
           "veg"
         ],
         "spicy_level": "medium",
-        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Indian-Thali-Meal.jpg/800px-Indian-Thali-Meal.jpg"
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Dhokla.jpg/500px-Dhokla.jpg"
       },
       "restaurants": [
         "Surat Famous Locho Stalls",
@@ -294,7 +294,7 @@
         "transport_cost": 300,
         "total_per_day": 2500
       },
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Surat_Dutch_Gardens.jpg/800px-Surat_Dutch_Gardens.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Bharthana_Althan_area.jpg/500px-Bharthana_Althan_area.jpg"
     },
     {
       "id": "GJ-13",
@@ -319,7 +319,7 @@
           "non-veg"
         ],
         "spicy_level": "medium",
-        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Indian-Thali-Meal.jpg/800px-Indian-Thali-Meal.jpg"
+        "food_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Goan_Fish_Curry.jpg/500px-Goan_Fish_Curry.jpg"
       },
       "restaurants": [
         "Sankalp Restaurant",
@@ -331,7 +331,7 @@
         "transport_cost": 300,
         "total_per_day": 2400
       },
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Somnath_mandir.jpg/800px-Somnath_mandir.jpg"
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Shri_Swaminarayan_Mandir_gate.jpg/500px-Shri_Swaminarayan_Mandir_gate.jpg"
     }
   ]
 }
